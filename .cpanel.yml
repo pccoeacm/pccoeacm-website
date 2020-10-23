@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pccoehos/public_html/
-    - /bin/cp -r /home/pccoehos/repositories/pccoeacmhub.io/ $DEPLOYPATH
+    - /bin/cp -r /. $DEPLOYPATH

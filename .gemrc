@@ -1,6 +1,0 @@
---- 
-gem: --remote --gen-rdoc --run-tests
-gemhome: /home/pccoehos/ruby/gems
-gempath: []
-
-rdoc: --inline-source --line-numbers

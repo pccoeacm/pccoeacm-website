@@ -1,0 +1,4 @@
+2018-03-11T11:41:01-05:00 ERR: HORDE [imp] Error running command: /usr/local/cpanel/3rdparty/bin/convert -size 0x0 xc:white -strip png:"/home/pccoehos/tmp/horde/imgO7ALKq" 2>&1
+sh: /usr/local/cpanel/3rdparty/bin/convert: No such file or directory [pid 902892 on line 591 of "/usr/local/cpanel/3rdparty/php/56/lib/php/Horde/Image/Im.php"]
+2018-03-11T11:41:01-05:00 ERR: HORDE [imp] Error running command: /usr/local/cpanel/3rdparty/bin/convert -size 0x0 xc:white -strip png:"/home/pccoehos/tmp/horde/imgz7bViG" 2>&1
+sh: /usr/local/cpanel/3rdparty/bin/convert: No such file or directory [pid 902892 on line 591 of "/usr/local/cpanel/3rdparty/php/56/lib/php/Horde/Image/Im.php"]

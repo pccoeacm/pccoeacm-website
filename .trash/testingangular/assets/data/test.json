@@ -1,0 +1,26 @@
+{
+	"names": [
+		{
+			"name": "Mehul Solanki",
+			"Year": "Third Year",
+			"Dept": "Comp"
+		},
+		{
+			"name": "Aditya Khadse",
+			"Year": "Third Year",
+			"Dept": "Comp"
+		},
+		{
+			"name": "Abhsihek Gaikwad",
+			"Year": "Third Year",
+			"Dept": "Comp"
+		}
+	],
+	"cells" : [
+		{
+			"name": "Ashish Kulkarni",
+			"Year": "Third Year",
+			"Cell": "CPDC"
+		}		
+	]
+}

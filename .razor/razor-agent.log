@@ -1,0 +1,12 @@
+Sep 24 06:34:28.566013 check[3225568]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+Sep 24 06:34:29.269146 check[3225568]: [ 3] mail 1 is known spam.
+Oct 02 10:03:43.104275 check[3043372]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+Oct 02 10:03:43.688882 check[3043372]: [ 3] mail 1 is known spam.
+Oct 04 09:10:32.103895 check[1860218]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+Oct 04 09:10:32.675257 check[1860218]: [ 3] mail 1 is known spam.
+Oct 11 07:42:45.737148 check[1104109]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+Oct 11 07:42:46.352581 check[1104109]: [ 3] mail 1 is known spam.
+Oct 13 09:50:37.468503 check[1171355]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+Oct 13 09:50:38.090892 check[1171355]: [ 3] mail 1 is not known spam.
+May 18 01:46:32.097527 check[1145011]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/pccoehos/.razor/razor-agent.log
+May 18 01:46:32.743686 check[1145011]: [ 3] mail 1 is not known spam.

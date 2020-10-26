@@ -1,0 +1,413 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2700                
+POS_VISITOR 3531                
+POS_DAY 6651                
+POS_DOMAIN 6803                
+POS_LOGIN 7382                
+POS_ROBOT 7537                
+POS_WORMS 7912                
+POS_EMAILSENDER 8043                
+POS_EMAILRECEIVER 8186                
+POS_SESSION 8262                
+POS_SIDER 8440                
+POS_FILETYPES 9258                
+POS_DOWNLOADS 9468                
+POS_OS 9516                
+POS_BROWSER 9680                
+POS_SCREENSIZE 10080               
+POS_UNKNOWNREFERER 10154               
+POS_UNKNOWNREFERERBROWSER 10396               
+POS_ORIGIN 10531               
+POS_SEREFERRALS 10667               
+POS_PAGEREFS 10823               
+POS_SEARCHWORDS 11053               
+POS_KEYWORDS 11241               
+POS_MISC 2364                
+POS_ERRORS 11342               
+POS_CLUSTER 7238                
+POS_SIDER_404 11427               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170301000708 430 88975 14658093755440
+FirstTime 20170228010008
+LastTime 20170228233204
+LastUpdate 20170301004930 430 0 429 0 0
+TotalVisits 62                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 90                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 7 8 47288 0 0 0
+2 7 7 32885 0 0 0
+3 4 5 31950 0 0 0
+4 10 13 157741 1 1 21210
+5 9 27 587789 1 1 0
+6 11 11 83255 2 2 42124
+7 9 11 116243 0 1 0
+8 7 10 126110 0 2 0
+9 7 64 1155779 8 9 173423
+10 5 63 1185408 3 4 61138
+11 6 11 197079 0 1 0
+12 10 13 128513 5 11 28588
+13 11 15 176246 13 16 248245
+14 3 3 7681 5 5 108812
+15 0 2 11746 0 0 0
+16 4 5 17371 0 0 0
+17 11 11 51143 1 1 0
+18 4 5 47144 1 2 59526
+19 7 8 43609 1 1 21211
+20 0 2 1856 20 22 465097
+21 3 4 8381 2 4 91765
+22 2 2 79784 11 36 864205
+23 3 6 92855 2 4 454989
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 90
+162.254.252.104 4 4 0 20170228162359
+192.36.27.7 4 4 14564 20170228175157
+190.190.241.4 3 3 7681 20170228195011
+210.213.201.100 3 3 7681 20170228064434
+212.34.11.255 3 3 7681 20170228052128
+121.97.142.150 3 3 7681 20170228065846
+124.13.168.10 3 3 7681 20170228092522
+86.252.220.210 3 3 7681 20170228065052
+94.120.176.41 3 3 7681 20170228122423
+49.146.93.237 3 3 7681 20170228121946
+31.14.54.207 3 3 7681 20170228211022
+82.178.49.231 3 3 7681 20170228055012
+96.255.9.197 3 3 7681 20170228143735
+73.24.57.143 3 3 7681 20170228083819
+79.69.74.79 3 3 7681 20170228044815
+60.49.73.107 3 3 7681 20170228015535
+39.53.158.195 3 3 7681 20170228135438
+178.95.108.68 3 3 7681 20170228182128
+105.158.231.208 3 3 7681 20170228170858
+68.196.159.183 3 3 7681 20170228010011
+88.238.13.113 3 3 7681 20170228075929
+91.93.254.8 3 3 7681 20170228033857
+173.175.69.77 3 3 7681 20170228081308
+189.202.64.106 3 3 7681 20170228162401
+46.71.54.55 3 3 7681 20170228233204
+202.46.53.17 0 1 8534 
+49.248.62.49 0 1 37661 
+47.9.134.74 0 2 75322 
+137.97.7.198 0 2 97861 
+169.149.129.60 0 1 23328 
+202.46.53.167 0 1 700 
+202.46.52.147 0 1 6863 
+202.46.49.152 0 1 2667 
+202.46.51.156 1 1 39892 20170228072309
+103.220.215.161 0 1 23328 
+202.46.54.183 1 1 724 20170228103331
+175.107.214.110 0 1 38158 
+176.31.64.186 1 1 39892 20170228221322
+202.46.48.81 1 1 21218 20170228044952
+202.46.53.44 0 1 24185 
+210.212.188.194 0 2 60989 
+169.149.194.31 0 1 37661 
+202.46.57.158 1 1 21198 20170228101830
+202.46.58.92 0 1 11019 
+202.46.55.148 1 1 17523 20170228023416
+49.35.5.135 0 2 60989 
+202.46.50.133 1 1 18522 20170228050454
+202.46.52.173 1 1 26431 20170228080449
+202.46.53.59 0 1 757 
+49.34.2.224 0 1 24269 
+202.46.56.110 1 1 20999 20170228013758
+180.179.40.8 0 1 10927 
+202.46.56.15 0 1 9690 
+202.46.57.77 1 1 706 20170228093328
+202.46.58.156 1 1 21217 20170228175115
+202.46.49.130 1 1 26430 20170228182114
+66.102.6.216 0 1 37661 
+117.200.55.254 0 1 23328 
+106.215.183.210 0 2 60989 
+202.46.48.84 1 1 39892 20170228224931
+47.11.128.149 0 2 60989 
+203.134.198.134 0 1 23328 
+202.46.54.14 1 1 21153 20170228124919
+202.46.54.184 1 1 39048 20170228060453
+202.46.57.123 1 1 21164 20170228063453
+202.129.240.131 0 2 60989 
+202.46.49.111 1 1 18617 20170228100330
+198.154.80.110 2 58 1084964 20170228093325
+190.197.115.35 2 59 1121541 20170228101432
+202.46.55.60 0 1 9079 
+202.46.48.142 1 1 39100 20170228094828
+89.165.44.238 3 3 7681 20170228074816
+109.252.43.56 3 3 7681 20170228114813
+107.167.103.45 2 17 455255 20170228054847
+94.139.177.25 3 3 7681 20170228021256
+103.10.28.16 3 3 7681 20170228190810
+112.202.172.128 3 3 7681 20170228175150
+77.237.98.231 3 3 7681 20170228133502
+191.177.186.236 3 3 7681 20170228121539
+124.124.59.59 0 1 38158 
+201.252.16.34 3 3 7681 20170228041933
+180.21.192.186 3 3 7681 20170228022550
+84.54.182.12 3 3 7681 20170228114117
+202.46.53.144 0 1 1099 
+122.160.199.144 0 2 60989 
+45.250.245.212 3 3 7681 20170228132624
+202.46.52.164 0 1 13033 
+37.79.252.242 3 3 7681 20170228041824
+203.173.33.41 2 2 43037 20170228135620
+202.46.48.207 1 1 21384 20170228191308
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20170228 140 306 4387856 62
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+us 20 96 1767454
+cn 18 29 502844
+ph 12 12 30724
+tr 9 9 23043
+my 6 6 15362
+ir 6 6 15362
+ru 6 6 15362
+ar 6 6 15362
+ma 6 6 15362
+fr 4 4 47573
+se 4 4 14564
+np 3 3 7681
+br 3 3 7681
+am 3 3 7681
+jo 3 3 7681
+mx 3 3 7681
+jp 3 3 7681
+bg 3 3 7681
+hr 3 3 7681
+pk 3 4 45839
+ua 3 3 7681
+ro 3 3 7681
+om 3 3 7681
+gb 3 3 7681
+bz 2 59 1121541
+in 0 17 485944
+au 2 2 43037
+ca 0 4 136311
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 84 2253136 20170228231205 7
+googlebot 10 228648 20170228233343 1
+no_user_agent 6 134188 20170228221708 0
+ia_archiver 2 24361 20170228135024 1
+[\s_+:,\.\;\/\\-]bot 2 0 20170228120421 0
+googlebot\-image 1 0 20170228200319 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 59
+5mn-15mn 1
+30mn-1h 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/wp-login.php 75 272439 2 36
+/xmlrpc.php 35 14105 35 0
+/ 4 159568 3 4
+/wp-cron.php 4 0 3 3
+/android-workshop/ 2 42435 2 2
+/digital-india-week/ 2 42500 1 1
+/anantya-2015/ 2 52861 2 2
+/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.woff 2 130904 0 2
+/meet-the-team/ 2 96865 2 0
+/acm-logo/feed/ 1 706 1 1
+/tnp-cell/ 1 18617 1 1
+/expert-talk-on-fun-with-algorithms/ 1 21198 1 1
+/author/parveen16/ 1 39100 1 1
+/ted-talks/ 1 21164 1 1
+/eminent-speaker-programme-mathematical-modeling/ 1 21384 1 1
+/teachers-day/feed/ 1 724 1 1
+/2015/02/ 1 21153 1 1
+/higher-studies/ 1 18522 1 1
+/type/image/ 1 17523 1 1
+/eminent-speaker-programme-theory-of-computation/ 1 20999 1 1
+/category/2015-16/ 1 39048 1 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 29 806727 0 0
+jpeg 7 158054 0 0
+png 11 195466 0 0
+woff 2 130904 0 0
+js 33 670158 0 0
+php 114 286544 0 0
+jpg 86 1505636 0 0
+html 24 634367 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 8 0
+winxp 3 2
+winnt 36 18
+macosx 2 0
+linux 59 2
+win2003 1 0
+Unknown 21 6
+win7 176 112
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome38.0.1025.166 1 0
+msie11.0 1 1
+chrome55.0.2883.95 2 0
+chrome54.0.2840.100 58 2
+firefox33.0 1 0
+firefox51.0 3 0
+firefox40.1 107 107
+opera10.52 2 2
+chrome33.0.0.0 2 0
+chrome30.0.0.0 2 0
+Unknown 4 4
+chrome56.0.2924.87 71 2
+chrome55.0.2883.91 2 0
+chrome49.0.2623.112 1 0
+opera12.16 17 2
+msie8.0 2 2
+chrome55.0.2883.87 1 0
+chrome45.0.2454.93 29 18
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/57.135;_U;_en)_Presto/2.12.423_Version/12.16 20170228054905
+WordPress/4.3.8;_http://pccoe.acm.org 20170228162359
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/4.3.8;_http://pccoe.acm.org 20170228162359
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 133 186
+From1 0 0
+From2 1 20
+From3 2 2
+From4 4 98
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 20
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://pcandmacrepairla.com/wp-login.php 1 1
+http://pbi.bmstu.ru/wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+digital+india+poster+presentation 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+digital 1
+india 1
+poster 1
+presentation 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+301 11 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404

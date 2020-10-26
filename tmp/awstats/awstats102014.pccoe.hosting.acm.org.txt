@@ -1,0 +1,393 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2687                
+POS_VISITOR 7246                
+POS_DAY 8627                
+POS_DOMAIN 3348                
+POS_LOGIN 3613                
+POS_ROBOT 3768                
+POS_WORMS 3900                
+POS_EMAILSENDER 4031                
+POS_EMAILRECEIVER 4174                
+POS_SESSION 9084                
+POS_SIDER 9290                
+POS_FILETYPES 4309                
+POS_DOWNLOADS 4626                
+POS_OS 4674                
+POS_BROWSER 4806                
+POS_SCREENSIZE 5130                
+POS_UNKNOWNREFERER 5204                
+POS_UNKNOWNREFERERBROWSER 5480                
+POS_ORIGIN 5751                
+POS_SEREFERRALS 5890                
+POS_PAGEREFS 6045                
+POS_SEARCHWORDS 6257                
+POS_KEYWORDS 6409                
+POS_MISC 2350                
+POS_ERRORS 6468                
+POS_CLUSTER 3469                
+POS_SIDER_404 6607                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141102020940 1 0 8894224317662
+FirstTime 20141002030454
+LastTime 20141031120731
+LastUpdate 20141102072818 1 0 0 0 0
+TotalVisits 63                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 80 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 21 1376986 0 0 0
+1 47 129 6574749 8 14 417591
+2 21 65 3151874 2 2 502
+3 141 322 30790652 11 15 52371
+4 8 58 9091555 0 2 0
+5 0 0 0 0 0 0
+6 2 3 37969 0 0 0
+7 2 3 37666 0 0 0
+8 89 236 8126800 7 63 752
+9 55 109 1580843 1 25 69383
+10 3 23 1393177 0 0 0
+11 3 3 48868 0 0 0
+12 9 48 1057744 0 0 0
+13 149 355 14803536 15 21 593947
+14 116 378 22556359 4 10 298692
+15 4 24 1412675 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 6 10 11353
+18 6 7 75919 12 13 8253
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 3 22 134098 0 0 0
+22 4 23 1401664 0 4 0
+23 4 25 1439452 0 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+in 624 1715 98720363
+us 39 96 3315765
+ph 5 43 3056458
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 18 496440 0 0
+css 306 5180097 0 0
+png 333 40096827 0 0
+ttf 2 224320 0 0
+woff 44 1787504 0 0
+php 476 21263224 0 0
+html 125 2851656 0 0
+jpg 104 24122360 0 0
+js 391 8510046 0 0
+jpeg 3 115503 0 0
+Unknown 3 26706 0 0
+svg 12 240069 0 0
+gif 37 177834 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 160
+winxp 27
+linux 119
+winvista 919
+win7 514
+macosx 45
+winunknown 40
+Unknown 30
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+safari7.0 45
+chrome37.0.2062.124 544
+chrome37.0.2062.117 107
+chrome38.0.2125.104 25
+firefox26.0 60
+sonyericsson 10
+chrome38.0.2125.101 804
+chrome38.0.2125.102 21
+firefox31.0 38
+msie7.0 36
+msie10.0 40
+firefox6.0 24
+chrome27.0.1453 21
+msie9.0 27
+Unknown 30
+chrome30.0.0.0 22
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/4.0;_http://pccoe.acm.org 20141031120731
+PHP/5.4.32 20141019084847
+WordPress/3.9.2;_http://pccoe.acm.org 20141018033724
+WordPress/3.9.2;_http://localhost/wordpress 20141015131011
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/4.0;_http://pccoe.acm.org 20141031120731
+PHP/5.4.32 20141019084847
+WordPress/3.9.2;_http://pccoe.acm.org 20141018033724
+WordPress/3.9.2;_http://localhost/wordpress 20141015131011
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 121 154
+From1 0 0
+From2 1 1
+From3 3 3
+From4 543 1696
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://campus.acm.org/public/chapters/geo_listing/index.cfm 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 33 69383
+206 15 1351608
+500 16 19870
+404 16 9803
+301 9 2180
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 9
+/wp-config 2 -
+/wp-settings 1 -
+/wordpress/wp-admin 1 -
+/wp-content/themes/wp-bootstrap/css/bootstrap-responsive.css 1 http://pccoe.acm.org/wp-admin/customize.php
+/wordpress/wp-admin/index.php 1 -
+/js/docs.min.js 7 http://pccoe.acm.org/
+/events.html 1 -
+/android.html 1 http://pccoe.acm.org/
+/contact.html 1 http://pccoe.acm.org/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+182.237.166.186 236 498 13902412 20141019092125
+118.102.200.146 136 306 23092681 20141018034021
+49.200.244.44 65 226 12209268 20141015141433
+49.200.244.81 54 113 5142210 20141015021607
+223.196.176.211 30 77 3783154 20141015131803
+216.119.136.18 26 30 76317 20141031120731
+49.200.244.192 20 41 744217 20141015133003
+49.200.245.24 18 39 1791919 20141015135207
+49.200.244.223 15 15 890 20141015145133
+66.249.84.30 9 24 434010 20141031120730
+14.97.253.97 6 6 59727 20141014181242
+115.119.252.226 5 60 2814307 20141016045746
+103.249.240.238 5 43 3056458 20141015140942
+59.94.214.142 4 25 1439452 20141015234824
+123.236.162.42 4 50 1703451 20141015141224
+66.249.82.30 4 42 2805438 20141015153031
+103.10.132.9 4 27 1647380 20141027021418
+106.66.27.252 3 3 48868 20141015111218
+49.200.244.239 3 22 55544 20141015141632
+121.245.182.146 3 22 1401664 20141015225713
+49.200.244.144 2 21 1376986 20141016002922
+14.97.232.37 2 15 939033 20141018123307
+14.97.242.82 2 17 7610120 20141014144007
+49.200.244.85 2 21 1605167 20141021030724
+183.87.1.32 2 25 28500 20141026124833
+182.64.244.9 1 13 7582498 20141007044325
+14.97.234.237 1 16 611288 20141017144314
+49.200.244.233 2 22 1393177 20141017102437
+182.237.129.55 1 13 7582498 20141002030454
+106.67.180.186 2 21 134098 20141017215354
+106.67.189.90 1 1 19854 20141015041015
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20141002 1 13 7582498 1
+20141007 1 13 7582498 1
+20141014 8 23 7669847 2
+20141015 237 728 34238076 21
+20141016 8 83 4207485 4
+20141017 9 64 2174252 7
+20141018 239 490 28394627 8
+20141019 144 346 9723835 3
+20141020 2 3 37969 2
+20141021 3 22 1605167 2
+20141022 2 4 54161 2
+20141023 2 3 37969 2
+20141024 2 3 37969 2
+20141025 0 1 16192 0
+20141026 3 26 28500 2
+20141027 5 28 1647380 2
+20141031 2 4 54161 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 3
+0s-30s 39
+30s-2mn 7
+2mn-5mn 3
+15mn-30mn 4
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 57
+/wp-admin/admin-ajax.php 223 1307122 1 7
+/ 114 2419872 40 22
+/wp-admin/load-scripts.php 83 9524301 0 0
+/wp-admin/load-styles.php 28 4279272 0 0
+/wp-content/themes/hueman/fonts/fontawesome-webfont.woff 25 1243588 0 9
+/wp-cron.php 25 0 21 20
+/wp-admin/themes.php 23 2044268 0 0
+/wp-admin/customize.php 10 1125552 0 0
+/wp-admin/ 9 405472 1 0
+/wp-login.php 9 26032 0 0
+/wp-admin/theme-install.php 8 284047 0 0
+/wp-admin/update-core.php 7 181610 0 0
+/wp-admin/options-general.php 6 229142 0 1
+/wp-admin/options-permalink.php 5 135718 0 0
+/wp-admin/users.php 5 171675 0 0
+/wp-admin/update.php 5 80100 0 0
+/wp-admin/user-new.php 4 103330 0 0
+/wp-admin/post.php 4 539915 0 0
+/wp-content/themes/hueman/fonts/titillium-semibold-webfont.eot 3 63714 0 0
+/wp-content/themes/hueman/fonts/titillium-lightitalic-webfont.eot 3 68865 0 0
+/wp-content/themes/hueman/fonts/titillium-regular-webfont.eot 3 63696 0 0
+/wp-content/themes/hueman/option-tree/assets/fonts/option-tree-font.woff 3 216216 0 0
+/wp-content/themes/hueman/fonts/titillium-regularitalic-webfont.eot 3 68439 0 0
+/wp-admin/install.php 3 7629 0 0
+/wp-content/themes/hueman/fonts/titillium-light-webfont.eot 3 63708 0 0
+/wp-admin/post-new.php 2 250344 0 0
+/wp-content/themes/hueman/fonts/titillium-regularitalic-webfont.woff 1 26588 0 0
+/wp-admin/index.php 2 92287 0 0
+/wp-content/themes/customizr/inc/assets/css/fonts/fonts/genericons-regular-webfont.woff 2 11308 0 0
+/wp-admin/options-reading.php 2 53387 0 0
+/contact-us/ 1 13502 0 1
+/wp-admin/async-upload.php 1 1342 0 0
+/wp-admin/admin.php 2 60910 0 0
+/wp-content/themes/hueman/fonts/fontawesome-webfont.ttf 2 224320 0 0
+/wp-admin/theme-editor.php 1 112281 0 0
+/wp-admin/user-edit.php 1 34923 0 0
+/wp-admin/plugins.php 1 40978 0 0
+/about-us/ 1 12810 0 0
+/wp-admin/options-media.php 2 48273 0 0
+/wp-admin/options-writing.php 1 29733 0 0
+/wp-admin/about.php 2 54599 0 0
+/wp-admin/nav-menus.php 1 73592 0 0
+/wp-content/themes/suevafree/font/fontawesome-webfont.woff 2 43572 0 0
+/wp-admin/upgrade.php 1 1 0 1
+/wp-content/themes/hueman/fonts/titillium-regular-webfont.woff 2 49392 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 1 134666 0 0
+/wp-content/themes/hueman/fonts/titillium-semibold-webfont.woff 2 49464 0 0
+/wp-content/themes/duena/font/fontawesome-webfont.woff 3 44432 0 0
+/cpanel 3 26706 0 1
+/wp-admin/edit-comments.php 1 44010 0 0
+/wp-admin/edit.php 2 113959 0 0
+/wp-admin/upload.php 1 46015 0 0
+/wp-admin/options-discussion.php 1 32211 0 0
+/wp-content/themes/hueman/fonts/titillium-light-webfont.woff 2 49424 0 0
+/wp-content/themes/hueman/fonts/titillium-lightitalic-webfont.woff 2 53520 0 0
+/wp-config.php 3 0 0 1
+/wp-content/themes/hueman/fonts/fontawesome-webfont.eot 3 168018 0 0
+END_SIDER

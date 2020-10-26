@@ -1,0 +1,361 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201506 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2689                
+POS_VISITOR 6986                
+POS_DAY 8174                
+POS_DOMAIN 3388                
+POS_LOGIN 3691                
+POS_ROBOT 3846                
+POS_WORMS 4157                
+POS_EMAILSENDER 4288                
+POS_EMAILRECEIVER 4431                
+POS_SESSION 8819                
+POS_SIDER 9013                
+POS_FILETYPES 4566                
+POS_DOWNLOADS 4745                
+POS_OS 4814                
+POS_BROWSER 4931                
+POS_SCREENSIZE 5286                
+POS_UNKNOWNREFERER 5360                
+POS_UNKNOWNREFERERBROWSER 5500                
+POS_ORIGIN 5635                
+POS_SEREFERRALS 5773                
+POS_PAGEREFS 5928                
+POS_SEARCHWORDS 6140                
+POS_KEYWORDS 6304                
+POS_MISC 2353                
+POS_ERRORS 6377                
+POS_CLUSTER 3547                
+POS_SIDER_404 6507                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150701062408 4 502 10270079317703
+FirstTime 20150601001818
+LastTime 20150630114125
+LastUpdate 20150701081452 4 0 3 0 0
+TotalVisits 108                 
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 28                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 75 3216266 3 4 15955
+1 9 83 7384523 1 2 101751
+2 12 157 2762716 2 10 166862
+3 16 72 840660 5 11 44484
+4 23 107 1584652 4 5 14920
+5 3 16 227292 2 2 11363
+6 9 30 538240 4 7 90311
+7 6 40 986979 7 16 443986
+8 3 27 468488 0 0 0
+9 11 52 918310 5 6 35291
+10 4 4 14407 3 8 55515
+11 5 40 1674266 3 4 39452
+12 22 227 9634029 1 3 6424
+13 9 33 491562 3 3 7978
+14 8 32 479712 2 2 33691
+15 1 1 20 1 1 6369
+16 7 7 43515 3 5 4547
+17 1 1 20 1 1 4266
+18 0 0 0 2 2 6426
+19 0 0 0 1 1 286
+20 4 4 5012 3 3 22845
+21 2 2 4816 1 2 6424
+22 5 24 369284 6 14 104837
+23 14 123 2047030 8 8 110908
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+in 79 960 31204472
+us 66 66 33034
+ph 37 102 1946830
+ua 2 2 33553
+jp 2 26 468468
+th 1 1 5442
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 43 373500 20150630041609 9
+spider 30 309151 20150630114221 0
+bot[\s_+:,\.\;\/\\-] 8 123465 20150602025821 0
+crawl 4 12848 20150624122711 2
+unknown 1 55 20150615093026 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 212 992460 0 0
+php 60 1200 0 0
+png 163 6504573 0 0
+html 127 684223 0 0
+js 471 5762519 0 0
+jpg 124 19746824 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 12 0 660
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 43
+linuxandroid 81
+winxp 47
+Unknown 60
+winvista 146
+linux 679
+win7 101
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 16
+chrome39.0.2171.93 23
+firefox28.0 299
+firefox20.0 20
+chrome43.0.2357.124 74
+chrome43.0.2357.125 27
+chrome34.0.1847.114 38
+chrome39.0.2171.95 12
+chrome43.0.2357.130 24
+chrome35.0.1916.114 44
+chrome43.0.2357.81 75
+firefox37.0 390
+safari8.0 27
+Unknown 60
+firefox36.0 2
+safari 6
+chrome30.0.0.0 20
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+WordPress/4.2.2;_http://pccoe.acm.org 20150630114125
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/4.2.2;_http://pccoe.acm.org 20150630114125
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 123 134
+From1 0 0
+From2 9 9
+From3 1 1
+From4 54 1013
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://campus.acm.org/public/chapters/geo_listing/index.cfm 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+acm+pccoe 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+pccoe 1
+acm 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 11 160
+206 6 414626
+405 1 60
+301 2 0
+404 13 101026
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/old/wp-admin/ 2 -
+/contact-us/ 1 http://pccoe.acm.org/contact-us/
+/author/nikita/ 2 -
+/test/wp-admin/ 2 -
+/blog/wp-admin/ 2 -
+/wordpress/wp-admin/ 2 -
+/wp/wp-admin/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 28
+216.119.136.18 60 60 1200 20150630114125
+115.119.252.226 40 514 12995783 20150629022647
+49.248.207.69 13 146 7600891 20150621121749
+103.226.28.102 9 74 1810832 20150624122313
+104.193.10.44 7 7 34037 20150617234713
+104.193.10.52 6 6 28775 20150604102438
+104.193.10.51 5 5 24758 20150616092645
+162.244.12.254 5 5 27038 20150609045834
+104.193.10.45 5 5 23982 20150616070852
+1.23.232.182 4 47 1364399 20150619124926
+104.193.9.6 4 4 19493 20150618043731
+101.59.200.68 3 9 2116607 20150601004138
+117.225.30.233 3 27 474837 20150629143711
+1.39.12.203 3 37 982143 20150623070501
+117.222.56.131 3 27 471713 20150619130919
+106.66.250.250 2 20 365533 20150623225254
+134.249.49.104 2 2 33553 20150624164800
+101.222.225.96 2 23 518994 20150623064849
+123.238.137.88 2 24 1106959 20150617125719
+43.241.27.148 2 26 468468 20150613084300
+117.195.80.99 1 24 1663275 20150625231540
+115.245.8.82 1 20 374991 20150601001818
+204.28.107.130 1 1 4796 20150615060959
+61.90.2.65 1 1 5442 20150603035406
+104.227.9.1 1 1 4953 20150615131940
+1.39.12.139 0 1 3691 
+49.248.87.88 1 19 338413 20150619095921
+183.87.6.216 1 22 826243 20150607014719
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20150601 6 31 2491638 4
+20150602 2 2 40 2
+20150603 7 7 24666 5
+20150604 10 10 33465 6
+20150606 1 1 20 1
+20150607 3 24 826283 3
+20150608 1 1 20 1
+20150609 2 2 3264 2
+20150610 1 1 20 1
+20150611 1 1 20 1
+20150612 2 2 40 2
+20150613 8 32 468588 6
+20150614 1 1 20 1
+20150615 13 13 48802 9
+20150616 11 58 848883 7
+20150617 22 78 7347774 9
+20150618 7 45 482655 4
+20150619 15 169 3490232 9
+20150621 17 168 7939364 5
+20150622 18 248 3076516 6
+20150623 9 83 1870401 5
+20150624 13 78 1844425 4
+20150625 3 26 1663315 3
+20150626 2 21 375011 2
+20150627 1 1 20 1
+20150629 9 52 856277 7
+20150630 2 2 40 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+5mn-15mn 4
+2mn-5mn 6
+30s-2mn 6
+0s-30s 87
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/wp-cron.php 60 1200 58 58
+/ 37 235653 22 13
+/theinductionprogram/ 19 91765 12 12
+/ted-talks/ 11 54471 7 7
+/meet-the-team/ 11 47126 0 6
+/about-us/ 8 25952 1 1
+/anantya/ 7 39283 1 1
+/teachers-day-celebrations/ 7 58231 1 2
+/codigami/ 4 18948 0 1
+/android-workshop/ 3 14985 0 1
+/farewell-2015/ 3 13636 0 1
+/page/2/ 3 13797 2 1
+/thinkpic/ 3 13868 2 1
+/techlligent/ 2 11151 1 0
+/java-workshop/ 2 9206 0 0
+/expert-talk-on-web-services/ 1 4686 0 0
+/author/darshit12/ 1 6453 0 1
+/acm-logo/ 1 4483 0 0
+/2015/04/ 1 6427 0 0
+/2015/02/ 1 4273 0 0
+/how-to-do-research/ 1 5138 0 1
+/author/darshit12/page/2/ 1 4691 1 1
+END_SIDER

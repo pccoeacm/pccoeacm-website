@@ -1,0 +1,255 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2687                
+POS_VISITOR 6071                
+POS_DAY 6269                
+POS_DOMAIN 3200                
+POS_LOGIN 3442                
+POS_ROBOT 3597                
+POS_WORMS 3729                
+POS_EMAILSENDER 3860                
+POS_EMAILRECEIVER 4003                
+POS_SESSION 6415                
+POS_SIDER 6583                
+POS_FILETYPES 4138                
+POS_DOWNLOADS 4306                
+POS_OS 4354                
+POS_BROWSER 4421                
+POS_SCREENSIZE 4509                
+POS_UNKNOWNREFERER 4583                
+POS_UNKNOWNREFERERBROWSER 4670                
+POS_ORIGIN 4752                
+POS_SEREFERRALS 4883                
+POS_PAGEREFS 5027                
+POS_SEARCHWORDS 5239                
+POS_KEYWORDS 5391                
+POS_MISC 2351                
+POS_ERRORS 5450                
+POS_CLUSTER 3298                
+POS_SIDER_404 5548                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141002030454 1 0 19719842333011
+FirstTime 20140903025949
+LastTime 20140923094411
+LastUpdate 20141002082156 1 0 0 0 0
+TotalVisits 5                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 1 3 115266 0 1 0
+3 3 13 7504157 0 10 0
+4 0 0 0 0 0 0
+5 1 13 0 0 3 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 2 2 25197 0 11 4171929
+10 0 0 0 0 0 0
+11 3 17 7668289 0 5 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 1 1 0
+18 1 1 12250 1 1 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 10 48 15312909
+ru 1 1 12250
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 6 205660 0 0
+html 11 124637 0 0
+js 4 56599 0 0
+jpg 22 14827701 0 0
+jpeg 3 77002 0 0
+gif 3 33560 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+winvista 19
+linux 29
+win7 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 2
+firefox26.0 30
+chrome37.0.2062.120 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3 3
+From1 0 0
+From2 0 0
+From3 1 1
+From4 7 45
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://campus.acm.org/public/chapters/geo_listing/index.cfm 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 6 4171929
+404 19 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/js/docs.min.js 15 http://pccoe.acm.org/coderush.html
+/recent_events.html 1 -
+/contact_us.html 1 -
+/styles/custom.css 1 http://pccoe.acm.org/contact.html
+/images/TechWeek/3.png 1 http://pccoe.acm.org/coderush.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+119.235.55.107 5 19 7693486 20140923094411
+115.119.252.226 5 29 7619423 20140922050813
+195.2.240.101 1 1 12250 20140910185157
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20140903 4 16 7619423 1
+20140910 1 1 12250 1
+20140922 4 30 7668289 2
+20140923 2 2 25197 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+15mn-30mn 1
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 4 37308 4 1
+/events.html 2 25522 0 1
+/coderush.html 1 13000 0 1
+/about.html 1 14498 0 1
+/android.html 1 12250 1 1
+/webinars.html 1 11164 0 0
+/contact.html 1 10895 0 0
+END_SIDER

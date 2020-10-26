@@ -1,0 +1,800 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201711 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2697                
+POS_VISITOR 11893               
+POS_DAY 21635               
+POS_DOMAIN 3558                
+POS_LOGIN 4024                
+POS_ROBOT 4179                
+POS_WORMS 4710                
+POS_EMAILSENDER 4841                
+POS_EMAILRECEIVER 4984                
+POS_SESSION 22434               
+POS_SIDER 22636               
+POS_FILETYPES 5119                
+POS_DOWNLOADS 5419                
+POS_OS 5467                
+POS_BROWSER 5692                
+POS_SCREENSIZE 6692                
+POS_UNKNOWNREFERER 6766                
+POS_UNKNOWNREFERERBROWSER 7137                
+POS_ORIGIN 7303                
+POS_SEREFERRALS 7444                
+POS_PAGEREFS 7620                
+POS_SEARCHWORDS 8088                
+POS_KEYWORDS 8240                
+POS_MISC 2360                
+POS_ERRORS 8299                
+POS_CLUSTER 3880                
+POS_SIDER_404 8412                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171201000345 19 3670 12335714364292
+FirstTime 20171101000443
+LastTime 20171130235446
+LastUpdate 20171204220908 19 0 18 0 0
+TotalVisits 174                 
+TotalUnique 153                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 300                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 28 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 49 1181229 18 67 4906826
+1 19 148 23560028 13 32 974473
+2 8 104 17396394 28 57 916337
+3 12 83 15200422 25 73 4289978
+4 11 41 9937771 12 76 2711108
+5 5 10 1188098 13 43 4650125
+6 20 241 33776909 14 33 926733
+7 4 52 8250244 13 49 933182
+8 12 156 24563237 23 74 2425106
+9 8 57 9390338 17 60 1310639
+10 10 104 18719289 36 73 3516594
+11 24 214 25037832 22 52 1308535
+12 8 81 13264657 21 59 594039
+13 5 52 10887217 19 32 260912
+14 4 51 10529265 20 33 1558418
+15 5 41 5425071 18 37 1708974
+16 6 9 71863 15 46 3653931
+17 2 38 7927407 20 39 5006650
+18 14 182 25613836 15 148 11306840
+19 12 17 955737 26 73 2639987
+20 23 141 25367028 36 78 1449422
+21 6 24 629910 16 39 490600
+22 10 18 557515 15 47 3972175
+23 11 151 27498536 24 56 1694598
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+in 86 1300 214142582
+us 63 459 72680903
+cn 47 135 7214854
+br 29 30 1238323
+kr 8 113 20326858
+fr 7 13 258268
+de 3 3 211917
+it 2 2 33800
+dk 1 1 16900
+pl 1 1 16900
+cl 1 1 16900
+ua 1 1 16900
+ph 1 1 16900
+gb 0 1 126020
+ca 0 1 23328
+ma 0 1 38158
+zz 0 1 550322
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 347 26432836 20171130203753 0
+googlebot 198 5495313 20171130211843 0
+[\s_+:,\.\;\/\\-]bot 150 15059353 20171130115411 0
+googlebot\-image 55 3728819 20171130234254 0
+bingpreview 54 2475278 20171130000721 0
+spider 18 50700 20171130115946 0
+no_user_agent 10 15103 20171123115910 0
+crawl 1 16900 20171119123651 0
+robot 1 16900 20171127154133 0
+ia_archiver 1 16900 20171112121948 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff2 22 1609832 0 0
+svg 1 322 0 0
+eot 2 198436 0 0
+html 193 3445811 0 0
+css 325 8858939 0 0
+jpg 738 158922116 0 0
+jpeg 30 3560417 0 0
+woff 20 1049180 0 0
+js 390 18262660 0 0
+ttf 4 188208 0 0
+Unknown 9 305208 0 0
+png 330 120528704 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win7 40 15
+winnt 779 97
+win8.1 105 6
+winlong 7 0
+linux 340 59
+winxp 42 32
+macosx8 1 1
+Unknown 45 3
+macosx 1 1
+linuxandroid 594 31
+macosx5 1 1
+ios_iphone 109 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 47
+chrome62.0.3202.75 93 11
+chrome50.0.2661.102 7 7
+chrome54.0.2840.85 46 3
+chrome49.0.2623.110 1 0
+chrome55.0.2883.87 2 0
+chrome51.0.2704.79 5 0
+chrome49.0.2623.75 36 18
+firefox57.0 67 5
+chrome62.0.3202.89 96 4
+firefox40.1 1 1
+chrome61.0.3163.98 111 6
+chrome56.0.2924.87 2 2
+cloudflare 9 0
+firefox52.0 2 1
+chrome59.0.3071.115 2 2
+chrome49.0.2623.112 1 0
+chrome58.0.3029.81 20 12
+chrome46.0.2486.0 1 0
+firefox14.0.1 1 1
+android 2 0
+chrome45.0.2454.93 128 47
+safari6.0.2 1 1
+chrome38.0.1025.166 72 1
+mozilla 1 1
+opera8.50 1 1
+chrome59.0.3071.61 1 1
+chrome58.2.3029.81 1 1
+chrome62.0.3202.94 389 32
+Unknown 35 2
+msie11.0 54 11
+chrome62.0.3202.84 337 20
+firefox6.0.2 29 29
+chrome62.0.3202.62 96 4
+chrome55.0.2883.91 3 0
+chrome49.0.2623.108 50 3
+safari9.0 4 4
+chrome52.0.2743.116 5 4
+msie7.0 7 0
+firefox56.0 2 0
+netscape5.0 105 0
+chrome59.0.3071.86 1 0
+firefox55.0 1 0
+firefox11.0 9 0
+safari5.0.2 1 1
+msie10.0 1 1
+firefox5.0 1 1
+chrome61.0.3163.100 224 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+YahooCacheSystem;_YahooWebServiceClient 20171127032629
+G-i-g-a-b-o-t 20171125043900
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20171121003424
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online)_AppleWebKit/534.34 20171130200518
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+G-i-g-a-b-o-t 20171125043900
+YahooCacheSystem;_YahooWebServiceClient 20171127032629
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 163 334
+From1 1 1
+From2 11 57
+From3 7 11
+From4 68 1661
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 11 49
+bing 0 6
+yahoo 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://www.sigchi.fi 1 1
+http://germany.acm.org 1 1
+http://sigai.acm.org 1 1
+http://journal-jger.springeropen.com/submission-guidelines/editorial-policies 1 1
+http://croacm.acm.org 1 1
+https://www.linkedin.com 1 1
+http://gardeningwithoutskills.blogspot.com 1 1
+http://collegeoklahoma33.gq/papers/education-1732.html 0 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 10 2368
+404 488 0
+206 15 2340656
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 107
+/farewell-2015/ 1 -
+/pranayam/ 1 -
+/test/images/work-3@2x.jpg 1 http://pccoe.acm.org/test/
+/2015/04/page/2/ 1 -
+/expert-talk-on-fun-with-algorithms/ 2 -
+/eminent-speaker-programme-mathematical-modeling/ 1 -
+/digital-india-week/feed/ 1 -
+/anantya-2015/ 3 -
+/wp/wp-admin/ 3 -
+/eminent-speaker-programme-mathematical-modeling/feed/ 1 -
+/author/parveen16/feed/ 1 -
+/robots.txt 218 -
+/category/2015-16/feed/ 1 -
+/Cells/SPORTS.html 4 -
+/teachers-day-celebrations/feed/ 1 -
+/anantya/bepaper.html 1 -
+/android-workshop/feed/ 1 -
+/eminent-speaker-programme-recent-trends-in-it/feed/ 1 -
+/tnp-cell/ 2 -
+/test/images/work-2@2x.jpg 1 http://pccoe.acm.org/test/
+/pd-cell 4 -
+/manifest.json 13 http://pccoe.acm.org/
+/author/darshit12/page/2/ 1 -
+/acm-logo/feed/ 1 -
+/test/images/work-7@2x.jpg 1 http://pccoe.acm.org/test/
+/Cells/NSS.html 6 -
+/test/images/team-3@2x.jpg 1 http://pccoe.acm.org/test/
+/test/wp-admin/ 3 -
+/2015/09/ 3 -
+/page/2/ 2 -
+/feed/ 18 -
+/test/images/team-2@2x.jpg 1 http://pccoe.acm.org/test/
+/Cells/ART.html 13 http://pccoe.acm.org/
+/java-workshop/ 1 -
+/readers-club/ 2 -
+/higher-studies/ 4 -
+/author/parveen16/ 4 -
+/thinkpic/ 2 -
+/teachers-day/ 7 -
+/Cells/GRIVANCES.html 4 -
+/android-workshop/ 2 -
+/techlligent/feed/ 1 -
+/anantya-2015/feed/ 1 -
+/tnp-cell 2 -
+/2015/08/ 3 -
+/admin 1 -
+/isr-cell/ 2 http://www.acm.org/search
+/author/darshit12/ 3 -
+/pd-cell/ 3 -
+/home/ 4 -
+/assets/images/members/SagarRane.jpg 10 -
+/eminent-speaker-programme-recent-trends-in-it/ 2 -
+/cpd-cell/ 1 -
+/acm-logo/ 1 -
+/assets/js/ 2 -
+/art-circle 2 -
+/blog/wp-admin/ 4 -
+/how-to-do-research/ 2 http://yandex.ru/clck/jsredir
+/2015/02/ 1 -
+/vue-test/vue-test/dist/ 1 -
+/codigami/ 1 http://pccoe.acm.org/
+/workshop-on-hackathon-android-and-cloud-computing/ 1 -
+/ted-talks/feed/ 1 -
+/googlebe85d8f73d9eb536.html 1 -
+/theinductionprogram/feed/ 1 -
+/test/images/work-1@2x.jpg 1 http://pccoe.acm.org/test/
+/theinductionprogram/ 2 -
+/code 1 -
+/thinkpic/feed/ 1 -
+/about-us/ 3 -
+/meet-the-team/ 4 -
+/2015/07/ 1 -
+/Cells/ISR.html 6 -
+/cpd-cell 2 -
+/test/images/work-4@2x.jpg 1 http://pccoe.acm.org/test/
+/digital-india-week/ 4 -
+/Cells/CPDC.html 4 -
+/Cells/PDC.html 4 -
+/category/2014-15/ 2 -
+/test/images/work-8@2x.jpg 1 http://pccoe.acm.org/test/
+/eminent-speaker-programme-theory-of-computation/ 2 -
+/test/images/team-4@2x.jpg 1 http://pccoe.acm.org/test/
+/ted-talks/ 1 -
+/teachers-day-celebrations/ 1 -
+/dist/build.js 3 http://pccoe.acm.org/vue-test/vue-test/
+/test/images/work-5@2x.jpg 1 http://pccoe.acm.org/test/
+/coding/ 6 -
+/Cells/HIGHERSTUDIES.html 12 http://pccoe.acm.org/
+/distinguished-speaker-programme-on-multi-core-programming/ 2 -
+/meet-the-team/| 1 http://pccoe.acm.org/
+/category/uncategorized/ 2 -
+/category/2015-16/ 4 -
+/farewell-2015/feed/ 1 -
+/sfmin 1 -
+/techlligent/ 2 -
+/old/wp-admin/ 4 -
+/digital-india-week 1 -
+/coming_soon/images/acmlogo.png 1 http://pccoe.acm.org/coming_soon/
+/test/images/team-1@2x.jpg 1 http://pccoe.acm.org/test/
+/higher-studies 2 -
+/test/images/work-6@2x.jpg 1 http://pccoe.acm.org/test/
+/wordpress/wp-admin/ 4 -
+/induction-programme-2015/ 1 -
+/art-circle/ 2 -
+/eminent-speaker-programme-mathematical-modeling 1 -
+/wp-login.php 1 -
+/2015/04/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 300
+59.88.184.32 11 89 15199560 20171116013307
+116.74.146.250 7 145 16588594 20171115065236
+64.233.173.44 7 62 14659043 20171130111924
+176.31.64.186 5 5 84500 20171130094756
+116.74.151.196 5 59 1488522 20171129115714
+117.214.123.218 5 72 13000654 20171118121511
+219.91.210.244 5 95 16567616 20171126014811
+61.0.50.121 4 57 11312330 20171103110343
+117.248.247.142 4 50 9242288 20171113101848
+219.91.210.231 4 61 12540183 20171124035605
+103.248.35.35 4 96 16569150 20171109023354
+117.195.66.98 4 92 16564313 20171109233654
+103.51.95.149 4 96 16569150 20171108082657
+116.74.145.169 4 92 16564313 20171118205729
+219.91.159.224 3 3 34114 20171130235446
+64.233.173.46 3 65 11209987 20171130111856
+66.102.6.174 3 27 2876999 20171113082712
+165.225.106.79 3 44 9302513 20171105101136
+61.0.48.98 3 44 9236457 20171119143223
+52.91.240.184 3 5 135232 20171113220145
+66.102.6.176 3 34 3147007 20171115122426
+117.195.84.135 3 44 9236457 20171123135854
+34.207.154.158 3 5 135232 20171127200956
+34.226.215.143 3 5 135232 20171106212220
+117.195.70.20 3 35 5300948 20171120155019
+202.46.51.23 0 1 1189 
+27.251.81.210 0 1 23328 
+202.46.48.143 0 1 1448 
+202.46.49.147 0 1 45909 
+66.102.7.223 1 1 16900 20171127205500
+202.46.55.64 1 1 16900 20171129205539
+202.46.54.196 0 1 1058 
+202.46.55.18 0 1 15242 
+202.46.48.202 0 1 22643 
+125.209.235.167 1 4 739662 20171114171526
+1.187.26.63 0 13 2293135 
+202.46.49.139 0 1 2936 
+49.35.12.45 0 2 1508969 
+202.46.53.155 1 1 0 20171127012459
+125.209.235.175 0 3 610704 
+202.46.57.123 1 1 0 20171116215143
+125.209.235.186 0 6 1726270 
+46.39.76.150 1 1 16900 20171106150300
+125.209.235.171 0 8 1684748 
+202.46.53.153 0 1 22643 
+202.46.54.158 1 1 16900 20171102081144
+202.46.58.94 0 1 1756 
+198.23.250.32 2 2 33800 20171118062647
+131.161.8.198 1 1 16900 20171121195834
+162.158.65.209 0 1 23328 
+202.142.86.191 0 1 25657 
+103.218.170.107 0 1 38158 
+202.46.52.106 0 1 1361 
+202.46.51.17 0 1 15242 
+202.46.57.27 1 1 16900 20171119043222
+202.46.55.82 0 1 3112 
+202.46.50.75 0 1 444709 
+150.107.10.253 0 1 670434 
+111.125.230.82 0 1 151056 
+202.46.56.72 0 1 38623 
+202.46.50.161 0 1 1966 
+150.129.28.202 0 1 71156 
+202.46.57.28 1 1 0 20171130031739
+202.46.54.205 1 1 0 20171113110014
+131.161.9.224 1 1 16900 20171122201322
+202.46.54.163 0 1 1756 
+202.46.51.132 0 1 2544 
+64.233.173.48 2 67 10162994 20171130112007
+202.46.56.207 0 1 1448 
+202.46.50.88 0 1 1448 
+131.161.9.212 1 1 16900 20171109204010
+123.201.192.77 1 1 33912 20171127040714
+66.249.93.207 1 2 17894 20171120052254
+202.46.57.175 0 1 15242 
+1.187.16.243 1 12 3300494 20171106090343
+131.161.10.194 1 1 16900 20171114184405
+202.46.57.165 1 1 0 20171124145349
+202.46.56.66 1 1 16900 20171114165209
+202.46.57.170 0 1 89595 
+66.249.91.236 1 1 53 20171121003424
+162.158.64.133 0 2 46656 
+202.46.50.123 1 1 16900 20171103103819
+125.209.235.183 0 3 96630 
+202.46.58.54 1 1 16900 20171106221621
+202.46.57.187 0 1 1058 
+66.102.6.16 1 1 16900 20171106061934
+203.109.74.66 0 1 38158 
+59.91.87.3 1 1 33912 20171121225312
+202.46.53.43 0 1 72259 
+202.46.57.78 0 1 1966 
+162.158.65.77 0 1 23328 
+49.14.71.185 1 5 670907 20171106090342
+66.102.6.172 2 25 2433853 20171114093503
+206.126.255.221 0 1 550322 
+202.46.56.117 1 1 16900 20171116035416
+202.46.55.145 1 1 16900 20171120160622
+202.46.56.65 0 1 38623 
+202.46.48.145 0 1 496324 
+104.192.108.9 1 1 16900 20171118134831
+66.249.82.157 1 14 310196 20171129115930
+125.209.235.168 0 3 394054 
+54.68.21.66 2 2 16900 20171113042958
+202.46.50.184 0 1 42766 
+131.161.11.229 1 1 16900 20171105200110
+131.161.9.242 1 1 16900 20171130185011
+202.46.56.14 0 1 7374 
+164.132.210.72 1 1 16900 20171126034234
+202.46.53.210 0 1 936 
+131.161.9.203 1 1 16900 20171107191029
+66.102.7.192 0 1 994 
+148.251.54.44 1 1 70639 20171113205845
+202.46.51.36 0 1 496324 
+66.102.6.110 0 1 1058 
+118.102.200.146 0 1 38158 
+202.46.57.184 0 1 2544 
+66.102.6.235 1 1 16900 20171105010315
+178.255.44.61 1 1 16900 20171115225504
+125.209.235.181 0 4 1351222 
+202.46.52.150 1 1 0 20171129041716
+116.74.155.134 2 29 727305 20171130005233
+125.209.235.170 0 4 110449 
+202.46.52.111 1 1 0 20171125200346
+66.102.6.12 1 1 16900 20171104004604
+131.161.10.205 1 1 16900 20171123191738
+49.35.13.212 0 1 38158 
+202.46.53.45 0 1 38623 
+162.158.64.99 0 1 23328 
+202.46.51.208 0 2 8633 
+202.46.48.99 1 1 16900 20171101051251
+66.102.6.239 1 2 17958 20171102001503
+23.254.130.249 1 1 16900 20171104232613
+202.46.58.191 0 1 2139 
+179.61.149.252 1 1 16900 20171127054540
+131.161.11.240 1 1 16900 20171112190914
+202.46.49.70 0 1 31223 
+144.76.71.83 1 1 70639 20171128033408
+131.161.11.222 1 1 16900 20171104204116
+202.46.51.25 0 1 45909 
+202.46.51.185 0 1 0 
+93.160.60.22 1 1 16900 20171117095449
+202.46.50.120 1 1 0 20171125011820
+112.203.5.149 1 1 16900 20171126024159
+202.46.49.204 1 1 16900 20171128213922
+131.161.10.244 1 1 16900 20171119183903
+202.46.58.195 0 1 1361 
+202.46.51.119 0 1 2139 
+202.46.51.87 1 1 16900 20171114165210
+131.161.8.234 1 1 16900 20171106202941
+202.46.49.68 0 1 37045 
+202.46.48.12 0 1 1058 
+202.46.50.150 0 1 0 
+202.46.58.14 1 2 18221 20171117221037
+202.46.58.73 0 1 53519 
+43.225.1.82 0 1 23328 
+202.46.51.180 0 1 38623 
+116.74.149.114 0 1 2544 
+202.46.49.91 0 1 38623 
+106.79.98.228 1 5 195805 20171106090311
+194.176.192.165 0 1 126020 
+202.46.51.204 0 1 1384 
+131.161.9.210 1 1 16900 20171110192005
+202.46.54.72 1 1 16900 20171126113400
+202.46.50.91 0 1 89779 
+131.161.11.228 1 1 16900 20171115183838
+202.46.49.62 0 1 15242 
+131.161.8.210 1 1 16900 20171108190224
+202.46.58.53 1 1 0 20171116085813
+206.190.34.182 0 1 23328 
+202.46.49.130 0 1 583368 
+202.46.58.198 1 1 0 20171128110351
+202.46.50.92 0 1 1782 
+79.137.116.216 1 1 16900 20171130160316
+123.126.113.157 0 7 260780 
+125.209.235.174 0 11 2857165 
+202.46.50.95 0 2 59579 
+202.46.58.182 1 1 16900 20171103222851
+223.30.127.70 0 1 748223 
+202.46.48.28 0 1 1756 
+59.99.0.10 0 1 23328 
+202.46.53.167 1 1 16900 20171102063648
+103.84.237.11 0 1 23328 
+66.249.82.220 0 1 126043 
+117.201.55.3 0 1 23328 
+125.209.235.182 1 9 1166132 20171109011055
+66.102.6.14 0 2 2116 
+131.161.8.201 1 1 16900 20171103204020
+202.46.50.87 1 1 16900 20171116035415
+162.158.65.105 0 1 23328 
+47.9.168.244 0 1 23328 
+202.46.51.26 0 1 31000 
+45.112.58.28 0 11 3464591 
+202.46.53.156 1 1 0 20171125125900
+103.83.213.170 0 2 168771 
+202.46.48.195 0 1 1448 
+125.209.235.185 0 4 771893 
+202.46.53.48 0 1 37045 
+131.161.11.221 1 1 16900 20171101201101
+116.50.85.115 0 5 755533 
+131.161.10.219 1 1 16900 20171125184716
+202.46.54.71 1 1 16900 20171103022939
+45.250.246.177 0 1 38158 
+125.209.235.173 0 7 2607027 
+162.158.65.78 0 1 23328 
+117.194.34.192 0 1 23328 
+202.46.50.18 0 1 1189 
+202.46.51.162 0 1 45909 
+202.46.55.134 1 1 0 20171118003010
+202.46.53.57 0 1 583368 
+131.161.9.226 1 1 16900 20171111195148
+202.46.52.63 0 1 444709 
+202.46.57.79 1 1 0 20171101075932
+66.249.82.155 1 8 283101 20171129115926
+125.209.235.172 1 10 862379 20171104072320
+202.46.58.154 1 1 16900 20171128084651
+125.209.235.176 1 3 287344 20171124084153
+202.46.51.165 1 1 0 20171101065251
+202.46.54.116 0 1 325293 
+188.165.231.77 2 2 33800 20171105010742
+202.46.52.100 1 1 0 20171125153408
+1.187.22.71 0 11 2779997 
+162.253.64.31 1 1 16900 20171127063509
+131.161.9.245 1 1 16900 20171117191858
+131.161.9.238 1 1 16900 20171120184843
+106.223.134.192 0 1 23328 
+202.46.52.66 0 1 6060 
+125.209.235.169 1 8 668339 20171124084142
+202.46.50.85 1 1 16900 20171102033244
+202.46.57.205 0 1 444709 
+162.158.64.199 0 1 23328 
+171.61.164.122 0 1 23328 
+49.205.217.4 0 1 124258 
+5.9.112.6 1 1 70639 20171121014350
+104.160.9.115 1 1 16900 20171127051419
+72.82.235.46 0 1 1022757 
+202.46.56.192 1 1 16900 20171106225458
+131.161.8.223 1 1 16900 20171118191847
+202.46.55.171 1 1 0 20171124021327
+202.46.51.177 0 1 7052 
+107.172.231.103 2 2 33800 20171114205918
+202.46.56.198 0 1 583368 
+49.35.21.213 0 1 23328 
+180.179.142.23 0 1 23328 
+104.202.122.130 2 2 33800 20171130111710
+106.210.224.160 0 1 442716 
+202.46.48.205 0 1 38623 
+66.102.6.112 1 1 16900 20171116223928
+64.233.172.253 1 2 17958 20171110041350
+165.225.106.89 0 1 38623 
+45.64.85.254 0 1 126043 
+202.46.51.160 0 1 42766 
+202.46.55.69 0 1 6851 
+202.46.52.11 1 1 0 20171127164747
+202.46.53.112 0 1 1756 
+131.161.11.236 1 1 16900 20171124185612
+202.46.58.16 0 1 89595 
+66.249.82.156 0 7 134008 
+177.11.252.15 0 1 748223 
+202.46.53.91 0 1 2544 
+125.209.235.180 0 4 1152034 
+202.46.58.77 1 1 0 20171101072611
+162.158.64.166 0 1 23328 
+131.161.9.247 1 1 16900 20171128185734
+64.233.172.251 0 1 1058 
+202.46.52.156 0 1 7052 
+66.102.6.237 2 5 36974 20171103004003
+125.209.235.177 1 3 635015 20171109011102
+131.161.11.210 1 1 16900 20171127194831
+54.227.177.58 3 5 135232 20171121001803
+131.161.9.214 1 1 16900 20171116200109
+202.46.50.164 1 1 0 20171110103510
+64.233.172.249 1 1 16900 20171109034342
+168.235.200.214 0 1 23328 
+125.209.235.179 1 8 1269119 20171114171541
+202.46.48.26 1 1 0 20171125181002
+111.125.230.197 0 1 137828 
+202.46.50.199 1 1 16900 20171106113458
+71.60.34.116 0 2 219854 
+125.209.235.178 0 5 1140165 
+202.46.58.186 1 1 0 20171104052041
+202.46.48.132 0 1 31223 
+202.46.53.143 1 1 0 20171112163153
+202.46.50.156 0 1 1189 
+202.46.53.118 0 1 813798 
+65.132.59.34 2 34 15549698 20171125043839
+117.203.238.238 1 1 33912 20171117031546
+37.59.53.164 0 6 139968 
+202.46.57.25 1 1 16900 20171108093413
+202.46.50.90 0 1 54955 
+125.209.235.184 1 6 196507 20171104072109
+203.109.124.199 2 2 35103 20171130043951
+202.46.50.98 0 1 15242 
+131.161.8.227 1 1 16900 20171129194620
+202.46.50.86 0 1 2544 
+116.74.146.244 3 46 9239760 20171122230229
+202.46.51.192 1 1 0 20171117040718
+8.37.235.167 0 1 23328 
+131.161.10.196 2 2 33800 20171113190345
+202.46.53.165 1 1 16900 20171101110010
+202.46.51.201 0 1 936 
+202.46.58.96 1 1 0 20171106020015
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20171101 7 14 497598 7
+20171102 6 16 719845 6
+20171103 9 71 12822854 6
+20171104 7 52 9231121 7
+20171105 6 53 9459228 4
+20171106 13 68 10609387 11
+20171107 6 169 24918727 5
+20171108 7 105 16737318 4
+20171109 15 222 35814644 9
+20171110 4 14 1090419 4
+20171111 2 5 126592 2
+20171112 3 21 4136057 3
+20171113 13 65 9704004 7
+20171114 9 48 8059866 8
+20171115 15 203 26164295 6
+20171116 12 49 6008300 7
+20171117 5 5 84612 5
+20171118 14 173 31181095 6
+20171119 5 50 9472378 3
+20171120 7 48 6928399 5
+20171121 7 11 1430549 5
+20171122 4 52 9483201 2
+20171123 4 54 10039498 2
+20171124 10 119 24761121 7
+20171125 9 56 15221385 8
+20171126 8 101 16766319 4
+20171127 11 24 1937697 9
+20171128 5 7 175890 5
+20171129 10 94 2519981 6
+20171130 17 95 10827453 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 1
+5mn-15mn 1
+0s-30s 158
+30s-2mn 10
+30mn-1h 1
+2mn-5mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 147 2349100 132 116
+/assets/lib/components-font-awesome/fonts/fontawesome-webfont.woff2 20 1466040 1 7
+/assets/lib/et-line-font/fonts/et-line.woff 20 1049180 3 1
+/team.html 19 988946 9 18
+/anantya/ 11 26630 11 10
+/cpanel 9 305208 7 5
+/test/fonts/elegant-theme-line.ttf 4 188208 1 3
+/test/ 4 68040 2 1
+/anantya/assets/fonts/fontawesome-webfont.woff2 2 143792 1 2
+/vue-test/vue-test/ 2 202 0 1
+/anantya/quiz.html 1 0 1 1
+/assets/lib/components-font-awesome/fonts/fontawesome-webfont.eot 1 165742 0 1
+/anantya/speakout.html 1 0 1 1
+/anantya/hackathon.html 1 0 1 1
+/anantya/teproj.html 1 0 1 1
+/anantya/codesprint.html 1 0 1 1
+/anantya/shotin90.html 1 0 1 1
+/google54b782934c4c6f1b.html 1 53 1 1
+/assets/lib/et-line-font/fonts/et-line.eot 1 32694 0 0
+/vue-test/ 1 1191 0 1
+/coding/ 1 950 0 1
+/coming_soon/ 1 10699 0 0
+END_SIDER

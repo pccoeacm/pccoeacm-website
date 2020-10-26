@@ -1,0 +1,128 @@
+# Webalizer V2.23-08 Incremental Data - 05/06/2018 07:23:42
+2018 5 6 7 23 42
+5 5 1 3 0 0 319452 2 1 1
+1 351 351 6 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+5 5 319452 1 2 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+5 5 319452 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/pccoehos/public_html/acm-i-ss/style.css
+0 2 32051616 1220 0 0
+/home/pccoehos/public_html/acm-i-ss/
+0 2 32051136 13840 1 0
+/home/pccoehos/public_html/acm-i-ss/images/parallaxImage.jpg
+0 1 0 304392 0 0
+# End Of Table - urls
+# -sites- (monthly)
+59.88.141.175
+0 5 5 319452 1 1525591410
+/home/pccoehos/public_html/acm-i-ss/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+59.88.141.175
+0 5 5 319452 1 1525591410
+/home/pccoehos/public_html/acm-i-ss/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+pccoehos
+0 5 5 319452 1 1525591410
+# End Of Table - usernames

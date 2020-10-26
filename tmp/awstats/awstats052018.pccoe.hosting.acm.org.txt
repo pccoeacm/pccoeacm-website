@@ -1,0 +1,1014 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2697                
+POS_VISITOR 19385               
+POS_DAY 32166               
+POS_DOMAIN 3606                
+POS_LOGIN 4234                
+POS_ROBOT 4389                
+POS_WORMS 5981                
+POS_EMAILSENDER 6112                
+POS_EMAILRECEIVER 6255                
+POS_SESSION 33038               
+POS_SIDER 33241               
+POS_FILETYPES 6390                
+POS_DOWNLOADS 6592                
+POS_OS 6640                
+POS_BROWSER 6939                
+POS_SCREENSIZE 8534                
+POS_UNKNOWNREFERER 8608                
+POS_UNKNOWNREFERERBROWSER 9375                
+POS_ORIGIN 9847                
+POS_SEREFERRALS 9990                
+POS_PAGEREFS 10359               
+POS_SEARCHWORDS 11239               
+POS_KEYWORDS 11391               
+POS_MISC 2361                
+POS_ERRORS 11450               
+POS_CLUSTER 4090                
+POS_SIDER_404 11576               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180601001033 75 13660 10605721561593
+FirstTime 20180501015800
+LastTime 20180531232357
+LastUpdate 20180601001728 75 0 74 0 0
+TotalVisits 285                 
+TotalUnique 246                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 351                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 387 25692480 41 115 3851349
+1 22 149 10820147 50 219 5008985
+2 18 260 18631641 45 212 4688831
+3 12 467 41436101 50 325 1169279
+4 12 312 24751832 67 161 2489375
+5 15 423 31562152 130 535 1492346
+6 127 721 55741671 46 621 1834628
+7 14 572 39567744 39 197 1004724
+8 9 179 14529843 49 114 5157089
+9 12 468 41907927 37 200 1985812
+10 15 361 31483788 55 230 670584
+11 16 261 22424877 38 280 10661259
+12 13 387 33288188 32 172 442797
+13 11 273 23279458 31 199 1041665
+14 16 356 29767883 24 189 377269
+15 7 120 10235212 38 287 493552
+16 11 18 482514 30 72 3543583
+17 9 139 11856769 32 215 1153615
+18 2 2 0 59 241 11401101
+19 15 72 5140130 78 232 2248245
+20 11 123 10242179 56 187 2488086
+21 6 148 11970767 56 98 1362945
+22 9 13 225957 62 282 16988479
+23 8 164 10251832 44 327 22360212
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 214 989 60248724
+in 73 3596 302768566
+cn 33 109 6756889
+ru 23 24 571008
+ca 14 274 21252703
+kr 10 89 6814505
+ip 9 880 73058931
+fr 8 8 62176
+nl 6 7 103949
+vg 6 6 9128
+dm 5 5 22820
+de 2 3 1062153
+lb 1 100 8038119
+pk 1 23 1413227
+pe 1 116 10128498
+sn 1 1 34832
+ci 1 118 10637168
+vn 1 1 34832
+gb 1 4 326128
+au 1 10 269506
+sa 0 2 185740
+hk 0 2 221857
+ae 0 2 367033
+ir 0 1 62271
+jp 0 2 341103
+eg 0 1 76725
+za 0 2 422501
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 37
+Googlebot/ 471 1828979 20180531225335 23
+archive\.org_bot 449 39968881 20180526001214 3
+Python\-urllib/ 435 15151920 20180530222633 0
+Googlebot\-Image/ 397 2444721 20180531025258 0
+DotBot/ 264 112587 20180531230403 261
+bot[\s_+:,\.\;\/\\-] 142 451986 20180531055752 47
+bingbot/ 120 14598050 20180531232035 15
+no_user_agent 112 10032637 20180509143619 1
+bingpreview 111 10106121 20180508180428 0
+gocrawl 93 2883 20180526065233 93
+MJ12bot/ 67 1289714 20180531231725 30
+unknown 64 1984 20180531142552 64
+YandexBot/ 49 51546 20180530182145 26
+SemrushBot/ 40 116965 20180528211731 7
+YandexMobileBot/ 37 381871 20180530182223 0
+crawl 36 167085 20180530112936 6
+YandexImages/ 28 3448902 20180528113651 0
+(firefox/)([0-9]\.|[0-1][0]\.) 19 284962 20180530202757 2
+PhantomJS 15 93963 20180506093604 0
+Exabot/ 14 7425 20180528091324 9
+link 14 409985 20180530092445 2
+Gluten[\x20]Free[\x20]Crawler/ 9 41076 20180526230223 0
+Baiduspider/ 7 217 20180526131836 7
+Sogou[\x20]web[\x20]spider/ 6 9252 20180515030919 4
+ZumBot/ 5 91240 20180517212411 1
+CCBot/ 4 9190 20180520130907 2
+Dalvik/ 2 166980 20180516041202 0
+linkdexbot/ 3 9159 20180528120927 1
+facebookexternalhit/ 3 180780 20180515131231 0
+Cliqzbot/ 2 4595 20180528224505 1
+LinkedInBot/ 2 4595 20180525213612 1
+Applebot/ 1 4564 20180523080848 0
+java 2 171386 20180512024232 0
+yacybot 1 31 20180510000103 1
+AhrefsBot/ 5 155 20180530155558 5
+LinkCheck 1 4564 20180502045546 0
+Apache\-HttpClient/ 1 4564 20180521191818 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+woff2 7 180064 0 0
+gif 1 6567 0 0
+jpg 4912 475905562 0 0
+css 483 2517209 0 0
+html 404 2611218 0 0
+js 446 3665412 0 0
+png 122 20405060 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win10 1006 78
+winnt 4 4
+ios_iphone 31 4
+macosx8 1 1
+macosx11 6 5
+win8.1 545 20
+winxp 24 13
+macosx12 1 0
+win2000 1 1
+winlong 2 1
+ios_ipad 21 1
+Unknown 285 64
+macosx10 16 15
+macosx 119 2
+linux 698 15
+win7 1231 154
+linuxandroid 2384 33
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 76
+firefox11.0 10 0
+iphone 6 0
+chrome66.0.3359.139 1523 29
+chrome49.0.2623.112 1 0
+firefox24.0 1 1
+chrome61.0.3163.98 2 0
+chrome38.0.2125.102 1 0
+chrome54.0.2840.99 2 2
+mozilla 5 5
+chrome43.0.2357.93 115 1
+chrome66.0.3359.170 49 1
+msie8.0 1 1
+chrome59.0.3071.125 1 0
+firefox57.0 32 3
+netscape5.0 72 0
+chrome63.0.3239.84 228 4
+safari11.0 25 1
+firefox52.0 6 5
+chrome66.0.3359.158 356 5
+chrome52.0.2743.116 4 4
+chrome34.0.1847.137 1 1
+opera12.16 118 1
+chrome49.0.2623.108 132 4
+safari11.1 1 0
+chrome62.0.3202.94 6 2
+chrome66.0.3359.181 495 8
+msie7.0 1 0
+chrome57.0.2987.98 76 1
+firefox54.0 1 1
+chrome63.0.3239.132 2 2
+android 2 1
+chrome56.0.2924.87 142 5
+opera52.0.2871.99 115 2
+safari 8 1
+chrome62.0.3202.84 108 1
+chrome57.0.2987.133 245 7
+chrome64.0.3282.186 76 1
+firefox60.0 13 1
+opera42.0.2393.94 12 12
+chrome50.0.2661.102 12 12
+chrome58.0.3029.83 1 0
+chrome37.0.0.0 44 2
+msie11.0 5 0
+chrome64.0.3282.167 1 0
+chrome63.0.3239.111 228 2
+chrome65.0.3325.181 16 3
+chrome30.0.0.0 102 1
+firefox56.0 1 0
+opera11.10 1 1
+chrome60.0.3112.116 1 0
+chrome55.0.2883.91 26 1
+chrome41.0.2228.0 4 4
+firefox15.0 114 114
+firefox40.1 1 1
+firefox58.0 1 0
+chrome60.0.3112.113 3 3
+msie5.0 2 2
+safari9.0 4 4
+chrome64.0.3282.140 1 1
+chrome49.0.2623.75 2 1
+chrome67.0.3372.0 414 4
+msie9.0 3 3
+chrome61.0.3163.100 1 1
+chrome55.0.2883.95 15 15
+Unknown 162 58
+firefox61.0 1 0
+opera8.50 2 2
+chrome38.0.1025.166 449 4
+chrome66.0.3359.126 402 4
+opera10.00 1 1
+msie6.0 12 12
+chrome65.0.3325.109 274 4
+edge17 31 1
+firefox59.0 10 3
+chrome45.0.2454.93 30 30
+chrome58.0.3029.110 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Scrapy/1.4.0_(_http://scrapy.org) 20180521151618
+Jakarta_Commons-HttpClient/3.1 20180503003320
+Photon/1.0 20180501014551
+The_Knowledge_AI 20180531142648
+SEMrushBot 20180531174220
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_7.0;_en-US;_9026T)_U2/1.0.0_UCBrowser/11.1.0.1041_U2/1.0.0_Mobile 20180517041951
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20180506014714
+ltx71_-_(http://ltx71.com/) 20180510161635
+ia_archiver 20180527235654
+AngleSharp/0.9.9 20180504110651
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.31492/95.119;_U;_fr)_Presto/2.12.423_Version/12.16 20180514115237
+Mozilla/5.0_(compatible;_Go-http-client/1.1;__centurybot9@gmail.com) 20180509211921
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Photon/1.0 20180501014551
+SEMrushBot 20180531174220
+The_Knowledge_AI 20180531142648
+Scrapy/1.4.0_(_http://scrapy.org) 20180521151618
+Jakarta_Commons-HttpClient/3.1 20180503003320
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_7.0;_en-US;_9026T)_U2/1.0.0_UCBrowser/11.1.0.1041_U2/1.0.0_Mobile 20180517041951
+ltx71_-_(http://ltx71.com/) 20180510161635
+AngleSharp/0.9.9 20180504110651
+ia_archiver 20180527235654
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 313 457
+From1 2 2
+From2 34 100
+From3 31 31
+From4 31 5785
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 11
+www_google_com 5 31
+images_google_co_in 0 1
+baidu 2 2
+images_google_com 1 2
+www_google_co_za 0 1
+www_google_com_eg 0 1
+www_google_co_uk 0 1
+www_google_co_id 0 1
+www_google_com_au 1 1
+www_google_ru 0 1
+www_google_co_in 25 58
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 15
+http://india.acm.org 12 12
+http://www.pccoepune.com 4 4
+http://www.iccubea.com/conference-sponsers.php 3 3
+https://techpolicy.acm.org/2007/02/measuring-innovation-in-the-21st-century/ 1 1
+https://dl.acm.org/author_page.cfm 1 1
+http://princetonacm.acm.org/about.html 1 1
+http://nitsurat.acm.org 1 1
+http://acm.cs.uic.edu/node/340 1 1
+http://www.twitter.com/nikvarrone 1 1
+http://acm.cs.uic.edu/sigcodereview 1 1
+https://www.acm.org/elections 1 1
+http://www.kdd.org 1 1
+https://www.facebook.com/groups/fsusiggraph/ 1 1
+https://lauren.vortex.com/2017/04/14/prosecute-burger-king-for-their-illegal-google-home-attacks-in-their-ads 1 1
+https://techpolicy.acm.org/2007/02/frances-e-allen-wins-acms-turing-award-first-woman-to-win-2/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 6 6882
+500 1 0
+404 2564 448868
+206 75 1766535
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 184
+/images/nptel@2x.jpg 21 http://pccoe.acm.org/
+/expert-talk-on-web-services/ 1 -
+/images/gallery/i2@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/a7@2x.jpg 23 http://pccoe.acm.org/
+/images/abdul@2x.jpg 25 http://pccoe.acm.org/
+/images/ankush@2x.jpg 22 http://pccoe.acm.org/
+/page/2/ 1 -
+/images/kedar@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/t4@2x.jpg 23 http://pccoe.acm.org/
+/license.php 2 -
+/2015/ 2 -
+/images/reena@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/images/amrita@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/android-workshop/ 1 -
+/images/aniket@2x.jpg 20 http://pccoe.acm.org/
+/anantya/assets/css/images/overlay.png 2 http://pccoe.acm.org/anantya/assets/css/main.css
+/blog/wp-admin/ 1 -
+/images/mrunal@2x.jpg 20 http://pccoe.acm.org/
+/thispathdoesnotexistslol 1 -
+/images/pra_b@2x.jpg 22 http://pccoe.acm.org/
+/isr-cell/ 1 -
+/eminent-speaker-programme-recent-trends-in-it/ 6 -
+/testingangular/about 1 -
+/images/sonali@2x.jpg 20 http://pccoe.acm.org/
+/images/grievance@2x.jpg 22 http://pccoe.acm.org/
+/images/hackerrank@2x.jpg 20 http://pccoe.acm.org/
+/.well-known/security.txt 4 -
+/images/imad@2x.jpg 21 http://pccoe.acm.org/
+/images/gallery/m6@2x.jpg 22 http://pccoe.acm.org/
+/acm-logo/ 1 -
+/art-circle/ 4 -
+/images/gallery/m4@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/pcl1@2x.jpg 23 http://pccoe.acm.org/
+/author/darshit12/page/2/ 1 -
+/images/gallery/a3@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/esp_3@2x.jpg 23 http://pccoe.acm.org/
+/distinguished-speaker-programme-on-multi-core-programming/ 2 -
+/images/saransh@2x.jpg 22 http://pccoe.acm.org/
+/images/cpdc@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/m5@2x.jpg 22 http://pccoe.acm.org/
+/images/individual@2x.jpg 23 http://pccoe.acm.org/
+/higher-studies/ 1 -
+/images/gallery/h2@2x.jpg 22 http://pccoe.acm.org/
+/xmlrpc.php 1 -
+/images/acm@2x.jpg 21 http://pccoe.acm.org/
+/anantya-2015/ 3 -
+/images/janhavi@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/m0@2x.jpg 23 http://pccoe.acm.org/
+/how-to-do-research/ 3 -
+/cpd-cell 2 -
+/2015/02/ 1 -
+/Mailer/ 1 -
+/2015/04/ 2 -
+/downloader/ 2 -
+/ 3 -
+/eminent-speaker-programme-theory-of-computation/ 3 -
+/images/gallery/m3@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/t1@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/c1@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/m1@2x.jpg 23 http://pccoe.acm.org/
+/anantya/bepaper.html 1 -
+/teachers-day-celebrations/ 1 -
+/images/pdc@2x.jpg 22 http://pccoe.acm.org/
+/a 4 -
+/images/gallery/a2@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/esp_1@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/pcl4@2x.jpg 23 http://pccoe.acm.org/
+/images/anamika@2x.jpg 22 http://pccoe.acm.org/
+/assets/data/cells.json 3 http://pccoe.acm.org/testingangular/
+/images/su_doers@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/pcl3@2x.jpg 23 http://pccoe.acm.org/
+/images/vishal@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/assets/data/opportunities.json 3 http://pccoe.acm.org/testingangular/
+/images/darshit@2x.jpg 22 http://pccoe.acm.org/
+/assets/data/achievements.json 3 http://pccoe.acm.org/testingangular/
+/images/codechef@2x.jpg 21 http://pccoe.acm.org/
+/styles.ac89bfdd6de82636b768.bundle.css 1 http://pccoe.acm.org/testingangular/
+/team.html 2 -
+/images/aishwarya@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/meet-the-team 2 -
+/images/dhanashree@2x.jpg 20 http://pccoe.acm.org/
+/images/amita@2x.jpg 20 http://pccoe.acm.org/
+/Cells/GRIVANCES.html 1 -
+/2015/page/2/ 1 -
+/images/acmw@2x.jpg 21 http://pccoe.acm.org/
+/ted-talks/ 1 -
+/assets/data/cesa-team.json 3 http://pccoe.acm.org/testingangular/
+/digital-india-week/ 4 -
+/workshop-on-hackathon-android-and-cloud-computing/ 4 -
+/wp-login.php 1 -
+/images/art@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/a6@2x.jpg 23 http://pccoe.acm.org/
+/images/hash_bin@2x.jpg 22 http://pccoe.acm.org/
+/images/harshwardhan@2x.jpg 20 http://pccoe.acm.org/
+/old/wp-admin/ 1 -
+/robots.txt 183 -
+/images/dipesh@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/teachers-day/ 5 -
+/images/sanchita@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/images/vaigavi@2x.jpg 20 http://pccoe.acm.org/
+/images/udacity@2x.jpg 20 http://pccoe.acm.org/
+/2015/07/ 3 -
+/eminent-speaker-programme-mathematical-modeling/ 6 -
+/images/smart@2x.jpg 21 http://pccoe.acm.org/
+/images/simran@2x.jpg 20 http://pccoe.acm.org/
+/author/darshit12/ 1 -
+/README.txt 1 http://pccoe.acm.org/README.txt
+/wordpress/wp-admin/ 1 -
+/images/gallery/i3@2x.jpg 23 http://pccoe.acm.org/
+/images/rahul@2x.jpg 20 http://pccoe.acm.org/
+/inline.318b50c57b4eba3d437b.bundle.js 1 http://pccoe.acm.org/testingangular/
+/feed/ 24 -
+/images/gallery/t2@2x.jpg 23 http://pccoe.acm.org/
+/techlligent/ 2 -
+/images/mehul@2x.jpg 20 http://pccoe.acm.org/
+/images/coursera@2x.jpg 20 http://pccoe.acm.org/
+/images/rushikesh@2x.jpg 20 http://pccoe.acm.org/
+/images/rutuja@2x.jpg 20 http://pccoe.acm.org/
+/images/sagar@2x.jpg 39 http://pccoe.acm.org/
+/images/sports@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/acs4@2x.jpg 22 http://pccoe.acm.org/
+/images/ankur@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/images/ashishdeshpande@2x.jpg 20 http://pccoe.acm.org/
+/test/wp-admin/ 1 -
+/sitemap.xml 25 -
+/home/ 3 -
+/images/higher@2x.jpg 22 http://pccoe.acm.org/
+/higher-studies 2 -
+/2015/08/ 2 -
+/images/gallery/h3@2x.jpg 22 http://pccoe.acm.org/
+/readers-club/ 2 -
+/main.4316686d58488de6c0d1.bundle.js 1 http://pccoe.acm.org/testingangular/
+/images/gallery/a5@2x.jpg 23 http://pccoe.acm.org/
+/images/leetcode@2x.jpg 20 http://pccoe.acm.org/
+/images/nss@2x.jpg 22 http://pccoe.acm.org/
+/images/gopi@2x.jpg 3 http://pccoe.acm.org/pccoeacm.html
+/images/gallery/pcl2@2x.jpg 23 http://pccoe.acm.org/
+/author/parveen16/ 2 -
+/images/interviewbit@2x.jpg 20 http://pccoe.acm.org/
+/images/gallery/m2@2x.jpg 23 http://pccoe.acm.org/
+/theinductionprogram/ 1 -
+/images/gallery/esp_2@2x.jpg 23 http://pccoe.acm.org/
+/contact-us/ 1 -
+/isr-cell 1 -
+/images/gallery/acs2@2x.jpg 22 http://pccoe.acm.org/
+/images/gsoc@2x.jpg 21 http://pccoe.acm.org/
+/author/nikita/ 1 -
+/tnp-cell/ 2 -
+/expert-talk-on-fun-with-algorithms/ 4 -
+/images/sanket@2x.jpg 20 http://pccoe.acm.org/
+/images/ashish@2x.jpg 39 http://pccoe.acm.org/
+/2015/09/ 1 -
+/images/gallery/i4@2x.jpg 24 http://pccoe.acm.org/
+/images/gallery/h1@2x.jpg 22 http://pccoe.acm.org/
+/cpd-cell/ 2 -
+/about-us/ 7 -
+/images/bharati@2x.jpg 20 http://pccoe.acm.org/
+/images/gallery/acs3@2x.jpg 22 http://pccoe.acm.org/
+/thinkpic/ 1 -
+/assets/data/gallery.json 3 http://pccoe.acm.org/testingangular/
+/category/2015-16/ 1 -
+/images/gallery/a8@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/a4@2x.jpg 23 http://pccoe.acm.org/
+/images/isr@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/esp_4@2x.jpg 23 http://pccoe.acm.org/
+/images/ashitosh@2x.jpg 39 http://pccoe.acm.org/
+/images/gallery/h4@2x.jpg 22 http://pccoe.acm.org/
+/meet-the-team/ 3 -
+/images/aditya@2x.jpg 20 http://pccoe.acm.org/
+/images/shreya@2x.jpg 22 http://pccoe.acm.org/
+/pd-cell/ 4 -
+/util/login.aspx 1 -
+/images/purvesh@2x.jpg 20 http://pccoe.acm.org/
+/images/gallery/i1@2x.jpg 23 http://pccoe.acm.org/
+/images/abhishek@2x.jpg 23 http://pccoe.acm.org/
+/polyfills.b6b2cd0d4c472ac3ac12.bundle.js 1 http://pccoe.acm.org/testingangular/
+/2015/page/3/ 1 -
+/images/alka@2x.jpg 20 http://pccoe.acm.org/
+/images/neha@2x.jpg 23 http://pccoe.acm.org/
+/images/prachi@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/t3@2x.jpg 23 http://pccoe.acm.org/
+/images/gallery/acs1@2x.jpg 22 http://pccoe.acm.org/
+/images/gallery/a1@2x.jpg 23 http://pccoe.acm.org/
+/induction-programme-2015/ 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 351
+54.145.73.244 8 104 91209 20180503003320
+64.62.252.164 8 8 29910 20180531142648
+125.18.129.72 7 245 11324942 20180517050146
+89.38.99.128 6 6 9128 20180526163956
+66.160.140.183 6 6 21621 20180531130919
+116.74.148.174 6 138 11692365 20180506171842
+192.243.53.51 5 5 22820 20180531174220
+64.62.252.169 5 5 19519 20180523024543
+35.205.153.112 5 5 17057 20180520192620
+66.160.140.181 5 5 17057 20180526105333
+223.225.105.0 5 33 2750065 20180507130549
+192.99.7.203 5 5 19519 20180516084330
+64.62.252.163 5 5 19519 20180529031442
+66.160.140.182 5 5 19519 20180525231105
+5.188.211.13 4 4 91209 20180509144551
+68.168.100.144 4 4 91209 20180525021408
+54.205.228.183 4 4 12493 20180515063405
+184.73.45.169 4 4 14955 20180522060803
+103.41.34.51 4 126 11308885 20180519121117
+62.210.111.38 4 4 14955 20180531020220
+35.231.177.67 4 4 18256 20180521151618
+5.188.211.10 4 4 91209 20180506052004
+65.49.2.181 4 4 14955 20180509211921
+185.92.73.107 3 3 4564 20180515194539
+192.0.85.183 3 302 26652393 20180527031007
+54.211.109.119 2 2 7726 20180503063500
+62.44.46.30 0 1 1022757 
+125.209.235.186 0 2 270147 
+103.82.41.122 0 1 38158 
+59.160.8.225 0 1 42728 
+37.113.22.46 1 1 34832 20180507040605
+157.36.190.138 0 1 23328 
+202.46.53.141 1 1 3257 20180526102008
+54.211.224.225 1 1 4564 20180511065324
+223.199.70.108 1 76 6690725 20180529041311
+52.33.71.187 1 1 4564 20180503015857
+54.166.19.212 1 1 4564 20180517064143
+54.163.179.193 1 1 4564 20180523063227
+71.6.165.200 1 1 34832 20180509143608
+14.139.122.17 1 113 10119566 20180505035640
+116.74.150.21 1 13 528506 20180526063431
+45.119.58.163 0 1 87114 
+54.163.129.12 1 1 4564 20180506064343
+54.146.158.36 1 1 4564 20180523061655
+54.204.172.51 2 2 7726 20180513060411
+1.187.2.41 0 16 1445007 
+54.211.40.207 2 2 7726 20180520065152
+41.82.62.182 1 1 34832 20180517101944
+88.198.43.207 1 1 34832 20180519201631
+35.165.17.176 1 1 4564 20180502021754
+202.46.51.105 1 1 3257 20180525031545
+202.46.51.155 1 1 3261 20180529141802
+202.46.54.100 1 1 0 20180524202740
+54.211.33.231 2 2 7726 20180512060402
+50.112.47.61 1 1 4564 20180502015904
+192.0.101.66 1 112 10110685 20180528121453
+202.46.53.148 1 1 0 20180502105558
+52.165.224.109 1 1 34832 20180523223308
+106.79.161.179 0 22 3347737 
+54.163.187.49 1 1 4564 20180506065507
+137.97.91.82 0 1 92870 
+54.167.187.213 1 1 4564 20180522065257
+185.224.132.125 1 1 4564 20180508191256
+106.193.204.181 1 115 10127122 20180519071145
+117.204.242.189 0 1 178205 
+117.229.33.121 1 113 10119566 20180502212907
+54.165.90.203 2 2 48147 20180527235654
+104.33.177.18 0 1 92870 
+42.115.49.212 1 1 34832 20180522040842
+54.156.155.82 1 1 4564 20180501062235
+106.78.194.30 1 112 10090259 20180522090916
+110.224.4.21 2 44 2994169 20180506025433
+37.228.89.186 3 3 104496 20180523193002
+103.217.249.91 1 31 1607311 20180518000730
+54.205.96.113 2 2 7726 20180510060405
+54.187.216.167 1 1 4564 20180505015940
+86.130.148.57 0 1 99213 
+192.0.101.142 0 1 12614 
+117.248.245.27 1 113 10119566 20180530092311
+185.163.109.66 2 2 69664 20180523111625
+103.82.141.121 1 1 34832 20180503071750
+157.33.31.169 2 11 705909 20180519002132
+23.254.130.249 2 2 9128 20180513125915
+94.103.232.230 1 1 4564 20180504035659
+114.142.170.50 0 1 40735 
+183.79.92.110 0 1 156455 
+202.46.53.197 1 1 4564 20180522002021
+52.36.167.157 1 1 4564 20180501021827
+42.111.34.193 0 1 23328 
+54.197.82.90 3 3 10391 20180516060555
+54.163.175.39 1 1 4564 20180522064318
+2.89.108.66 0 1 92870 
+203.143.188.11 0 1 91730 
+54.202.231.63 1 1 4564 20180507015853
+47.31.105.25 1 10 160807 20180509131741
+104.152.185.196 2 2 50364 20180524082157
+157.33.68.85 1 21 844811 20180519001815
+49.35.219.198 0 2 178844 
+54.87.96.145 2 2 7726 20180517065737
+2405:205:510b:a006:6548:8fb7:12af:5dac 1 113 10119566 20180507103721
+54.204.75.10 1 1 4564 20180507063245
+115.97.65.231 1 113 10119566 20180506135349
+114.143.248.34 3 71 4488126 20180531060756
+54.159.234.83 1 1 4564 20180521063540
+54.205.148.227 2 2 7726 20180507064414
+54.145.189.112 3 3 10391 20180501063205
+92.98.184.245 0 1 274163 
+2402:8100:302b:7706:146e:6c7b:: 0 1 72467 
+47.31.73.254 0 1 139390 
+174.129.112.178 2 2 7726 20180515060418
+80.83.21.86 1 100 8038119 20180523061957
+151.255.81.21 0 1 92870 
+2409:4042:239a:10f1:f66f:f870:f679:bf85 1 113 10119566 20180502152350
+46.229.161.131 1 1 4564 20180531174203
+192.0.101.144 0 1 12614 
+54.197.66.237 2 2 7726 20180514063254
+117.195.74.48 1 113 10119566 20180506031522
+2405:204:9425:b604:fe21:df1c:411b:6925 1 108 9902218 20180511034807
+125.209.235.181 0 1 117001 
+59.88.141.175 1 3 306406 20180506072112
+49.35.14.109 0 2 60280 
+2401:4900:1885:358:c1b9:a097:5aae:1031 1 115 5470733 20180524052256
+180.149.225.172 1 23 1413227 20180515123253
+103.51.95.151 0 1 56979 
+35.226.23.240 1 5 235256 20180509025819
+64.233.173.48 0 6 844294 
+103.40.202.190 0 1 12302 
+106.79.178.232 1 28 2868095 20180509064636
+54.166.114.239 2 2 7726 20180513063107
+2401:4900:188b:d908:1:1:: 1 112 10090259 20180519141509
+54.205.80.216 2 2 9128 20180505062646
+35.164.106.43 1 1 4564 20180510015945
+123.136.180.158 2 2 34832 20180505045309
+129.161.234.213 0 2 311491 
+18.236.107.165 1 1 4564 20180508015858
+116.74.156.230 1 3 83132 20180507030851
+34.209.247.42 1 1 4564 20180501015800
+54.187.106.160 1 1 34832 20180531131734
+202.46.58.77 1 1 3261 20180516053603
+54.158.186.175 3 3 10391 20180507060527
+54.163.114.221 2 2 9128 20180515064233
+54.204.243.77 1 1 4564 20180502060558
+125.209.235.169 1 10 828818 20180501095254
+211.231.105.105 2 9 89236 20180506014714
+157.33.83.126 0 38 3586781 
+18.236.114.231 1 1 4564 20180501015914
+49.207.123.163 0 1 62271 
+47.8.51.4 0 1 72467 
+42.107.74.156 1 116 10243766 20180511025332
+54.163.167.39 3 3 12290 20180519064248
+125.209.235.175 0 3 292645 
+54.197.97.31 2 2 7726 20180522063417
+202.46.57.74 1 1 0 20180505034114
+202.46.56.33 1 1 0 20180520183947
+94.23.45.37 1 1 4564 20180517113325
+41.191.68.241 1 118 10637168 20180514115231
+66.249.82.220 0 1 106493 
+54.144.220.32 1 1 4564 20180504064347
+59.88.98.2 0 1 101664 
+2405:204:9509:123d::1d24:80ac 1 57 4819845 20180505072937
+54.204.183.164 2 2 7726 20180505063219
+106.51.18.215 0 1 96819 
+103.94.56.158 1 113 10119566 20180506065333
+54.159.249.28 2 2 7726 20180510063226
+192.0.101.166 0 1 12614 
+106.79.157.67 1 33 2482215 20180503074810
+202.46.53.167 1 1 3257 20180528105024
+49.35.218.94 1 17 101711 20180508044422
+185.181.102.18 1 1 34832 20180528110824
+2405:204:9219:6441::17c6:c0a1 0 1 92870 
+47.247.147.159 1 21 524559 20180511054934
+103.47.153.175 3 123 10412812 20180516045920
+49.35.228.18 0 2 188383 
+59.88.102.94 0 1 178205 
+212.83.163.210 1 1 3261 20180513163048
+54.211.46.104 2 2 7726 20180523060407
+125.209.235.185 0 4 390057 
+125.99.35.122 0 1 62271 
+103.74.238.45 0 4 846892 
+202.46.50.182 1 1 3261 20180523134328
+125.209.235.171 1 5 148141 20180501095300
+125.209.235.172 0 4 181056 
+49.35.72.18 1 35 2136364 20180502140233
+54.205.161.186 1 1 4564 20180514060333
+54.161.233.142 1 1 4564 20180518060244
+106.193.159.234 1 113 10119566 20180517012841
+54.167.190.23 2 2 7726 20180502060401
+5.188.86.156 3 3 4564 20180520010252
+185.187.232.2 1 1 4564 20180522072902
+157.33.119.199 0 41 4376441 
+106.213.172.127 0 1 92870 
+2405:205:42ae:499:326f:9fd4:fb85:24d0 1 113 10119566 20180517205711
+218.30.103.25 0 1 1626 
+192.99.14.164 1 1 34832 20180513174502
+103.82.41.109 1 40 2628920 20180509051108
+117.200.180.228 0 1 103076 
+49.35.67.122 0 1 92870 
+202.46.55.157 1 1 0 20180526004454
+54.161.131.165 1 1 4564 20180523060827
+198.27.83.216 1 1 34832 20180503140321
+103.50.76.134 0 1 99213 
+182.156.235.14 1 1 34832 20180521065643
+34.210.81.196 1 1 4564 20180502015758
+202.41.232.122 0 2 221857 
+140.194.40.64 0 1 49693 
+106.210.172.27 0 1 133149 
+54.204.232.223 1 1 4564 20180521060248
+125.209.235.180 0 2 425187 
+49.35.192.193 1 115 10127122 20180516124932
+157.33.36.134 1 37 3043365 20180525040646
+103.94.56.159 1 113 10119566 20180519075752
+49.196.168.217 1 8 44123 20180518042250
+42.108.45.233 0 1 23328 
+54.211.88.103 3 3 10391 20180521063325
+42.106.241.53 0 22 1944710 
+54.204.206.145 1 1 4564 20180520060351
+223.187.129.199 0 1 92870 
+125.209.235.179 0 5 686534 
+125.209.235.182 0 5 520114 
+202.46.51.115 1 1 0 20180527052959
+157.48.94.9 0 1 92870 
+182.150.27.152 2 2 9128 20180518020102
+54.158.74.193 2 2 7726 20180515060510
+73.15.80.221 1 1 4564 20180529201728
+129.41.164.27 0 1 269549 
+125.209.235.168 0 7 447217 
+202.46.49.111 1 1 3261 20180531232357
+52.176.103.221 1 1 34832 20180524051710
+183.82.17.101 1 113 10119566 20180515064920
+203.222.52.21 0 1 184648 
+94.23.20.135 1 1 4564 20180529050447
+202.46.57.162 1 1 0 20180529181543
+202.46.56.65 1 1 4564 20180515212837
+37.152.39.214 1 1 34832 20180529140708
+202.46.51.166 1 1 0 20180510010302
+114.143.112.51 1 112 10090259 20180501101604
+49.248.77.254 2 115 10122997 20180515062023
+54.161.206.168 1 1 4564 20180507064943
+54.211.188.66 1 1 4564 20180510064202
+202.46.53.44 1 1 3257 20180529155032
+54.163.129.23 2 2 7726 20180517063545
+202.46.48.83 1 1 4564 20180525220509
+116.75.152.95 0 1 42728 
+157.44.22.49 0 1 92870 
+54.166.98.51 1 1 4564 20180508064125
+54.166.123.136 3 3 10391 20180508061833
+94.23.18.194 1 1 34832 20180513104228
+2409:4042:219e:d004:ecdf:79dd:5baf:3eac 1 33 2039405 20180530192128
+202.46.53.192 1 1 0 20180524083404
+202.46.53.48 1 1 0 20180515005105
+77.249.9.113 0 1 85693 
+202.46.57.11 1 1 0 20180519101255
+64.233.173.44 0 1 189329 
+64.233.173.46 0 2 248226 
+54.197.149.236 1 1 4564 20180508064448
+202.191.173.122 0 1 139390 
+157.33.44.179 1 72 5743125 20180503233309
+171.50.221.201 0 1 42728 
+125.209.235.176 0 3 261513 
+54.202.205.47 1 1 4564 20180506015915
+54.211.20.172 2 2 7726 20180509060521
+103.83.213.219 1 113 10119566 20180519095302
+54.158.153.159 1 1 4564 20180506060334
+202.46.55.13 1 1 3257 20180524062509
+157.33.221.49 1 22 579872 20180529021601
+79.69.70.221 0 1 99213 
+202.46.49.202 1 1 4564 20180530232506
+157.33.126.76 0 1 137828 
+202.46.50.82 1 1 0 20180509083242
+213.174.146.213 1 1 4564 20180529013332
+35.165.110.221 1 1 34832 20180525204920
+202.46.56.184 1 1 3261 20180525161344
+42.106.211.245 1 26 1743667 20180516081608
+202.46.53.159 1 1 0 20180522041320
+192.0.130.145 3 117 10140935 20180505120031
+41.0.100.118 0 1 389705 
+54.161.253.34 1 1 4564 20180511064117
+54.204.196.106 1 1 4564 20180502061927
+153.187.185.3 0 1 184648 
+54.211.162.169 3 3 10391 20180506063354
+202.46.58.54 1 1 4564 20180501211036
+54.204.115.0 1 1 4564 20180521065525
+2405:204:3388:e09f::7e8:f0ac 0 1 92870 
+103.226.141.245 1 113 10119566 20180517053636
+125.209.235.177 1 4 159512 20180504002416
+223.196.31.28 0 1 87114 
+117.200.141.226 0 6 916877 
+73.43.61.197 0 1 92870 
+5.237.203.140 0 1 62271 
+54.161.251.198 2 2 7726 20180521064724
+103.87.167.75 0 2 29920 
+71.92.164.82 2 2 9128 20180529121943
+176.204.236.134 0 1 92870 
+54.205.40.216 1 1 4564 20180508060333
+107.223.89.212 0 1 62271 
+117.223.97.15 2 11 506944 20180507002005
+42.107.84.93 1 1 3261 20180511131121
+125.209.235.167 0 3 267793 
+54.157.214.172 1 1 4564 20180507064252
+183.82.168.119 0 1 106493 
+47.31.54.29 2 117 10125362 20180507083358
+64.62.252.173 1 1 4564 20180519101316
+125.209.235.174 0 4 589098 
+54.197.144.235 3 3 12290 20180519064558
+54.211.185.49 1 1 4564 20180504064501
+41.239.97.63 0 1 76725 
+115.113.69.206 0 1 31952 
+34.215.248.128 1 1 4564 20180509015938
+14.102.69.130 0 1 23328 
+54.211.8.112 1 1 4564 20180502064226
+125.209.235.178 2 6 665907 20180527193947
+49.14.93.212 1 30 3935176 20180509064621
+185.243.110.89 1 1 4564 20180513133528
+54.70.180.193 1 1 4564 20180511015944
+117.228.142.176 1 110 9960727 20180516104824
+54.166.14.31 1 1 4564 20180515064420
+106.78.175.218 0 1 130127 
+106.78.66.116 0 1 92870 
+54.146.133.157 2 2 7726 20180518061127
+202.46.48.131 1 1 0 20180511224143
+150.242.64.100 0 1 100252 
+49.14.80.181 1 40 4125643 20180509064622
+49.14.67.123 0 3 196408 
+125.209.235.170 2 7 306798 20180522215837
+54.205.80.89 2 2 7726 20180503060519
+197.93.147.45 0 1 32796 
+185.58.206.80 1 1 34832 20180523112151
+125.209.235.173 1 2 28649 20180527193933
+88.147.141.253 0 1 87114 
+150.129.102.74 0 1 23328 
+54.211.93.207 1 1 4564 20180501061903
+108.59.8.200 0 1 38158 
+125.209.235.183 0 3 139082 
+85.255.232.34 0 1 92870 
+174.129.182.128 1 1 4564 20180518064635
+103.47.153.176 3 123 10350791 20180512000803
+46.101.0.185 1 1 4564 20180503094624
+54.205.216.219 1 1 4564 20180511063203
+2409:4042:2202:ce64:2a2a:4d52:3176:fd6f 1 113 10119566 20180515051507
+157.34.29.191 0 1 284912 
+54.211.162.8 2 2 7726 20180508064440
+71.202.251.222 0 1 92870 
+85.93.91.51 1 1 4564 20180504110651
+49.35.33.160 0 1 160290 
+49.15.4.193 1 112 10090259 20180511005112
+122.166.184.105 0 2 192453 
+157.39.180.165 0 1 23328 
+59.94.210.35 1 113 10119566 20180505095400
+202.46.58.206 1 1 0 20180506000521
+18.237.128.226 1 1 4564 20180504015924
+190.117.65.166 1 116 10128498 20180503135442
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180501 17 139 11248354 12
+20180502 18 322 22641854 15
+20180503 16 326 22873919 11
+20180504 8 26 1775031 8
+20180505 15 410 35378825 10
+20180506 28 554 46961596 16
+20180507 22 288 23660838 14
+20180508 13 33 322696 10
+20180509 21 332 30540494 14
+20180510 7 14 542676 5
+20180511 13 371 31265606 11
+20180512 8 128 10368908 3
+20180513 15 21 547707 9
+20180514 4 122 10690193 3
+20180515 25 384 31844377 14
+20180516 15 600 41258491 10
+20180517 14 357 31442812 10
+20180518 10 54 2205571 8
+20180519 20 622 53639597 12
+20180520 16 19 329516 7
+20180521 11 14 326372 8
+20180522 16 273 22708366 12
+20180523 14 114 8369224 11
+20180524 7 125 6205311 6
+20180525 9 86 7021129 7
+20180526 11 27 885987 7
+20180527 5 144 13186435 5
+20180528 3 115 11171531 3
+20180529 14 177 12308769 12
+20180530 3 156 12908768 3
+20180531 13 22 660139 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30mn-1h 3
+0s-30s 241
+30s-2mn 23
+5mn-15mn 5
+15mn-30mn 3
+2mn-5mn 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 289 2221935 254 206
+/acm.html 56 197594 4 31
+/pccoeacm.html 31 119138 3 19
+/testingangular/ 8 4642 4 5
+/anantya/ 8 36142 8 8
+/anantya/checkmate.html 6 19542 6 6
+/fonts/glyphicons-halflings-regular.woff2 6 108168 1 4
+/esp.html 5 10510 3 4
+/anantya/assets/fonts/fontawesome-webfont.woff2 1 71896 1 1
+/acm-i-ss/ 1 1715 1 1
+END_SIDER

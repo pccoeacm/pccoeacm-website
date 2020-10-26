@@ -1,0 +1,102 @@
+.nav-item:hover{
+    border-top: 4px solid #ea0763;
+    color: white
+}
+#heading{
+    font-size: 2rem
+}
+@media (min-width: 544px) {  
+    #heading {font-size:2rem;} /*1rem = 16px*/
+}@media (min-width: 768px) {  
+    #heading {font-size:2.5rem;} /*1rem = 16px*/
+}@media (min-width: 992px) {  
+    #heading {font-size:3rem;} /*1rem = 16px*/
+}@media (min-width: 1200x) {  
+    #heading {font: size 3.5rem;} /*1rem = 16px*/
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid #24bde4;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #24bde4; 
+    }
+}
+
+
+.event-details{
+    padding-top: 40px;
+    font-weight: bold;
+    color: wheat;
+    font-size: 32px;
+    text-decoration: underline
+}
+.event-sub{
+    padding-top: 10px;
+    font-weight: bold;
+    color: wheat;
+    font-size: 22px;
+}
+
+.event-desc{
+    color: wheat;
+    padding-left: 20px
+}
+.list{
+    list-style-type: square;
+}
+
+
+/*#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    overflow: visible;
+    background: url('../img/rocket-launch2.gif') no-repeat center center;
+ }
+
+#content {
+    display: none;
+}*/
+
+.main_banner{
+    position: relative;
+}
+.sub_overlay{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}

@@ -1,0 +1,285 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201312 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2686                
+POS_VISITOR 6549                
+POS_DAY 6876                
+POS_DOMAIN 3294                
+POS_LOGIN 3536                
+POS_ROBOT 3691                
+POS_WORMS 3823                
+POS_EMAILSENDER 3954                
+POS_EMAILRECEIVER 4097                
+POS_SESSION 7214                
+POS_SIDER 7413                
+POS_FILETYPES 4232                
+POS_DOWNLOADS 4409                
+POS_OS 4457                
+POS_BROWSER 4522                
+POS_SCREENSIZE 4678                
+POS_UNKNOWNREFERER 4752                
+POS_UNKNOWNREFERERBROWSER 4839                
+POS_ORIGIN 4921                
+POS_SEREFERRALS 5056                
+POS_PAGEREFS 5200                
+POS_SEARCHWORDS 5412                
+POS_KEYWORDS 5564                
+POS_MISC 2350                
+POS_ERRORS 5623                
+POS_CLUSTER 3392                
+POS_SIDER_404 5731                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140106080255 1 0 9943311371927
+FirstTime 20131203134118
+LastTime 20131229083711
+LastUpdate 20140107071321 1 0 0 0 0
+TotalVisits 14                  
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 4 19 1614936 0 37 654909
+2 7 40 3884316 0 76 0
+3 10 38 7668888 0 93 2494229
+4 3 26 3181770 0 35 0
+5 0 0 0 0 16 42210
+6 0 0 0 0 0 0
+7 1 13 981858 0 12 0
+8 2 6 239290 0 46 314166
+9 2 18 1215976 0 24 0
+10 0 0 0 0 0 0
+11 6 25 3628826 1 83 2124598
+12 1 3 41861 0 51 646960
+13 4 46 2979693 1 37 153130
+14 1 1 5675 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 3 34 1215976 0 26 0
+23 5 26 1885240 0 71 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 48 294 28538630
+gb 1 1 5675
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 29 123312 0 0
+png 62 13070422 0 0
+html 49 277301 0 0
+jpg 80 9815287 0 0
+svg 18 5127760 0 0
+gif 57 130223 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+winnt 1
+linux 91
+win7 203
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+chrome31.0.1650.57 46
+msie5.0 1
+firefox20.0 91
+chrome31.0.1650.63 92
+firefox23.0 13
+chrome29.0.1547.22 52
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 13 13
+From1 0 0
+From2 0 0
+From3 1 1
+From4 35 281
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://campus.acm.org/public/chapters/geo_listing/index.cfm 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 62 6430202
+404 535 0
+301 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 9
+/images/members/nilima.jpg 16 http://pccoe.acm.org/members.html
+/js/cufon-replace.js 74 http://pccoe.hosting.acm.org/
+/js/Myriad_Pro_300.font.js 78 http://pccoe.hosting.acm.org/
+/images/logo.svg 59 http://pccoe.hosting.acm.org/
+/js/script.js 80 http://pccoe.hosting.acm.org/
+/js/cufon-yui.js 68 http://pccoe.hosting.acm.org/
+/images/members/aishwarya.png 16 http://pccoe.acm.org/members.html
+/js/Myriad_Pro_400.font.js 80 http://pccoe.hosting.acm.org/
+/js/jquery-1.4.2.min.js 64 http://pccoe.hosting.acm.org/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+182.72.250.146 28 138 16179794 20131229083711
+115.119.252.226 9 65 6048868 20131227070656
+118.102.200.146 6 39 3878016 20131226022337
+103.251.210.157 3 34 1215976 20131210221530
+101.63.1.88 2 18 1215976 20131211094555
+94.13.127.38 1 1 5675 20131206140356
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20131203 4 46 2979693 1
+20131206 1 1 5675 1
+20131210 8 54 2837212 2
+20131211 2 18 1215976 1
+20131212 3 26 3181770 1
+20131216 1 3 41861 1
+20131219 4 21 1594726 1
+20131220 5 27 1885240 1
+20131223 6 24 3628826 1
+20131226 2 18 2283290 1
+20131227 1 13 981858 1
+20131229 12 44 7908178 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+2mn-5mn 1
+15mn-30mn 2
+0s-30s 4
+30s-2mn 5
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 15 79450 12 3
+/members.html 8 43337 1 2
+/upcoming_events.html 5 24025 0 2
+/recent_events.html 5 31645 0 1
+/codeshef.html 2 11384 0 1
+/be_project_poster_pres.html 2 12452 0 0
+/about_acm_pccoe.html 2 12762 1 1
+/workshop_on_C_programming.html 2 10846 0 0
+/contact_us.html 2 12600 0 2
+/techno_week_2012.html 2 15574 0 0
+/techquiz.html 1 5597 0 0
+/acm_student_chapter_inaugration.html 1 5172 0 1
+/techquiz1.html 1 6713 0 1
+/ignite.html 1 5744 0 0
+END_SIDER

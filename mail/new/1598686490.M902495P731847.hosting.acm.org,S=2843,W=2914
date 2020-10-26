@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id mPLNMxoFSl/HKgsABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Sat, 29 Aug 2020 03:34:50 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Sat, 29 Aug 2020 03:34:50 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1kBvNy-0037OR-Lk
+	for pccoehos@hosting.acm.org; Sat, 29 Aug 2020 03:34:50 -0400
+X-Failed-Recipients: websupport@pccoe.acm.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1kBvNy-0037OC-A0@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1598686490-eximdsn-1876559503
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kBvNy-0037OR-Lk@hosting.acm.org>
+Date: Sat, 29 Aug 2020 03:34:50 -0400
+
+--1598686490-eximdsn-1876559503
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  websupport@pccoe.acm.org
+    The mail server could not deliver mail to websupport@pccoe.acm.org.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1598686490-eximdsn-1876559503
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;websupport@pccoe.acm.org
+Status: 5.0.0
+
+--1598686490-eximdsn-1876559503
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1kBvNy-0037OC-A0
+	for websupport@pccoe.acm.org; Sat, 29 Aug 2020 03:34:50 -0400
+To: websupport@pccoe.acm.org
+Subject: Contact Form - Свитмода7 Женская одежда|Sweetmoda7 Белорусский трикотаж|Свитмода7 Белорусская женская одежда размеры от 40 до 80
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 178.172.147.237
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 178.172.147.237
+From: svit12moda@yandex.by 
+Reply-To: patilswap33.sp.sp@gmail.com 
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+X-Mailer: PHP/5.6.40
+Message-Id: <E1kBvNy-0037OC-A0@hosting.acm.org>
+Date: Sat, 29 Aug 2020 03:34:50 -0400
+
+From: Eloisafoona 
+ Message: Модная женская одежда Свитмода7|Молодежная женская одежда Свитмода7|Женская одежда больших размеров Свитмода7| 
+ 
+ 
+
+
+--1598686490-eximdsn-1876559503--

@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id IARjN8qjZF9mzT0ABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Fri, 18 Sep 2020 08:10:50 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Fri, 18 Sep 2020 08:10:50 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1kJFE2-00Gzh4-OK
+	for pccoehos@hosting.acm.org; Fri, 18 Sep 2020 08:10:50 -0400
+X-Failed-Recipients: grambon@web.de
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1kJFE0-00GzgL-MB@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1600431050-eximdsn-594488907
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kJFE2-00Gzh4-OK@hosting.acm.org>
+Date: Fri, 18 Sep 2020 08:10:50 -0400
+
+--1600431050-eximdsn-594488907
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  grambon@web.de
+    host mx-ha03.web.de [212.227.15.17]
+    SMTP error from remote mail server after RCPT TO:<grambon@web.de>:
+    550 Requested action not taken: mailbox unavailable
+
+--1600431050-eximdsn-594488907
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;grambon@web.de
+Status: 5.0.0
+Remote-MTA: dns; mx-ha03.web.de
+Diagnostic-Code: smtp; 550 Requested action not taken: mailbox unavailable
+
+--1600431050-eximdsn-594488907
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1kJFE0-00GzgL-MB
+	for grambon@web.de; Fri, 18 Sep 2020 08:10:48 -0400
+To: grambon@web.de
+Subject: PCCOE ACM Student Chapter Support - Thanks for Contacting Us
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 156.146.63.185
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 156.146.63.185
+From: websupport@pccoe.acm.org 
+Reply-To: grambon@web.de 
+Message-Id: <E1kJFE0-00GzgL-MB@hosting.acm.org>
+Date: Fri, 18 Sep 2020 08:10:48 -0400
+
+Hi Josephslems, 
+
+Thanks for reaching out! We would be more than happy to help you.
+We have received your request regarding - "In drei Tagen vеrdiеnte ich 27.543 Dоllar.". We will look into the matter and revert back to you as soon as possible.
+
+Thanks,
+Web Support
+PCCOE ACM Student Chapter
+
+--1600431050-eximdsn-594488907--

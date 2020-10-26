@@ -1,0 +1,507 @@
+Return-Path: <SRS0=nFAqGm=KD=scoutcamp.bounces.google.com=3NbpQWw4KCswyAC0Bw-569w73Gy66y3w.u64UWkS_JQ-JR7uu6w.su4.69y@pccoe.acm.org>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP id aEP1J1+6UFsGkCYABE4D5A
+	for <pccoehos@hosting.acm.org>; Thu, 19 Jul 2018 12:20:47 -0400
+Return-path: <SRS0=nFAqGm=KD=scoutcamp.bounces.google.com=3NbpQWw4KCswyAC0Bw-569w73Gy66y3w.u64UWkS_JQ-JR7uu6w.su4.69y@pccoe.acm.org>
+Envelope-to: CESA_18-19@pccoe.acm.org
+Delivery-date: Thu, 19 Jul 2018 12:20:47 -0400
+Received: from mail-ua0-f199.google.com ([209.85.217.199]:42614)
+	by hosting.acm.org with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89_1)
+	(envelope-from <3NbpQWw4KCswyAC0Bw-569w73Gy66y3w.u64UWkS_JQ-JR7uu6w.su4.69y@scoutcamp.bounces.google.com>)
+	id 1fgBfa-00AbT6-HG
+	for CESA_18-19@pccoe.acm.org; Thu, 19 Jul 2018 12:20:47 -0400
+Received: by mail-ua0-f199.google.com with SMTP id m10-v6so3037610uao.9
+        for <CESA_18-19@pccoe.acm.org>; Thu, 19 Jul 2018 09:20:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:precedence:list-unsubscribe:feedback-id
+         :list-id:message-id:date:subject:from:to;
+        bh=ajTlBIdnH0rDw56FuV2ekWnDBaToVpcAuq3O3vLOkPA=;
+        b=PU4sOe/3uFvPP0v3ipGGzwSOWhhcnWAl9bdl/6PVZhLDvKYz5bmER+IH15WMHL8uR5
+         4uYh9LMZMw0+9tPWHi24Q1rPX2uYWfxZs50Hp5I0iyzmSn4eAKNk3BvfG2XVd5OLhdYg
+         WjqoizRlot73MONe2vUFICKJi6xzsLhAjxT+00AQYqF/Ccfek/qgh5uas2YguoJCygl+
+         b1i4NUTnWfJO8fMccQAOCBVXpJZcmVoJ69jB/TmlQVf67TjSOUcIrWfdN+wbEthYndBa
+         l7RSuv3mTEFSlwulQds4l709PfpuNLWiCdIj7tGYFe6RV8annz+SqZt6MQO49jYxMO5D
+         NEiA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:precedence
+         :list-unsubscribe:feedback-id:list-id:message-id:date:subject:from
+         :to;
+        bh=ajTlBIdnH0rDw56FuV2ekWnDBaToVpcAuq3O3vLOkPA=;
+        b=JZgSAHzGHN0GcMBjxgZjTzQwWylNPHlmmbQwk/nUyma16gX3kZJ4PRZY5xtj1J/QYl
+         rYhfQbD8Luo9Dj7bUQdm+IyffLUu+5OQGgOzyC05uFy0yZoo3qpB6ZWZyj2S+BhVhS8k
+         1gpbZlVwPgtH3XJQyvk6AXXgusTdfEKAF4EzxcIA9UZxPwKq3h7RHx5Q8JyBv0Txd2Rz
+         PX/HYhbFY6GKiffWAn8YBYM9J/Bb7f8T0rdgffZ9hTUirKLK0NJoPW+BFtiJy9f/Vigv
+         DD1oMXTMkSHqK9wthBa4ylEMfnJW9vxLHPwAkZ6xMuMI9TWWD1mvgBHFGQhmme247mSD
+         /G2Q==
+X-Gm-Message-State: AOUpUlGZSy1HIsjFkj6lFjlgEwt/TOkiBMX3wcXzAkVco8X2MYatnyiY
+	3hOJLRnCscLPX2Q=
+X-Google-Smtp-Source: AAOMgpfcS3PsM7ohfkuTLCYh0gw6FPF2WTLQwZVvtso1mspXUMWx0Me3g8W8c9o2IZtG1Md0a/Too6M=
+MIME-Version: 1.0
+X-Received: by 2002:a1f:4c7:: with SMTP id 190-v6mr6583831vke.63.1532017205098;
+ Thu, 19 Jul 2018 09:20:05 -0700 (PDT)
+Reply-To: The G Suite Team <gsuite-noreply@google.com>
+X-Google-Id: 238588
+Precedence: bulk
+List-Unsubscribe: <mailto:list-unsubscribe@google.com?subject=optout-APDk4sOygY3LbO_cbTbfDkw3Zjm6jyNBR7Y1FIF_cJ02RqllEHKmvOfS4EQuF9dbZ1WM3m0_Rg-token&body=optout-APDk4sOygY3LbO_cbTbfDkw3Zjm6jyNBR7Y1FIF_cJ02RqllEHKmvOfS4EQuF9dbZ1WM3m0_Rg-token>,
+ <https://www.google.com/appserve/mkt/optout/APDk4sOygY3LbO_cbTbfDkw3Zjm6jyNBR7Y1FIF_cJ02RqllEHKmvOfS4EQuF9dbZ1WM3m0_Rg?hl=en>
+Feedback-ID: Len:D2002018:C244324:gamma
+List-Id: <28b35ca9a0a1f9669db1644b43c9998253c97759.google.com>
+Message-ID: <4b8bc5c22babfd9e.1532017204465.110341296.244324.en.71fd32852003d7ec@google.com>
+Date: Thu, 19 Jul 2018 16:20:05 +0000
+Subject: Create a professional online presence with Gmail, Groups and more
+From: The G Suite Team <gsuite-noreply@google.com>
+To: CESA_18-19@pccoe.acm.org
+Content-Type: multipart/alternative; boundary="0000000000004cbaa605715c8dc3"
+
+--0000000000004cbaa605715c8dc3
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RyBTdWl0ZQ0KDQotLS0tLS0tLS0tLQ0KDQpTdGF5IHVwIHRvIGRhdGUgb24gZW1haWwgYWNyb3Nz
+IGRldmljZXMgd2l0aCBHIFN1aXRlLiBTZXQgdXAgZGV2aWNlIMK7ICANCjxodHRwOi8vd3d3Lmdv
+b2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQVBEazRzTTM0UFJfUlJXWHlMUTdaVUdqQllTMU1UTlJQ
+OVM2MS1Ec2RMUmR3cExEdWNucGdIc1MzOXZNRTZOeFV1b1c2VUFBQzVUc0ZxdGVvVFZMQy10MmpV
+Z3VKRUUtMWVqSHdmejg+DQoNCkdldCB5b3VyIGJ1c2luZXNzIGVtYWlsIG9uIHlvdXIgbW9iaWxl
+IGRldmljZS4NCg0KQ29ubmVjdCBvbiB0aGUgZ28gd2l0aCB0ZWFtbWF0ZXMgYW5kIGN1c3RvbWVy
+cyBieSBhZGRpbmcgeW91ciBwY2NvZS5hY20ub3JnICANCmFjY291bnQgdG8geW91ciBwaG9uZSBv
+ciB0YWJsZXQuDQoNClNldCB1cCBHbWFpbCBvbiB5b3VyIHBob25lIG9yIHRhYmxldA0KDQpEb3du
+bG9hZCBvbiBHb29nbGUgUGxheSAgDQo8aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBw
+cy9kZXRhaWxzP2lkPWNvbS5nb29nbGUuYW5kcm9pZC5nbT4NCg0KRG93bmxvYWQgb24gQXBwbGUg
+QXBwcyBTdG9yZSAgDQo8aHR0cHM6Ly9pdHVuZXMuYXBwbGUuY29tL2FwcC9nbWFpbC9pZDQyMjY4
+OTQ4MD9tdD04Pg0KDQpTdGF5IHByb2R1Y3RpdmUgd2hlcmV2ZXIsIHdoZW5ldmVyDQoNCkJlZm9y
+ZSB5b3VyIHRyaWFsIGVuZHMsIGdldCB0aGUgZnVsbCBHIFN1aXRlIGV4cGVyaWVuY2UgYnkgc3lu
+Y2luZyBHbWFpbCAgDQphY3Jvc3MgeW91ciBkZXZpY2VzLiBUbyBnZXQgc3RhcnRlZCwgc2V0IHVw
+IHlvdXIgYnVzaW5lc3MgR21haWwgYW5kICANCkNhbGVuZGFyIG9uIHlvdXIgcGhvbmUgb3IgdGFi
+bGV04oCUZXZlbiBpZiB5b3UgYWxyZWFkeSB1c2UgaXQgZm9yIHlvdXIgIA0KcGVyc29uYWwgYWNj
+b3VudC4NCg0KLSBBbGwgeW91ciBlbWFpbCBpbiBvbmUgcGxhY2U6IEFkZCB5b3VyIGJ1c2luZXNz
+IEdtYWlsIGFjY291bnQgdG8geW91ciAgDQpwaG9uZSBhbmQgc3dpdGNoIGVhc2lseSBiZXR3ZWVu
+IGJ1c2luZXNzIGFuZCBwZXJzb25hbCBlbWFpbC4NCg0KLSBTdGF5IGluIHN5bmM6IEdtYWlsIHVw
+ZGF0ZXMgYXV0b21hdGljYWxseS4NCg0KLSBQcm90ZWN0IHlvdXIgZGF0YTogSWYgeW91ciBkZXZp
+Y2UgZ2V0cyBzdG9sZW4gYW5kIHlvdSd2ZSBzZXQgdXAgdGhlIEcgIA0KU3VpdGUgRGV2aWNlIFBv
+bGljeSAgDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9hcHBzZXJ2ZS9ta3QvcC9BUERrNHNPamVR
+c3J6VjlrQ2tDajlWZHRDWGxndTVkV0FBSE13dkxSd1pKZWJKNl83SUNSYUEwOVM0S3lwV2VJTlVj
+YTdWaDB6Ykt6b0FGQnJuTGxtcGhDSXRmT2ZBQ3Nqb3FBNkNQcmJTNTljcVQ0elZMQ19HQUkyZVFx
+amtpUEtxaTRHY3E1Z2NOcWdNOXdQQTJhN29TcFdIVy1vX0lrX2U1QkV2U0RQMHozdEotU0JvRUtB
+bXQ3YzJndEEwUzhsRm8+ICANCihBbmRyb2lkKSBvciBHb29nbGUgU3luYyAgDQo8aHR0cHM6Ly93
+d3cuZ29vZ2xlLmNvbS9hcHBzZXJ2ZS9ta3QvcC9BUERrNHNOUm83dEo5d0k4NWt6TFJYQV9oaG45
+NmtQM1F5NUJhYlpnLXY0cGlNNUczT3lleXBFT0NPZ01ocklOSW15QXdPVTBCQjctVV9YUlFTTVA5
+YWhOc25PVVRCV0xRa1hDZ0xRY0RpMi1GOEpXWU1CZEdybUNIb1hyQzB2cExPZ0Y+ICANCihpT1Mp
+LCB5b3UgY2FuIGxvY2sgb3Igd2lwZSBpdCByZW1vdGVseSBmcm9tIHRoZSBhZG1pbiBjb25zb2xl
+Lg0KDQpNb3JlIHRvIGNvbWUNCg0KTm93IHlvdSdyZSBhbGwgc2V0IHRvIGdldCB3b3JrIGRvbmUg
+ZnJvbSBhbnl3aGVyZSBhbmQgc3dpdGNoIHNlYW1sZXNzbHkgIA0KYmFjayB0byB5b3VyIHBlcnNv
+bmFsIGFjY291bnQuIFlvdSBjYW4gYWxzbyB1c2UgRyBTdWl0ZSBvbiB5b3VyIEJsYWNrQmVycnkg
+IA0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQVBEazRzT1VHLUthamZW
+aTZ3R3hlUW13V095M1htN1ZVRzUtYzgyanBIUDBsdFh5dVlGOXd6aVRRNmVPUGZLRU9GMkpVLXNk
+bnZVTGpidEptY3k3QmVxbHVHX2ZybG9lS1YtOXJGV3R2elBET3BRWFR2QllRVEN1Ti03WG1VaXdI
+WUhJcVZhMGZzWG0+ICANCm9yIFdpbmRvd3MgTW9iaWxlICANCjxodHRwczovL3d3dy5nb29nbGUu
+Y29tL2FwcHNlcnZlL21rdC9wL0FQRGs0c09RRTMxblNXbW5xbWdpQTh2YlNKTnQyeExiTllGS1lY
+dlVlSlVWZU9uRmhTTFpnRXVzeU42dHZNQllwNEpJWkhUYzlHTGpKTHhiYnNtVmQzcXVBLWtlSnhj
+VUxBNVFNZVdzTVQ1bDZoQzM5S2RraUhERjFQcUs5N1U+ICANCmRldmljZS4NCg0KTmVlZCBoZWxw
+PyBDYWxsIG91ciBzdXBwb3J0IHRlYW0gYXQgMS04NzctMzU1LTU3ODcgb3IgdmlzaXQgb3VyIEhl
+bHAgQ2VudGVyICANCjxodHRwczovL3d3dy5nb29nbGUuY29tL2FwcHNlcnZlL21rdC9wL0FQRGs0
+c05RRTEzX1R3UVlILThNSDF5Yzlza1cyVWNodmVLQ3FTWHpLX2xZRElkVW1ZeFpxRklMTE5OZDU0
+SGlTRkllcGJNZ1Z2Nkk0cDEtUmZzOHdXb0VWOFd4YXRHWERCUGpObG14N1JoVnNjQnhzNllqNkFa
+WGtZRFRWM3N6WHhMek1kOXo5aDZDNFE+LiAgDQpBbHNvLCB2aXNpdCB0aGUgUXVpY2sgRml4ZXMg
+SGVscCBDZW50ZXIgIA0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQVBE
+azRzTXZPcnlQSUk5Wld1RHVKOEJFSDQ5MkRoc2RXSHlwQW9oS3ZKR1NQTG1QTDVrUTJTdm01dVNh
+YUxoQnVQWjB5UWM4RE96T2FVTGJRZndtaE0zSnA3WnhsbjVHNmc+ICANCmZvciBxdWljayBzb2x1
+dGlvbnMgdG8gc29tZSBjb21tb24gaXNzdWVzLg0KDQpTaW5jZXJlbHksDQpUaGUgRyBTdWl0ZSBU
+ZWFtDQoNCiJPdXIgZW1wbG95ZWVzIGNhbiBiZSBqdXN0IGFzIHByb2R1Y3RpdmUgb3V0c2lkZSB0
+aGUgb2ZmaWNlIGFzIHRoZXkgY2FuICANCmluc2lkZSBpdC4iDQoNCuKAkyBFUFMgQ29tbXVuaWNh
+dGlvbnMsIFdvYnVybiwgTWFzcy4NCg0KLS0tLS0tLS0tLQ0KDQooYykgMjAxOCBHb29nbGUgTExD
+IDE2MDAgQW1waGl0aGVhdHJlIFBhcmt3YXksIE1vdW50YWluIFZpZXcsIENBIDk0MDQzDQoNClRo
+aXMgZW1haWwgd2FzIHNlbnQgdG8gQ0VTQV8xOC0xOUBwY2NvZS5hY20ub3JnIGJlY2F1c2UgeW91
+IGluZGljYXRlZCB0aGF0ICANCnlvdSdkIGxpa2UgdG8gcmVjZWl2ZSB1cGRhdGVzIGFuZCB0aXBz
+IGFib3V0IHlvdXIgRyBTdWl0ZSBhY2NvdW50LiBJZiB5b3UgIA0KZG9uJ3Qgd2FudCB0byByZWNl
+aXZlIHN1Y2ggZW1haWxzIGluIHRoZSBmdXR1cmUsIHBsZWFzZSB1bnN1YnNjcmliZSBoZXJlOiAg
+DQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9hcHBzZXJ2ZS9ta3Qvb3B0b3V0L0FQRGs0c095Z1kz
+TGJPX2NiVGJmRGt3M1pqbTZqeU5CUjdZMUZJRl9jSjAyUnFsbEVIS212T2ZTNEVRdUY5ZGJaMVdN
+M20wX1JnP2hsPWVuPi4gIA0KWW91IGNhbiBhbHNvIGNoYW5nZSB5b3VyIHByZWZlcmVuY2VzIG9u
+IHlvdXIgYWNjb3VudCdzIHByb2ZpbGUgcGFnZSBieSAgDQpsb2dnaW5nIGluIGF0IGFkbWlu77u/
+Lu+7v2dvb2dsZe+7vy7vu79jb20uDQo=
+--0000000000004cbaa605715c8dc3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" dir=3D"LTR">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>G Suite</title>
+<style type=3D"text/css">
+.ExternalClass {
+  width:100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+body {
+  -webkit-text-size-adjust:none;
+  -ms-text-size-adjust:none;
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  mso-table-lspace:0pt;
+  mso-table-rspace:0pt;
+}
+table td {
+  border-collapse:collapse;
+}
+img {
+  outline:none;
+  text-decoration:none;
+  -ms-interpolation-mode: bicubic;
+}
+a img {
+  border:none;
+}
+p {
+  margin:0;
+  padding:0;
+  margin-bottom:0;
+}
+.forApple a {
+  color: #666666 !important;
+  text-decoration: none !important;
+}
+</style>
+<!--[if lte mso 7]>
+<style>
+/* Target Outlook 2003 to fix logo max width */
+#logo {
+ width: 243px !important;
+ height: 29px !important;
+}
+</style>
+<![endif]-->
+</head>
+<body style=3D"background-color:#fafafa;margin:auto;" bgcolor=3D"#fafafa">
+
+<div id=3D"wrapper" style=3D"margin:0 auto; padding:0;background-color:#faf=
+afa;" bgcolor=3D"#fafafa">
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" bgcolor=3D"#ffffff" style=3D"background-color:#ffffff;width:600=
+px;max-width:600px;margin:auto;">
+    <tr>
+  	<td align=3D"center">
+<!-- Target Outlook 2003 -->
+<!--[if lte mso 7]>
+<table width=3D"558" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse:collapse; table-width:fixed;" align=3D"center">
+<tr><td style=3D"width:558px !important;">
+<![endif]-->
+<!-- Target Outlook 2007 and 2010 -->
+<!--[if gte mso 9]>
+<table width=3D"558" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse:collapse; table-width:fixed;" align=3D"center">
+<tr><td style=3D"width:558px !important;">
+<![endif]-->
+	  	<div style=3D"max-width: 558px; margin: 0 auto; padding: 0 10px;">
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+align=3D"center" style=3D"max-width: 558px; padding: 0; margin: 0; font-fam=
+ily:Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; line-=
+height:18px; color:#444444; text-align: left;">
+				=09
+          <tr>
+				    <td width=3D"100%" style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-weight:normal; font-size:12px; line-height:20px; color:#444444; pad=
+ding: 5px 0;">
+				    		Stay up to date on email across devices with G Suite. <a href=3D"=
+http://www.google.com/appserve/mkt/p/APDk4sM34PR_RRWXyLQ7ZUGjBYS1MTNRP9S61-=
+DsdLRdwpLDucnpgHsS39vME6NxUuoW6UAAC5TsFqteoTVLC-t2jUguJEE-1ejHwfz8" style=
+=3D"color:#1155cc; text-decoration:none">Set up device =C2=BB</a>
+				    </td>
+				  </tr>
+         =20
+            <tr>
+        		<td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding=
+: 22px 0 18px; border-collapse:collapse; border-bottom: 1px solid #dcdcdc; =
+mso-line-height-rule: exactly; line-height: 100%;">
+              <img src=3D"https://services.google.com/fh/files/emails/g_sui=
+te_logo.png" height=3D"28" title=3D"G Suite" alt=3D"G Suite" style=3D"displ=
+ay: block;">
+</td>
+            </tr>
+			    <tr>
+			    	<td width=3D"100%" style=3D"padding: 44px 0 0;">
+				    	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#ffffff" style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-weight:normal; font-size:13px; line-height:18px; color:#444444; bac=
+kground-color:#ffffff; padding: 0; margin: 0;">
+					    =09
+<tr>
+  <td width=3D"100%" align=3D"center" valign=3D"top" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-weight:normal; font-size:26px; line-heigh=
+t:32px; color:#1a1a1a; font-weight: normal;">
+    Get your business email on your mobile device.
+  </td>
+</tr>
+<tr>
+  <td width=3D"100%" align=3D"center" valign=3D"top" style=3D"padding: 15px=
+ 0 0; font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-si=
+ze:15px; line-height:22px; color:#444444;">
+    Connect on the go with teammates and customers by adding your <span sty=
+le=3D"white-space: nowrap;">&#65279;p&#65279;c&#65279;c&#65279;o&#65279;e&#=
+65279;.&#65279;a&#65279;c&#65279;m&#65279;.&#65279;o&#65279;r&#65279;g</spa=
+n> account to your phone or tablet.
+  </td>
+</tr>
+<tr>
+  <td width=3D"100%" align=3D"center" style=3D"padding: 30px 0; border-coll=
+apse:collapse; border-bottom: 1px solid #dcdcdc;">
+   =20
+    <img src=3D"http://www.gstatic.com/gmktg/mtv-img/gapps_intrial_hero_upt=
+odate.png" alt=3D"Tablet and Mobile Devices" title=3D"Tablet and Mobile Dev=
+ices" width=3D"100%" border=3D"0" style=3D"display: block; max-width: 556px=
+;">
+   =20
+  </td>
+</tr>
+<tr>
+  <td>
+		<table width=3D"370px" align=3D"left">
+		<tr>
+		  <td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding: 20px=
+ 20px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; =
+font-size:16px; line-height:19px; color:#333333;">
+		    Stay productive wherever, whenever
+		  </td>
+		</tr>
+		<tr>
+		  <td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding: 10px=
+ 20px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-weight:normal=
+; font-size:13px; line-height:18px; color:#333333;">
+		    Before your trial ends, get the full G Suite experience by syncing Gm=
+ail across your devices. To get started, set up your business Gmail and Cal=
+endar on your phone or tablet&mdash;even if you already use it for your per=
+sonal account.
+		  </td>
+		</tr>
+		</table>
+		<table width=3D"20" align=3D"left">
+		  <tr>
+		    <td class=3D"empty">&nbsp;</td>
+		  </tr>
+		</table>
+		   =20
+    <table width=3D"180" align=3D"left" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" valign=3D"top">
+      <tr>
+        <td width=3D"100%" style=3D"padding: 20px 0 0;">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"=
+left" style=3D"font-family:Arial, sans-serif; margin:0; padding:0;border-co=
+llapse:collapse;">
+            <tr height=3D"36">
+          		<td class=3D"btn-left" width=3D"3" height=3D"36" bgcolor=3D"#33=
+69E8">
+          			<img src=3D"http://www.gstatic.com/gmktg/mtv-img/left_of_butto=
+n.png" style=3D"display:block;" width=3D"3" height=3D"36" border=3D"0">
+          		</td>
+          		<td bgcolor=3D"#3369E8">
+          			<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center">
+          				<tr>
+          					<td width=3D"180" height=3D"36" class=3D"btn-mid" valign=3D"=
+middle" align=3D"center" background=3D"http://www.gstatic.com/gmktg/mtv-img=
+/middle_of_button.png" style=3D"background-repeat:repeat-x; background-imag=
+e:url('http://www.gstatic.com/gmktg/mtv-img/middle_of_button.png');">
+          						<!--[if gte mso 9]>
+          						  <v:rect style=3D"width:180px;height:36px;" strokecolor=3D=
+"none"><v:fill type=3D"tile" src=3D"http://www.gstatic.com/gmktg/mtv-img/mi=
+ddle_of_button.png" /></v:fill></v:rect>
+          				      <v:shape id=3D"theText" style=3D"display:inline-block; =
+position:relative; height:36px; width:180px;margin:0 auto; border:0; z-inde=
+x:2; text-align:center; line-height:36px;">
+          						<![endif]-->
+          						<table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"margin-top:0; margin-right:0; margin-left:0; padding=
+-top:0; padding-right:0; padding-bottom:0; padding-left:0;border-collapse:c=
+ollapse;">
+          							<tr>
+          								<td width=3D"180" height=3D"20" align=3D"center" valign=
+=3D"middle" style=3D"text-align:center; line-height:20px;">
+          									<a href=3D"http://www.google.com/appserve/mkt/p/APDk4sP0=
+cxIOU3fOfGEJMnAwGQ6w_ZU3IAy8iKyCI6WzCUkOc5VW84Fwqy5dfu9IfEHjJeetWP4aBkW8gWG=
+0r2Wv0xqOFIUALeDVEEo4F8XYZJzpV8wgbCuG4Po" class=3D"thebtn" style=3D"color:#=
+ffffff; display:block; font-family:Arial, Helvetica, sans-serif; font-size:=
+13px; font-weight:normal; margin-bottom:0; margin-left:0; margin-right:0; m=
+argin-top:0; padding-bottom:0; padding-left:0; padding-right:0; padding-top=
+:0; text-align:center; text-decoration:none" align=3D"center">Learn more</a=
+>
+          								</td>
+          							</tr>
+          						</table>
+          						<!--[if gte mso 9]>
+          							</v:shape>
+          						<![endif]-->
+          					</td>
+          				</tr>
+          			</table>
+          		</td>
+          		<td class=3D"btn-right" width=3D"3" height=3D"36" bgcolor=3D"#3=
+369E8">
+          			<img src=3D"http://www.gstatic.com/gmktg/mtv-img/right_of_butt=
+on.png" width=3D"3" height=3D"36" border=3D"0" style=3D"display:block;">
+          		</td>
+          	</tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding: =
+10px 0 0; font-family:Arial, Helvetica, sans-serif; font-weight:normal; fon=
+t-size:13px; line-height:18px; color:#888888;">
+          Set up G Suite on your devices
+        </td>
+      </tr>
+    </table>
+	</td>
+</tr>
+
+<tr>
+  <td class=3D"empty" height=3D"10">&nbsp;</td>
+</tr>
+<table width=3D"370" align=3D"left">
+<tr>
+  <td class=3D"bullet-list">
+    <h1 style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif; f=
+ont-size:13px; font-weight:bold; line-height:18px">Android:</h1>
+    <ol>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Touch <strong>Settin=
+gs &gt; Add account &gt; Google</strong>.</li>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Select <strong>Exist=
+ing</strong> and enter your <span style=3D"white-space: nowrap;">&#65279;p&=
+#65279;c&#65279;c&#65279;o&#65279;e&#65279;.&#65279;a&#65279;c&#65279;m&#65=
+279;.&#65279;o&#65279;r&#65279;g</span> email address and password.</li>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Touch <strong>OK</st=
+rong> to agree to the Terms of Service.</li>
+    </ol>
+  </td>
+</tr>
+<tr>
+  <td class=3D"bullet-list">
+    <h1 style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif; f=
+ont-size:13px; font-weight:bold; line-height:18px">iOS:</h1>
+    <ol>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Open <strong>Setting=
+s</strong>, then select <strong>Mail, Contacts, Calendars</strong>. Tap <st=
+rong>Add Account</strong>, then <strong>Exchange</strong>.</li>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Provide your <span s=
+tyle=3D"white-space: nowrap;">&#65279;p&#65279;c&#65279;c&#65279;o&#65279;e=
+&#65279;.&#65279;a&#65279;c&#65279;m&#65279;.&#65279;o&#65279;r&#65279;g</s=
+pan> email address and password, and enter <strong>m&#65279;.&#65279;google=
+&#65279;.&#65279;com</strong> as the <strong>Server</strong>.</li>
+      <li style=3D"color:#333333; font-family:Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight:normal; line-height:18px">Select the Google se=
+rvices you want to sync.</li>
+    </ol>
+  </td>
+</tr>
+
+</table>
+<!--[if mso]>
+     <table width=3D"100%" align=3D"left">
+ <![endif]-->
+ <!--[if !mso]> <!---->
+     <table width=3D"100%" >
+ <!-- <![endif]-->
+
+<tr>
+  <td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding: 10px 0=
+ 40px; font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-s=
+ize:13px; line-height:18px; color:#333333; border-collapse: collapse; borde=
+r-bottom: 1px solid #dcdcdc;">
+   =20
+    Now you're all set to get work done from anywhere and switch seamlessly=
+ back to your personal account. You can also use G Suite on your <a href=3D=
+"https://www.google.com/appserve/mkt/p/APDk4sOUG-KajfVi6wGxeQmwWOy3Xm7VUG5-=
+c82jpHP0ltXyuYF9wziTQ6eOPfKEOF2JU-sdnvULjbtJmcy7BeqluG_frloeKV-9rFWtvzPDOpQ=
+XTvBYQTCuN-7XmUiwHYHIqVa0fsXm" style=3D"color:#1155cc; text-decoration:none=
+">BlackBerry</a> or <a href=3D"https://www.google.com/appserve/mkt/p/APDk4s=
+OQE31nSWmnqmgiA8vbSJNt2xLbNYFKYXvUeJUVeOnFhSLZgEusyN6tvMBYp4JIZHTc9GLjJLxbb=
+smVd3quA-keJxcULA5QMeWsMT5l6hC39KdkiHDF1PqK97U" style=3D"color:#1155cc; tex=
+t-decoration:none">Windows Mobile</a> device.<br><br>Need help? Call our su=
+pport team at <span style=3D"white-space: nowrap;">&#65279;1&#65279;-&#6527=
+9;8&#65279;7&#65279;7&#65279;-&#65279;3&#65279;5&#65279;5&#65279;-&#65279;5=
+&#65279;7&#65279;8&#65279;7</span> or visit our <a href=3D"https://www.goog=
+le.com/appserve/mkt/p/APDk4sNQE13_TwQYH-8MH1yc9skW2UchveKCqSXzK_lYDIdUmYxZq=
+FILLNNd54HiSFIepbMgVv6I4p1-Rfs8wWoEV8WxatGXDBPjNlmx7RhVscBxs6Yj6AZXkYDTV3sz=
+XxLzMd9z9h6C4Q" style=3D"color:#1155cc; text-decoration:none">Help Center</=
+a>. Also, visit the <a href=3D"https://www.google.com/appserve/mkt/p/APDk4s=
+MvOryPII9ZWuDuJ8BEH492DhsdWHypAohKvJGSPLmPL5kQ2Svm5uSaaLhBuPZ0yQc8DOzOaULbQ=
+fwmhM3Jp7Zxln5G6g" style=3D"color:#1155cc; text-decoration:none">Quick Fixe=
+s Help Center</a> for quick solutions to some common issues.<br><br> Sincer=
+ely, <br> <strong>The G Suite Team</strong>
+   =20
+  </td>
+</tr>
+
+               =20
+							</table>
+					=09
+				=09
+					<tr>
+				    <td width=3D"100%" style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-weight:normal; font-size:10px; line-height:14px; color:#666666; pad=
+ding: 20px 0 0;padding-bottom:10px;">
+				    =09
+              <span class=3D"forApple">&copy; 2018
+             =20
+                Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 940=
+43
+              </span>
+				    	<br><br>
+				    =09
+
+
+This email was sent to <span style=3D"white-space: nowrap;">&#65279;C&#6527=
+9;E&#65279;S&#65279;A&#65279;_&#65279;1&#65279;8&#65279;-&#65279;1&#65279;9=
+&#65279;@&#65279;p&#65279;c&#65279;c&#65279;o&#65279;e&#65279;.&#65279;a&#6=
+5279;c&#65279;m&#65279;.&#65279;o&#65279;r&#65279;g</span> because you indi=
+cated that you'd like to receive updates and tips about your G Suite accoun=
+t. If you don't want to receive such emails in the future, please unsubscri=
+be here: <div style=3D"word-break:break-all"><a href=3D"https://www.google.=
+com/appserve/mkt/optout/APDk4sOygY3LbO_cbTbfDkw3Zjm6jyNBR7Y1FIF_cJ02RqllEHK=
+mvOfS4EQuF9dbZ1WM3m0_Rg?hl=3Den" style=3D"color:#1155cc; text-decoration:no=
+ne">https://www.google.com/appserve/mkt/optout/APDk4sOygY3LbO_cbTbfDkw3Zjm6=
+jyNBR7Y1FIF_cJ02RqllEHKmvOfS4EQuF9dbZ1WM3m0_Rg?hl=3Den</a>.</div> You can a=
+lso change your preferences on your account's profile page by logging in at=
+ admin&#65279;.&#65279;google&#65279;.&#65279;com.
+
+				    </td>
+				  </tr>
+				</table>
+	  =09
+<!--[if lte mso 7]>
+</td></tr></table>
+<![endif]-->
+<!--[if gte mso 9]>
+</td></tr></table>
+<![endif]-->
+		</td>
+	</tr>
+</table>
+<img height=3D"1" src=3D"https://www.google.com/appserve/mkt/img/APDk4sOGBF=
+LAUhNAOJD4r39ut96N4GvEdmBifbe9ARfEISxv.gif" width=3D"3">
+</div>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--0000000000004cbaa605715c8dc3--

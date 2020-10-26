@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id hqX/LLwkAF8PaAAABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Sat, 04 Jul 2020 02:42:04 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Sat, 04 Jul 2020 02:42:04 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1jrbsC-0006wF-I6
+	for pccoehos@hosting.acm.org; Sat, 04 Jul 2020 02:42:04 -0400
+X-Failed-Recipients: websupport@pccoe.acm.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1jrbsC-0006vw-90@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1593844924-eximdsn-1191381739
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jrbsC-0006wF-I6@hosting.acm.org>
+Date: Sat, 04 Jul 2020 02:42:04 -0400
+
+--1593844924-eximdsn-1191381739
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  websupport@pccoe.acm.org
+    The mail server could not deliver mail to websupport@pccoe.acm.org.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1593844924-eximdsn-1191381739
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;websupport@pccoe.acm.org
+Status: 5.0.0
+
+--1593844924-eximdsn-1191381739
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1jrbsC-0006vw-90
+	for websupport@pccoe.acm.org; Sat, 04 Jul 2020 02:42:04 -0400
+To: websupport@pccoe.acm.org
+Subject: Contact Form - Зеркало букмекерских контор
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 5.248.164.76
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 5.248.164.76
+From: fur@allmelbet.com 
+Reply-To: patilswap33.sp.sp@gmail.com 
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+X-Mailer: PHP/5.6.40
+Message-Id: <E1jrbsC-0006vw-90@hosting.acm.org>
+Date: Sat, 04 Jul 2020 02:42:04 -0400
+
+From: shlapapanawinox 
+ Message: Актуальное зеркало букмекерских контор, переходи по ссылке  и получай бонус за первый депозитhttps://xrebet.ru
+
+--1593844924-eximdsn-1191381739--

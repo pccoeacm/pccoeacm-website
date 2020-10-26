@@ -1,0 +1,590 @@
+Return-Path: <SRS0=vEHDY4=KG=chime-notifications.bounces.google.com=3izlUWw4KCjASegUfQ-ZadQbXkSaaSXQ.OaYy0Ew_nu-nvbOOaQ.MOY.adS@pccoe.acm.org>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP id EIb+FbQ5VFvAmyEABE4D5A
+	for <pccoehos@hosting.acm.org>; Sun, 22 Jul 2018 04:00:52 -0400
+Return-path: <SRS0=vEHDY4=KG=chime-notifications.bounces.google.com=3izlUWw4KCjASegUfQ-ZadQbXkSaaSXQ.OaYy0Ew_nu-nvbOOaQ.MOY.adS@pccoe.acm.org>
+Envelope-to: CESA_18-19@pccoe.acm.org
+Delivery-date: Sun, 22 Jul 2018 04:00:52 -0400
+Received: from mail-oi0-f70.google.com ([209.85.218.70]:35035)
+	by hosting.acm.org with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89_1)
+	(envelope-from <3izlUWw4KCjASegUfQ-ZadQbXkSaaSXQ.OaYy0Ew_nu-nvbOOaQ.MOY.adS@chime-notifications.bounces.google.com>)
+	id 1fh9IR-009EM7-6H
+	for CESA_18-19@pccoe.acm.org; Sun, 22 Jul 2018 04:00:51 -0400
+Received: by mail-oi0-f70.google.com with SMTP id v4-v6so14207882oix.2
+        for <CESA_18-19@pccoe.acm.org>; Sun, 22 Jul 2018 01:00:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:date:message-id:subject:from:to;
+        bh=OVsgDB3kAbaRm/aU2dns7OJpnSAZzSTdaxE9EgWwzho=;
+        b=W6N5vm2D2Cv0e8aeD4zeZ7G4qHiZgJf2oA2wtN6G0HkAaHM+jp+fhGY3jEmFrOHAzT
+         BhIGnWRKE2eWhoMdigWgG+TGjGF4q4pO/zEm4gW9As1czE4k5Cu9N9DJvOnV4fuWl3Mk
+         uahGXkNKXRV5tqDVOeofXd0wwODUOjEDjgM9NKP2Wmn+Xt9wtcx80EEk4Vdop25swPsa
+         4vQq4+H/aSx+/aY6WfyQgro3MtpQogEVfRe/JJWD9vx7IOHM7hMKWUiSZ5ubno0bIg5d
+         xjlQC9jp5rDClQtcyY6Yzrz8GuRY5X4aszLOB+/QtpMHh2zI+Ak4b2iLvt9x+8eM8H5P
+         L+bg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to;
+        bh=OVsgDB3kAbaRm/aU2dns7OJpnSAZzSTdaxE9EgWwzho=;
+        b=t5IKBU5gUSeWgyLZL0wuYlOHw28+qEQFJL8okwwML2Loyx3Es7p+XfCjnhVm8ggFRo
+         bB13vfP9OIGahvMGQC0020LUxQ1C0rT0ZKZ9XYS1DHJAGGcWAQCxZ5ACzFmKXd25V8Np
+         EzJJNJe1JUIEayLIict4OtWwVBa9YqBNjYjW8o71Cd7YH+yTGGypoVQ/McRHqIU3+NY+
+         +TvF342stC9lL9TD68uFez8FvJFcG8V4bAHmH58o5gT9CctenOs4oV51OZ1MaKd5Nmrb
+         /U99EE8V2oqAnMVadxIzwWWBewMim0L6akYyWpQ4m+swwcPQJlardJW+bFENZvKdJ42n
+         Pdwg==
+X-Gm-Message-State: AOUpUlFNnh7nF6mLoIpYMD87//4q/z1qb06PIdY9WQdj+NGkA0Sik8ZL
+	UKp/cOMWi/dglncf4MwArTYcH5I+AkW66xNHtjicM5FNq9tY3BCrcKVfp6xVD63ucSYb5TKzXqW
+	FiMczcvTCPpOw7eo15Z4U9iqj
+X-Google-Smtp-Source: AAOMgpdwfUmmB96gvVV/cpXqAjIGRI13aUPD7Yhas7XwYj20RDl6igm/LJfkpXCFQgrHMkriiTSTLCnBIxVYHIdHHx7i
+MIME-Version: 1.0
+X-Received: by 2002:aca:4503:: with SMTP id s3-v6mr5348832oia.116.1532246411108;
+ Sun, 22 Jul 2018 01:00:11 -0700 (PDT)
+Date: Sun, 22 Jul 2018 01:00:11 -0700
+X-Notifications: a6f3bcdd-e620-44aa-9e06-f8438791e471
+Message-ID: <S8WctjGFz9sK-UPN3c1o_A.0@notifications.google.com>
+Subject: You have 3 days left to set up G Suite for pccoe.acm.org
+From: gsuite-noreply@google.com
+To: CESA_18-19@pccoe.acm.org
+Content-Type: multipart/alternative; boundary="0000000000000b3cf8057191eb85"
+
+--0000000000000b3cf8057191eb85
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RyBTdWl0ZQ0KDQoNCg0KDQpEb24ndCBtaXNzIG91dCBvbiBHIFN1aXRlDQoNCg0KDQoNCg0KWW91
+ciBHIFN1aXRlIHRyaWFsIGFjY291bnQgd2lsbCBiZSBhdXRvbWF0aWNhbGx5IGRlbGV0ZWQgaW4g
+MyBkYXlzIHVubGVzcyAgDQp5b3UgdmVyaWZ5IHRoYXQgeW91IG93biB0aGUgZG9tYWluLCBwY2Nv
+ZS5hY20ub3JnLiBTZXQgdXAgbm93IHRvIHN0YXJ0ICANCnVzaW5nIGJ1c2luZXNzIGVtYWlsLCBj
+bG91ZCBzdG9yYWdlLCB2aWRlbyBjb25mZXJlbmNpbmcsIGFuZCBtb3JlLg0KDQpHZXQgaGVscCBz
+ZXR0aW5nIHVwIHlvdXIgYWNjb3VudA0KDQpTZXR0aW5nIHVwIGRvZXNuJ3QgdGFrZSBsb25nIGFu
+ZCB0aGUgRyBTdWl0ZSBzdXBwb3J0IHRlYW0gY2FuIHdhbGsgeW91ICANCnRocm91Z2ggdGhlIHBy
+b2Nlc3MuIDI0Lzcgc3VwcG9ydCBpcyBpbmNsdWRlZCB3aXRoIEcgU3VpdGUuDQoNCg0KDQoNCllv
+dXIgRyBTdWl0ZSBhY2NvdW50DQoNCg0KVXNlcm5hbWU6IENFU0FfMTgtMTlAcGNjb2UuYWNtLm9y
+Zw0KDQpEb21haW46IHBjY29lLmFjbS5vcmcNCg0KDQoNCkdldCBzZXR1cCBoZWxwLCAyNC83DQoN
+Cg0KDQpDb250YWN0IHVzDQoNCg0KDQpJZiB5b3UgcHJlZmVyIHRvIHNldCB1cCBvbiB5b3VyIG93
+biwgc2lnbiBpbiB0byB5b3VyIEdvb2dsZSBBZG1pbiBjb25zb2xlICANCmFuZCBmb2xsb3cgdGhl
+IHNldHVwIHN0ZXBzLg0KDQpTaW5jZXJlbHksDQpUaGUgRyBTdWl0ZSBUZWFtDQoNCg0KTk9URTog
+V2hlbiB5b3VyIEcgU3VpdGUgdHJpYWwgYWNjb3VudCBpcyBkZWxldGVkLCBpdCBjYW4gdGFrZSB1
+cCB0byA0OCAgDQpob3VycyBiZWZvcmUgeW91IGNhbiB1c2UgdGhlIGRvbWFpbiwgcGNjb2UuYWNt
+Lm9yZywgd2l0aCBhbm90aGVyIEcgU3VpdGUgIA0KdHJpYWwgb3IgYW4gZXhpc3RpbmcgRyBTdWl0
+ZSBhY2NvdW50Lg0KDQoNCg0KDQoNCsKpIDIwMTggR29vZ2xlIExMQywgMTYwMCBBbXBoaXRoZWF0
+cmUgUGFya3dheSwgTW91bnRhaW4gVmlldywgQ0EgOTQwNDMNCg0KWW91J3JlIHJlY2VpdmluZyB0
+aGlzIG1hbmRhdG9yeSBlbWFpbCBzZXJ2aWNlIGFubm91bmNlbWVudCB0byB1cGRhdGUgeW91ICAN
+CmFib3V0IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXIgRyBTdWl0ZSBwcm9kdWN0IG9yIGFjY291
+bnQuDQoNCg0KDQoNCg0K
+--0000000000000b3cf8057191eb85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en" xml:lang=3D"en" style=3D"background:#fff!important">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<title>You have 3 days left to set up G Suite for pccoe.acm.org</title>
+</head>
+<body style=3D"-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit=
+-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;background:#f=
+ff!important;box-sizing:border-box;color:#1f1f1f;font-family:Roboto,Helveti=
+ca,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;margin:0=
+;min-width:100%;padding:0;text-align:left;width:100%!important">
+<style>
+@media only screen{html{min-height:100%;background:#29b6f6}}@media only scr=
+een and (max-width:610px){table.body img{width:auto;height:auto}table.body =
+center{min-width:0!important}table.body .container{width:95%!important}tabl=
+e.body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-bo=
+x-sizing:border-box;box-sizing:border-box;padding-left:30px!important;paddi=
+ng-right:30px!important}table.body .columns .columns{padding-left:0!importa=
+nt;padding-right:0!important}th.small-12{display:inline-block!important;wid=
+th:100%!important}.columns th.small-12{display:block!important;width:100%!i=
+mportant}}
+</style>
+<span class=3D"preheader" style=3D"color:#29b6f6;display:none!important;fon=
+t-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;=
+opacity:0;overflow:hidden;visibility:hidden"></span>
+<table class=3D"body" style=3D"Margin:0;background:#fff!important;border-co=
+llapse:collapse;border-spacing:0;color:#1f1f1f;font-family:Roboto,Helvetica=
+,Arial,sans-serif;font-size:12px;font-weight:400;height:100%;line-height:1.=
+3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+  <tr style=3D"padding:0;text-align:left;vertical-align:top">
+    <td class=3D"center" align=3D"center" valign=3D"top" style=3D"-moz-hyph=
+ens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;c=
+olor:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;f=
+ont-weight:400;hyphens:none;line-height:1.3;margin:0;padding:0;text-align:l=
+eft;vertical-align:top;word-wrap:keep-all"><center data-parsed=3D"" style=
+=3D"min-width:580px;width:100%">
+        <table align=3D"center" class=3D"container gsuite-hero_no-banner fl=
+oat-center" style=3D"Margin:0 auto;background:#fff;border-collapse:collapse=
+;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vert=
+ical-align:top;width:580px">
+          <tbody>
+            <tr style=3D"padding:0;text-align:left;vertical-align:top">
+              <td style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;=
+border-collapse:collapse!important;color:#1f1f1f;font-family:Roboto,Helveti=
+ca,Arial,sans-serif;font-size:12px;font-weight:400;hyphens:none;line-height=
+:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:keep-a=
+ll"><table class=3D"row" style=3D"background:#448aff;border-collapse:collap=
+se;border-spacing:0;display:table;padding:0;position:relative;text-align:le=
+ft;vertical-align:top;width:100%">
+                  <tbody>
+                    <tr style=3D"padding:0;text-align:left;vertical-align:t=
+op">
+                      <th class=3D"gsuite-hero_no-banner__logo small-12 lar=
+ge-12 columns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:=
+Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heigh=
+t:1.3;margin:0 auto;padding:0;padding-bottom:0!important;padding-left:30px;=
+padding-right:30px;text-align:left;width:550px"><table style=3D"border-coll=
+apse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top=
+;width:100%">
+                          <tr style=3D"padding:0;text-align:left;vertical-a=
+lign:top">
+                            <th style=3D"Margin:0;color:#1f1f1f;font-family=
+:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.3;margin:0;padding:0;text-align:left"> <img src=3D"https://storage.goo=
+gleapis.com/support-kms-prod/dqj09vw8PMIb4zCTRsnU92iXdxXxrWQDCU6u" alt=3D"G=
+ Suite" style=3D"-ms-interpolation-mode:bicubic;clear:both;display:block;ma=
+x-width:100%;outline:0;text-decoration:none;width:auto"> </th>
+                            <th class=3D"expander" style=3D"Margin:0;color:=
+#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-w=
+eight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visi=
+bility:hidden;width:0"></th>
+                          </tr>
+                        </table></th>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        <table align=3D"center" class=3D"container 3420073 float-center" st=
+yle=3D"Margin:0 auto;background:#fff;border-collapse:collapse;border-spacin=
+g:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top=
+;width:580px">
+          <tbody>
+            <tr style=3D"padding:0;text-align:left;vertical-align:top">
+              <td style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;=
+border-collapse:collapse!important;color:#1f1f1f;font-family:Roboto,Helveti=
+ca,Arial,sans-serif;font-size:12px;font-weight:400;hyphens:none;line-height=
+:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:keep-a=
+ll"><table class=3D"row 3420073__header-row" style=3D"background:#448aff!im=
+portant;border-collapse:collapse;border-spacing:0;display:table;padding:0;p=
+osition:relative;text-align:left;vertical-align:top;width:100%">
+                  <tbody>
+                    <tr style=3D"padding:0;text-align:left;vertical-align:t=
+op">
+                      <th class=3D"small-12 large-12 columns first last" st=
+yle=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-=
+serif;font-size:12px;font-weight:400;line-height:1.3;margin:0 auto;padding:=
+0;padding-bottom:0;padding-left:30px;padding-right:30px;text-align:left;wid=
+th:550px"><table style=3D"border-collapse:collapse;border-spacing:0;padding=
+:0;text-align:left;vertical-align:top;width:100%">
+                          <tr style=3D"padding:0;text-align:left;vertical-a=
+lign:top">
+                            <th style=3D"Margin:0;color:#1f1f1f;font-family=
+:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.3;margin:0;padding:0;text-align:left"> <table class=3D"wrapper 3420073=
+__content" align=3D"center" style=3D"border-collapse:collapse;border-spacin=
+g:0;margin-top:0!important;padding:0;text-align:left;vertical-align:top;wid=
+th:100%">
+                                <tr style=3D"padding:0;text-align:left;vert=
+ical-align:top">
+                                  <td class=3D"wrapper-inner" style=3D"-moz=
+-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!import=
+ant;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:1=
+2px;font-weight:400;hyphens:none;line-height:1.3;margin:0;padding:0;text-al=
+ign:left;vertical-align:top;word-wrap:keep-all"><table class=3D"row" style=
+=3D"background:#fff;border-collapse:collapse;border-spacing:0;display:table=
+;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"=
+>
+                                      <tbody>
+                                        <tr style=3D"padding:0;text-align:l=
+eft;vertical-align:top">
+                                          <th class=3D"small-12 large-12 co=
+lumns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0 auto;padding:0;padding-bottom:0;padding-left:30px!important;padding-=
+right:30px!important;text-align:left;width:100%"><table style=3D"border-col=
+lapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:to=
+p;width:100%">
+                                              <tr style=3D"padding:0;text-a=
+lign:left;vertical-align:top">
+                                                <th style=3D"Margin:0;color=
+:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.3;margin:0;padding:0;text-align:left"> </th>
+                                                <th class=3D"expander" styl=
+e=3D"Margin:0;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0"></th>
+                                              </tr>
+                                            </table></th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class=3D"row" style=3D"backgroun=
+d:#fff;border-collapse:collapse;border-spacing:0;display:table;padding:0;po=
+sition:relative;text-align:left;vertical-align:top;width:100%">
+                                      <tbody>
+                                        <tr style=3D"padding:0;text-align:l=
+eft;vertical-align:top">
+                                          <th class=3D"small-12 large-12 co=
+lumns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0 auto;padding:0;padding-bottom:0;padding-left:30px!important;padding-=
+right:30px!important;text-align:left;width:100%"><table style=3D"border-col=
+lapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:to=
+p;width:100%">
+                                              <tr style=3D"padding:0;text-a=
+lign:left;vertical-align:top">
+                                                <th style=3D"Margin:0;color=
+:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.3;margin:0;padding:0;text-align:left"> <h2 style=
+=3D"Margin:0;Margin-bottom:10px;color:inherit;font-family:Roboto,Helvetica,=
+Arial,sans-serif;font-size:22px;font-weight:400;line-height:1.3;margin:30px=
+ 0 15px;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Don=
+=E2=80=99t miss out on G Suite</h2>
+                                                </th>
+                                                <th class=3D"expander" styl=
+e=3D"Margin:0;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0"></th>
+                                              </tr>
+                                            </table></th>
+                                        </tr>
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                              </table>
+                            </th>
+                          </tr>
+                        </table></th>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class=3D"row" style=3D"background:#29b6f6;border-col=
+lapse:collapse;border-spacing:0;display:table;padding:0;position:relative;t=
+ext-align:left;vertical-align:top;width:100%">
+                  <tbody>
+                    <tr style=3D"padding:0;text-align:left;vertical-align:t=
+op">
+                      <th class=3D"small-12 large-12 columns first last" st=
+yle=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-=
+serif;font-size:12px;font-weight:400;line-height:1.3;margin:0 auto;padding:=
+0;padding-bottom:16px;padding-left:30px;padding-right:30px;text-align:left;=
+width:550px"><table style=3D"border-collapse:collapse;border-spacing:0;padd=
+ing:0;text-align:left;vertical-align:top;width:100%">
+                          <tr style=3D"padding:0;text-align:left;vertical-a=
+lign:top">
+                            <th style=3D"Margin:0;color:#1f1f1f;font-family=
+:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.3;margin:0;padding:0;text-align:left"> <table class=3D"wrapper 3420073=
+__content" align=3D"center" style=3D"border-collapse:collapse;border-spacin=
+g:0;margin-top:0!important;padding:0;text-align:left;vertical-align:top;wid=
+th:100%">
+                                <tr style=3D"padding:0;text-align:left;vert=
+ical-align:top">
+                                  <td class=3D"wrapper-inner" style=3D"-moz=
+-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!import=
+ant;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:1=
+2px;font-weight:400;hyphens:none;line-height:1.3;margin:0;padding:0;text-al=
+ign:left;vertical-align:top;word-wrap:keep-all"><table class=3D"row" style=
+=3D"background:#fff;border-collapse:collapse;border-spacing:0;display:table=
+;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"=
+>
+                                      <tbody>
+                                        <tr style=3D"padding:0;text-align:l=
+eft;vertical-align:top">
+                                          <th class=3D"small-12 large-12 co=
+lumns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0 auto;padding:0;padding-bottom:16px;padding-left:30px!important;paddi=
+ng-right:30px!important;text-align:left;width:100%"><table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                              <tr style=3D"padding:0;text-a=
+lign:left;vertical-align:top">
+                                                <th style=3D"Margin:0;color=
+:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.3;margin:0;padding:0;text-align:left"> <p style=3D=
+"Margin:0;Margin-bottom:10px;color:#1f1f1f;font-family:Roboto,Helvetica,Ari=
+al,sans-serif;font-size:12px;font-weight:400;line-height:1.3;margin:0;margi=
+n-bottom:10px;padding:0;text-align:left">Your G Suite trial account will be=
+ automatically deleted in 3 days unless you verify that you own the domain,=
+ <a class=3D"noclick" style=3D"Margin:0;color:inherit;font-family:Roboto,He=
+lvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-align:left;text-decoration:none">pccoe.acm.org</a>. Set up now to sta=
+rt using business email, cloud storage, video conferencing, and more.</p>
+                                                  <h4 style=3D"Margin:0;Mar=
+gin-bottom:10px;color:inherit;font-family:Roboto,Helvetica,Arial,sans-serif=
+;font-size:18px;font-weight:400;line-height:1.3;margin:15px 0 5px 0;margin-=
+bottom:10px;padding:0;text-align:left;word-wrap:normal">Get help setting up=
+ your account</h4>
+                                                  <p style=3D"Margin:0;Marg=
+in-bottom:10px;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;=
+padding:0;text-align:left">Setting up doesn=E2=80=99t take long and the G S=
+uite support team can walk you through the process. 24/7 support is include=
+d with G Suite.</p>
+                                                </th>
+                                                <th class=3D"expander" styl=
+e=3D"Margin:0;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0"></th>
+                                              </tr>
+                                            </table></th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class=3D"row" style=3D"backgroun=
+d:#fff;border-collapse:collapse;border-spacing:0;display:table;padding:0;po=
+sition:relative;text-align:left;vertical-align:top;width:100%">
+                                      <tbody>
+                                        <tr style=3D"padding:0;text-align:l=
+eft;vertical-align:top">
+                                          <th class=3D"small-12 large-12 co=
+lumns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0 auto;padding:0;padding-bottom:16px;padding-left:30px!important;paddi=
+ng-right:30px!important;text-align:left;width:100%"><table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                              <tr style=3D"padding:0;text-a=
+lign:left;vertical-align:top">
+                                                <th style=3D"Margin:0;color=
+:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.3;margin:0;padding:0;text-align:left"> <div class=
+=3D"3420073__account-info" style=3D"background:#f3f3f3;margin:0 5px 0 5px;p=
+adding:10px 0;text-align:center">
+                                                    <h3 class=3D"text-cente=
+r" style=3D"Margin:0;Margin-bottom:10px;color:inherit;font-family:Roboto,He=
+lvetica,Arial,sans-serif;font-size:20px;font-weight:400;line-height:1.3;mar=
+gin:0;margin-bottom:10px;padding:0;text-align:center;word-wrap:normal">Your=
+ G Suite account</h3>
+                                                    <table class=3D"3420073=
+__centered-list" style=3D"border-collapse:collapse;border-spacing:0;display=
+:table;padding:0 5px;text-align:left;vertical-align:top;width:100%">
+                                                      <tr class=3D"item" st=
+yle=3D"display:table-row;padding:0;text-align:left;vertical-align:top">
+                                                        <td class=3D"term" =
+style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:co=
+llapse!important;color:#1f1f1f;display:table-cell;font-family:Roboto,Helvet=
+ica,Arial,sans-serif;font-size:12px;font-weight:400;hyphens:none;line-heigh=
+t:1.3;margin:0;min-width:30%;padding:0;text-align:right;vertical-align:top;=
+width:30%;word-break:keep-all;word-wrap:keep-all"> Username: </td>
+                                                        <td class=3D"descri=
+ption" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-coll=
+apse:collapse!important;color:#1f1f1f;display:table-cell;font-family:Roboto=
+,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;height:100%;hyph=
+ens:none;line-height:1.3;margin:0;padding:0;padding-left:5px;text-align:lef=
+t;vertical-align:bottom;width:70%;word-break:break-all;word-wrap:keep-all">=
+<a style=3D"Margin:0;color:inherit;font-family:Roboto,Helvetica,Arial,sans-=
+serif;font-weight:700;line-height:1.3;margin:0;padding:0;text-align:left;te=
+xt-decoration:none">CESA_18-19@pccoe.acm.org</a></td>
+                                                      </tr>
+                                                      <tr class=3D"item" st=
+yle=3D"display:table-row;padding:0;text-align:left;vertical-align:top">
+                                                        <td class=3D"term" =
+style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:co=
+llapse!important;color:#1f1f1f;display:table-cell;font-family:Roboto,Helvet=
+ica,Arial,sans-serif;font-size:12px;font-weight:400;hyphens:none;line-heigh=
+t:1.3;margin:0;min-width:30%;padding:0;text-align:right;vertical-align:top;=
+width:30%;word-break:keep-all;word-wrap:keep-all"> Domain: </td>
+                                                        <td class=3D"descri=
+ption" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-coll=
+apse:collapse!important;color:#1f1f1f;display:table-cell;font-family:Roboto=
+,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;height:100%;hyph=
+ens:none;line-height:1.3;margin:0;padding:0;padding-left:5px;text-align:lef=
+t;vertical-align:bottom;width:70%;word-break:break-all;word-wrap:keep-all">=
+<a style=3D"Margin:0;color:inherit;font-family:Roboto,Helvetica,Arial,sans-=
+serif;font-weight:700;line-height:1.3;margin:0;padding:0;text-align:left;te=
+xt-decoration:none">pccoe.acm.org</a></td>
+                                                      </tr>
+                                                    </table>
+                                                    <div class=3D"3420073__=
+disclaimer" style=3D"background:inherit;margin:0!important;padding:0 10px 0=
+ 10px;text-align:center"> <br>
+                                                      <p class=3D"text-cent=
+er" style=3D"Margin:0;Margin-bottom:10px;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0;margin-bottom:10px;padding:0;text-align:center">Get setup help, 24/7=
+ </p>
+                                                    </div>
+                                                    <table class=3D"button =
+radius" style=3D"Margin:0 0 16px 0;border-collapse:collapse;border-spacing:=
+0;margin:0 auto;padding:0;text-align:left;vertical-align:top;width:auto">
+                                                      <tr style=3D"padding:=
+0;text-align:left;vertical-align:top">
+                                                        <td style=3D"-moz-h=
+yphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!importan=
+t;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12p=
+x;font-weight:400;hyphens:none;line-height:1.3;margin:0;padding:0;text-alig=
+n:left;vertical-align:top;word-wrap:keep-all"><table style=3D"border-collap=
+se:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;w=
+idth:100%">
+                                                            <tr style=3D"pa=
+dding:0;text-align:left;vertical-align:top">
+                                                              <td style=3D"=
+-moz-hyphens:none;-webkit-hyphens:none;Margin:0;background:#448aff;border:n=
+one;border-collapse:collapse!important;border-radius:3px;color:#fff;font-fa=
+mily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;hyphe=
+ns:none;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:t=
+op;word-wrap:keep-all"><a href=3D"https://accounts.google.com/signin/v2/ide=
+ntifier?continue=3Dhttps://support.google.com/a/answer/1047213?utm_source=
+=3D3420073&flowName=3DGlifWebSignIn&flowEntry=3DIdentifier&Email=3DCESA_18-=
+19@pccoe.acm.org" style=3D"Margin:0;border:0 solid #448aff;border-radius:3p=
+x;color:#fff;display:inline-block;font-family:Roboto,Helvetica,Arial,sans-s=
+erif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 16=
+px 8px 16px;text-align:left;text-decoration:none">Contact us</a></td>
+                                                            </tr>
+                                                          </table></td>
+                                                      </tr>
+                                                    </table>
+                                                  </div>
+                                                </th>
+                                                <th class=3D"expander" styl=
+e=3D"Margin:0;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0"></th>
+                                              </tr>
+                                            </table></th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class=3D"row" style=3D"backgroun=
+d:#fff;border-collapse:collapse;border-spacing:0;display:table;padding:0;po=
+sition:relative;text-align:left;vertical-align:top;width:100%">
+                                      <tbody>
+                                        <tr style=3D"padding:0;text-align:l=
+eft;vertical-align:top">
+                                          <th class=3D"small-12 large-12 co=
+lumns first last" style=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.3;ma=
+rgin:0 auto;padding:0;padding-bottom:16px;padding-left:30px!important;paddi=
+ng-right:30px!important;text-align:left;width:100%"><table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                              <tr style=3D"padding:0;text-a=
+lign:left;vertical-align:top">
+                                                <th style=3D"Margin:0;color=
+:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.3;margin:0;padding:0;text-align:left"> <p style=3D=
+"Margin:0;Margin-bottom:10px;color:#1f1f1f;font-family:Roboto,Helvetica,Ari=
+al,sans-serif;font-size:12px;font-weight:400;line-height:1.3;margin:0;margi=
+n-bottom:10px;padding:0;text-align:left">If you prefer to set up on your ow=
+n, <a href=3D"https://accounts.google.com/signin/v2/identifier?service=3DCP=
+anel&continue=3Dhttps://admin.google.com/Dashboard?utm_source=3D3420073&flo=
+wName=3DGlifWebSignIn&flowEntry=3DIdentifier&Email=3DCESA_18-19@pccoe.acm.o=
+rg" style=3D"Margin:0;color:#448aff;font-family:Roboto,Helvetica,Arial,sans=
+-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;t=
+ext-decoration:none">sign in to your Google Admin console</a> and follow th=
+e setup steps.</p>
+                                                  <p style=3D"Margin:0;Marg=
+in-bottom:10px;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;=
+padding:0;text-align:left"> Sincerely,
+                                                    =03<br>
+                                                    <strong>The G Suite Tea=
+m</strong> </p>
+                                                  <br>
+                                                  <p style=3D"Margin:0;Marg=
+in-bottom:10px;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;=
+padding:0;text-align:left"><i><strong>NOTE:</strong> When your G Suite tria=
+l account is deleted, it can take up to 48 hours before you can use the dom=
+ain, <a class=3D"noclick" style=3D"Margin:0;color:inherit;font-family:Robot=
+o,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;paddi=
+ng:0;text-align:left;text-decoration:none">pccoe.acm.org</a>, with another =
+G Suite trial or an existing G Suite account.</i></p>
+                                                </th>
+                                                <th class=3D"expander" styl=
+e=3D"Margin:0;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0"></th>
+                                              </tr>
+                                            </table></th>
+                                        </tr>
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                              </table>
+                            </th>
+                          </tr>
+                        </table></th>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        <table align=3D"center" class=3D"container page-footer float-center=
+" style=3D"Margin:0 auto;background:#fff;border-collapse:collapse;border-sp=
+acing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align=
+:top;width:580px">
+          <tbody>
+            <tr style=3D"padding:0;text-align:left;vertical-align:top">
+              <td style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;=
+border-collapse:collapse!important;color:#1f1f1f;font-family:Roboto,Helveti=
+ca,Arial,sans-serif;font-size:12px;font-weight:400;hyphens:none;line-height=
+:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:keep-a=
+ll"><table class=3D"row" style=3D"background:#29b6f6;border-collapse:collap=
+se;border-spacing:0;display:table;padding:0;position:relative;text-align:le=
+ft;vertical-align:top;width:100%">
+                  <tbody>
+                    <tr style=3D"padding:0;text-align:left;vertical-align:t=
+op">
+                      <th class=3D"small-12 large-10 columns first" style=
+=3D"Margin:0 auto;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-ser=
+if;font-size:12px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;p=
+adding-bottom:16px;padding-left:30px;padding-right:15px;text-align:left;wid=
+th:453.33px"><table style=3D"border-collapse:collapse;border-spacing:0;padd=
+ing:0;text-align:left;vertical-align:top;width:100%">
+                          <tr style=3D"padding:0;text-align:left;vertical-a=
+lign:top">
+                            <th style=3D"Margin:0;color:#1f1f1f;font-family=
+:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.3;margin:0;padding:0;text-align:left"> <p style=3D"Margin:0;Margin-bot=
+tom:10px;color:#fff;font-family:Roboto,Helvetica,Arial,sans-serif;font-size=
+:10px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0=
+;text-align:left"> =C2=A9 2018 Google LLC, <a style=3D"Margin:0;color:#fff;=
+font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1=
+.3;margin:0;padding:0;text-align:left;text-decoration:none">1600 Amphitheat=
+re Parkway, Mountain View, CA 94043</a> </p>
+                              <p style=3D"Margin:0;Margin-bottom:10px;color=
+:#fff;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:10px;font-wei=
+ght:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:le=
+ft"> You=E2=80=99re receiving this mandatory email service announcement to =
+update you about important changes to your G&nbsp;Suite product or account.=
+ </p>
+                            </th>
+                          </tr>
+                        </table></th>
+                      <th class=3D"small-12 large-2 columns last" style=3D"=
+Margin:0 auto;color:#1f1f1f;font-family:Roboto,Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;paddi=
+ng-bottom:16px;padding-left:30px;padding-right:30px;text-align:left;width:6=
+6.67px"><table style=3D"border-collapse:collapse;border-spacing:0;padding:0=
+;text-align:left;vertical-align:top;width:100%">
+                          <tr style=3D"padding:0;text-align:left;vertical-a=
+lign:top">
+                            <th style=3D"Margin:0;color:#1f1f1f;font-family=
+:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.3;margin:0;padding:0;text-align:left"> </th>
+                          </tr>
+                        </table></th>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+      </center></td>
+  </tr>
+</table>
+<!-- prevent Gmail on iOS font size manipulation -->
+<div style=3D"display:none;white-space:nowrap;font:15px courier;line-height=
+:0"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+</body>
+</html>
+--0000000000000b3cf8057191eb85--

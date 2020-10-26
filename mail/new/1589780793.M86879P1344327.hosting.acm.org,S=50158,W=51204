@@ -1,0 +1,1046 @@
+Return-Path: <3DiHCXg4KCVU3FH5G1-ABE1C8L3BB381.zB9CzzB1CHA1CzzB1.xz9.BE3@scoutcamp.bounces.google.com>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id SP6SAzkhwl5HgxQABE4D5A
+	(envelope-from <3DiHCXg4KCVU3FH5G1-ABE1C8L3BB381.zB9CzzB1CHA1CzzB1.xz9.BE3@scoutcamp.bounces.google.com>)
+	for <pccoehos@hosting.acm.org>; Mon, 18 May 2020 01:46:33 -0400
+Return-path: <3DiHCXg4KCVU3FH5G1-ABE1C8L3BB381.zB9CzzB1CHA1CzzB1.xz9.BE3@scoutcamp.bounces.google.com>
+Envelope-to: pccoepune@pccoe.acm.org
+Delivery-date: Mon, 18 May 2020 01:46:33 -0400
+Received: from mail-io1-f72.google.com ([209.85.166.72]:43106)
+	by hosting.acm.org with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <3DiHCXg4KCVU3FH5G1-ABE1C8L3BB381.zB9CzzB1CHA1CzzB1.xz9.BE3@scoutcamp.bounces.google.com>)
+	id 1jaYbf-005gXP-BU
+	for pccoepune@pccoe.acm.org; Mon, 18 May 2020 01:46:32 -0400
+Received: by mail-io1-f72.google.com with SMTP id 184so7739353iow.10
+        for <pccoepune@pccoe.acm.org>; Sun, 17 May 2020 22:46:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:date:reply-to:feedback-id:message-id:subject:from:to;
+        bh=ym5M2TKF7mShq/rLfbe+QWRo7YaY0tacrhUhyzc+cjY=;
+        b=M5xEABp7HfyR3dTHXru+961VugmyuYNSn4zn9DuviL98yqy3J3cJiJDUxXWG+Q6HCk
+         lmS3ZGJtwQq9wa1tRz6eyjiXmag6F6P7sD6vjTiS3dQfod0DSa+6VgrxAqQ4Fl1XlUuM
+         YqfUIrSOEvTF5yQRIzAWRGUs6YX28FS1wA8AibQLf8jcZ6NxgEcwlwM6HsPnm+Pljjfo
+         LHP3mtAFxpcjVYAfxjO8d7pKS+Fyoj03rw8d1YLvp9Mz1FtLSD9+GnJnuW0L9k+0Vq3h
+         KngKujOrwSJNXgCSKn2ylSpA0A9y3Z4/06wsYQMa+7nw18qNa/HchLzUrONgTDJeu9KW
+         pFag==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:reply-to:feedback-id
+         :message-id:subject:from:to;
+        bh=ym5M2TKF7mShq/rLfbe+QWRo7YaY0tacrhUhyzc+cjY=;
+        b=kcymjVf24pZoj4aNjT5JDNyviTSRUZKAMjcC0lXFAgJc7ucOOiAfZegT8Epzgmucdd
+         PbpJ8NWtSZ4W2TUJ8CcENdn7Q/5qRtC0FhOeCvKLC7PFQebFv0ItrTUm0wpxSHOLQXaM
+         /g+bXhtVgeVKF873cxYs2bQ7/RQB1xIR9Cfpa3fSr6rjg470Wy7RSK10rQwxx2xesurc
+         Z48j4PGW94GCBGxxwdASNK0rfR0hcUagMtocxX0bjpD8MfsVNNNRzdo8FLghPJl0RZH5
+         fEJO5cYFePxfB2jkIcCgJKlLbfG04Ys7G/HDBTuNnFG2gUPims1iD/isdybTFLNjuspT
+         pbpw==
+X-Gm-Message-State: AOAM530OamrW2YZ98KHtNr74kcISsCPeicIwZSz+eEOUPVvlDZ48afQJ
+	YMRsDv+Ahc+66+0=
+X-Google-Smtp-Source: ABdhPJxPmH7b11VJ4IfRBPcBppgXHgHjUPDt04lVpBDvevLbNeSic5QB+z+l5XNNyVZDdyvjyt6xquo=
+MIME-Version: 1.0
+X-Received: by 2002:a6b:e517:: with SMTP id y23mr13304261ioc.60.1589780750354;
+ Sun, 17 May 2020 22:45:50 -0700 (PDT)
+Date: Sun, 17 May 2020 22:45:50 -0700
+Reply-To: The G Suite Team <gsuite-noreply@google.com>
+X-Trak-Extra-Language: en
+X-Google-Ads-Sender: auto_adsense_emails
+X-Google-Id: 4011829
+Feedback-ID: P-10-0:C20069929:M110313710-en:gamma
+X-Notifications: GAMMA:<47d3194dec9ff408ca0febc1891d3b0253fac7b5-20069929-110744786@google.com>
+Message-ID: <47d3194dec9ff408ca0febc1891d3b0253fac7b5-20069929-110744786@google.com>
+Subject: Start using your G Suite free trial today
+From: The G Suite Team <gsuite-noreply@google.com>
+To: pccoepune@pccoe.acm.org
+Content-Type: multipart/alternative; boundary="000000000000e5481c05a5e5acdd"
+X-Spam-Status: No, score=-6.9
+X-Spam-Score: -68
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "hosting.acm.org",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  G Suite Welcome to your G Suite free trial. Empower your teams
+    with easy-to-use business productivity tools. 
+ Content analysis details:   (-6.9 points, 3.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.166.72 listed in wl.mailspike.net]
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+X-Spam-Flag: NO
+
+--000000000000e5481c05a5e5acdd
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RyBTdWl0ZQ0KDQpXZWxjb21lIHRvIHlvdXIgRyBTdWl0ZSBmcmVlIHRyaWFsLg0KDQpFbXBvd2Vy
+IHlvdXIgdGVhbXMgd2l0aCBlYXN5LXRvLXVzZSBidXNpbmVzcyBwcm9kdWN0aXZpdHkgdG9vbHMu
+DQoNClNldCB1cCBub3cgIA0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3Av
+QUQtRm5FeVNLcld5QUFPb0FLYlZLSnNmVnlVRll5VjZDS0lmY0diRmtSdVZnaW5rd2VJVzFPaTdJ
+dks3RHdHYWtmOWJ1WW9XcE5hME96d2dIb3lScGJ0ZThzTHhfQ0gwamhya0tUNU1rTEZwSjY1QjVO
+LW5fTFZ1bVJJSGtMSjFsMDFrTDlaWHllUlgybTh2YmtzUHFiQmk3bVR5eExESVpoWmdOc1JVSUpC
+cEtWb1dYUWtjVHg0VVNUZlUxZ0ZpeE93RlotU3dqSXc0QTNVd3FEY1k1bFNkVFNCczJiX2h1eHVj
+Vk92SGFLSUNRSExwb0xvX3NxU01LV2E2bkE+DQoNCkhpIHRoZXJlLA0KDQpZb3XigJlyZSBhbG1v
+c3QgdGhlcmUuIFRvIHN0YXJ0IHVzaW5nIEcgU3VpdGUsIHNpZ24gaW4gdG8geW91ciBHb29nbGUg
+QWRtaW4gIA0KQ29uc29sZTxodHRwczovL3d3dy5nb29nbGUuY29tL2FwcHNlcnZlL21rdC9wL0FE
+LUZuRXhJbW1lWmJacHZrUWg3YXBya09hZ21ZdjVObWdoYklkX2RfLXE3Y21rZHNfSnlGNlNPd05y
+RkVtaWNPVGJVWFNmbnBxYjFMZDcwQVJsY3dNSGtyOVBPdU5kLVM5Z0g0VEVkVkZWRlFMTkREZDlq
+SmZ0TDdSQ2hTSjVoVGxSRVAwTjlEOTAxd3lRU1d6Y2VHLS1sOWZJc3NfY0s3bVdTcXNOVXVlaV9D
+TS1vdXVCNGxZSDN4Vk9qMHhnaUtEbElKQU93cUNMSkNVWTdBTXdROC1fLTRpOEhCVXNkVmxfSnRW
+RTdmc016dWFoeUFNUU9WVTNkV2RYanRPdz4sICANCnRoZW4gY29tcGxldGUgdGhlIHRocmVlLXN0
+ZXAgcHJvY2VzczoNCg0KLSBTaWduIHVwIGZvciB5b3VyIEcgU3VpdGUgZnJlZSB0cmlhbA0KDQot
+IFZlcmlmeSB5b3VyIGRvbWFpbg0KLSBMZXTigJlzIG1ha2Ugc3VyZSBubyBvbmUgZWxzZSB1c2Vz
+IHlvdXIgRyBTdWl0ZSBzZXJ2aWNlIHdpdGhvdXQgeW91ciAgDQpwZXJtaXNzaW9uLg0KDQotIFNl
+dCB1cCBtYWlsIGV4Y2hhbmdlIChNWCkgcmVjb3Jkcw0KLSBVc2UgTVggcmVjb3JkcyB0byBzZXQg
+dXAgR21haWwgYXMgeW91ciBwcm9mZXNzaW9uYWwgZW1haWwuDQoNClRvIGhlbHAgeW91IG1ha2Ug
+dGhlIG1vc3Qgb2YgeW91ciBHIFN1aXRlIDE0LWRheSBmcmVlIHRyaWFsLCB3ZeKAmWxsIHNlbmQg
+eW91ICANCnF1aWNrIGV4cGxhbmF0aW9ucywgaW4tZGVwdGggZ3VpZGVzLCBHIFN1aXRlIGN1c3Rv
+bWVyIHN0b3JpZXMsIGFuZCBtb3JlLg0KDQpTZXQgdXAgbm93ICANCjxodHRwczovL3d3dy5nb29n
+bGUuY29tL2FwcHNlcnZlL21rdC9wL0FELUZuRXhLVU5yb3VkSUNHOWpmYi1yeXN3YmJja3h2OWxX
+SkJMSEJhRmo3ZDJmdTItZWtUckpWMHdwRVNZbEszMXJaVHhyQjl4T0tYUVRUdU0zTDNPU0wwT1Vt
+VjVpSXE5M29PQmJYV1dsejRWNTlYWWhkOERnQUQxbnBsb0g0NDV0OEVaLU9xbFJwU1hjSWdPVnRh
+aHJMc3hmSXhaYzg0bDVxNVh2cTRZd1dNYnBVSkhBbE5aa1d1TUg1TWJxdXBIeDBhWmZYRXdzUnNm
+V01pcThNNkt6YWxoRm5qS1E0QkJ1LUxqalktRlVsVzA4VTlsNFZDUmJaNDJJPg0KDQpTZWUgeW91
+IG9ubGluZSwNClRoZSBHIFN1aXRlIFRlYW0NCg0KQWJvdXQgeW91ciBHIFN1aXRlIGZyZWUgdHJp
+YWwgIA0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQUQtRm5Fd2FaazVP
+eVRlY1VyQ2R4T2pzeFJpTGhzZ0NEd2JpM25XUUx3MHQ1YlZxenJLSkQwb2xrTVQwY3cyVk9ZV3Yz
+X3FuVk43Q2RGa1hFbFpLdzZTcGMzbk8zSTU0eWdoTHFxY09yeHc0Q3FWRnEzRGxmTzRvbkdhZVcy
+LWJ4dk1kSXA2cEdIckVQZGl6XzFpX2ZjVGdKNXgtTjEyVkpENVlOaUJ5cHk0TEJQaUQxUE1tRmxx
+VzdRVnRKOEw2QkhLQWJNMXlZcDY0VjZFZXJtQmY4c1VlaXl3Y1FvQkxoY1d6T21zZ3dVZ1VnT3pW
+REZTMWdjOHdGYVZhbHVNOXVXOVdTYjE3dHJzU1BFc1VCb1d2VzZkVDN1WDdrNFZyOVZBPg0KDQpI
+ZWxwIENlbnRlciAgDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9hcHBzZXJ2ZS9ta3QvcC9BRC1G
+bkV3QnpxX3NQM3ZvdE9uLThEUjM4TEVkWlF3enF1NEwxMmRFN1RhSE5sb3lQRng4cFZkeUliOGtI
+UTlpMjlWQ1BhY0MzRmVlS2FjUmhBTlIzaF9scUJyZ2VfUkJYakh3d3p0Qk44U2RoYzlSZlNVbjZw
+cG1rOEFoSTFTTmZDZzF3bFl1UXpoN0huSnFWWVJyNmo4eV9XUVFTRjFrcV9DWjNFUnNHZlVtZVNi
+b25JdTlwYWJ6YnFUd3BIZEZVTnBfcHRubXlNUVJqR3EwdVlkVjI0QjFQTWxrdHFOWWtqT3pLU29G
+WS1xUE5qdE94ckU3bGpKX2VkUDhKOFczSVNEOWNxYjVFZVRzc2lUbGFxMy0+DQoNClNldHVwIEZB
+USAgDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9hcHBzZXJ2ZS9ta3QvcC9BRC1GbkV4cXdzWVBW
+dGwyOEgxRDlCWjBuVjM1U0NoelVXYjZNR2tzWGJWWWhPRzM3U2d6b0xELXB6eGcyclk4YUZqRHo3
+MS03Y2ZPREhxVzJFYmVpNW1uS2JmSVRjY2gyeDY3azJ6WWZvQUZNUlVHTkFncVA2eHZHVFRsS2dG
+WnNaeW03cjJJeGpuR0hWNGJzbzZSdkFqa1YxYTZlTlp0RU4wQ3N6OERTbXBUdF9GRVFETFhUdFho
+NVBMbzlWVEhPRndkbjNpVlNyV3oyTnItRTJUeVhZbHBrT3VUTmFOS1FOVHpzbkRTbjJ3S0p2aS04
+Y3NITGVFNjFQM0w5R3R2NzRfSXhTU2pYV0JOT3lBN2dtcm5oNDc1ckN3XzE4Y3J3d3JMMmJNPg0K
+DQpHb29nbGUgQ2xvdWQNCg0KR29vZ2xlIExMQyAxNjAwIEFtcGhpdGhlYXRyZSBQYXJrd2F5LCBN
+b3VudGFpbiBWaWV3LCBDQSA5NDA0Mw0KDQpZb3UgaGF2ZSByZWNlaXZlZCB0aGlzIGVtYWlsIGJl
+Y2F1c2UgaXQgY29udGFpbnMgaW1wb3J0YW50IGluZm9ybWF0aW9uICANCmFib3V0IHlvdXIgRyBT
+dWl0ZSBmcmVlIHRyaWFsLg0KDQpHb29nbGUgQ2xvdWQgQmxvZyAgDQo8aHR0cHM6Ly93d3cuZ29v
+Z2xlLmNvbS9hcHBzZXJ2ZS9ta3QvcC9BRC1GbkV5SUV4OGF1MWZfZ0ZfdkRYc1YtU3pULXR5Ry1j
+OHRBbnJ2VXVSWGR0dnJhUWpHVWtENFcwazF4aU91TkJVc3Z1MDViNnQ5Tnd0MTMzUk9ud0l1RERX
+LWQ2djA5dC05ei04R0NpamFWb0x1VmJVeWpZVUotd25Pblg2Q19QOE9LUkl6S2F0VXdTVnF3aDFx
+dWRWYlZWVTJET3BoX2NPQnhHZjA0R3JDd0RySjFXbTlfTjZtVngyNWdRdzhXMElJWHlmZGpFRkUw
+cllQT1Fyc2pGQWFva0N1WFFEWmNCUGNTMHZQREZsMFlOcWRDVGxjbTNaeHpDTFE4TjZzPg0KDQpH
+aXRIdWIgIA0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQUQtRm5FeGd5
+VHowMnhQNFVXUFZLVjR0YXBfVG55aTVDSTM2b056SGtvcGdzY3ZURG1PSEFFYVl0SHhXOHpBeFRO
+RWV1SUVid2JwVjJQd05kMW9VQk45Q282cWpiTks4eTF1UD4NCg0KTGlua2VkSW4gIA0KPGh0dHBz
+Oi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQUQtRm5FeTFBaWxEOFN2UXlqM01BVDdH
+cUMybjF1NHE2cDFaenRDdG5nVWE0ZzYyaGNoN24zWExfMlZDenFmc3JoYkNGMTZXUDZnaWtMWTRv
+LXJjc3FTajIwaTVRU080TFFWYUdpNTRGZTlYMWx0VEZnc1VlVmM+DQoNClR3aXR0ZXIgIA0KPGh0
+dHBzOi8vd3d3Lmdvb2dsZS5jb20vYXBwc2VydmUvbWt0L3AvQUQtRm5Fd3NNenhfSENYVktfN21t
+c2hvWHl6WDRvLUhLcG9UODlsbDZsUmJXQWRMY3FjZWRFRlgyaUtZLTdTa1NJT1VXQVlzcWlMRTRH
+M3NFbGtvX3JIby1OaVc1X3otX2c+DQoNCkZhY2Vib29rICANCjxodHRwczovL3d3dy5nb29nbGUu
+Y29tL2FwcHNlcnZlL21rdC9wL0FELUZuRXg4RU9MMjRLYUhfVE11ZEZReTgxTVp5ZVNQY21iaG9T
+OGFsTE9nMm4wOHNDVnl6TFRKZFFKWkNqN29KRlFoTHpzM1pNR3dYVmlXNTJHa08xaUx5dmJVZm53
+cTAwendxMUdORmVBLUFUakllWWJzPg0KDQoNCg==
+--000000000000e5481c05a5e5acdd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+ =20
+=20
+=20
+
+
+
+
+
+
+ =20
+ =20
+
+
+
+
+
+
+=20
+=20
+=20
+
+
+ =20
+  =20
+=20
+<!DOCTYPE html>
+<html dir=3D"">
+
+<head>
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+    <meta name=3Dviewport content=3Dwidth=3Ddevice-width,initial-scale=3D1.=
+0,user-scalable=3Dno>
+    <title></title>
+  <style>
+   =20
+    .appleLinks a {color:#3C4043;text-decoration:none;}
+   =20
+@media screen and (max-width:737px) {
+  .flexible {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+  .body {
+    padding-left: 10px !important;
+    padding-right: 10px !important
+  }
+  .webkit { width: 100% !important;
+  }
+  .contents {
+		display: inline-block !important;
+		width: 100% !important;
+        padding-bottom: 22px;
+  }
+  .logo_holder_container {
+    padding: 32px 22px 29px 29px !important;
+  }
+ =20
+  .logo_holder_td {
+    padding-left: 25px !important;
+  }
+
+  .logo_right_holder_td {
+    padding-right: 25px !important;
+  }
+
+ =20
+}
+  @media screen and (max-width:414px) {
+   .flexible {=20
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+  .body {
+    padding-left: 10px !important;
+    padding-right: 10px !important
+  }
+    .logo_holder_container {
+    padding: 28px 11px 29px 11px !important;
+  }
+    .banner_logo {
+    width: 240px !important;
+  }
+    .bigger_wrapper_body {
+      padding-left:25px !important;
+      padding-right:25px !important;
+    }
+    .main_heading {
+      padding-right:25px !important;
+    }
+ .sub_heading_trigger_em1 {
+      padding-right:0px !important;
+    }
+    .header_image_td {
+     width: 100% !important;
+    }
+    .desk_header_image {
+      display: none !important;
+    }
+    .mob_header_image {
+    display: block !important;
+    }
+    .headline {
+		font-size: 24px !important;
+		line-height: 32px !important;
+    }
+    .grey_sec {
+      padding-left:25px !important;
+      padding-right:0px !important;
+    }
+ .grey_td {
+      padding-left:25px !important;
+      padding-right:0px !important;
+    }
+    #btn_outer_cover {
+      padding-right:25px !important;
+    }
+    .five-column {
+    padding-bottom:5px !important;
+      padding-left:0px !important;
+  }
+    .footer_wrapper_td {
+      padding-left:25px !important;
+      padding-right:25px !important;
+    }
+    .social_icons_container {
+      padding-left:25px !important;
+      padding-right:25px !important;
+    }
+    .bottom_link_footer_td {
+     =20
+    }
+    .bordertd {
+      padding-right:25px !important;
+    }
+    .new_mod_td {
+      display: block !important;
+      width: 100% !important;
+    }
+    .pad_top {
+      padding-top:10px !important;
+    }
+}
+@media screen and (min-width: 812px) and (max-width: 812px),
+screen and (min-width: 736px) and (max-width: 736px),
+screen and (min-width: 667px) and (max-width: 667px),
+screen and (min-width: 568px) and (max-width: 568px),
+screen and (min-width: 414px) and (max-width: 414px),
+screen and (min-width: 375px) and (max-width: 375px),
+screen and (min-width: 320px) and (max-width: 320px) {
+  .body {
+    min-width: 100vw !important;
+  }
+}
+  </style>
+</head>
+
+<body class=3Dbody bgcolor=3D#f8f9fa style=3D"-ms-text-size-adjust:100%; -w=
+ebkit-text-size-adjust:100%; border:0; background-color: #f8f9fa; font-fami=
+ly:Google Sans, Roboto, Arial; font-weight:normal; margin:0; padding:0; wid=
+th:100%; box-sizing: border-box;" width=3D100%>
+         <div class=3Dwebkit bgcolor=3D#f8f9fa style=3D"margin:0 auto; padd=
+ing:0; background-color: #f8f9fa;">
+           <div style=3D"height:0px; font-size:0px; max-height:0px; min-hei=
+ght: 0px; line-height:0px; width: 100%; color: #fff; display:none;">Get bus=
+iness done in the fast lane.</div>
+      <section>
+	<table class=3D"bigger_wrapper flexible" width=3D600 align=3Dcenter cellsp=
+acing=3D0 cellpadding=3D0 border=3D0 style=3D"-premailer-cellpadding:0; -pr=
+emailer-cellspacing:0; border-collapse:collapse; font-family:Google Sans, R=
+oboto, Arial; font-weight:normal; margin:0 auto; width:600px; max-width:600=
+px; mso-table-lspace:0; mso-table-rspace:0;">
+=20
+  <tr>
+            <td class=3D"bigger_wrapper_header flexible" style=3D"border-co=
+llapse:collapse; margin:0; max-width:600px;">
+
+                <table width=3D600 class=3D"header_wrapper flexible" align=
+=3Dcenter cellspacing=3D0 cellpadding=3D0 border=3D0 style=3D"-premailer-ce=
+llpadding:0; -premailer-cellspacing:0; border-collapse:collapse; font-famil=
+y:Roboto,Arial; font-weight:normal; margin:0 auto; mso-table-lspace:0; mso-=
+table-rspace:0; width:600px">
+                    <tr>
+                        <td style=3Dborder-collapse:collapse>
+
+                            <table width=3Dauto class=3Dlogo_holder align=
+=3Dleft cellspacing=3D0 cellpadding=3D0 border=3D0 style=3D"-premailer-cell=
+padding:0; -premailer-cellspacing:0; border-collapse:collapse; font-family:=
+roboto, arial; font-weight:500; mso-table-lspace:0; mso-table-rspace:0; wid=
+th:auto">
+                                <tr>
+                                    <td class=3Dlogo_holder_td style=3D"bor=
+der-collapse:collapse; padding-bottom:22px; padding-top:25px; padding-left:=
+50px;">
+                                        <img src=3Dhttp://services.google.c=
+om/fh/files/emails/gsuite_masthead.png width=3D94 alt=3D"G Suite" style=3D"=
+-ms-interpolation-mode:bicubic; outline:none; text-decoration:none">
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table width=3Dauto class=3Dlogo_right_holder a=
+lign=3Dright cellspacing=3D0 cellpadding=3D0 border=3D0 style=3D"-premailer=
+-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; font-fa=
+mily:Roboto, arial; font-weight:500; mso-table-lspace:0; mso-table-rspace:0=
+; width:auto">
+                                <tr>
+                                    <td class=3Dlogo_right_holder_td style=
+=3D"border-collapse:collapse; padding-right:0; padding-top: 27px; padding-r=
+ight:50px;">
+<img src=3Dhttp://services.google.com/fh/files/emails/topright_d.png width=
+=3D98 alt=3D"G Suite ICONS" style=3D"-ms-interpolation-mode:bicubic; outlin=
+e:none; text-decoration:none">
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+          =20
+<tr>
+  <td class=3D"bigger_wrapper_header flexible" style=3D"border-collapse:col=
+lapse; margin:0; max-width:600px;">
+  <table bgcolor=3D#ffffff border=3D0 cellpadding=3D0 cellspacing=3D0 width=
+=3D100% style=3D"border-radius: 3px; background-color:#ffffff; max-width:60=
+0px;">
+  <tr>
+      <td class=3D"bigger_wrapper_body flexible" width=3D100% style=3D"bord=
+er-radius: 3px; border-collapse:collapse; margin:0; padding-bottom:0px; pad=
+ding-top:0px;text-align: center;font-family:Google Sans, Roboto, Arial;back=
+ground-color:#ffffff; padding-left:50px;padding-right:50px;">
+      <table align=3Dcenter width=3D500 class=3Dflexible cellpadding=3D0 ce=
+llspacing=3D0 border=3D0 style=3D"width:500px; max-width:500px;">
+
+<tr>
+<td class=3D"flexible main_heading headline" style=3D"border-collapse:colla=
+pse; color:#3C4043; font-family:Google Sans,Roboto,Arial; font-size:32px; f=
+ont-weight:500; line-height:40px; text-align:left; padding-bottom: 0px; pad=
+ding-top: 40px; padding-left:0px; padding-right:46px;">
+Welcome to your <br><span style=3D"color:#34A853;white-space: nowrap;">G Su=
+ite free trial.</span>
+</td>
+</tr>
+<tr>
+<td class=3D"flexible sub_heading_trigger_em1" style=3D"border-collapse:col=
+lapse; color:#3C4043; font-family:Google Sans, Roboto, Arial; font-size:16p=
+x; font-weight:normal; line-height:26px; text-align:left; padding-bottom: 0=
+px; padding-top: 19px; padding-left:0px; padding-right:0px;">
+Empower your teams with easy-to-use business productivity tools.
+</td>
+</tr>
+      <tr>
+          <td id=3Douter_cover align=3Dleft style=3D"border-collapse:collap=
+se; font-family:Roboto, arial; font-weight:normal; padding-top:25px;padding=
+-bottom:0px;">
+    <table class=3Dbluecta style=3D"margin: auto; -moz-border-radius:3px; -=
+premailer-cellpadding:0; -premailer-cellspacing:0; -webkit-border-radius:3p=
+x; border-collapse:collapse; border-radius:3px; color:#1a73e8; font-family:=
+Google Sans,Arial; font-weight:500; mso-table-lspace:0; mso-table-rspace:0;=
+" height=3D40 align=3Dleft bgcolor=3D#1a73e8 cellpadding=3D0 cellspacing=3D=
+0> =20
+    <tr>
+	   <td style=3D"text-align: center; padding: 7px 4px 9px 6px; border-colla=
+pse:collapse">
+		<a style=3D"-khtml-border-radius:2px; -moz-border-radius:3px; -moz-border=
+-radius-bottomleft:0; -moz-border-radius-bottomright:3px; -moz-border-radiu=
+s-topleft:0; -moz-border-radius-topright:3px; -ms-border-radius:2px; -o-bor=
+der-radius:2px; -webkit-border-bottom-left-radius:3px; -webkit-border-botto=
+m-right-radius:3px; -webkit-border-radius:3px; -webkit-border-top-left-radi=
+us:0; -webkit-border-top-right-radius:3px; background-color:#1a73e8; border=
+-bottom-left-radius:3px; border-bottom-right-radius:3px; border-color:#1a73=
+e8; border-radius:3px; border-style:solid; border-top-left-radius:3px; bord=
+er-top-right-radius:3px; color:#ffffff; display:inline-block; font-family:G=
+oogle Sans, Arial; font-size:14px; font-weight:500; line-height:24px; margi=
+n:0; mso-hide:all; text-align:center; text-decoration:none" target=3D_blank=
+ target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEwcudL4r=
+j8ZYNF_0xL8h95G4vhYGDG58680h6v9O6hxEpdsrz71YijRL47KzQ-Jk5eiB5iEIOuNPrOSsvMe=
+ugR-mcux0VZxJkicqKs5u0_dhEfgtzKFQasTHEOQvr7fjCCUGMoSqzkFsV-K-N2ZZeLU3xlZlmS=
+jBsNKPycXPAWcXrK4BeyhKTmw4ggeQuoU7R9vzI37roonDktREoHmoxKSKjWzS8UxpsWfFLvYOS=
+fiTq6HSLQIFXr3GI_A bgcolor=3D#1a73e8 align=3Dcenter>
+         <span align=3Dcenter style=3D"-webkit-text-size-adjust: none; disp=
+lay: block;padding-left:7px;padding-right:9px;">Set up now</span>
+         </a>
+     </td>
+   </tr>
+</table>
+           </td>
+        </tr>
+        <tr>
+          <td class=3Dheader_image_td width=3D500 style=3D"width: 500px; pa=
+dding-top:31px;">
+            <img class=3Ddesk_header_image src=3Dhttp://services.google.com=
+/fh/files/emails/email1_banner.png border=3D0 alt=3D"G Suite Free Trial ban=
+ner" height=3D200 width=3D500 style=3D"height: 200px; width: 500px;" />
+            <!--[if !mso]><!-->
+            <img class=3Dmob_header_image src=3Dhttp://services.google.com/=
+fh/files/emails/email1_banner.png border=3D0 alt=3D"G Suite Free Trial bann=
+er" height=3Dauto width=3D100% style=3D"display: none; width: 100%; height:=
+ auto;" />
+            <!--<![endif]-->
+          </td>
+        </tr>
+<tr>
+<td class=3D"flexible main_heading" style=3D"border-collapse:collapse; colo=
+r:#3C4043; font-family:Roboto, Arial; font-size:14px; font-weight:bold; lin=
+e-height:24px; text-align:left; padding-bottom: 0px; padding-top: 32px; pad=
+ding-left:0px; padding-right:0px;">
+Hi there,
+</td>
+</tr>
+<tr>
+<td class=3D"flexible main_heading" style=3D"border-collapse:collapse; colo=
+r:#3C4043; font-family:Roboto, Arial; font-size:14px; font-weight:normal; l=
+ine-height:24px; text-align:left; padding-bottom: 12px; padding-top: 19px; =
+padding-left:0px; padding-right:0px;">
+You=E2=80=99re almost there. To start using <span style=3D" white-space: no=
+wrap;">G Suite</span>, sign in to your <a href=3Dhttps://www.google.com/app=
+serve/mkt/p/AD-FnEwu9yO5-Nj440QggMxxpgoMDfxQwnU7RbS4Msl1D3KD-I7LBn3WXotnwTt=
+F_XxKo7a-d2SWtNU4SAJQ8Lvsy1wrzQFkNXh4XYAtH2Amvq751lJ4xQvoJSKJUFChal-aGHm755=
+i_gNon4UpWqepKSiMiyYACOHxEpkzqjA94rB4R9Usi-Fe9-Bq_jEvyw9eJer98ZZp3J6R-DVgh7=
+vuV_4LFoltt63JfDbyEOfCoMaKFNiuBOp_DQuhzuaO33A style=3D"color:#1A73E8; font-=
+family:Roboto, arial;  font-weight:normal; text-decoration:underline;" targ=
+et=3D_blank>Google Admin Console</a>, then complete the three-step process:
+</td>
+</tr>
+       =20
+<tr>
+          <td align=3Dleft class=3Dlrpd style=3D"text-align:left; border-co=
+llapse:collapse; padding-left:0px; padding-right:0px; padding-top:7px; padd=
+ing-bottom:0px;">
+            <table width=3D500 cellspacing=3D0 cellpadding=3D0 border=3D0 c=
+lass=3Dflexible style=3D"width:500px; -premailer-cellpadding:0; -premailer-=
+cellspacing:0; border-collapse:collapse; font-family:Roboto,Arial; font-wei=
+ght:normal; mso-table-lspace:0; mso-table-rspace:0;">
+              <tr>
+           =20
+            <!--[if gte mso 9]>
+						<td width=3D"24" class=3D"img1" style=3D"font-size:14px; line-height:=
+28px; border-collapse:collapse; vertical-align:top; padding-top: 0px; text-=
+align:left" valign=3D"top">
+                   <img src=3D"http://services.google.com/fh/files/emails/c=
+heck_circle_24p.png" alt=3D"Step 1 check" style=3D"-ms-interpolation-mode:b=
+icubic; outline:none; text-decoration:none; height: 18px; width:18px;vertic=
+al-align:top;" width=3D"18"  height=3D"18">
+				</td>
+					<![endif]-->
+             =20
+					<!--[if !mso]><!-->
+                <td width=3D24 class=3Dimg1 style=3D"font-size:14px; line-h=
+eight:24px; border-collapse:collapse; vertical-align:top; padding-top: 4px;=
+ text-align:left" valign=3Dtop>
+                   <img src=3Dhttp://services.google.com/fh/files/emails/ch=
+eck_circle_24p.png alt=3D"Step 1 check" style=3D"-ms-interpolation-mode:bic=
+ubic; outline:none; text-decoration:none; height: 18px; width:18px; vertica=
+l-align:top;" width=3D18 height=3D18>
+				</td>
+                   <!--<![endif]-->
+                <td class=3Dimgtd style=3D"font-size:14px; line-height:24px=
+; border-collapse:collapse;padding-top:0px;padding-left:21px;padding-right:=
+0px; vertical-align:top;">
+                  <table class=3Dflexible cellspacing=3D0 cellpadding=3D0 b=
+order=3D0 style=3D"-premailer-cellpadding:0; -premailer-cellspacing:0; bord=
+er-collapse:collapse; font-family:Roboto,Arial; font-weight:normal; mso-tab=
+le-lspace:0; mso-table-rspace:0">
+                    <tr>
+                      <td class=3Dinner_imgtd style=3D"border-collapse:coll=
+apse; color:#3C4043; font-family:Roboto, arial; font-size:14px; line-height=
+:24px; font-weight:bold; padding-bottom:0px; padding-top:3px;">Sign up for =
+your <span style=3D" white-space: nowrap;">G Suite</span> free trial </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<tr>
+          <td align=3Dleft class=3Dlrpd style=3D"text-align:left; border-co=
+llapse:collapse; padding-left:0px; padding-right:0px; padding-top:7px; padd=
+ing-bottom:0px;">
+            <table width=3D500 cellspacing=3D0 cellpadding=3D0 border=3D0 c=
+lass=3Dflexible style=3D"width:500px; -premailer-cellpadding:0; -premailer-=
+cellspacing:0; border-collapse:collapse; font-family:Roboto,Arial; font-wei=
+ght:normal; mso-table-lspace:0; mso-table-rspace:0;">
+              <tr>
+           =20
+            <!--[if gte mso 9]>
+						<td width=3D"24" class=3D"img1" style=3D"font-size:14px; line-height:=
+28px; border-collapse:collapse; vertical-align:top; padding-top: 0px; text-=
+align:left" valign=3D"top">
+                   <img src=3D"http://services.google.com/fh/files/emails/i=
+con-step2x.png" alt=3D"Step 2"  style=3D"-ms-interpolation-mode:bicubic; ou=
+tline:none; text-decoration:none; height: 18px; width:18px;vertical-align:t=
+op;" width=3D"18"  height=3D"18">
+				</td>
+					<![endif]-->
+             =20
+					<!--[if !mso]><!-->
+                <td width=3D24 class=3Dimg1 style=3D"font-size:14px; line-h=
+eight:24px; border-collapse:collapse; vertical-align:top; padding-top: 6px;=
+ text-align:left" valign=3Dtop>
+                   <img src=3Dhttp://services.google.com/fh/files/emails/ic=
+on-step2x.png alt=3D"Step 2" style=3D"-ms-interpolation-mode:bicubic; outli=
+ne:none; text-decoration:none; height: 18px; width:18px; vertical-align:top=
+;" width=3D18 height=3D18>
+				</td>
+                   <!--<![endif]-->
+                <td class=3Dimgtd style=3D"font-size:14px; line-height:24px=
+; border-collapse:collapse;padding-top:0px;padding-left:21px;padding-right:=
+0px; vertical-align:top;">
+                  <table class=3Dflexible cellspacing=3D0 cellpadding=3D0 b=
+order=3D0 style=3D"-premailer-cellpadding:0; -premailer-cellspacing:0; bord=
+er-collapse:collapse; font-family:Roboto,Arial; font-weight:normal; mso-tab=
+le-lspace:0; mso-table-rspace:0">
+                    <tr>
+                      <td class=3Dinner_imgtd style=3D"border-collapse:coll=
+apse; color:#3C4043; font-family:Roboto, arial; font-size:14px; line-height=
+:24px; font-weight:bold; padding-bottom:0px; padding-top:5px;">Verify your =
+domain</td>
+                    </tr>
+                    <tr>
+                      <td class=3Dinner_imgtd style=3D"border-collapse:coll=
+apse; color:#3C4043; font-family:Roboto, arial; font-size:14px; line-height=
+:24px; font-weight:normal; padding-bottom:7px; padding-top:5px;">Let=E2=80=
+=99s make sure no one else uses your <span style=3D" white-space: nowrap;">=
+G Suite</span> service without your permission. </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<tr>
+          <td align=3Dleft class=3Dlrpd style=3D"text-align:left; border-co=
+llapse:collapse; padding-left:0px; padding-right:0px; padding-top:7px; padd=
+ing-bottom:0px;">
+            <table width=3D500 cellspacing=3D0 cellpadding=3D0 border=3D0 c=
+lass=3Dflexible style=3D"width:500px; -premailer-cellpadding:0; -premailer-=
+cellspacing:0; border-collapse:collapse; font-family:Roboto,Arial; font-wei=
+ght:normal; mso-table-lspace:0; mso-table-rspace:0;">
+              <tr>
+           =20
+            <!--[if gte mso 9]>
+						<td width=3D"24" class=3D"img1" style=3D"font-size:14px; line-height:=
+28px; border-collapse:collapse; vertical-align:top; padding-top: 0px; text-=
+align:left" valign=3D"top">
+                   <img src=3D"http://services.google.com/fh/files/emails/i=
+con-step32x.png" alt=3D"Step 3"  style=3D"-ms-interpolation-mode:bicubic; o=
+utline:none; text-decoration:none; height: 18px; width:18px;vertical-align:=
+top;" width=3D"18"  height=3D"18">
+				</td>
+					<![endif]-->
+             =20
+					<!--[if !mso]><!-->
+                <td width=3D24 class=3Dimg1 style=3D"font-size:14px; line-h=
+eight:24px; border-collapse:collapse; vertical-align:top; padding-top: 3px;=
+ text-align:left" valign=3Dtop>
+                   <img src=3Dhttp://services.google.com/fh/files/emails/ic=
+on-step32x.png alt=3D"Step 3" style=3D"-ms-interpolation-mode:bicubic; outl=
+ine:none; text-decoration:none; height: 18px; width:18px; vertical-align:to=
+p;" width=3D18 height=3D18>
+				</td>
+                   <!--<![endif]-->
+                <td class=3Dimgtd style=3D"font-size:14px; line-height:24px=
+; border-collapse:collapse;padding-top:0px;padding-left:21px;padding-right:=
+0px; vertical-align:top;">
+                  <table class=3Dflexible cellspacing=3D0 cellpadding=3D0 b=
+order=3D0 style=3D"-premailer-cellpadding:0; -premailer-cellspacing:0; bord=
+er-collapse:collapse; font-family:Roboto,Arial; font-weight:normal; mso-tab=
+le-lspace:0; mso-table-rspace:0">
+                    <tr>
+                      <td class=3Dinner_imgtd style=3D"border-collapse:coll=
+apse; color:#3C4043; font-family:Roboto, arial; font-size:14px; line-height=
+:24px; font-weight:bold; padding-bottom:0px; padding-top:0px;">Set up mail =
+exchange (MX) records </td>
+                    </tr>
+                    <tr>
+                      <td class=3Dinner_imgtd style=3D"border-collapse:coll=
+apse; color:#3C4043; font-family:Roboto, arial; font-size:14px; line-height=
+:24px; font-weight:normal; padding-bottom:7px; padding-top:0px;">Use MX rec=
+ords to set up Gmail as your professional email.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+<tr>
+<td class=3D"flexible main_heading" style=3D"border-collapse:collapse; colo=
+r:#3C4043; font-family:Roboto, Arial; font-size:14px; font-weight:normal; l=
+ine-height:24px; text-align:left; padding-bottom: 12px; padding-top: 9px; p=
+adding-left:0px; padding-right:0px;">
+To help you make the most of your <span style=3D" white-space: nowrap;">G S=
+uite</span> 14-day free trial, we=E2=80=99ll send you quick explanations, i=
+n-depth guides, <span style=3D" white-space: nowrap;">G Suite</span> custom=
+er stories, and more.
+</td>
+</tr>
+
+    <tr>
+      <td id=3Douter_cover align=3Dleft width=3D500 bgcolor=3D#ffffff style=
+=3D"border-collapse:collapse; font-family:Roboto, arial; font-weight:normal=
+; padding-top:20px;padding-right:50px; background-color:#ffffff;width:500px=
+;padding-bottom:32px;">
+    <table class=3Dbluecta style=3D"margin: auto; -moz-border-radius:3px; -=
+premailer-cellpadding:0; -premailer-cellspacing:0; -webkit-border-radius:3p=
+x; border-collapse:collapse; border-radius:3px; color:#1a73e8; font-family:=
+Google Sans,Arial; font-weight:500; mso-table-lspace:0; mso-table-rspace:0;=
+" height=3D40 align=3Dleft bgcolor=3D#1a73e8 cellpadding=3D0 cellspacing=3D=
+0> =20
+    <tr>
+	   <td style=3D"text-align: center; padding: 7px 4px 9px 6px; border-colla=
+pse:collapse">
+		<a style=3D"-khtml-border-radius:2px; -moz-border-radius:3px; -moz-border=
+-radius-bottomleft:0; -moz-border-radius-bottomright:3px; -moz-border-radiu=
+s-topleft:0; -moz-border-radius-topright:3px; -ms-border-radius:2px; -o-bor=
+der-radius:2px; -webkit-border-bottom-left-radius:3px; -webkit-border-botto=
+m-right-radius:3px; -webkit-border-radius:3px; -webkit-border-top-left-radi=
+us:0; -webkit-border-top-right-radius:3px; background-color:#1a73e8; border=
+-bottom-left-radius:3px; border-bottom-right-radius:3px; border-color:#1a73=
+e8; border-radius:3px; border-style:solid; border-top-left-radius:3px; bord=
+er-top-right-radius:3px; color:#ffffff; display:inline-block; font-family:G=
+oogle Sans, Arial; font-size:14px; font-weight:500; line-height:24px; margi=
+n:0; mso-hide:all; text-align:center; text-decoration:none" target=3D_blank=
+ target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEzUjNh3-=
+wxSPkOAzzLc4BuOCDfga6Wo3LCDtZJih-2AoX0eM__7lYScUo0FAnfD-C9ACTlwmB-fdIcJsOCE=
+GHdMyciTnOHfw85GD1-gDiSNqPE0TPj4OFoisu0lb2Y7rhT_wW4O2hUwpwdMBGaCILXkMaTaT6M=
+O9fxnmvyJy1eNbIGQbQQl5q6eF9WpB3s4jdsfyIYsL_qnMXsSIr6VZnefakVaYA2EgTUnRvpGEf=
+dWM1OrKGiCcbw0fg bgcolor=3D#1a73e8 align=3Dcenter>
+         <span align=3Dcenter style=3D"-webkit-text-size-adjust: none; disp=
+lay: block;padding-left:7px;padding-right:9px;">Set up now</span>
+         </a>
+     </td>
+   </tr>
+</table>
+      </td>
+   </tr>
+
+
+       =20
+<tr>
+<td class=3D"flexible main_heading" style=3D"border-collapse:collapse; colo=
+r:#3C4043; font-family:Google Sans,Roboto, Arial; font-size:14px; font-weig=
+ht:normal; line-height:24px; text-align:left; padding-bottom: 0px; padding-=
+top: 0px; padding-left:0px; padding-right:0px;">
+See you online,
+</td>
+</tr>
+<tr>
+<td class=3D"flexible main_heading" style=3D"border-collapse:collapse; colo=
+r:#3C4043; font-family:Google Sans,Roboto, Arial; font-size:14px; font-weig=
+ht:bold; line-height:24px; text-align:left; padding-bottom: 24px; padding-t=
+op: 2px; padding-left:0px; padding-right:0px;">
+The G Suite Team
+</td>
+</tr>
+
+<tr>
+   <td class=3Dbottom_link_footer_td align=3Dleft width=3D100% style=3D"mar=
+gin:0; padding:0; padding-right:0px;">
+<!--[if mso]>
+    <table class=3D"bottom_link_container" align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0" border=3D"0" style=3D"-premailer-cellpadding:0; -prema=
+iler-cellspacing:0; background:#ffffff;border-top:1px solid #D8D8D8; border=
+-collapse:collapse; font-family:Roboto, arial; font-weight:normal; margin:0=
+;  mso-table-lspace:0; mso-table-rspace:0; width:500px;" width=3D"500">
+ <![endif]-->
+ <!--[if !mso]> <!---->
+<table class=3Dbottom_link_container align=3Dcenter cellspacing=3D0 cellpad=
+ding=3D0 border=3D0 style=3D"-premailer-cellpadding:0; -premailer-cellspaci=
+ng:0; background:#ffffff; border-collapse:collapse; border-top:1px solid #D=
+8D8D8; font-family:Roboto, arial; font-weight:normal; margin:0 auto; max-wi=
+dth:600px; mso-table-lspace:0; mso-table-rspace:0; width:100%" width=3D100%=
+>
+ <!-- <![endif]-->
+  <tr>
+     <td style=3Dborder-collapse:collapse>
+        <table width=3D100% cellspacing=3D0 cellpadding=3D0 border=3D0 styl=
+e=3D"-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:co=
+llapse; font-family:Roboto, arial; font-weight:normal; mso-table-lspace:0; =
+mso-table-rspace:0">
+      <!--[if (gte mso 9)|(IE)]>
+ <tr><td width=3D"500">
+ <table width=3D"500" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" >
+ <![endif]-->
+    <tr>
+       <td class=3Dtext_wrapper_inner_td style=3D"-khtml-border-radius:0 0 =
+5px 5px; -moz-border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px;=
+ border-collapse:collapse; border-radius:0 0 5px 5px; color:#455a64; font-f=
+amily:Roboto, arial; font-size:14px; line-height:24px; padding-bottom:0;">
+         <table class=3Dbottom_link_container_inner_table width=3D100% styl=
+e=3D"-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:co=
+llapse; font-family:Roboto, arial; font-weight:normal; max-width:600px; mso=
+-table-lspace:0; mso-table-rspace:0; width:100%" cellpadding=3D0 cellspacin=
+g=3D0>
+            <tr>
+              <td class=3Dfive-column style=3D"border-collapse:collapse;fon=
+t-size:0;padding: 18px 0px 19px 0px;text-align:left;padding-right: 0px;" al=
+ign=3Dleft>
+     <!--[if (gte mso 9)|(IE)]>
+			<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" >
+				<tr>
+					 <td width=3D"220" style=3D"width: 220px;" >
+	 <![endif]-->
+     <table class=3Dcontents align=3Dleft style=3D"-premailer-cellpadding:0=
+; -premailer-cellspacing:0; border-collapse:collapse; font-family:Roboto, a=
+rial; font-size:14px; font-weight:normal; mso-table-lspace:0; mso-table-rsp=
+ace:0; text-align:left; width:76px;" cellpadding=3D0 cellspacing=3D0 width=
+=3D100%>
+      <tr>
+        <td class=3Dtext id=3Dft1 valign=3Dmiddle style=3D"border-collapse:=
+collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; font-size:=
+14px; font-weight:500; line-height:18px; padding-right:7px; text-align:left=
+; width:26px;padding-left:0px;" align=3Dleft width=3D26>
+ <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEzfLv=
+xXn3y4-32ZWUtOhhafFRCOkdJOyKm5IGweWuQOH6dZsVgy3RYUzCkHLJa1lzJOlR9qfX5x_gDTz=
+O_QMdNwpwcvpl1e3_HnPhFY72HLemHDDhaAAe_PydDCpjUX_xEZg7csNpw-to74RpG0tj5Bh4Hg=
+O1AjgIpa6TGdY7bOCQ-LWch01rnKwm-gsuhte14EcCB8CHwy71kfwCsVifT2LssuYcaut3d2g03=
+GqhamCdS6CyruGh04picXO6AUwKpwix7ejF9sP8S4KMMXjF_AHeVk1Oj5vw target=3D_blank=
+ style=3D"color:#1A73E8; font-family:Google Sans, Roboto, arial; font-size:=
+14px; font-weight:500; line-height:18px; text-align:left; text-decoration:n=
+one" class=3D"bottom_link_text bottom_link_text_mbl" align=3Dleft><img src=
+=3Dhttp://services.google.com/fh/files/emails/domain_2x.png valign=3Dmiddle=
+ width=3D16 border=3D0 alt=3D"About your G Suite icon" style=3D"-ms-interpo=
+lation-mode:bicubic; height:auto; outline:none; text-decoration:none;vertic=
+al-align:middle;" height=3Dauto></a>
+        </td>
+        <td class=3Dtext1 width=3D100% valign=3Dmiddle style=3D"border-coll=
+apse:collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; font-=
+size:14px; font-weight:500; line-height:18px; text-align:left;width:100%; p=
+adding-top:1px;padding-right:26px" align=3Dleft>
+ <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEzfLv=
+xXn3y4-32ZWUtOhhafFRCOkdJOyKm5IGweWuQOH6dZsVgy3RYUzCkHLJa1lzJOlR9qfX5x_gDTz=
+O_QMdNwpwcvpl1e3_HnPhFY72HLemHDDhaAAe_PydDCpjUX_xEZg7csNpw-to74RpG0tj5Bh4Hg=
+O1AjgIpa6TGdY7bOCQ-LWch01rnKwm-gsuhte14EcCB8CHwy71kfwCsVifT2LssuYcaut3d2g03=
+GqhamCdS6CyruGh04picXO6AUwKpwix7ejF9sP8S4KMMXjF_AHeVk1Oj5vw target=3D_blank=
+ style=3D"color:#1A73E8; font-family:Google Sans, Roboto, arial; font-size:=
+14px; font-weight:500; line-height:18px; text-align:left; text-decoration:n=
+one;white-space:nowrap;" class=3D"bottom_link_text bottom_link_text_mbl" al=
+ign=3Dleft>About your G Suite free trial</a>
+        </td>
+     </tr>
+   </table>
+     <!--[if (gte mso 9)|(IE)]>
+     </td>
+ <td width=3D"120" style=3D"width: 120px;" >
+	 <![endif]-->
+     <table class=3Dcontents align=3Dleft style=3D"-premailer-cellpadding:0=
+; -premailer-cellspacing:0; border-collapse:collapse; font-family:Roboto, a=
+rial; font-size:14px; font-weight:normal; mso-table-lspace:0; mso-table-rsp=
+ace:0; text-align:left; width:104px;" cellpadding=3D0 cellspacing=3D0 width=
+=3D100%>
+       <tr>
+          <td class=3Dtext id=3Dft2 valign=3Dmiddle style=3D"border-collaps=
+e:collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; font-siz=
+e:14px; font-weight:500; line-height:18px; padding-right:9px; text-align:le=
+ft; width:25px;padding-left:0px;" align=3Dleft width=3D25>
+ <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnExli3=
+K4mry6uqhzgxJ5fCbMjeAPpfk99cMsB-rgb-7PXD4CoTdRMdrNkJaIMujCvMEd-PgNDU7-9wLuL=
+8I_Eem6bXCFAB1H4ADSM5UJAFEJ2VeIv_IVoYJJqIoEBWxcxvob96kMsNPAvayGEOyUxV_OOprd=
+sq_lZCaQEhW8feJcVS9xfpoJyr20hnLQGLjw-s-3mvJPqvbT492GpKfIN9NXz2tOmJ6dPDTK427=
+Apo_XC_DNa_5IHZtyttMIsVP6vearVzACIpn6B2IDRjY target=3D_blank style=3D"color=
+:#1A73E8; font-family:Google Sans, Roboto, arial; font-size:14px; font-weig=
+ht:500; line-height:18px; text-align:left; text-decoration:none" class=3D"b=
+ottom_link_text bottom_link_text_mbl" align=3Dleft><img src=3Dhttp://servic=
+es.google.com/fh/files/emails/domain_copy.png valign=3Dmiddle width=3D14 bo=
+rder=3D0 alt=3D"Help center icon" style=3D"-ms-interpolation-mode:bicubic; =
+height:auto; outline:none; text-decoration:none;vertical-align:middle;" hei=
+ght=3Dauto></a>
+          </td>
+          <td class=3Dtext1 width=3D100% valign=3Dmiddle style=3D"border-co=
+llapse:collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; fon=
+t-size:14px; font-weight:500; line-height:18px; text-align:left;width:100%;=
+ padding-top:1px;padding-right:28px" align=3Dleft>
+ <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnExli3=
+K4mry6uqhzgxJ5fCbMjeAPpfk99cMsB-rgb-7PXD4CoTdRMdrNkJaIMujCvMEd-PgNDU7-9wLuL=
+8I_Eem6bXCFAB1H4ADSM5UJAFEJ2VeIv_IVoYJJqIoEBWxcxvob96kMsNPAvayGEOyUxV_OOprd=
+sq_lZCaQEhW8feJcVS9xfpoJyr20hnLQGLjw-s-3mvJPqvbT492GpKfIN9NXz2tOmJ6dPDTK427=
+Apo_XC_DNa_5IHZtyttMIsVP6vearVzACIpn6B2IDRjY target=3D_blank style=3D"color=
+:#1A73E8; font-family:Google Sans, Roboto, arial; font-size:14px; font-weig=
+ht:500; line-height:18px; text-align:left; text-decoration:none;white-space=
+:nowrap;" class=3D"bottom_link_text bottom_link_text_mbl" align=3Dleft>Help=
+ Center</a>
+          </td>
+      </tr>
+    </table>
+     <!--[if (gte mso 9)|(IE)]>
+     </td>
+					<td width=3D"120" style=3D"width:120px;" >
+	 <![endif]-->
+     <table class=3Dcontents align=3Dleft style=3D"-premailer-cellpadding:0=
+; -premailer-cellspacing:0; border-collapse:collapse; font-family:Roboto, a=
+rial; font-size:14px; font-weight:normal; mso-table-lspace:0; mso-table-rsp=
+ace:0; text-align:left; width:120px;" cellpadding=3D0 cellspacing=3D0 width=
+=3D100%>
+       <tr>
+           <td class=3Dtext id=3Dft3 valign=3Dmiddle style=3D"border-collap=
+se:collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; font-si=
+ze:14px; font-weight:500; line-height:18px; padding-right:8px; text-align:l=
+eft; width:25px;padding-left:0px;" align=3Dleft width=3D25>
+             <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/=
+p/AD-FnEwEKFK-coGgspx7GzUK7doiknKMEuTtgqiE23066_O84s_4DAG2f7qlaawEIncYZayhl=
+JjJIIqGSY4RmZ8Y-cn0py72GgJfb1C1hNMfVlkttxVZzEzqvnfLgGPzuVBtz5GaDyAWYY0fqeFN=
+h5H3OVXCVK7cB8rqqC9Zs1yfmYxV3l7Bfd7BcrC0R1o1QXhccqP4Y4tBu3wVuU67oYY-9y8Ohat=
+0MZVWJMD19AJBKGHVEdkEw6GFsiY6qGhpJvz9aRPIzfFvs327LVFuiJEYFFegloYsZKECrOTLSw=
+ target=3D_blank style=3D"color:#1A73E8; font-family:Google Sans, Roboto, a=
+rial; font-size:14px; font-weight:500; line-height:18px; text-align:left; t=
+ext-decoration:none" class=3D"bottom_link_text bottom_link_text_mbl" align=
+=3Dleft><img src=3Dhttps://services.google.com/fh/files/emails/icon3_email3=
+a_d.png valign=3Dmiddle width=3D16 border=3D0 alt=3D"Setup FAQ icon" style=
+=3D"-ms-interpolation-mode:bicubic; height:auto; outline:none; text-decorat=
+ion:none;vertical-align:middle;" height=3Dauto></a>
+            </td>
+            <td class=3Dtext1 width=3D100% valign=3Dmiddle style=3D"border-=
+collapse:collapse; color:#1A73E8; font-family:Google Sans, Roboto, arial; f=
+ont-size:14px; font-weight:500; line-height:18px; text-align:left;width:100=
+%; padding-top:1px;padding-right:27px" align=3Dleft>
+ <a target=3D_blank href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEwEKF=
+K-coGgspx7GzUK7doiknKMEuTtgqiE23066_O84s_4DAG2f7qlaawEIncYZayhlJjJIIqGSY4Rm=
+Z8Y-cn0py72GgJfb1C1hNMfVlkttxVZzEzqvnfLgGPzuVBtz5GaDyAWYY0fqeFNh5H3OVXCVK7c=
+B8rqqC9Zs1yfmYxV3l7Bfd7BcrC0R1o1QXhccqP4Y4tBu3wVuU67oYY-9y8Ohat0MZVWJMD19AJ=
+BKGHVEdkEw6GFsiY6qGhpJvz9aRPIzfFvs327LVFuiJEYFFegloYsZKECrOTLSw target=3D_b=
+lank style=3D"color:#1A73E8; font-family:Google Sans, Roboto, arial; font-s=
+ize:14px; font-weight:500; line-height:18px; text-align:left; text-decorati=
+on:none;white-space:nowrap;" class=3D"bottom_link_text bottom_link_text_mbl=
+" align=3Dleft>Setup FAQ</a>
+           </td>
+     </tr>
+   </table>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+=09
+=09
+     </tr>
+     </table>
+     <![endif]-->
+     </td>
+     </tr>
+     </table>
+         </td>
+         </tr>
+      <!--[if (gte mso 9)|(IE)]>
+</table>
+ </td></tr>
+ <![endif]-->
+     </table>
+     </td>
+     </tr>
+</table>
+</td>
+</tr>
+       =20
+      </table>
+      </td>
+  </tr>
+  </table>
+  </td>
+</tr>
+=20
+  =20
+=20
+<tr>
+  <td width=3D100% style=3Dborder-collapse:collapse;width:100%;>
+     <table width=3D100% class=3Dcontent_wrapper align=3Dcenter cellspacing=
+=3D0 cellpadding=3D0 border=3D0 style=3D"-premailer-cellpadding:0; -premail=
+er-cellspacing:0; border-collapse:collapse; font-family:Roboto,Arial; font-=
+weight:normal; margin:0 auto; max-width:600px; mso-table-lspace:0; mso-tabl=
+e-rspace:0; width:100%">
+
+        <tr>
+            <td class=3Dfooter_wrapper_td style=3D"border-collapse:collapse=
+; color:#9AA0A6; font-family:Roboto, arial; font-size:12px; line-height:16p=
+x; padding:41px 50px 0px 50px; text-align:left" align=3Dcenter>=20
+               <img src=3Dhttp://services.google.com/fh/files/emails/bottom=
+_footer_logo.png alt=3D"Google Cloud" width=3D140 style=3D"-ms-interpolatio=
+n-mode:bicubic; outline:none; text-decoration:none">
+             </td>
+       </tr>
+
+       <tr>
+           <td class=3Dfooter_wrapper_td style=3D"border-collapse:collapse;=
+ color:#9AA0A6; font-family:Roboto, arial; font-size:12px; line-height:16px=
+; padding:9px 50px 11px 50px; text-align:left; word-break: break-word;" ali=
+gn=3Dcenter>=20
+     <a style=3Dpointer-events:none;cursor:text;text-decoration:none;color:=
+#9AA0A6;font-size:12px;>Google LLC 1600 Amphitheatre Parkway, Mountain View=
+, CA 94043</a>
+           </td>
+       </tr>
+
+        <tr>
+           <td class=3Dfooter_wrapper_td style=3D"border-collapse:collapse;=
+ color:#9AA0A6; font-family:Roboto, arial; font-size:12px; line-height:16px=
+; padding:23px 50px 6px 50px; padding-top:10px; text-align:left; word-break=
+: break-word;" align=3Dcenter>=20
+     You have received this email because it contains important information=
+ about your G Suite free trial.
+           </td>
+       </tr>
+
+          <tr>
+                      <td class=3D"social_icons_container flexible" style=
+=3D"background-color:#f8f9fa; border-collapse:collapse; padding:11px 50px 1=
+5px 50px; width:100%" width=3D100%>=20
+                        <table class=3Dsocial_icons_container_inner cellspa=
+cing=3D0 cellpadding=3D0 border=3D0 align=3Dleft style=3D"-premailer-cellpa=
+dding:0; -premailer-cellspacing:0; border-collapse:collapse; font-family:Ar=
+ial, sans-serif; font-weight:normal; margin:0 auto; mso-table-lspace:0; mso=
+-table-rspace:0">=20
+                          <tr>
+                         =20
+                            <td width=3D30 class=3Dsocial_icons_container_i=
+nner style=3D"border-collapse:collapse; margin:0 auto"><a target=3D_blank h=
+ref=3Dhttps://www.google.com/appserve/mkt/p/AD-FnExZckwElOQpC4j_zNZIzGL_2Xq=
+TBkDiqsKUFKHJoZUK3TXVxEMKyOjTumQeN1Xs2Mbyqr4gK_1cm2Rs_8GnOXZKc8NkHrP8PQhrHp=
+jHFFhVEh5OCRVFgQpXvvUljDBDX9Xta7a6yXCQUsuXe3WXaCpnFJd_nvsq6bV5ArEs1fgvpoJUS=
+xRAqNJSerkkpkl6LrDAwoF4yxacHEoKY6Sdq_IiOVoPsBvuMWlVMe1SEVHhEt8VNdvzs2BN2bus=
+ONY target=3D_blank><img src=3Dhttp://services.google.com/fh/files/emails/r=
+elease_notes_new_icon.png alt=3D"Google Cloud Blog" width=3D19 style=3D"-ms=
+-interpolation-mode:bicubic; border:none; outline:none; text-decoration:non=
+e"></a></td>=20
+                             <td width=3D10 style=3Dborder-collapse:collaps=
+e>&nbsp; &nbsp;</td>
+                            <td width=3D30 class=3Dsocial_icons_container_i=
+nner style=3D"border-collapse:collapse; margin:0 auto"><a target=3D_blank h=
+ref=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEy2wUArbx6QpRZz5KH7Mu-qyNb=
+Jo6JUijm7vnYHT6zTE7iyuTU1igpnpvreWBb9QFRMO0liH5l5jrBY22KFfHW2RWWjWA5kHWY ta=
+rget=3D_blank><img src=3Dhttp://services.google.com/fh/files/emails/release=
+_notes_apr_github.png alt=3DGitHub width=3D17 style=3D"-ms-interpolation-mo=
+de:bicubic; border:none; outline:none; text-decoration:none"></a></td>
+                             <td width=3D10 style=3Dborder-collapse:collaps=
+e>&nbsp; &nbsp;</td>
+                            <td width=3D30 class=3Dsocial_icons_container_i=
+nner style=3D"border-collapse:collapse; margin:0 auto"><a target=3D_blank h=
+ref=3Dhttps://www.google.com/appserve/mkt/p/AD-FnExSWJqiKTJScGfH6z2o_xk1li1=
+0zZgclulf9JB9dm4SMr52LWv0ciQ14LYwhgQA3Hdc0XLbXFr4PzPOGEhLZenIWL3evEQrpR1y0P=
+-MiAE8bWZGhlSz_A target=3D_blank><img src=3Dhttp://services.google.com/fh/f=
+iles/emails/linkedin_image2x.png alt=3DLinkedIn width=3D17 style=3D"-ms-int=
+erpolation-mode:bicubic; border:none; outline:none; text-decoration:none"><=
+/a></td>
+                             <td width=3D10 style=3Dborder-collapse:collaps=
+e>&nbsp; &nbsp;</td>
+                             <td width=3D33 class=3Dsocial_icons_container_=
+inner style=3D"border-collapse:collapse; margin:0 auto"><a target=3D_blank =
+href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEy_3H6p_hFTFQ1OX8GmrMfE3n=
+AGjAm_aCNxkUvnEldPxiRCO7mZk7SJbjVhQXqxVyhi9xgme9LjBG-eqhlgLA_fjwdlwNOa targ=
+et=3D_blank><img src=3Dhttp://services.google.com/fh/files/emails/release_n=
+otes_apr_twitter.png alt=3DTwitter width=3D16 style=3D"-ms-interpolation-mo=
+de:bicubic; border:none; outline:none; text-decoration:none"></a></td>
+							 <td width=3D10 style=3Dborder-collapse:collapse>&nbsp; &nbsp;</td>
+							 <td width=3D33 class=3Dsocial_icons_container_inner style=3D"border=
+-collapse:collapse; margin:0 auto"><a target=3D_blank href=3Dhttps://www.go=
+ogle.com/appserve/mkt/p/AD-FnEx6jPZhxVIvvA_rDFFdepbN0hQHx2lX5wVMwqTkSrlffSf=
+iPeGcn8SxcWqX4BbKsJk1S55bvrlAZ1xrk8vBX0lCD8NrZcHxd73ihkdcoD6Hi7qw89k target=
+=3D_blank><img src=3Dhttp://services.google.com/fh/files/emails/release_not=
+es_apr_facebook.png alt=3DFacebook width=3D10 style=3D"-ms-interpolation-mo=
+de:bicubic; border:none; outline:none; text-decoration:none"></a></td>
+                          </tr>
+                        </table>
+                       </td>
+                    </tr>
+=20
+	</table>
+</section>
+</div>
+<img height=3D1 src=3Dhttps://www.google.com/appserve/mkt/img/AD-FnExdRsHcM=
+YCOijpiM09LUNKCwhL_VRofkGXf4fb2GgcyGDM.gif width=3D3>
+</body>
+</html>
+=20
+
+--000000000000e5481c05a5e5acdd--

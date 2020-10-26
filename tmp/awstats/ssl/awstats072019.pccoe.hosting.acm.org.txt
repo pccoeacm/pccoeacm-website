@@ -1,0 +1,333 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201907 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/ssl/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2703                
+POS_VISITOR 7560                
+POS_DAY 8419                
+POS_DOMAIN 3387                
+POS_LOGIN 3631                
+POS_ROBOT 3786                
+POS_WORMS 4170                
+POS_EMAILSENDER 4301                
+POS_EMAILRECEIVER 4444                
+POS_SESSION 8689                
+POS_SIDER 8845                
+POS_FILETYPES 4579                
+POS_DOWNLOADS 4751                
+POS_OS 4799                
+POS_BROWSER 4944                
+POS_SCREENSIZE 5696                
+POS_UNKNOWNREFERER 5770                
+POS_UNKNOWNREFERERBROWSER 6071                
+POS_ORIGIN 6282                
+POS_SEREFERRALS 6416                
+POS_PAGEREFS 6560                
+POS_SEARCHWORDS 6773                
+POS_KEYWORDS 6925                
+POS_MISC 2367                
+POS_ERRORS 6984                
+POS_CLUSTER 3487                
+POS_SIDER_404 7100                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190801064112 138 32668 6024604883107
+FirstTime 20190702123203
+LastTime 20190731103024
+LastUpdate 20190805203639 138 0 137 0 0
+TotalVisits 9                   
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 16004 2 23 1551654
+1 0 0 0 2 16 925907
+2 0 1 49693 1 18 4579845
+3 0 0 0 1 11 1315546
+4 0 0 0 1 13 358196
+5 1 1 6061 3 103 1889975
+6 0 0 0 4 17 1505551
+7 0 0 0 1 13 1036614
+8 0 0 0 4 9 814847
+9 0 0 0 0 6 256502
+10 1 122 920716 2 12 411776
+11 1 1 40239 1 4 1210
+12 1 1 40239 5 18 269550
+13 4 4 8121 5 12 102597
+14 11 18 91916 4 16 71626
+15 0 14 87460 3 33 1009347
+16 0 0 0 4 36 645596
+17 0 4 28571 1 15 1604701
+18 0 2 8314 3 29 530405
+19 0 1 1265 1 18 3557529
+20 1 1 6190 1 16 1118554
+21 0 0 0 0 11 380612
+22 0 1 11422 3 38 987733
+23 0 0 0 3 40 1923816
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 21 153 1207047
+cn 0 19 109164
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bingbot/ 233 24972452 20190731070928 30
+spider 68 440278 20190731182230 0
+Googlebot/ 20 620 20190730223105 20
+Googlebot\-Image/ 8 526438 20190711220423 0
+unknown 7 217 20190731164645 7
+crawl 3 53622 20190728130204 1
+no_user_agent 1 31 20190702123232 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 21 170502 0 0
+gif 1 0 0 0
+jpeg 6 0 0 0
+js 28 186510 0 0
+jpg 90 888702 0 0
+png 9 0 0 0
+css 17 70497 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+ios_iphone 4 0
+Unknown 6 5
+linuxandroid 141 2
+win10 5 5
+linux 1 1
+macosx11 15 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome47.0.8023.1725 1 0
+chrome66.0.3359.117 2 2
+chrome48.0.8203.1309 1 0
+firefox52.0 15 8
+chrome53.0.6593.1812 1 0
+chrome53.0.8144.1813 1 0
+chrome58.0.6407.1695 1 0
+Unknown 5 4
+android 1 1
+chrome59.0.7272.1598 1 0
+chrome56.0.7177.1327 1 0
+chrome56.0.7030.1482 1 0
+chrome40.0.1581.1383 1 0
+chrome75.0.3770.143 122 1
+chrome43.0.7357.1314 1 0
+chrome40.0.6876.1959 1 0
+chrome46.0.7874.1607 1 0
+chrome54.0.9964.1738 1 0
+chrome43.0.8886.1561 1 0
+chrome59.0.5381.1623 1 0
+chrome75.0.3770.100 3 3
+chrome34.0.1847.137 1 1
+chrome56.0.5567.1459 1 0
+chrome56.0.6249.1430 1 0
+chrome59.0.5898.1672 1 0
+chrome59.0.3031.1908 1 0
+chrome57.0.5688.1680 1 0
+mozilla 1 1
+chrome39.0.8404.1631 1 0
+chrome56.0.6494.1714 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Python/3.6_aiohttp/3.5.4 20190723143243
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20190708115759
+Go-http-client/1.1 20190702202157
+YahooCacheSystem;_YahooWebServiceClient 20190721025854
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Python/3.6_aiohttp/3.5.4 20190723143243
+Go-http-client/1.1 20190702202157
+YahooCacheSystem;_YahooWebServiceClient 20190721025854
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 18 48
+From1 0 0
+From2 0 0
+From3 2 2
+From4 1 122
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://cpanel.pccoe.hosting.acm.org/unprotected/loader.html 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 13 656297
+404 172 197456
+403 2 2278
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 5
+/.well-known/security.txt 1 -
+/18-19Images/ 1 https://pccoe.acm.org/
+/app-ads.txt 168 -
+/sitemap.xml 1 -
+/images/abhishek.png 1 https://pccoe.acm.org/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+34.77.236.1 11 18 91916 20190723143243
+157.33.223.234 3 3 1931 20190715134352
+69.175.97.170 2 2 22194 20190731005708
+157.33.202.211 1 1 6061 20190726053755
+45.33.6.33 1 1 6190 20190702202157
+167.71.191.111 1 1 40239 20190708115759
+157.33.230.185 1 122 920716 20190731103024
+71.6.147.198 1 1 40239 20190702123203
+220.243.136.168 0 1 606 
+54.223.85.254 0 3 23904 
+54.222.194.87 0 2 10729 
+54.222.165.45 0 1 1067 
+52.80.89.115 0 1 24904 
+54.223.53.245 0 1 3602 
+52.80.191.251 0 1 1265 
+52.81.131.79 0 1 1699 
+67.195.177.117 0 1 49693 
+54.223.154.83 0 2 1085 
+54.222.218.45 0 1 7247 
+54.222.162.101 0 1 11422 
+220.243.135.163 0 1 9505 
+54.223.243.199 0 1 1603 
+220.243.136.100 0 1 11422 
+220.243.135.98 0 1 455 
+220.243.136.208 0 1 18005 
+220.243.136.18 0 1 7247 
+220.243.135.181 0 1 1265 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20190702 2 2 46429 2
+20190708 1 1 40239 1
+20190711 1 1 6190 1
+20190715 3 3 1931 1
+20190718 0 7 48505 0
+20190721 0 1 49693 0
+20190723 11 18 91916 1
+20190726 1 1 6061 1
+20190727 0 14 87460 0
+20190731 2 124 937787 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 8
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 12 155465 8 8
+/unprotected/redirect.html 2 1026 0 1
+/techlligent.html 1 168 0 0
+/acm.html 1 3070 0 0
+/events.html 1 2859 0 0
+/esp.html 1 2071 0 0
+/pccoeacm.html 1 2632 0 0
+/urop.html 1 2306 0 0
+/unprotected/loader.html 1 905 1 0
+END_SIDER

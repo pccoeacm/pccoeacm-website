@@ -1,0 +1,60 @@
+Return-Path: <SRS0=sho8v5=KA=gmail.com=utturkarsainath@pccoe.acm.org>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP id IMpEDcpRTFsfCA0ABE4D5A
+	for <pccoehos@hosting.acm.org>; Mon, 16 Jul 2018 04:05:30 -0400
+Return-path: <SRS0=sho8v5=KA=gmail.com=utturkarsainath@pccoe.acm.org>
+Envelope-to: CESA_18-19@pccoe.acm.org
+Delivery-date: Mon, 16 Jul 2018 04:05:30 -0400
+Received: from mail-yb0-f181.google.com ([209.85.213.181]:42635)
+	by hosting.acm.org with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89_1)
+	(envelope-from <utturkarsainath@gmail.com>)
+	id 1feyVc-003aIZ-Rr
+	for CESA_18-19@pccoe.acm.org; Mon, 16 Jul 2018 04:05:29 -0400
+Received: by mail-yb0-f181.google.com with SMTP id c10-v6so13353425ybf.9
+        for <CESA_18-19@pccoe.acm.org>; Mon, 16 Jul 2018 01:05:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=0L2huCTItpTciPBsPb3cd7mprpR3thonPkFDU8+48Oo=;
+        b=SCkOFTzzJ6D555nKmGdQN+IAVw5HqqrF7qqBc2c5yTX9VcMR+0BFEqcy/8opGiuz2+
+         51PfNMqRvw+Hi1Xi8R9LrHBvPXVrmr3QGIKpadRzqctHBkZtsgtn2SnbaBMCCF1ekks3
+         2E1ZH4iy+dZPdZ+FaTkeTmuxqmF8TxhnNf0k2+rqQ4R3Z1rf8ErTMntipXeVtKzEA6wv
+         2u53A4tyDDZxHj31Q1Bu8+YyhIwTOTKpiupiZt1+5rQwxSxKe1wrlRR7lyM4POLFO2kY
+         H9HmG/VXLZkYtb9l7cteGBAq/TdJgxc+sTbVId2bUi4hOYUyXetHmMCh/LzQ9JFNP7nc
+         wLMA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=0L2huCTItpTciPBsPb3cd7mprpR3thonPkFDU8+48Oo=;
+        b=bFlMJkUIVyxwz5mLk8RIwhe28WKWnYd8HItbgUulH44Q3JyAZIDQ3Lu2COdK6OSG+X
+         5wWxPpThgzKcmanKN2nlGGz+nfaBSWT0BH54v4yk668NlSbI7UAsz2YgYs7fGG/GzElV
+         SQ9vOTEjktWGKeTR1e7S286p/nafZ1D5c2HkB/KRVN+5qfyTalORTmzN3EqhLyUQKcmx
+         Vd/CM5z5QceJ+JALwZjW9JfdswXXE5xBd8sX+h37MduGj817A1PwE0j/63RIThO/u33o
+         Qq3EaPJUYykiJ5gIOsZyjrw1kdPvlxvETSDQDreoGeV+TuvtNyEoxu1UJpACtcsxyn2y
+         QWhQ==
+X-Gm-Message-State: AOUpUlHXPEWGvCeJx2oZxHVUNVOgL+p2x1pPMYt8hwcuSTALkSc/9FPI
+	ELW49WGAdeKrqvswIJUD5YvEnO5ecF3ykJ+buQ5V5A==
+X-Google-Smtp-Source: AAOMgpe5ZubI03spkiXHcPtfs2TgJ1HnHrT5opjzPlLXcYRjoYkF0s4AaBak4BZwSNpfNWkGBKY2KdctomIuRYpDVMc=
+X-Received: by 2002:a25:8585:: with SMTP id x5-v6mr8079745ybk.84.1531728282852;
+ Mon, 16 Jul 2018 01:04:42 -0700 (PDT)
+MIME-Version: 1.0
+From: Sainath Utturkar <utturkarsainath@gmail.com>
+Date: Mon, 16 Jul 2018 13:34:30 +0530
+Message-ID: <CAP+6=XoGQ1wXkEb_-nOB6nrn7XwoO7iFAua9M346tZJJ9GGkzQ@mail.gmail.com>
+Subject: Hii
+To: CESA_18-19@pccoe.acm.org
+Content-Type: multipart/alternative; boundary="0000000000003123980571194814"
+
+--0000000000003123980571194814
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--0000000000003123980571194814
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto"></div>
+
+--0000000000003123980571194814--

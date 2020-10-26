@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id yIYIJpxkc182yDcABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Tue, 29 Sep 2020 12:45:16 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Tue, 29 Sep 2020 12:45:16 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1kNIke-00FN1c-Ec
+	for pccoehos@hosting.acm.org; Tue, 29 Sep 2020 12:45:16 -0400
+X-Failed-Recipients: nsly72@mail.ru
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1kNIkb-00FN0d-O9@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1601397916-eximdsn-144166713
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kNIke-00FN1c-Ec@hosting.acm.org>
+Date: Tue, 29 Sep 2020 12:45:16 -0400
+
+--1601397916-eximdsn-144166713
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  nsly72@mail.ru
+    host mxs.mail.ru [94.100.180.31]
+    SMTP error from remote mail server after end of data:
+    550 spam message rejected. Please visit http://help.mail.ru/notspam-support/id?c=MkQzjxr5SQMt8E86ijPhHviDdemyJDJvBOiPJah130iiKWcCPv3QZRUAAAC_BgEAFci4MA~~ or  report details to abuse@corp.mail.ru. Error code:
+    8F3344320349F91A3A4FF02D1EE1338AE97583F86F3224B2258FE80448DF75A8026729A265D0FD3E. ID:
+    00000015000106BF30B8C815.
+
+--1601397916-eximdsn-144166713
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;nsly72@mail.ru
+Status: 5.0.0
+Remote-MTA: dns; mxs.mail.ru
+Diagnostic-Code: smtp; 550 spam message rejected. Please visit http://help.mail.ru/notspam-support/id?c=MkQzjxr5SQMt8E86ijPhHviDdemyJDJvBOiPJah130iiKWcCPv3QZRUAAAC_BgEAFci4MA~~ or  report details to abuse@corp.mail.ru. Error code: 8F3344320349F91A3A4FF02D1EE1338AE97583F86F3224B2258FE80448DF75A8026729A265D0FD3E. ID: 00000015000106BF30B8C815.
+
+--1601397916-eximdsn-144166713
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1kNIkb-00FN0d-O9
+	for nsly72@mail.ru; Tue, 29 Sep 2020 12:45:13 -0400
+To: nsly72@mail.ru
+Subject: PCCOE ACM Student Chapter Support - Thanks for Contacting Us
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 95.152.39.171
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 95.152.39.171
+From: websupport@pccoe.acm.org 
+Reply-To: nsly72@mail.ru 
+Message-Id: <E1kNIkb-00FN0d-O9@hosting.acm.org>
+Date: Tue, 29 Sep 2020 12:45:13 -0400
+
+Hi jdikiirf, 
+
+Thanks for reaching out! We would be more than happy to help you.
+We have received your request regarding - "договор продвижение раскрутка сайта". We will look into the matter and revert back to you as soon as possible.
+
+Thanks,
+Web Support
+PCCOE ACM Student Chapter
+
+--1601397916-eximdsn-144166713--

@@ -1,0 +1,434 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201811 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/ssl/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2694                
+POS_VISITOR 12370               
+POS_DAY 13704               
+POS_DOMAIN 3386                
+POS_LOGIN 3675                
+POS_ROBOT 3830                
+POS_WORMS 4031                
+POS_EMAILSENDER 4162                
+POS_EMAILRECEIVER 4305                
+POS_SESSION 14219               
+POS_SIDER 14376               
+POS_FILETYPES 4440                
+POS_DOWNLOADS 4630                
+POS_OS 4678                
+POS_BROWSER 4827                
+POS_SCREENSIZE 5572                
+POS_UNKNOWNREFERER 5646                
+POS_UNKNOWNREFERERBROWSER 5858                
+POS_ORIGIN 5980                
+POS_SEREFERRALS 6114                
+POS_PAGEREFS 6279                
+POS_SEARCHWORDS 6427                
+POS_KEYWORDS 6579                
+POS_MISC 2358                
+POS_ERRORS 6638                
+POS_CLUSTER 3531                
+POS_SIDER_404 6740                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181201041542 1 0 11511872675965
+FirstTime 20181101064016
+LastTime 20181130210635
+LastUpdate 20181202211813 1 0 0 0 0
+TotalVisits 31                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 16 99131 8 117 352132
+1 3 45 268273 9 229 402453
+2 0 0 0 1 6 70901
+3 1 1 35840 2 8 311752
+4 1 126 17468812 1 2 4866
+5 2 16 99131 2 110 215419
+6 1 1 2717 1 1 4866
+7 0 0 0 1 4 71659
+8 2 30 188530 3 217 466902
+9 8 15 82134 1 3 28680
+10 4 60 377060 4 429 95155
+11 1 15 94265 2 107 9732
+12 0 0 0 5 7 20674
+13 2 16 96982 1 106 4866
+14 2 16 130105 2 4 9794
+15 1 1 35840 3 5 9829
+16 0 0 0 3 12 343398
+17 1 1 35840 7 12 752133
+18 1 1 2717 3 5 267421
+19 0 0 0 1 3 168244
+20 1 1 4866 4 9 187896
+21 2 16 99131 1 106 4866
+22 1 15 94265 4 113 256218
+23 2 16 96982 1 3 185406
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+cn 22 260 1603717
+us 13 20 168412
+ru 1 1 35840
+in 1 126 17468812
+ca 1 1 35840
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+bingbot/ 130 4168902 20181130175130 34
+unknown 1 31 20181121093506 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+png 5 554226 0 0
+css 126 701432 0 0
+html 38 292568 0 0
+jpeg 6 748864 0 0
+js 133 923593 0 0
+gif 1 6567 0 0
+jpg 99 16085371 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+ios_iphone 61 5
+macosx11 12 5
+win10 130 5
+linux 1 1
+Unknown 5 5
+linuxandroid 199 17
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome52.0.9405.453 15 1
+chrome54.0.7778.181 15 1
+chrome47.0.8283.520 15 1
+chrome51.0.3886.131 15 1
+chrome40.0.5801.584 15 1
+chrome59.0.7051.127 1 1
+chrome46.0.4025.537 15 1
+chrome47.0.9306.759 15 1
+chrome70.0.3538.102 126 1
+chrome46.0.5040.211 15 1
+chrome46.0.1043.736 15 1
+chrome54.0.3380.503 15 1
+chrome52.0.7591.697 15 1
+chrome46.0.1068.937 1 1
+chrome54.0.7579.196 15 1
+edge12 1 1
+firefox52.0 12 5
+chrome45.0.6902.496 15 1
+chrome34.0.1847.137 1 1
+chrome53.0.2785.116 1 1
+mozilla 2 2
+chrome42.0.4073.496 1 1
+chrome48.0.7857.457 15 1
+chrome59.0.6681.311 15 1
+chrome55.0.1605.10 15 1
+chrome59.0.1345.467 15 1
+chrome45.0.7841.463 1 1
+chrome66.0.3359.117 2 2
+Unknown 3 3
+chrome46.0.3248.242 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Python/3.6_aiohttp/3.4.4 20181121093610
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20181107170812
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Python/3.6_aiohttp/3.4.4 20181121093610
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 36 43
+From1 1 1
+From2 1 1
+From3 0 0
+From4 0 363
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_co_in 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1477 8036
+401 9 68293
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 103
+/18-19Images/sports1@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/pcl4@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/t4@2x.jpg 14 https://pccoe.acm.org/
+/images/interviewbit@2x.jpg 14 https://pccoe.acm.org/
+/.well-known/apple-app-site-association 3 -
+/images/gallery/pcl3@2x.jpg 14 https://pccoe.acm.org/
+/images/hash_bin@2x.jpg 14 https://pccoe.acm.org/
+/images/shreya@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/t3@2x.jpg 14 https://pccoe.acm.org/
+/images/rahul@2x.jpg 14 https://pccoe.acm.org/
+/images/smart@2x.jpg 14 https://pccoe.acm.org/
+/images/abdul@2x.jpg 14 https://pccoe.acm.org/
+/images/pra_b@2x.jpg 14 https://pccoe.acm.org/
+/images/art@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m3@2x.jpg 14 https://pccoe.acm.org/
+/images/udacity@2x.jpg 14 https://pccoe.acm.org/
+/images/acm@2x.jpg 14 https://pccoe.acm.org/
+/images/hackerrank@2x.jpg 14 https://pccoe.acm.org/
+/images/anamika@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/sports4@2x.jpg 14 https://pccoe.acm.org/
+/images/18Pratik_member@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m0@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/h4@2x.jpg 14 https://pccoe.acm.org/
+/images/18atharva-membership@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m2@2x.jpg 14 https://pccoe.acm.org/
+/images/darshit@2x.jpg 14 https://pccoe.acm.org/
+/images/saransh@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/esp3@2x.jpg 28 https://pccoe.acm.org/
+/images/coursera@2x.jpg 14 https://pccoe.acm.org/
+/images/18hansel-cpdc@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya8@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/acs4@2x.jpg 14 https://pccoe.acm.org/
+/images/leetcode@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/team2@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/h3@2x.jpg 14 https://pccoe.acm.org/
+/images/18AishwaryaYadav-Support@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya5@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/esp_1@2x.jpg 14 https://pccoe.acm.org/
+/images/RahulPatil@2x.jpeg 14 https://pccoe.acm.org/
+/adfs/ls/idpinitiatedsignon 1 -
+/images/18mohitnakhale-Secy@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/h1@2x.jpg 14 https://pccoe.acm.org/
+/images/individual@2x.jpg 56 https://pccoe.acm.org/
+/images/isr@2x.jpg 14 https://pccoe.acm.org/
+/images/kedar@2x.jpg 14 https://pccoe.acm.org/
+/images/codechef@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/acs3@2x.jpg 14 https://pccoe.acm.org/
+/images/18Soham-ISR@2x.jpg 14 https://pccoe.acm.org/
+/images/18ruchira-grievance@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/t2@2x.jpg 14 https://pccoe.acm.org/
+/images/18som-treas@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/h2@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/pcl2@2x.jpg 14 https://pccoe.acm.org/
+/images/sports@2x.jpg 14 https://pccoe.acm.org/
+/images/18vineet-web@2x.jpg 14 https://pccoe.acm.org/
+/images/18amulya-art@2x.jpeg 14 https://pccoe.acm.org/
+/images/shubham@2x.jpeg 14 https://pccoe.acm.org/
+/images/su_doers@2x.jpg 14 https://pccoe.acm.org/
+/images/18Disha-Support@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/sports3@2x.jpg 14 https://pccoe.acm.org/
+/images/janhavi@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/t1@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m5@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m4@2x.jpg 14 https://pccoe.acm.org/
+/images/18ketan-web@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/esp1@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/c1@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya6@2x.jpg 14 https://pccoe.acm.org/
+/images/18pushpak-pdc@2x.jpeg 14 https://pccoe.acm.org/
+/images/grievance@2x.jpg 14 https://pccoe.acm.org/
+/images/imad@2x.jpg 14 https://pccoe.acm.org/
+/images/pdc@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/team1@2x.jpg 14 https://pccoe.acm.org/
+/images/18Shruthi-Membership@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/pcl1@2x.jpg 14 https://pccoe.acm.org/
+/images/cpdc@2x.jpg 14 https://pccoe.acm.org/
+/images/nptel@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya2@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m1@2x.jpg 14 https://pccoe.acm.org/
+/images/18pranjali-coTreas@2x.jpg 14 https://pccoe.acm.org/
+/images/prachi@2x.jpg 14 https://pccoe.acm.org/
+/images/higher@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/sports2@2x.jpg 14 https://pccoe.acm.org/
+/images/jovian@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya7@2x.jpg 28 https://pccoe.acm.org/
+/images/18sai-web@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya4@2x.jpg 14 https://pccoe.acm.org/
+/images/18oorja-cpdc@2x.jpg 14 https://pccoe.acm.org/
+/images/18tejal-pdc@2x.jpeg 14 https://pccoe.acm.org/
+/images/gsoc@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/acs1@2x.jpg 14 https://pccoe.acm.org/
+/apple-app-site-association 3 -
+/images/ankush@2x.jpg 14 https://pccoe.acm.org/
+/images/gallery/m6@2x.jpg 14 https://pccoe.acm.org/
+/images/18sidraut-coSecy@2x.png 14 https://pccoe.acm.org/
+/images/gallery/acs2@2x.jpg 14 https://pccoe.acm.org/
+/images/acmw@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/esp2@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya3@2x.jpg 14 https://pccoe.acm.org/
+/images/18Sayali-HighStdy@2x.jpg 14 https://pccoe.acm.org/
+/images/mohit-art@2x.jpeg 14 https://pccoe.acm.org/
+/images/nss@2x.jpg 14 https://pccoe.acm.org/
+/18-19Images/anantya1@2x.jpg 14 https://pccoe.acm.org/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+104.199.111.141 8 15 82134 20181121093610
+104.238.54.16 1 1 4866 20181112003218
+220.243.136.34 1 15 79743 20181127010241
+116.74.155.45 1 126 17468812 20181117042119
+220.243.135.224 1 15 94265 20181129105711
+220.243.136.208 1 1 2717 20181109235807
+185.224.248.96 1 1 35840 20181116142901
+220.243.135.28 1 15 94265 20181130084459
+220.243.136.92 1 15 94265 20181115110353
+69.175.97.171 1 1 4866 20181110200018
+220.243.136.155 1 15 94265 20181102105047
+142.93.76.144 1 1 35840 20181107154512
+220.243.135.212 1 15 94265 20181120084854
+220.243.136.21 1 1 2717 20181108184758
+66.240.192.138 1 1 35840 20181102034932
+220.243.136.29 1 15 94265 20181117010726
+220.243.135.53 1 1 2717 20181101132520
+107.6.171.134 1 1 4866 20181125050310
+220.243.135.54 1 15 94265 20181114130649
+104.248.2.17 1 1 35840 20181107170812
+220.243.135.215 1 15 94265 20181125232636
+220.243.136.225 1 15 94265 20181121224430
+220.243.136.245 1 15 94265 20181106104822
+220.243.136.163 1 15 94265 20181117100256
+220.243.135.52 1 1 2717 20181101064016
+220.243.135.196 1 1 4866 20181130210635
+220.243.135.65 1 15 94265 20181124050048
+220.243.135.15 1 15 94265 20181123001915
+220.243.135.222 1 15 94265 20181130140833
+220.243.136.180 1 15 94265 20181119012423
+220.243.136.113 1 15 94265 20181127215134
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20181101 2 2 5434 2
+20181102 2 16 130105 2
+20181106 1 15 94265 1
+20181107 2 2 71680 2
+20181108 1 1 2717 1
+20181109 1 1 2717 1
+20181110 1 1 4866 1
+20181112 1 1 4866 1
+20181114 1 15 94265 1
+20181115 1 15 94265 1
+20181116 1 1 35840 1
+20181117 3 156 17657342 3
+20181119 1 15 94265 1
+20181120 1 15 94265 1
+20181121 9 30 176399 2
+20181123 1 15 94265 1
+20181124 1 15 94265 1
+20181125 2 16 99131 2
+20181127 2 30 174008 2
+20181129 1 15 94265 1
+20181130 3 31 193396 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 30
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 31 273736 27 27
+/pccoeacm.html 5 13585 4 4
+/acm.html 1 3145 0 0
+/esp.html 1 2102 0 0
+END_SIDER

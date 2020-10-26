@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id sEapFK8HZ18azycABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Sun, 20 Sep 2020 03:41:35 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Sun, 20 Sep 2020 03:41:35 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1kJtyZ-00Ayil-4s
+	for pccoehos@hosting.acm.org; Sun, 20 Sep 2020 03:41:35 -0400
+X-Failed-Recipients: lovemouse36@eyou.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1kJtyY-00AyiU-Jl@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1600587695-eximdsn-1344806741
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kJtyZ-00Ayil-4s@hosting.acm.org>
+Date: Sun, 20 Sep 2020 03:41:35 -0400
+
+--1600587695-eximdsn-1344806741
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  lovemouse36@eyou.com
+    The mail server could not deliver mail to lovemouse36@eyou.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1600587695-eximdsn-1344806741
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;lovemouse36@eyou.com
+Status: 5.0.0
+
+--1600587695-eximdsn-1344806741
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1kJtyY-00AyiU-Jl
+	for lovemouse36@eyou.com; Sun, 20 Sep 2020 03:41:34 -0400
+To: lovemouse36@eyou.com
+Subject: PCCOE ACM Student Chapter Support - Thanks for Contacting Us
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 89.36.76.170
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 89.36.76.170
+From: websupport@pccoe.acm.org 
+Reply-To: lovemouse36@eyou.com 
+Message-Id: <E1kJtyY-00AyiU-Jl@hosting.acm.org>
+Date: Sun, 20 Sep 2020 03:41:34 -0400
+
+Hi Hi guy! I wаnt tо suск yоu off аnd lоsе уour virginitу with уou: https://qspark.me/xk0kcg, 
+
+Thanks for reaching out! We would be more than happy to help you.
+We have received your request regarding - "Hi guy! I'm looking fоr sex in уоur сity аnd wish уоu pull mе on: http://due.im/short/1kfQ". We will look into the matter and revert back to you as soon as possible.
+
+Thanks,
+Web Support
+PCCOE ACM Student Chapter
+
+--1600587695-eximdsn-1344806741--

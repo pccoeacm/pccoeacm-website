@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: pccoehos@hosting.acm.org
+Received: from hosting.acm.org
+	by hosting.acm.org with LMTP
+	id yBraBiEtHV8ydBYABE4D5A
+	(envelope-from <>)
+	for <pccoehos@hosting.acm.org>; Sun, 26 Jul 2020 03:13:37 -0400
+Return-path: <>
+Envelope-to: pccoehos@hosting.acm.org
+Delivery-date: Sun, 26 Jul 2020 03:13:37 -0400
+Received: from mailnull by hosting.acm.org with local (Exim 4.93)
+	id 1jzaqm-006CAY-Rh
+	for pccoehos@hosting.acm.org; Sun, 26 Jul 2020 03:13:37 -0400
+X-Failed-Recipients: websupport@pccoe.acm.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hosting.acm.org>
+To: pccoehos@hosting.acm.org
+References: <E1jzaqm-006CAJ-Cy@hosting.acm.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1595747616-eximdsn-239603274
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jzaqm-006CAY-Rh@hosting.acm.org>
+Date: Sun, 26 Jul 2020 03:13:36 -0400
+
+--1595747616-eximdsn-239603274
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  websupport@pccoe.acm.org
+    The mail server could not deliver mail to websupport@pccoe.acm.org.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1595747616-eximdsn-239603274
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hosting.acm.org
+
+Action: failed
+Final-Recipient: rfc822;websupport@pccoe.acm.org
+Status: 5.0.0
+
+--1595747616-eximdsn-239603274
+Content-type: message/rfc822
+
+Return-path: <pccoehos@hosting.acm.org>
+Received: from pccoehos by hosting.acm.org with local (Exim 4.93)
+	(envelope-from <pccoehos@hosting.acm.org>)
+	id 1jzaqm-006CAJ-Cy
+	for websupport@pccoe.acm.org; Sun, 26 Jul 2020 03:13:36 -0400
+To: websupport@pccoe.acm.org
+Subject: Contact Form -  Дикая мята 2019
+X-PHP-Script: pccoe.acm.org/contact/contact.php for 109.195.179.88
+X-PHP-Filename: /home/pccoehos/public_html/contact/contact.php REMOTE_ADDR: 109.195.179.88
+From: kuskus8261@gmail.com 
+Reply-To: patilswap33.sp.sp@gmail.com 
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+X-Mailer: PHP/5.6.40
+Message-Id: <E1jzaqm-006CAJ-Cy@hosting.acm.org>
+Date: Sun, 26 Jul 2020 03:13:36 -0400
+
+From: RaymondDak 
+ Message: <a href=https://www.youtube.com/watch?v=C7xlN54cI3E>4 Р·РІРµР·РґС‹ РјРѕСЏ Р·РІРµР·РґР°</a>|
+
+--1595747616-eximdsn-239603274--

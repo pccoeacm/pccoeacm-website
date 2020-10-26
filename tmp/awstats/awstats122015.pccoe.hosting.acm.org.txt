@@ -1,0 +1,910 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2697                
+POS_VISITOR 16456               
+POS_DAY 27369               
+POS_DOMAIN 3672                
+POS_LOGIN 4272                
+POS_ROBOT 4427                
+POS_WORMS 4917                
+POS_EMAILSENDER 5048                
+POS_EMAILRECEIVER 5191                
+POS_SESSION 28262               
+POS_SIDER 28475               
+POS_FILETYPES 5326                
+POS_DOWNLOADS 5666                
+POS_OS 5736                
+POS_BROWSER 5941                
+POS_SCREENSIZE 7425                
+POS_UNKNOWNREFERER 7499                
+POS_UNKNOWNREFERERBROWSER 9379                
+POS_ORIGIN 9967                
+POS_SEREFERRALS 10113               
+POS_PAGEREFS 10287               
+POS_SEARCHWORDS 10771               
+POS_KEYWORDS 11041               
+POS_MISC 2360                
+POS_ERRORS 11213               
+POS_CLUSTER 4128                
+POS_SIDER_404 11403               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101001950 130 29563 7577878189128
+FirstTime 20151201064839
+LastTime 20151231231406
+LastUpdate 20160101071859 130 0 129 0 0
+TotalVisits 463                 
+TotalUnique 234                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 280                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 76 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 283 3127 106967762 40 626 14426593
+1 700 6440 171553654 106 214 4197805
+2 726 5679 100304469 83 190 19348899
+3 679 4742 73968089 536 570 27136160
+4 624 4530 124184613 593 652 29661934
+5 674 4986 52264005 58 88 3925964
+6 813 4488 51338138 60 103 815341
+7 710 2793 46362519 38 75 3650489
+8 729 4230 97810108 47 140 5331145
+9 857 4020 45681477 101 259 1891803
+10 541 1573 38075770 30 62 1194924
+11 579 3064 47868920 21 42 841498
+12 874 4721 23952880 189 207 9737065
+13 1478 10532 106659012 359 587 20896240
+14 795 5318 47868721 377 421 19759772
+15 415 2046 13929966 29 43 331071
+16 34 270 12099178 105 130 1344989
+17 10 39 866878 37 89 758457
+18 5 5 29976 89 114 1211503
+19 22 100 2245744 87 107 1017931
+20 289 2026 29102679 268 302 13489709
+21 554 4627 54663019 225 369 12479804
+22 355 2304 43973872 88 125 856837
+23 255 2392 78474695 55 82 637989
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+in 12178 77274 1117357761
+us 416 3723 167399395
+ph 229 2292 55718233
+jp 76 497 15098392
+cn 18 18 245548
+ca 11 11 190596
+fr 10 10 82103
+de 10 10 37578
+no 9 67 4595744
+gb 9 106 8851645
+ru 7 8 225223
+eu 6 6 8239
+nl 6 6 8466
+ro 4 4 18531
+at 2 2 2822
+sa 2 2 9014
+id 2 2 15766
+it 2 3 40985
+sk 2 2 2822
+se 1 1 24327
+ae 1 1 39892
+rs 0 1 38158
+eg 0 1 38158
+dk 0 1 38158
+ie 0 1 44114
+cz 0 3 114474
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+no_user_agent 2146 114569099 20151230034250 1
+googlebot 808 37276212 20151231232552 24
+crawl 555 3298341 20151222192110 42
+[\s_+:,\.\;\/\\-]bot 174 13006574 20151230134526 2
+spider 62 430899 20151231191604 0
+bot[\s_+:,\.\;\/\\-] 62 329756 20151230090827 11
+unknown 10 530 20151229140313 10
+scanner 9 328651 20151210103407 0
+netcraft 1 35972 20151209160836 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 31 1316368 0 0
+css 19246 73237420 0 0
+png 5118 84564400 0 0
+ttf 11 1009440 0 0
+woff 269 12995364 0 0
+php 9456 53865601 0 0
+html 3232 32611712 0 0
+js 32907 73448167 0 0
+jpg 12872 1029096636 0 0
+jpeg 374 5321746 0 0
+Unknown 2 22011 0 0
+svg 34 22815 0 0
+gif 500 2734464 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 90 0 4670
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 3821
+blackberry 102
+winlong 161
+winxp 216
+winnt 29662
+java 9
+win98 4
+winvista 1963
+linux 17910
+win7 26126
+macosx 1791
+winunknown 58
+j2me 2
+Unknown 2227
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 80
+firefox28.0 972
+msie6.0 22
+chrome38.0.0.0 1
+firefox26.0 1917
+chrome28.0.1500.94 299
+firefox4.0 4
+chrome38.0.2125.111 2
+firefox34.0 1
+chrome11.0.696.34 18
+chrome42.0.2311.90 1
+firefox43.0 23286
+msie7.0 171
+firefox23.0 4
+firefox41.0 7840
+chrome45.0.2454.78 54
+chrome42.0.2311.152 2
+firefox42.0.2 1
+firefox40.0 5
+firefox42.0 28424
+firefox21.0 56
+safari6.0 1
+firefox38.0 186
+firefox2.0.0.6 3
+chrome47.0.2526.73 1157
+chrome46.0.2490.80 1354
+chrome35.0.1916.114 261
+firefox33.0 291
+mozilla 279
+chrome47.0.2526.106 459
+firefox25.0 2
+netscape5.0 19
+chrome26.0.1410.64 5
+chrome42.0.2311.135 99
+netscape4.0 1
+chrome46.0.2486.0 119
+chrome46.0.2490.86 225
+safari 2
+safari7.0 2
+chrome34.0.1847.76 33
+chrome38.0.2125.104 1
+android 1249
+chrome38.0.1025.166 330
+chrome49.0.2593.0 65
+safari8.0.7 242
+safari7.0.0.482 102
+chrome42.0.2311.111 70
+chrome28.0.1468.0 8
+firefox24.0 4
+opera9.80 696
+safari6.1.6 90
+chrome26.0.1410.58 149
+firefox31.0 5621
+iphone 2
+chrome46.0.2490.76 289
+chrome39.0.0.0 107
+chrome47.0.2526.76 427
+chrome43.0.2357.81 56
+chrome47.0.2526.80 2520
+chrome38.0.2125.122 2
+chrome43.0.2357.93 34
+safari8.0 3
+msie9.0 198
+Unknown 1080
+chrome47.0.2526.83 299
+firefox11.0 6
+chrome30.0.0.0 66
+firefox3.5.6 1
+firefox17.0 59
+chrome48.0.2564.41 57
+chrome34.0.1847.114 60
+chrome30.0.1599.105 1
+chrome43.0.2357.130 59
+chrome36.0.1985.135 180
+chrome45.0.2454.94 240
+nokia 958
+safari9.0 419
+firefox37.0 427
+msie10.0 293
+firefox6.0 2
+firefox3.5.9 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 22
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/37.7465;_U;_en)_Presto/2.12.423_Version/12.16 20151219092447
+visionutils/0.2 20151211033845
+Mozilla/5.0_(Android_5.1.1;_Mobile;_rv:43.0)_Gecko/43.0_Firefox/43.0 20151218102443
+Opera/9.80_(iOS;_Opera_Mini/7.0.73345/28.2555;_U;_ru)_Presto/2.10.229_Version/11.62 20151203201027
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20151210161051
+Opera/9.80_(Android;_Opera_Mini/9.0.1829/37.7327;_U;_en)_Presto/2.12.423_Version/12.16 20151210220242
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_5.0.2;_en-US;_XT1068)_U2/1.0.0_UCBrowser/10.4.2.659_U2/1.0.0_Mobile 20151211001039
+Xenu_Link_Sleuth/1.3.8 20151222104424
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.1;_en-US;_C1604)_U2/1.0.0_UCBrowser/10.2.0.584_U2/1.0.0_Mobile 20151209091403
+WordPress/4.3.1;_http://pccoe.acm.org 20151231214943
+Mozilla/5.0_(Android_5.1.1;_Mobile;_rv:42.0)_Gecko/42.0_Firefox/42.0 20151211001704
+WhatsApp 20151225084024
+Opera/9.80_(Android;_Opera_Mini/11.0.1912/37.7327;_U;_en)_Presto/2.12.423_Version/12.16 20151208133225
+Opera/9.80_(Android;_Opera_Mini/7.5.54678/28.2555;_U;_ru)_Presto/2.10.289_Version/12.02 20151227130001
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/37.7327;_U;_en)_Presto/2.12.423_Version/12.16 20151213233134
+Opera/9.80_(Android;_Opera_Mini/10.0.1884/37.7549;_U;_en)_Presto/2.12.423_Version/12.16 20151223123933
+Mozilla/5.0_(compatible;_heritrix/3.2.0__http://www.systemsltd.com) 20151227145921
+Mozilla/5.0_(compatible;_GWPImages/1.0) 20151220221453
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20151217160101
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/37.7465;_U;_en)_Presto/2.12.423_Version/12.16 20151217161259
+Mozilla/5.0_(Android_5.1.1;_Mobile;_rv:42.0.2)_Gecko/42.0.2_Firefox/42.0.2 20151209231930
+Mozilla/4.0_() 20151214083452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Apache-HttpClient/4.3.5_(java_1.5) 20151210103453
+visionutils/0.2 20151211033845
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_5.0.2;_en-US;_XT1068)_U2/1.0.0_UCBrowser/10.4.2.659_U2/1.0.0_Mobile 20151211001039
+Xenu_Link_Sleuth/1.3.8 20151222104424
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.1;_en-US;_C1604)_U2/1.0.0_UCBrowser/10.2.0.584_U2/1.0.0_Mobile 20151209091403
+WordPress/4.3.1;_http://pccoe.acm.org 20151231214943
+WhatsApp 20151225084024
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20151217160101
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 896 1342
+From1 0 0
+From2 82 98
+From3 9 14
+From4 12014 82598
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 82 97
+google_image 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://googleweblight.com 4 4
+http://www.acm.org/acm-chapters-by-location 2 2
+https://www.facebook.com 1 1
+http://www.acm.org/chapters 1 1
+http://www.acm.org/search 1 1
+http://abctoppictures.net 0 1
+http://101amazingimage.com 0 1
+http://thepixs.net 0 1
+http://123databaseimages.com 0 1
+http://webcache.googleusercontent.com/search 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+pccoe+acm 5
+acm+pccoe.com 3
+anvesh+yojna 1
+classical+dance+on+tu+buddhi+de 1
+nikita+merani 1
+pccoe+cesa 1
+acm+pccoe 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+acm 9
+pccoe 7
+pccoe.com 3
+yojna 1
+classical 1
+buddhi 1
+on 1
+tu 1
+anvesh 1
+nikita 1
+cesa 1
+merani 1
+dance 1
+de 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 3 4400
+503 2 452
+206 92 19562921
+302 335 6600
+405 2 84
+500 2 2734
+508 434 3162558
+404 569 2921753
+301 255 6386
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 64
+/wp-c 1 http://pccoe.acm.org/wp-admin/customize.php
+/ 2 http://pccoe.acm.org/wp-admin/post.php
+/wp-admin. 1 -
+/wp-content/uploads/2015/12/parveen.jpg 2 http://pccoe.acm.org/wp-admin/customize.php
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-culture.png 2 http://pccoe.acm.org/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-notes.png 4 http://pccoe.acm.org/home/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-statistics.png 15 http://pccoe.acm.org/meet-the-team/
+/wd-admin 2 -
+/wp-content/uploads/2015/12/t11.jpg 95 http://pccoe.acm.org/wp-admin/post.php
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-graph.png 2 http://pccoe.acm.org/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-photo.png 4 http://pccoe.acm.org/
+/the-web-developers/ 3 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-heart.png 3 http://pccoe.acm.org/
+/focus 1 http://pccoe.acm.org/
+/2015/12/ 1 -
+/browserconfig.xml 1 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-book.png 1 http://pccoe.acm.org/pd-cell/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-bag.png 2 http://pccoe.acm.org/home/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-truck.png 16 http://pccoe.acm.org/meet-the-team/
+/the-web-developers 7 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-ticket.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-clock.png 1 http://pccoe.acm.org/about-us/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-file.png 2 http://pccoe.acm.org/meet-the-team/
+/apple-touch-icon-120x120.png 1 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-download.png 1 http://pccoe.acm.org/tnp-cell/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-upload.png 15 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-compas.png 2 http://pccoe.acm.org/meet-the-team/
+/blog/wp-admin/ 3 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-upload2.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-money.png 1 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-comments.png 1 http://pccoe.acm.org/
+/test/wp-admin/ 3 -
+/wp/wp-admin/ 2 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-portfolio.png 8 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-responsive.png 12 http://pccoe.acm.org/meet-the-team/
+/apple-touch-icon.png 41 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-lock.png 1 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-voicemail.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-check.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-worldmap.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-phone.png 7 http://pccoe.acm.org/
+/old/wp-admin/ 3 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-search.png 15 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-film.png 1 http://pccoe.acm.org/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-camera.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-calendar.png 1 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/treeson/media/css/icons.css 1 -
+/our-team 1 http://pccoe.acm.org/
+/wp-content/uploads/2015/12/pa.jpg 1 http://pccoe.acm.org/wp-admin/customize.php
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-shop.png 16 http://pccoe.acm.org/meet-the-team/
+/apple-touch-icon-precomposed.png 42 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-monitor.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-view.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-media.png 2 http://pccoe.acm.org/home/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-arrows.png 1 http://pccoe.acm.org/home/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-print.png 12 http://pccoe.acm.org/
+/wordpress/wp-admin/ 3 -
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-openmail.png 16 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-wallet.png 15 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-map.png 1 http://pccoe.acm.org/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-ribbon.png 14 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-user.png 15 http://pccoe.acm.org/meet-the-team/
+/wp-content/themes/zerif-lite/assets/pd-icons/icon-tablet.png 14 http://pccoe.acm.org/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 280
+118.102.200.146 5505 38815 492510020 20151231231406
+106.221.156.39 1869 12513 24818868 20151210044331
+106.221.133.234 1589 7729 15390063 20151210143354
+106.221.153.132 1099 2786 1391589 20151209124238
+106.221.130.4 646 2264 12498162 20151208133220
+106.221.222.107 333 1335 1348007 20151209153734
+216.119.136.18 207 453 4140 20151231214943
+182.237.166.181 154 512 12622768 20151210051657
+183.87.6.199 128 753 25504938 20151209125318
+115.119.252.226 124 2567 154187318 20151231063916
+106.221.128.251 115 891 6329810 20151208140327
+183.87.6.211 98 372 12252119 20151211080039
+103.228.40.250 88 268 11563522 20151208094611
+103.197.30.16 66 1424 7178305 20151227095707
+43.247.139.84 40 124 3571178 20151211040049
+107.167.117.68 34 333 13459876 20151217161137
+14.139.122.99 26 152 5874892 20151228224005
+103.251.210.171 26 110 4942348 20151210080538
+59.94.209.223 23 151 11658351 20151208094344
+1.187.16.232 23 120 5097842 20151211051906
+106.221.149.199 23 154 6123727 20151211082337
+70.39.246.37 19 19 113759 20151210161051
+43.241.26.15 18 161 5464766 20151210142549
+1.39.86.151 15 170 11572174 20151210142737
+59.94.212.52 15 93 5135861 20151211233159
+69.171.228.118 0 4 55348 
+23.99.82.205 1 1 39892 20151214013029
+83.111.60.53 1 1 39892 20151227145921
+144.76.105.143 2 2 19138 20151218074259
+1.187.44.122 4 17 3786552 20151210045119
+93.186.31.114 1 14 351337 20151225064350
+155.94.221.124 1 1 9569 20151216151912
+46.246.50.213 1 1 24327 20151213185811
+193.110.157.151 2 2 2822 20151215212524
+1.39.86.169 4 79 3942053 20151210082232
+93.184.66.227 2 2 2822 20151227130321
+195.154.194.111 7 7 69712 20151224152530
+85.25.103.119 2 2 2590 20151203201027
+66.249.85.187 0 1 36578 
+66.220.146.23 0 1 21409 
+120.26.89.4 3 3 23583 20151208205220
+86.106.18.76 1 1 0 20151222104424
+115.118.17.81 1 1 8074 20151209115129
+64.233.172.200 8 111 9168523 20151216103101
+158.69.156.13 1 1 9569 20151231041702
+101.59.222.103 1 6 9509 20151211001146
+1.39.12.191 4 77 4808428 20151211002435
+5.175.201.72 2 2 9014 20151208153731
+89.33.71.174 2 2 8962 20151208100252
+89.96.136.10 0 1 38158 
+107.167.107.242 1 3 24275 20151219092446
+101.222.162.116 2 32 4055717 20151208130819
+1.39.8.73 13 44 4156084 20151202035515
+106.77.24.52 10 85 231515 20151211043716
+103.197.31.150 7 67 4614962 20151210203250
+14.194.4.134 4 4 29378 20151210220333
+114.143.41.19 5 90 4908307 20151210162936
+89.234.157.254 2 2 2822 20151216093938
+93.186.31.82 1 7 275091 20151225064438
+173.252.88.246 0 1 44114 
+210.212.195.230 2 56 4501545 20151211230448
+1.39.13.69 1 12 3199168 20151210110222
+182.253.195.140 2 2 15766 20151208205010
+223.196.161.1 4 61 4385907 20151208134201
+1.39.12.40 3 64 4454442 20151208233830
+223.30.228.50 5 90 4908672 20151211040517
+43.241.26.248 3 56 278157 20151209101418
+183.87.236.87 3 24 762096 20151222135038
+106.221.159.75 2 2 19104 20151215230456
+176.31.39.23 1 1 9569 20151217000130
+168.235.206.29 11 177 8503369 20151205065026
+117.195.64.247 1 2 46130 20151212101235
+69.171.228.122 0 3 71910 
+23.95.86.6 2 2 8712 20151208073720
+107.167.106.191 1 4 6612 20151213233133
+1.39.84.200 4 62 4679077 20151210211456
+43.247.139.110 11 85 638809 20151210082251
+54.247.87.160 5 5 162373 20151211194945
+54.91.137.217 7 7 62234 20151210103453
+103.197.31.3 3 33 2762851 20151216074743
+172.245.229.220 1 1 21210 20151228061318
+172.245.25.9 4 4 81914 20151228061311
+146.120.158.250 0 1 38158 
+66.220.146.22 0 1 22640 
+49.249.87.119 3 55 4039596 20151211213713
+14.194.73.186 3 17 149892 20151209085517
+82.211.55.40 2 2 10196 20151210093221
+49.249.39.127 4 61 4459471 20151208131630
+172.245.229.72 1 1 21383 20151228061319
+1.39.15.146 4 35 3862104 20151208132302
+117.248.90.185 2 56 4501545 20151220022402
+89.32.71.5 1 1 9569 20151221045702
+66.220.158.110 0 1 44114 
+146.120.166.46 0 1 38158 
+168.235.205.223 0 1 24269 
+97.75.142.159 0 1 22640 
+188.138.9.49 2 2 2827 20151215202805
+117.30.149.120 3 3 119984 20151216132703
+193.90.12.89 2 2 2822 20151212200514
+1.39.12.80 1 30 503322 20151208131010
+64.233.173.146 3 42 7835796 20151210210337
+199.106.103.55 3 31 711242 20151229160632
+106.221.148.114 3 60 4399727 20151208132935
+69.171.230.115 0 1 47503 
+46.38.51.43 1 1 0 20151208091857
+111.93.30.66 0 1 22921 
+106.221.157.168 9 160 9610021 20151215100653
+115.117.219.65 2 33 49610 20151209151208
+1.39.15.170 2 27 724592 20151210202131
+1.39.84.151 3 60 4317792 20151208132529
+64.106.20.207 1 1 9569 20151214083452
+168.235.194.40 2 56 4476855 20151211115754
+104.131.254.79 3 3 27319 20151210100539
+69.171.228.117 0 2 49529 
+103.251.210.101 11 94 6109688 20151208132735
+78.85.5.135 1 1 39892 20151219174508
+172.245.25.99 1 1 21232 20151228061311
+93.186.31.97 0 5 89836 
+106.221.132.229 5 82 4622356 20151209112750
+14.195.25.220 2 49 3720742 20151219022144
+117.220.252.246 7 119 5630935 20151222131444
+107.167.108.63 2 61 4572033 20151211084422
+152.52.197.172 1 17 439491 20151212001818
+101.59.251.192 3 52 31477 20151209012527
+1.39.12.154 2 34 10933062 20151224082100
+123.136.195.88 4 129 4902889 20151230130639
+139.196.15.96 3 3 28700 20151210143007
+123.136.181.97 1 1 0 20151202075310
+77.247.181.163 2 2 2822 20151202084003
+183.87.106.220 6 116 5684220 20151211062006
+106.221.157.104 12 103 1076325 20151211005356
+106.221.129.167 1 1 6911 20151202034938
+173.252.90.249 0 1 21409 
+1.187.19.40 11 150 4480581 20151208135644
+107.167.104.228 1 6 632591 20151211044009
+14.194.154.5 2 2 18251 20151219041308
+31.132.79.9 0 1 38158 
+111.91.127.95 0 2 3227891 
+117.195.71.159 4 106 4507872 20151209000229
+168.235.197.215 2 89 8203186 20151209091325
+106.221.205.195 0 4 0 
+107.167.105.87 1 64 4562919 20151210220240
+103.26.169.100 0 1 581887 
+168.235.197.178 1 46 4127297 20151208213122
+104.129.196.76 0 1 38158 
+173.252.120.104 0 1 21409 
+69.171.228.121 0 2 25412 
+107.167.116.187 4 100 5030458 20151210142317
+93.186.31.81 0 5 49912 
+150.107.241.228 7 65 4592922 20151230041029
+80.167.163.129 0 1 38158 
+49.200.119.40 13 109 5352241 20151210223743
+146.120.166.117 0 1 38158 
+49.200.243.117 1 2 46087 20151210143037
+192.42.116.16 2 2 2822 20151209153331
+23.231.25.144 2 2 16050 20151214140654
+185.100.86.69 2 2 2590 20151227130001
+101.56.161.146 2 54 4425590 20151210143613
+38.127.167.44 1 2 76470 20151217062838
+35.0.127.52 2 2 2822 20151206134659
+1.39.85.102 2 50 3199285 20151223054928
+168.235.197.152 11 324 5816401 20151211001039
+103.249.240.237 5 108 7745117 20151211232359
+103.249.240.26 2 57 4502481 20151212035606
+64.233.173.151 1 30 3754479 20151208131132
+66.249.83.184 1 10 87366 20151205042553
+1.39.96.127 3 70 4138327 20151208214705
+43.247.139.101 3 45 4279256 20151209111858
+183.87.10.59 9 152 5081716 20151212024114
+173.252.90.228 0 1 47503 
+49.200.118.66 7 197 4949898 20151211040253
+27.251.166.106 7 169 8948050 20151211231244
+46.165.223.217 2 2 2827 20151231040850
+168.63.200.167 7 252 10498254 20151210220149
+14.139.125.71 4 89 4496120 20151215001108
+64.233.172.216 2 92 8503548 20151223204818
+174.49.73.68 1 1 9569 20151215060741
+8.37.231.75 1 65 1140240 20151208213220
+46.166.170.3 2 2 2593 20151203200220
+128.185.121.7 1 13 453468 20151211003113
+1.39.86.76 1 1 9569 20151225084024
+49.248.207.116 5 132 4926325 20151214093743
+168.63.137.102 1 89 4754846 20151211003215
+101.59.251.131 2 56 4465903 20151213141858
+173.252.88.86 1 1 9509 20151211033839
+43.229.202.235 1 25 284339 20151210141414
+167.114.0.27 1 1 9569 20151214104300
+120.25.205.51 3 3 23565 20151208204528
+106.77.38.134 1 1 9525 20151210120713
+49.200.244.33 3 86 4832944 20151210212239
+117.220.250.30 5 64 4499694 20151208132145
+69.171.228.120 0 4 57433 
+107.167.105.221 3 70 4483650 20151208133222
+188.186.63.32 2 2 79002 20151210210029
+172.245.229.31 2 2 42030 20151228061318
+103.249.240.51 10 40 1039133 20151223031429
+104.245.104.123 2 2 2827 20151212200120
+8.37.237.25 1 60 1089242 20151209091358
+8.37.233.55 4 92 5041481 20151219115236
+93.186.31.112 1 38 729199 20151225064243
+66.249.85.190 1 1 9509 20151211031334
+155.94.176.125 2 2 88363 20151228061300
+49.203.253.255 9 11 3308915 20151209120641
+69.171.228.116 0 3 50498 
+117.195.84.215 7 65 4543333 20151215100643
+117.198.108.38 3 58 4512050 20151212084345
+117.195.64.76 4 66 102248 20151208222145
+168.235.206.75 4 117 3542399 20151210084520
+117.195.70.242 3 58 4491384 20151211011602
+46.166.141.132 2 2 10812 20151210121259
+93.186.31.98 0 1 24269 
+204.85.191.30 2 2 2590 20151216091438
+49.200.243.37 8 134 4799974 20151210092333
+106.79.142.170 8 64 710716 20151210141759
+1.39.12.120 2 45 9552 20151230075159
+66.249.88.56 0 1 38158 
+107.170.107.176 2 2 18595 20151210130550
+136.185.121.161 1 1 9509 20151210224730
+175.100.180.212 2 56 4501545 20151225021842
+122.168.227.18 1 1 9569 20151211084122
+106.221.158.86 4 61 4435086 20151208132819
+196.205.131.42 0 1 38158 
+73.203.237.65 3 32 826866 20151217173817
+58.68.121.67 5 90 4913394 20151224234147
+107.167.117.22 1 33 963031 20151223123702
+64.233.172.208 7 100 2038411 20151223111822
+93.186.31.80 0 6 3231483 
+31.13.97.96 0 1 44114 
+106.221.209.69 9 118 5340673 20151211232934
+106.79.153.208 0 1 581887 
+168.63.139.43 3 146 11065811 20151209115318
+183.87.236.42 2 57 1020523 20151227133323
+69.171.228.119 0 1 5867 
+114.143.45.227 4 112 8979736 20151221110409
+101.57.64.192 9 107 8601921 20151208205307
+27.97.131.36 4 124 7703623 20151211002145
+192.0.83.17 2 56 4465843 20151211011554
+168.235.205.77 2 50 3637202 20151210074909
+104.168.53.219 1 1 39654 20151228061311
+106.221.210.142 4 107 7640898 20151211212720
+106.77.56.241 7 7 48808 20151210063355
+93.186.31.96 0 2 37527 
+101.56.26.84 13 97 871161 20151210230220
+123.56.232.25 3 3 27141 20151210073343
+89.31.57.5 2 2 2827 20151202080241
+107.170.79.233 4 4 32340 20151210133027
+185.93.187.49 4 4 5649 20151215185050
+155.94.176.166 2 2 47643 20151228061308
+119.92.211.68 3 28 685965 20151215102608
+158.69.172.227 2 2 2827 20151209151445
+109.92.92.115 0 1 38158 
+115.118.252.99 7 70 7624311 20151220050912
+116.74.145.4 4 79 1585975 20151224075723
+104.209.38.0 2 56 4465903 20151214043138
+203.90.98.218 8 99 5288025 20151211020739
+173.252.90.110 0 1 47503 
+202.99.196.167 3 3 22575 20151208093051
+93.186.31.113 2 24 4049586 20151225064258
+64.233.173.141 3 48 1147410 20151210210341
+106.221.129.244 5 65 4414683 20151208131926
+14.139.240.50 3 61 4563508 20151212012751
+66.249.83.187 0 8 155150 
+66.249.83.190 0 9 289683 
+183.87.236.6 6 136 695256 20151210204145
+107.170.87.85 2 2 16428 20151210074338
+14.195.53.19 2 54 4425683 20151211063759
+199.87.154.251 2 2 2827 20151206133614
+107.173.160.6 1 1 9924 20151217000146
+173.252.90.127 0 1 44114 
+46.161.9.2 3 3 68171 20151224083220
+106.77.21.227 3 3 27525 20151210215024
+107.167.104.11 1 67 4615399 20151210220129
+69.171.228.123 0 1 22640 
+183.87.236.34 6 110 4501913 20151208211049
+8.37.230.14 10 218 12126009 20151212004651
+117.195.73.121 7 195 5029509 20151224104932
+8.37.232.146 1 49 3501035 20151211013042
+173.252.88.250 0 1 44114 
+37.187.43.27 2 2 2822 20151231040432
+106.221.143.131 0 1 731 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 5 6 38258 4
+20151202 49 497 43457322 11
+20151203 6 7 43381 4
+20151204 50 597 23414057 7
+20151205 6 58 4319337 5
+20151206 6 6 5689 4
+20151207 46 256 22478693 9
+20151208 3189 17439 267605841 59
+20151209 4273 25488 122455112 32
+20151210 4228 23622 194246299 74
+20151211 470 5656 225678814 46
+20151212 33 459 23598603 14
+20151213 8 65 4496922 7
+20151214 104 2294 150959493 12
+20151215 53 691 30142593 18
+20151216 20 141 8294082 13
+20151217 70 993 55365608 12
+20151218 20 330 9828686 8
+20151219 15 153 8882899 10
+20151220 8 70 4587530 7
+20151221 57 1254 38636192 10
+20151222 25 420 12224079 8
+20151223 18 168 9773954 9
+20151224 31 364 21827183 11
+20151225 12 163 13349434 10
+20151226 6 6 39992 6
+20151227 77 1491 8249490 10
+20151228 57 399 9658306 18
+20151229 23 426 24700439 8
+20151230 18 246 9751134 7
+20151231 18 287 22136722 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 29
+5mn-15mn 36
+30s-2mn 25
+2mn-5mn 42
+15mn-30mn 20
+0s-30s 290
+30mn-1h 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 96
+/wp-admin/admin-ajax.php 7925 3439572 8 19
+/ 2185 24574510 233 112
+/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.woff 266 12959496 3 55
+/wp-admin/post.php 251 7083692 0 0
+/meet-the-team/ 233 2032381 11 35
+/wp-cron.php 207 4140 133 133
+/wp-admin/load-scripts.php 186 18778904 0 0
+/wp-admin/customize.php 178 9630636 0 0
+/wp-admin/edit.php 177 3850338 0 0
+/wp-admin/async-upload.php 120 68187 0 0
+/wp-login.php 91 134622 30 27
+/about-us/ 63 329216 1 4
+/cpd-cell/ 55 303877 0 5
+/wp-admin/theme-editor.php 54 1710363 0 0
+/wp-admin/load-styles.php 53 4491907 0 0
+/art-circle/ 52 360050 1 6
+/higher-studies/ 50 316751 2 6
+/the-web-developers/ 46 308651 0 3
+/anantya-2015/ 38 304807 1 4
+/wp-admin/ 37 851088 0 0
+/readers-club/ 34 196648 0 1
+/tnp-cell/ 33 192694 1 4
+/isr-cell/ 33 193392 1 1
+/pd-cell/ 33 183504 2 1
+/digital-india-week/ 30 204852 1 2
+/techlligent/ 8 69401 2 2
+/wp-admin/post-new.php 29 761625 0 0
+/wp-admin/index.php 17 365204 0 0
+/wp-admin/users.php 10 186144 0 0
+/distinguished-speaker-programme-on-multi-core-programming/ 17 123817 1 1
+/author/darshit12/ 2 40842 1 0
+/theinductionprogram/ 4 25277 4 2
+/feed/ 19 115122 10 9
+/author/parveen16/ 1 39100 0 0
+/2015/07/ 5 32947 0 1
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 3 35868 0 0
+/wp-admin/tools.php 3 53687 0 0
+/eminent-speaker-programme-mathematical-modeling/ 15 111083 1 1
+/farewell-2015/ 10 63153 1 1
+/2015/12/ 4 25073 0 0
+/wp-admin/user-new.php 5 86934 0 0
+/wp-admin/user-edit.php 1 18731 0 0
+/wp-admin/plugins.php 8 167603 0 0
+/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.eot 27 1232132 6 4
+/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.ttf 11 1009440 1 4
+/ted-talks/ 2 11886 1 0
+/eminent-speaker-programme-theory-of-computation/ 26 179831 1 2
+/eminent-speaker-programme-recent-trends-in-it/ 12 92614 0 2
+/wp-admin/widgets.php 11 262012 0 0
+/wp-admin/nav-menus.php 20 481819 0 0
+/acm-logo/ 4 19462 0 0
+/2015/02/ 5 29131 0 0
+/how-to-do-research/ 1 5587 0 0
+/java-workshop/ 4 20156 0 0
+/wp-admin/revision.php 3 60395 0 0
+/category/2015-16/ 2 47025 0 0
+/wp-admin/upload.php 27 449727 0 0
+/author/kunal/ 1 16421 0 0
+/swg-cell/ 11 90656 0 0
+/workshop-on-hackathon-android-and-cloud-computing/ 19 139062 0 1
+/anantya/ 5 33412 3 1
+/wp-admin/options-reading.php 1 17556 0 0
+/wp-includes/fonts/dashicons.eot 4 84236 0 0
+/games-and-sports/ 3 17661 0 0
+/wp-admin/plugin-editor.php 1 18720 0 0
+/2015/04/ 4 29294 0 1
+/www.pccoe.org/the-web-developers 1 11153 0 0
+/wp-admin/comment.php 2 36589 0 0
+/wp-admin/admin.php 4 72340 0 0
+/induction-programme-2015/ 26 184258 0 4
+/codigami/ 5 27016 0 1
+/pccoe.acm.org/the-web-developers 1 10858 0 0
+/wp-admin/plugin-install.php 3 71470 0 0
+/author/darshit12/page/2/ 1 6075 0 1
+/teachers-day/ 25 198082 1 3
+/wp-comments-post.php 1 1386 0 1
+/latest-news/ 2 11533 0 0
+/thinkpic/ 3 15228 0 0
+/android-workshop/ 2 10870 0 0
+/2015/09/ 7 60357 1 0
+/teachers-day-celebrations/ 5 78963 1 1
+/pranayam/ 9 59185 0 0
+/distingushed-speaker-programme/ 1 7530 0 0
+/wp-admin/profile.php 19 359504 0 1
+/wp-admin/options-media.php 2 33675 0 0
+/wp-admin/options-writing.php 1 17652 0 0
+/expert-talk-on-web-services/ 5 27620 0 0
+/2015/08/ 4 25677 0 0
+/wp-admin/update.php 3 141805 0 0
+/expert-talk-on-fun-with-algorithms/ 16 113496 0 0
+/temp/ 4 10901 0 1
+/wp-admin/edit-comments.php 11 255203 0 0
+/wp-admin/themes.php 18 483100 0 0
+/home/ 11 44487 0 0
+/wp-admin/options-general.php 8 166925 0 0
+/wp-admin/update-core.php 6 103434 0 0
+END_SIDER

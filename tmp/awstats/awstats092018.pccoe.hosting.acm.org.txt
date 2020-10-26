@@ -1,0 +1,1641 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2700                
+POS_VISITOR 24491               
+POS_DAY 45554               
+POS_DOMAIN 3643                
+POS_LOGIN 4470                
+POS_ROBOT 4625                
+POS_WORMS 6155                
+POS_EMAILSENDER 6286                
+POS_EMAILRECEIVER 6429                
+POS_SESSION 46456               
+POS_SIDER 46666               
+POS_FILETYPES 6564                
+POS_DOWNLOADS 6869                
+POS_OS 7133                
+POS_BROWSER 7438                
+POS_SCREENSIZE 9912                
+POS_UNKNOWNREFERER 9986                
+POS_UNKNOWNREFERERBROWSER 10842               
+POS_ORIGIN 11399               
+POS_SEREFERRALS 11548               
+POS_PAGEREFS 11983               
+POS_SEARCHWORDS 12715               
+POS_KEYWORDS 12897               
+POS_MISC 2364                
+POS_ERRORS 12992               
+POS_CLUSTER 4326                
+POS_SIDER_404 13121               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181001002009 373 88142 11012388933960
+FirstTime 20180901000854
+LastTime 20180930222600
+LastUpdate 20181001223829 373 0 372 0 0
+TotalVisits 481                 
+TotalUnique 346                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 570                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 72 842 93154798 85 508 6119719
+1 104 1807 185200839 162 1309 29018654
+2 54 1281 153378231 34 713 13389948
+3 53 729 66059551 36 301 4428745
+4 35 1094 139694926 19 784 1565135
+5 43 870 111185318 67 441 4637616
+6 48 1128 107136968 68 476 3008624
+7 42 971 129417682 32 1135 3496175
+8 7 82 3435204 31 91 1427429
+9 30 530 55893300 29 679 2154313
+10 59 1875 184951235 57 1156 5548345
+11 42 1975 229760635 33 948 4687014
+12 61 2648 351721660 30 2019 3678916
+13 52 1098 97511838 34 684 18466254
+14 22 843 101458634 19 608 2445554
+15 21 1557 188504621 42 698 1002357
+16 7 36 3130601 25 68 4795303
+17 6 24 1716815 27 64 3641920
+18 8 23 730764 22 76 10158561
+19 5 27 570433 26 112 3977645
+20 18 567 62905922 27 334 4026741
+21 16 292 42172439 37 195 2902055
+22 218 898 82078629 32 320 2473459
+23 19 399 30855179 33 741 1215293
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 40
+in 459 15059 1710195650
+us 329 2200 219596536
+ip 87 2196 299854333
+nl 66 70 203102
+et 30 311 32336584
+ru 11 139 15255685
+kr 10 117 7413980
+vn 10 369 46524230
+cn 9 297 30729412
+de 6 20 1646712
+fr 4 6 214090
+id 3 142 9712479
+pl 2 2 69642
+dm 2 2 9488
+zz 2 28 493742
+es 2 2 50353
+ro 1 1 4744
+ua 1 115 15035636
+it 1 1 34821
+pk 1 116 15097907
+il 1 1 4744
+ph 1 2 72979
+gr 1 38 3139598
+gb 1 11 291391
+br 1 1 4744
+sa 0 283 7122521
+kw 0 2 144512
+pt 0 1 25657
+iq 0 1 25657
+za 0 1 25657
+hu 0 1 2095600
+ca 0 5 171909
+ae 0 4 227085
+jp 0 2 312910
+om 0 1 92870
+th 0 1 76725
+jo 0 19 538551
+hr 0 1 92870
+eg 0 1 38158
+my 1 27 3642958
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 34
+Googlebot/ 554 2703146 20180930225015 28
+SeznamBot/ 298 2237771 20180930130044 135
+bingbot/ 268 29741253 20180930172341 37
+YandexBot/ 245 9451241 20180930182737 88
+Googlebot\-Image/ 237 5422196 20180927172521 0
+archive\.org_bot 230 29914794 20180913022902 2
+bingpreview 223 23814138 20180928213351 0
+bot[\s_+:,\.\;\/\\-] 126 294588 20180930055720 64
+MJ12bot/ 63 1057227 20180930062419 31
+facebookexternalhit/ 58 4083207 20180930021112 0
+Sogou[\x20]web[\x20]spider/ 36 34107 20180930083456 29
+gocrawl 29 899 20180930065415 29
+YandexMobileBot/ 27 394596 20180928193343 0
+YandexImages/ 27 6158295 20180930191605 0
+Google[\x20]Web[\x20]Preview 23 177066 20180923112721 0
+crawl 21 83452 20180926012931 5
+Apache\-HttpClient/ 20 91254 20180928065634 0
+scanner 18 1899067 20180927013555 0
+DuckDuckGo\-Favicons\-Bot/ 14 95375 20180930120416 0
+unknown 13 403 20180926054924 13
+Dalvik/ 10 2021680 20180927012654 0
+SemrushBot/ 8 10187 20180928161513 5
+no_user_agent 7 402425 20180909131427 1
+DotBot/ 7 35007 20180927194035 6
+MegaIndex\.ru/ 6 17483 20180907224547 1
+linkdexbot/ 4 14263 20180922101354 1
+(firefox/)([0-9]\.|[0-1][0]\.) 1 31 20180901200918 1
+Applebot/ 3 9519 20180917185716 1
+Baiduspider/ 1 4734 20180901200919 0
+CCBot/ 2 4775 20180922055808 1
+Gluten[\x20]Free[\x20]Crawler/ 1 4744 20180915042852 0
+ZumBot/ 2 34852 20180910102422 1
+link 5 14294 20180923023854 2
+Cliqzbot/ 2 4775 20180906090709 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff2 47 1892800 0 0
+woff 1 23424 0 0
+js 1499 10555375 0 0
+Unknown 243 227072 0 0
+gif 1 6567 0 0
+html 751 3205072 0 0
+css 1559 8361892 0 0
+png 1027 112182661 0 0
+svg 19 3702 0 0
+jpg 15549 2182205113 0 0
+txt 3 192 0 0
+jpeg 897 103962352 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/.well-known/pki-validation/577CFAB266A664EB130F36939EABE767.txt 1 0 64
+/.well-known/pki-validation/1B762FEBE74F519099B026159E85D1EA.txt 1 0 64
+/.well-known/pki-validation/4F03A76CC9FC6DDC257BEF5180950514.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+winlong 22 3
+win8.1 296 6
+win8 5 0
+macosx12 26 1
+linux 2460 111
+linuxubuntu 1 0
+macosx6 2 2
+win7 2260 74
+ios_ipad 1 0
+ios_iphone 191 11
+linuxandroid 8155 277
+win2000 1 1
+winxp 26 9
+macosx 140 6
+Unknown 510 338
+win10 7476 196
+macosx11 24 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 118
+netscape5.0 108 1
+opera42.0.2393.94 8 6
+chrome69.0.3497.86 162 3
+firefox61.0 531 13
+safari9.0 6 5
+chrome69.0.3497.100 3210 122
+chrome40.0.2214.89 2 0
+chrome65.0.3325.181 48 3
+chrome43.0.2357.121 1 0
+firefox44.0 1 0
+chrome52.0.2743.116 5 5
+chrome49.0.2623.75 73 46
+firefox41.0 1 0
+chrome58.0.3029.81 1 0
+chrome68.0.3440.106 5795 134
+chrome34.0.1847.137 1 1
+firefox55.0 229 2
+cloudflare 3 0
+chrome46.0.2490.11 1 0
+chrome58.0.3029.110 27 1
+chrome69.0.3497.91 251 21
+chrome65.0.3325.183 2 2
+opera10.00 1 1
+safari11.0 177 5
+Unknown 431 311
+firefox63.0 1 0
+chrome39.0.2171.93 7 4
+firefox52.58.05 1 1
+chrome65.0.3325.109 945 14
+chrome49.0.2623.112 3 0
+firefox48.0 134 3
+chrome66.0.3359.126 378 8
+safari12.0 4 1
+safari 1 0
+chrome57.0.2987.108 4 2
+chrome68.0.3440.91 2043 51
+chrome38.0.2125.102 3 0
+chrome70.0.3538.9 3 0
+chrome51.0.2704.81 3 2
+firefox47.0 373 12
+chrome65.0.3298.4 2 2
+chrome55.0.2883.91 89 2
+firefox52.0 12 5
+safari9.1.2 1 0
+firefox21.0 1 1
+safari5.1 2 2
+edge16 4 0
+chrome60.0.3112.113 2 2
+chrome41.0.2228.0 116 2
+chrome56.0.2924.87 123 4
+chrome17.0.963.66 1 1
+mozilla 7 7
+edge17 14 0
+safari10.0.1 26 1
+chrome53.0.2785.134 115 1
+chrome61.0.3163.128 361 12
+firefox40.1 1 1
+chrome67.0.3396.62 123 2
+firefox57.0 98 1
+chrome69.0.3497.81 364 7
+chrome69.0.3497.92 396 11
+chrome69.0.3452.0 1 0
+msie11.0 125 7
+chrome49.0.2623.105 1 0
+msie10.0 2 2
+chrome40.0.2214.85 115 1
+android 2 0
+opera42.0.4619.9346 1 1
+chrome41.0.2272.118 5 2
+chrome57.0.2987.132 2 1
+chrome64.0.3282.137 72 1
+chrome61.0.3163.100 1 1
+firefox45.0 231 2
+chrome45.0.2454.101 1 1
+edge12 1 0
+safari10.0 2 0
+msie8.0 2 0
+firefox15.0 16 16
+firefox32.0 3 3
+chrome66.0.3359.117 1 1
+chrome61.0.3163.98 114 1
+chrome62.0.3202.84 149 4
+chrome63.0.3239.132 1 1
+chrome38.0.1025.166 618 30
+chrome67.0.3396.99 85 2
+chrome34.0.1847.131 2 2
+firefox58.0 1 0
+chrome59.0.3071.125 224 2
+chrome31.0.1623.0 1 1
+chrome53.0.2785.143 11 2
+iphone 5 0
+firefox11.0 13 0
+chrome30.0.1599.82 15 0
+chrome64.0.3282.140 1 1
+chrome54.0.2840.85 4 2
+chrome69.0.3497.76 341 3
+chrome30.0.0.0 2 0
+chrome37.0.0.0 1 0
+chrome52.0.2743.98 1 0
+msie7.0 6 1
+chrome38.0.0.0 4 1
+chrome49.0.2623.110 5 0
+msie9.0 61 5
+chrome63.0.3239.84 1 1
+msie6.0 3 3
+chrome50.0.2661.94 1 1
+firefox56.0 30 5
+wap 69 20
+chrome68.0.3440.85 119 5
+opera12.16 2 0
+chrome67.0.3396.87 697 26
+firefox62.0 1383 28
+firefox59.0 3 3
+edge13 1 0
+firefox60.0 52 2
+chrome66.0.3359.158 5 1
+chrome34.0.1847.116 2 2
+chrome68.0.3440.70 143 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+7Siters/1.07_(_http://7ooo.ru/siters/) 20180914170619
+Cpanel-HTTP-Client/1.0 20180930222600
+The_Knowledge_AI 20180926054925
+WhatsApp/2.18.248_A 20180927005508
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20180911101600
+Dorado_WAP-Browser/1.0.0 20180920031139
+null 20180912070928
+WhatsApp/2.18.105_A 20180927010602
+WhatsApp/2.18.203_A 20180904042121
+WhatsApp/2.18.277_A 20180927010338
+SEMrushBot 20180930094325
+Gigabot 20180919121613
+WhatsApp/2.18.295_A 20180927010346
+COMODO_DCV 20180909224816
+Mozilla/5.0 20180924180005
+ia_archiver 20180904045304
+Dorado_WAP-Browser/1.0.0_Google 20180920025336
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online)_AppleWebKit/534.34 20180925225008
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+null 20180912070928
+WhatsApp/2.18.295_A 20180927010346
+The_Knowledge_AI 20180926054925
+WhatsApp/2.18.248_A 20180927005508
+Cpanel-HTTP-Client/1.0 20180930222600
+Uzbl_(Webkit_1.3)_(Linux_i686_[i686]) 20180927212626
+7Siters/1.07_(_http://7ooo.ru/siters/) 20180914170619
+Gigabot 20180919121613
+SEMrushBot 20180930094325
+ia_archiver 20180904045304
+WhatsApp/2.18.277_A 20180927010338
+WhatsApp/2.18.203_A 20180904042121
+COMODO_DCV 20180909224816
+WhatsApp/2.18.105_A 20180927010602
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 764 1247
+From1 23 23
+From2 96 202
+From3 17 264
+From4 142 19860
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 15
+www_google_com_ph 0 1
+www_google_ru 0 1
+www_google_com 32 63
+www_google_com_pk 0 1
+yandexru 1 1
+www_google_co_in 57 112
+duckduckgo 1 1
+www_google_hu 0 1
+images_google_com 0 1
+www_google_de 0 1
+www_google_co_th 0 1
+www_google_com_ua 1 2
+www_google_com_sa 0 1
+bing 4 14
+www_google_com_eg 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 18
+http://india.acm.org 11 11
+http://webcache.googleusercontent.com/search 2 221
+https://l.instagram.com 2 2
+http://india.acm.org 1 1
+https://www.facebook.com 1 1
+http://domain.com 0 1
+http://omdda.com/emad/ 0 2
+http://omdda.com/bot/success 0 1
+http://www.hpssociety.info/news/digital-india-poster-competition.html 0 2
+http://smart-wp.com/emad/ 0 1
+http://smart-wp.com 0 10
+http://omdda.com/bot/ 0 3
+http://smart-wp.com/index.php 0 3
+http://www.newsmov.biz 0 1
+http://omdda.com/emad/success 0 1
+http://sa.omdda.com 0 1
+http://omdda.com/bot/Services 0 1
+http://smart-wp.com/Services 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+acm+society+core+activities 4
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+core 4
+society 4
+activities 4
+acm 4
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 11461 467236
+206 234 17562610
+301 5 3085
+500 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 267
+/isr-cell/ 1 -
+/images/gallery/t3@2x.jpg 116 http://pccoe.acm.org/
+/images/shreya@2x.jpg 103 http://pccoe.acm.org/
+/apple_station/.206.html 1 -
+/license.php 16 http://pccoe.acm.org/license.php
+/apple_station/262.html 1 -
+/images/18sai-web@2x.jpg 97 http://pccoe.acm.org/index.html
+/images/gallery/m0@2x.jpg 113 http://pccoe.acm.org/
+/apple_station/.203html 1 -
+/team.html 1 -
+/apple_station/.204.html 2 -
+/annatya.html 2 android-app://com.google.android.googlequicksearchbox
+/apple_station/.212.html 2 -
+/apple_station/228.html 1 android-app://com.google.android.googlequicksearchbox
+/apple_station/.311.html 1 -
+/anantya/bepaper.html 4 -
+/images/speakers/arun@2x.png 3 http://pccoe.acm.org/esp.html
+/images/18mohitnakhale-Secy@2x.jpg 99 http://pccoe.acm.org/
+/images/gallery/a7@2x.jpg 113 http://pccoe.acm.org/
+/images/acmw@2x.jpg 102 http://pccoe.acm.org/
+/apple_station/RGB.html 3 -
+//data/cache/asd.php 2 -
+/images/pra_b@2x.jpg 103 http://pccoe.acm.org/
+/images/amrita@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/images/speakers/sanjay@2x.png 3 http://pccoe.acm.org/esp.html
+/techanantya 1 -
+/wp-login.php 2 -
+/images/gallery/m5@2x.jpg 112 http://pccoe.acm.org/
+/images/gallery/m4@2x.jpg 112 http://pccoe.acm.org/
+/images/gallery/esp_1@2x.jpg 117 http://pccoe.acm.org/
+//install/index.php.bak 2 -
+/apple_station/.211html 1 -
+/techanantya.html 2 -
+/images/rahul@2x.jpg 98 http://pccoe.acm.org/
+/images/18Soham-ISR@2x.jpg 96 http://pccoe.acm.org/index.html
+/images/gallery/esp_4@2x.jpg 116 http://pccoe.acm.org/
+/images/individual@2x.jpg 414 http://pccoe.acm.org/
+/comments/feed/ 1 -
+/images/gallery/a4@2x.jpg 114 http://pccoe.acm.org/
+/anantya.html 1 android-app://com.google.android.googlequicksearchbox/https/www.google.com
+/images/cpdc@2x.jpg 113 http://pccoe.acm.org/
+/bbs/convert/index.php 1 -
+/images/shubham@2x.jpeg 116 http://pccoe.acm.org/
+/images/gallery/esp_2@2x.jpg 117 http://pccoe.acm.org/
+/images/gallery/a1@2x.jpg 116 http://pccoe.acm.org/
+/2015/02/ 1 -
+/images/gallery/m2@2x.jpg 113 http://pccoe.acm.org/
+/images/isr@2x.jpg 112 http://pccoe.acm.org/
+/images/gallery/t2@2x.jpg 116 http://pccoe.acm.org/
+/category/2014-15/ 1 -
+/techlligent/ 1 -
+/images/ankush@2x.jpg 107 http://pccoe.acm.org/
+/images/18Disha-Support@2x.jpg 98 http://pccoe.acm.org/index.html
+/images/sanchita@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/images/18Shruthi-Membership@2x.jpg 97 http://pccoe.acm.org/index.html
+/assets/images/cells/cpdc.png 1 -
+/images/gallery/t4@2x.jpg 116 http://pccoe.acm.org/
+/images/anamika@2x.jpg 106 http://pccoe.acm.org/
+/images/interviewbit@2x.jpg 98 http://pccoe.acm.org/
+/apple_station/rgb.html 16 -
+/apple_station/133.html 1 -
+/images/gallery/pcl2@2x.jpg 115 http://pccoe.acm.org/
+/images/saransh@2x.jpg 104 http://pccoe.acm.org/
+/images/nss@2x.jpg 111 http://pccoe.acm.org/
+/home/ 4 -
+/images/art@2x.jpg 111 http://pccoe.acm.org/
+//plus/download.php 2 -
+/apple_station/145.html 6 -
+/images/kedar@2x.jpg 110 http://pccoe.acm.org/
+/images/gallery/a2@2x.jpg 116 http://pccoe.acm.org/
+/images/gallery/a5@2x.jpg 114 http://pccoe.acm.org/
+/apple_station/263.html 1 -
+/images/codechef@2x.jpg 101 http://pccoe.acm.org/
+/images/18vineet-web@2x.jpg 98 http://pccoe.acm.org/index.html
+/apple_station/207.html 2 android-app://com.google.android.googlequicksearchbox
+/apple_station/165.html 1 -
+/techantya.html 3 -
+/apple_station/155.html 1 -
+/images/gallery/c1@2x.jpg 114 http://pccoe.acm.org/
+/images/18AishwaryaYadav-Support@2x.jpg 97 http://pccoe.acm.org/index.html
+/apple_station/.305.html 1 -
+/art-circle/ 2 -
+/apple_station/201.html 1 android-app://com.google.android.googlequicksearchbox
+/apple_station/245.html 2 -
+/apple_station/136.html 1 -
+/apple_station/.209.html 1 -
+/apple_station/lol.html 1 -
+/images/pdc@2x.jpg 111 http://pccoe.acm.org/
+/apple_station/128.html 3 -
+/farewell-2015/ 1 -
+/apple_station/112.html 8 -
+/images/nptel@2x.jpg 101 http://pccoe.acm.org/
+/meet-the-team/ 4 -
+/images/mohit-art@2x.jpeg 97 http://pccoe.acm.org/index.html
+/cpd-cell/ 4 -
+/bbs/utility/convert/index.php 1 -
+/images/jovian@2x.jpg 116 http://pccoe.acm.org/
+/images/speakers/ajay@2x.png 3 http://pccoe.acm.org/esp.html
+/images/RahulPatil@2x.jpeg 91 http://pccoe.acm.org/
+/images/speakers/navin@2x.png 4 http://pccoe.acm.org/esp.html
+/images/sports@2x.jpg 110 http://pccoe.acm.org/
+/apple_station/.203.html 1 -
+/images/gallery/a3@2x.jpg 115 http://pccoe.acm.org/
+/apple_station/135.html 2 -
+/sitemap.xml 19 -
+/images/acm@2x.jpg 102 http://pccoe.acm.org/
+/author/nikita/ 1 -
+/phpcms/base.php 1 -
+/apple_station/114.html 3 -
+/images/18atharva-membership@2x.jpg 97 http://pccoe.acm.org/index.html
+/images/18pushpak-pdc@2x.jpeg 97 http://pccoe.acm.org/index.html
+/images/darshit@2x.jpg 109 http://pccoe.acm.org/
+/images/gallery/acs1@2x.jpg 112 http://pccoe.acm.org/
+/apple_station/205.html 1 android-app://com.google.android.googlequicksearchbox
+/apple_station/224.html 4 -
+/page/2/ 1 -
+/teachers-day-celebrations/ 2 -
+/anantya/ads.txt 9 -
+/images/18sidraut-coSecy@2x.png 99 http://pccoe.acm.org/
+/apple_station/.207.html 1 -
+/apple_station/211 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/asd.php 2 -
+/pd-cell/ 2 -
+/apple_station/404.html 3 -
+/images/18Pratik_member@2x.jpg 98 http://pccoe.acm.org/index.html
+//include/dialog/select_soft_post.php 2 -
+/images/18tejal-pdc@2x.jpeg 98 http://pccoe.acm.org/index.html
+/images/speakers/venkateshwaran@2x.png 4 http://pccoe.acm.org/esp.html
+/apple_station/.208.html 1 -
+/images/gallery/acs2@2x.jpg 112 http://pccoe.acm.org/
+/anantya/assets/css/images/overlay.png 42 http://pccoe.acm.org/anantya/assets/css/main.css
+/images/18pranjali-coTreas@2x.jpg 98 http://pccoe.acm.org/
+/images/grievance@2x.jpg 110 http://pccoe.acm.org/
+/wpadmin 1 -
+/images/aishwarya@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/images/gallery/i3@2x.jpg 117 http://pccoe.acm.org/
+/apple_station/221.html 1 -
+/images/prachi@2x.jpg 104 http://pccoe.acm.org/
+/images/18oorja-cpdc@2x.jpg 98 http://pccoe.acm.org/index.html
+/apple_station/126.html 1 -
+//plus/ad_js.php 2 -
+/images/gallery/a8@2x.jpg 113 http://pccoe.acm.org/
+/teachers-day/ 2 -
+/apple_station/254.html 2 -
+/digital-india-week/ 1 -
+/higher-studies 2 -
+/anantya-2015/ 3 -
+/2015/07/ 1 -
+/apple_station/.202html 2 -
+/images/gopi@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/octpr31242.txt 1 -
+/images/gallery/h4@2x.jpg 112 http://pccoe.acm.org/
+/images/speakers/vivek@2x.png 3 http://pccoe.acm.org/esp.html
+/apple_station/158.html 2 -
+/images/gsoc@2x.jpg 103 http://pccoe.acm.org/
+/images/18Sayali-HighStdy@2x.jpg 98 http://pccoe.acm.org/index.html
+/images/gallery/esp_3@2x.jpg 117 http://pccoe.acm.org/
+/images/speakers/abhijat@2x.png 3 http://pccoe.acm.org/esp.html
+/images/gallery/i1@2x.jpg 117 http://pccoe.acm.org/
+/convert/index.php 1 -
+/images/speakers/sachin@2x.png 3 http://pccoe.acm.org/esp.html
+//blog/ 2 http://pccoe.acm.org/
+/images/gallery/acs3@2x.jpg 112 http://pccoe.acm.org/
+/expert-talk-on-web-services/ 1 -
+/images/gallery/i4@2x.jpg 118 http://pccoe.acm.org/
+/apple_station/218.html 2 -
+//plus/read.php 2 -
+/apple_station/20r.html 1 android-app://com.google.android.googlequicksearchbox
+/eminent-speaker-programme-mathematical-modeling/ 4 -
+/apple_station/878.html 1 -
+/tnp-cell/ 2 -
+/java-workshop/ 1 -
+/apple_station/215.html 6 -
+/apple_station/.201html 2 -
+/apple_station/203.html 1 android-app://com.google.android.googlequicksearchbox
+/utility/convert/index.php 1 -
+/apple_station/.112.html 1 -
+/apple_station/124.html 6 -
+/images/smart@2x.jpg 101 http://pccoe.acm.org/
+/apple_station/251.html 1 -
+/images/speakers/rudrapatna@2x.png 4 http://pccoe.acm.org/esp.html
+/apple_station/___html 2 -
+/images/coursera@2x.jpg 98 http://pccoe.acm.org/
+/images/higher@2x.jpg 110 http://pccoe.acm.org/
+/images/18ruchira-grievance@2x.jpg 97 http://pccoe.acm.org/index.html
+/apple_station/235.html 1 -
+/apple_station/162.html 1 -
+/android-workshop/ 1 -
+/images/gallery/pcl4@2x.jpg 116 http://pccoe.acm.org/
+/images/18som-treas@2x.jpg 98 http://pccoe.acm.org/
+/images/gallery/m6@2x.jpg 111 http://pccoe.acm.org/
+/anantya-2015/feed/ 1 -
+/images/abdul@2x.jpg 127 http://pccoe.acm.org/
+/apple_station/worldwarIImemes.html 1 -
+/images/abhishek@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/apple_station/143.html 1 -
+/images/su_doers@2x.jpg 103 http://pccoe.acm.org/
+/apple_station/204.html 1 android-app://com.google.android.googlequicksearchbox
+/apple_station/118.html 2 -
+/images/gallery/i1.jpg1zB 1 -
+/images/ankur@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/images/gallery/pcl3@2x.jpg 116 http://pccoe.acm.org/
+/images/dipesh@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/apple_station/132.html 2 -
+/apple_station/163.html 1 -
+/apple_station/111.html 6 -
+/images/janhavi@2x.jpg 109 http://pccoe.acm.org/
+/apple_station/ 9 -
+/eminent-speaker-programme-theory-of-computation/ 1 -
+/about.html 1 -
+/apple_station/211.html 5 -
+/apple_station/154.html 2 -
+/images/vishal@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/images/hackerrank@2x.jpg 100 http://pccoe.acm.org/
+/images/18amulya-art@2x.jpeg 98 http://pccoe.acm.org/index.html
+/images/gallery/h3@2x.jpg 111 http://pccoe.acm.org/
+/images/gallery/t1@2x.jpg 116 http://pccoe.acm.org/
+/apple_station/151.html 2 -
+/images/neha@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/apple_station/134.html 1 -
+/apple_station/202.html 1 android-app://com.google.android.googlequicksearchbox
+/about-us/ 5 -
+/plus/mytag_js.php 1 http://pccoe.acm.org/plus/mytag_js.php
+//index.php 2 -
+/images/leetcode@2x.jpg 100 http://pccoe.acm.org/
+/apple_station/243.html 2 -
+/apple_station/153.html 2 -
+/apple_station/.212html 1 -
+/apple_station/156.html 2 -
+/apple_station/.210.html 1 -
+/images/gallery/acs4@2x.jpg 112 http://pccoe.acm.org/
+/images/hash_bin@2x.jpg 103 http://pccoe.acm.org/
+/acm-logo/ 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/images/imad@2x.jpg 102 http://pccoe.acm.org/
+/images/gallery/h2@2x.jpg 111 http://pccoe.acm.org/
+/apple_station/214.html 1 android-app://com.google.android.googlequicksearchbox
+/2015/04/ 1 -
+/apple_station/.221html 1 -
+/images/udacity@2x.jpg 98 http://pccoe.acm.org/
+/apple_station/123.html 3 -
+/apple_station/206.html 1 android-app://com.google.android.googlequicksearchbox
+/apple_station/.205.html 3 -
+/dede/login.php 3 -
+/apple_station/.007.html 1 -
+/feed/ 24 -
+/admin 1 -
+/images/gallery/a6@2x.jpg 113 http://pccoe.acm.org/
+/images/gallery/h1@2x.jpg 111 http://pccoe.acm.org/
+/anantya/org.acm.pccoe.anantya2017/ads.txt 16 -
+/images/gallery/m1@2x.jpg 113 http://pccoe.acm.org/
+/apple_station/.111html 1 -
+/apple_station/212.html 3 -
+/util/login.aspx 1 -
+/apple_station/125.html 1 -
+/images/reena@2x.jpg 18 http://pccoe.acm.org/pccoeacm.html
+/codigami/ 1 -
+/images/gallery/i2@2x.jpg 117 http://pccoe.acm.org/
+/apple_station/.205html 1 -
+/images/18hansel-cpdc@2x.jpg 97 http://pccoe.acm.org/index.html
+/apple_station/121.html 6 -
+/images/18ketan-web@2x.jpg 97 http://pccoe.acm.org/index.html
+/images/gallery/pcl1@2x.jpg 116 http://pccoe.acm.org/
+/apple_station/248.html 1 -
+/images/gallery/m3@2x.jpg 114 http://pccoe.acm.org/
+/apple_station/.html 5 -
+/apple_station/.211.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 570
+162.254.252.104 223 226 14533 20180930222600
+46.229.161.131 60 60 142310 20180930094325
+103.109.14.155 52 928 59831983 20180930110440
+114.143.248.34 45 1384 177290521 20180927014752
+197.156.107.186 30 311 32336584 20180920031139
+117.205.13.228 27 1715 211655202 20180929000554
+103.74.18.59 19 407 31481345 20180926035729
+106.77.30.20 10 12 30211 20180927023013
+14.192.26.14 8 367 46516769 20180904114234
+49.35.217.14 8 8 153 20180927005527
+2405:204:968d:c668:30a3:d37b:cc47:1a57 8 228 32285231 20180921062320
+14.139.196.9 7 146 21626397 20180918124350
+2405:204:910a:fac0:b2d9:b9fc:ca4c:c331 7 32 6587323 20180919055415
+2402:3a80:6ce:bfc6:bc2a:6edf:5707:7a06 6 7 232545 20180927005558
+45.119.58.183 6 144 3935226 20180920015503
+2405:204:93a7:ec89:f674:34fb:fa9a:c72b 6 31 6587548 20180915074745
+157.33.193.159 6 6 118 20180927012027
+35.233.118.46 5 12 67292 20180919010500
+180.151.133.19 5 244 28824267 20180901124502
+1.23.48.33 5 132 16368782 20180901160103
+117.195.70.17 5 145 21711581 20180901044001
+2402:3a80:6f7:3ab3:f661:2c7:72cf:537c 5 5 102 20180927011844
+106.193.240.243 5 130 16413727 20180913123023
+14.139.160.224 5 133 16574056 20180910042926
+64.62.252.164 4 4 15350 20180914212643
+157.33.145.178 1 117 15043192 20180920135500
+202.149.218.18 0 1 23328 
+125.209.235.185 1 5 118294 20180915161629
+157.33.139.32 0 1 87114 
+106.77.38.246 0 2 442056 
+117.195.90.102 1 2 12660 20180906123813
+94.249.55.4 0 1 25657 
+42.108.234.180 0 1 130127 
+66.220.149.2 0 22 2325837 
+157.33.199.32 0 1 23328 
+188.50.6.84 0 1 25657 
+156.213.240.162 0 1 38158 
+106.210.133.21 2 88 14428039 20180905043224
+216.93.180.60 1 1 51 20180927005413
+220.243.136.14 0 6 34207 
+114.143.109.198 2 225 25788892 20180918054008
+49.35.249.21 3 66 11356360 20180914120029
+65.154.226.109 0 1 25657 
+45.36.73.7 0 1 38158 
+34.220.206.143 2 2 69642 20180929210652
+2405:204:9605:9c5a:b6fd:3a25:e106:5c7e 1 115 15035636 20180920061332
+1.186.174.188 0 2 410796 
+157.33.205.135 1 117 15038001 20180915114940
+106.210.238.168 1 1 4744 20180904042121
+106.193.168.120 2 3 30160 20180927004932
+42.107.131.250 0 13 1015312 
+103.54.16.227 3 5 23354 20180910035135
+106.78.178.102 0 19 3528976 
+49.33.159.205 0 1 39730 
+66.160.140.187 1 1 4744 20180924023518
+78.24.217.78 2 2 0 20180918133744
+2405:204:97a9:dcdb:cd9c:2208:75ba:6b74 1 113 14942037 20180905112100
+111.202.101.96 0 1 776 
+61.0.214.216 3 28 6580720 20180924123418
+92.96.180.146 0 1 92870 
+106.210.178.140 0 1 232478 
+106.77.39.43 0 1 2095600 
+54.157.24.84 1 1 4744 20180921061752
+125.209.235.183 0 3 130258 
+49.35.230.127 1 19 0 20180901000854
+176.47.77.132 0 1 25657 
+106.210.251.128 1 1 0 20180909095606
+117.198.102.130 0 1 23328 
+182.72.191.26 1 117 15043192 20180911060052
+149.129.145.91 1 27 3642958 20180905221629
+1.23.196.180 1 1 0 20180927113201
+66.220.149.15 0 21 2016921 
+2409:4042:2106:eb18:f43f:220c:e411:64d3 3 142 21316975 20180921025108
+178.19.221.14 0 1 139060 
+103.110.252.32 3 131 4649815 20180918012647
+2402:3a80:6ee:db34:0:5e:: 1 19 1241956 20180903060341
+125.209.235.169 1 11 487059 20180910202736
+106.210.219.19 0 1 13799 
+106.78.174.129 1 2 232545 20180927012125
+49.35.91.77 0 2 2365 
+59.94.213.196 1 116 15047422 20180926155559
+178.23.213.85 2 2 50353 20180918173154
+106.79.96.211 1 2 150428 20180927010642
+117.248.247.34 1 2 12660 20180912221054
+106.78.177.56 0 5 1243683 
+59.95.195.40 1 2 12660 20180919103050
+49.35.68.74 0 2 17762 
+31.184.238.129 2 2 7461 20180907221436
+31.184.238.12 1 1 34821 20180904074741
+162.158.64.83 0 1 25657 
+125.209.235.177 1 4 72997 20180929170833
+27.59.47.180 0 1 18955 
+2405:204:900a:b9e2::23ff:68a5 3 140 23997960 20180922214125
+106.193.253.173 1 26 935442 20180912092811
+157.33.175.0 1 117 15043192 20180920035721
+2405:204:931f:d3e3:9b0:31d7:c62a:3d66 0 6 641470 
+49.14.85.188 1 1 0 20180927005116
+220.243.136.64 0 1 609 
+49.35.106.173 1 117 14753862 20180922075148
+103.88.125.233 1 121 15103703 20180912121603
+2405:204:9508:1caa:8d90:f13f:55b3:ace3 1 115 15035636 20180905131537
+54.159.154.247 1 1 4744 20180905062136
+209.151.173.228 0 2 2268087 
+42.108.236.85 0 7 642468 
+125.209.235.184 2 9 407940 20180922225041
+2405:204:9628:7a71:fcd9:dc61:da39:30cc 1 2 30160 20180927010048
+125.209.235.167 1 6 418511 20180929170837
+71.63.186.182 0 1 23328 
+86.108.88.58 0 2 51314 
+106.220.77.232 0 1 130127 
+106.193.239.11 3 28 6577548 20180909051606
+106.210.218.78 2 2 0 20180927014236
+54.166.0.47 1 1 4744 20180903070018
+34.221.12.227 1 1 34821 20180913221055
+106.210.245.123 1 1 0 20180927020128
+49.14.66.165 0 1 1214539 
+106.220.78.218 1 2 12660 20180907024824
+65.132.59.34 4 121 16375259 20180919121608
+184.73.119.97 1 1 4744 20180903065548
+125.209.235.175 1 4 364038 20180915161633
+1.187.24.194 0 18 2527883 
+117.195.90.53 1 1 3779 20180915033044
+119.155.123.210 0 1 62271 
+49.204.208.13 1 115 15035636 20180917101239
+54.165.90.203 4 4 91956 20180904045304
+106.193.135.182 2 116 15027755 20180903113238
+106.77.33.87 1 115 15035636 20180929151823
+106.77.44.155 4 19 3736709 20180901053403
+70.42.131.170 0 1 25657 
+192.157.88.166 0 3 506706 
+45.125.118.54 0 1 156455 
+106.210.208.57 2 3 232612 20180927010352
+77.72.82.12 1 1 4744 20180917234657
+106.220.163.134 1 114 15026755 20180930110853
+112.196.129.98 0 1 76725 
+106.78.86.33 0 1 92870 
+213.202.109.132 0 1 92870 
+148.72.11.36 2 2 69642 20180929154831
+106.77.19.97 1 2 232545 20180927012211
+43.243.173.196 1 115 15035636 20180926100949
+209.151.173.231 0 6 1038737 
+69.171.251.20 0 21 2124098 
+94.249.102.3 0 10 256570 
+54.197.158.243 1 1 4744 20180926064456
+123.126.113.168 0 1 38897 
+125.209.235.174 0 6 677359 
+2401:4900:1903:75b1:1:1:bd5e:fec4 1 2 232545 20180927035112
+54.163.169.151 1 1 4744 20180920062345
+157.39.60.55 1 15 136791 20180903011719
+1.186.44.14 2 120 15051134 20180927041313
+14.139.218.214 2 127 15234294 20180912121329
+106.78.83.107 0 1 23328 
+203.90.94.126 3 28 6580868 20180918102013
+49.248.6.186 4 130 16419463 20180926023715
+129.208.73.203 0 101 2452947 
+178.235.209.72 2 2 69642 20180918025004
+49.248.61.197 1 117 15043192 20180905111011
+201.90.0.1 1 1 4744 20180924180005
+106.77.22.249 1 2 232545 20180927010351
+106.79.182.182 1 2 30160 20180927101004
+49.35.23.236 1 115 15035636 20180906132429
+2405:204:9723:b295:e2f4:fb61:7351:7e20 1 2 30160 20180927005527
+148.251.50.77 1 1 34821 20180928024813
+66.160.140.182 1 1 4744 20180907190809
+103.54.96.134 1 115 15035636 20180902221916
+49.35.213.61 1 115 62514 20180912153234
+27.97.132.55 1 2 30160 20180927010248
+106.78.176.232 1 2 232545 20180927010351
+2405:204:9117:8878:1555:69f0:60ab:6be9 1 1 13273 20180903234022
+157.33.162.17 1 2 30160 20180928002309
+106.77.27.37 1 2 30160 20180927004618
+2402:8100:3018:648e:3719:4a33:fe30:80f 1 1 67 20180927013333
+106.203.127.207 0 1 14300 
+60.254.43.235 0 1 139390 
+103.108.74.140 0 1 38158 
+76.126.40.87 1 1 4744 20180927212626
+2402:8100:3009:8425:1:1:4192:1c43 3 5 60320 20180927012036
+49.14.80.180 1 2 30160 20180927101255
+110.54.241.217 0 1 38158 
+209.151.173.236 1 2 109210 20180913071620
+125.209.235.176 1 9 816872 20180922225048
+2401:4900:1884:e1a1:153e:f496:e9b9:7eb 0 1 232478 
+76.244.36.102 0 1 125884 
+39.54.128.223 1 115 15035636 20180924151554
+35.162.161.210 1 1 34821 20180906234122
+104.190.163.109 0 1 369988 
+106.120.173.116 0 1 1381 
+49.35.253.191 2 2 67 20180927011249
+42.106.197.195 0 3 96998 
+66.220.149.18 1 61 9267420 20180903152644
+203.192.219.83 0 1 171203 
+82.202.197.118 1 1 34821 20180914170619
+106.120.173.104 0 1 723 
+49.14.65.90 1 1 51 20180927100850
+106.193.246.7 1 49 3705531 20180922105741
+141.226.243.191 1 1 4744 20180912070928
+49.35.68.33 1 45 3152787 20180905112458
+54.205.160.74 1 1 4744 20180918063911
+220.243.136.146 1 1 4744 20180929075813
+49.35.44.157 1 2 12660 20180920204952
+64.62.252.173 1 1 4744 20180919195508
+106.210.228.193 1 91 2575144 20180916061653
+49.14.70.133 1 10 2188389 20180908113513
+54.147.245.197 1 1 4744 20180921062921
+27.97.135.91 3 49 3469278 20180927012413
+64.233.173.46 0 1 55993 
+73.238.231.187 1 115 15035636 20180920215208
+106.210.143.103 1 115 15035636 20180927124824
+117.239.40.146 0 1 23328 
+45.112.58.15 1 117 15038001 20180915151636
+49.35.203.97 1 94 7598959 20180920064019
+220.243.136.144 0 5 35508 
+106.193.254.112 1 51 7647738 20180925144342
+103.193.86.248 0 1 23328 
+203.34.117.5 0 1 389705 
+14.139.35.235 0 1 91115 
+125.209.235.178 0 7 266130 
+106.210.164.121 1 1 0 20180905115507
+46.4.120.138 1 1 4744 20180910035248
+66.160.140.183 2 2 9488 20180926054925
+103.84.81.186 1 115 15035636 20180926101727
+115.119.252.226 4 227 25766340 20180905010826
+54.161.171.83 1 1 4744 20180927061352
+2409:4042:2192:9ffe:f63e:f5fc:bd23:3cae 1 141 27605732 20180929123852
+106.79.148.164 1 1 0 20180927004959
+5.196.54.215 3 3 14222 20180921152114
+2409:4042:208c:60cb::117:a0a4 1 2 12660 20180920040151
+2405:204:93a1:a2d7:b6d4:66a3:6ae2:54a4 1 115 15035636 20180910225852
+192.157.88.170 0 1 99213 
+14.139.180.89 1 9 96547 20180908022202
+128.177.148.93 0 1 99213 
+183.87.165.217 0 1 23328 
+86.108.92.210 0 2 51314 
+106.77.41.185 1 2 12660 20180927011019
+123.126.113.114 0 1 3263 
+47.247.101.112 0 1 56170 
+157.33.139.11 2 30 6755352 20180918154933
+125.209.235.171 0 5 247261 
+103.93.115.242 0 1 38158 
+58.218.66.89 2 2 9488 20180929233532
+106.77.22.199 1 1 0 20180927061217
+2402:3a80:6c1:ecee:bb17:1eaa:d8b7:75d 2 3 99288 20180905115650
+117.197.255.247 0 1 81200 
+106.120.173.113 0 1 326 
+113.193.189.166 1 115 15035636 20180912045722
+218.30.103.25 0 5 8130 
+103.226.141.177 3 130 16360903 20180901104700
+117.195.84.218 0 1 8881 
+27.57.254.36 1 115 15035636 20180920044315
+117.195.85.199 1 115 15035636 20180926022025
+213.239.209.94 1 1 4744 20180908054828
+42.108.244.173 1 53 8216985 20180910133451
+106.193.226.92 2 4 262705 20180927004659
+157.33.223.81 1 114 71395 20180913101147
+45.114.159.189 1 43 3842235 20180914025653
+103.51.95.138 1 1 1864 20180919135147
+188.66.158.62 0 1 92870 
+173.255.226.59 1 115 15035636 20180905120209
+66.220.149.27 0 1 1720 
+61.16.140.130 0 1 38158 
+82.102.18.82 0 1 25657 
+220.243.136.62 0 1 5352 
+138.68.254.101 1 98 13607917 20180915012657
+66.220.149.25 0 10 1423738 
+49.14.240.243 1 1 67 20180927010530
+157.33.33.100 1 6 2321 20180911013034
+43.243.174.65 0 1 38158 
+37.104.131.126 0 2 51314 
+92.184.117.95 0 1 139390 
+117.195.90.113 1 2 12660 20180916035415
+212.129.23.157 0 1 25657 
+122.166.89.53 0 1 45056 
+42.107.144.10 1 48 3899607 20180928110248
+49.32.129.93 1 114 15026755 20180914054622
+122.15.75.242 2 229 30062391 20180908011140
+176.102.51.207 1 115 15035636 20180926102401
+116.74.155.114 1 1 0 20180901080928
+54.204.220.179 1 1 4744 20180930065428
+111.202.101.74 0 1 2619 
+103.27.8.110 0 1 10184 
+220.243.136.182 0 3 19684 
+1.187.20.55 0 19 3038766 
+202.136.69.18 0 1 79739 
+5.9.17.118 1 1 34821 20180920222628
+59.95.195.246 1 108 15028069 20180911152659
+192.158.48.162 0 2 219129 
+54.161.221.137 2 2 7889 20180923064210
+106.210.219.103 2 4 60269 20180927005027
+106.220.85.70 0 1 130127 
+2405:204:91a1:a316::2996:a0 0 1 130127 
+49.34.102.123 0 1 92870 
+157.37.230.45 1 113 13895696 20180905111436
+42.106.250.73 2 93 11726300 20180926144253
+49.35.234.144 1 70 5611584 20180922042332
+49.248.153.78 0 1 1214539 
+176.45.223.20 0 134 3438038 
+164.132.93.4 1 1 34821 20180928122957
+202.160.169.42 0 1 87114 
+202.136.70.63 1 115 15035636 20180917220049
+75.127.238.114 0 1 172663 
+106.79.165.18 1 1 67 20180927004549
+183.87.70.51 4 29 6584159 20180923072627
+103.210.201.138 4 240 30946002 20180922093904
+106.77.48.61 2 3 232612 20180927010346
+49.35.87.101 1 115 15035636 20180913141652
+106.210.188.183 2 24 5791166 20180910071445
+106.201.4.30 0 1 23328 
+46.233.250.49 1 2 12660 20180915193757
+85.93.20.248 1 1 4744 20180917194423
+2409:4042:2008:bf1:8cec:9e8e:9bf:3597 4 4 10646 20180920054403
+54.161.234.221 2 2 7879 20180901065454
+86.99.7.59 0 2 110887 
+139.5.46.122 0 2 399676 
+46.32.126.245 0 1 76725 
+49.35.93.34 1 89 7143849 20180905110952
+106.76.229.239 0 1 23328 
+42.108.241.232 1 2 232545 20180927125415
+103.84.81.98 0 6 1844931 
+129.208.166.220 0 41 1051937 
+185.92.73.108 3 5 4734 20180901015442
+157.36.230.106 0 1 92870 
+61.0.214.118 1 1 67 20180927113628
+106.193.203.118 1 2 30160 20180927010251
+195.228.33.5 0 1 2095600 
+106.220.79.141 1 2 232545 20180927012538
+220.243.136.8 1 1 4744 20180927233216
+103.193.21.233 0 1 130127 
+49.14.144.73 0 1 99213 
+122.160.95.138 1 10 196293 20180908122040
+64.233.173.44 0 2 495700 
+47.247.27.98 0 1 62271 
+106.77.49.142 3 139 16745034 20180920025008
+106.77.24.184 1 2 232545 20180927004940
+49.35.97.98 2 14 423019 20180924143527
+117.195.80.197 1 2 12660 20180914031424
+103.109.14.152 4 33 1351277 20180905095617
+103.51.95.142 1 115 15035636 20180922152737
+185.244.217.155 1 1 4744 20180922215400
+198.102.213.18 0 1 82161 
+101.89.19.197 1 8 174412 20180905221725
+42.109.137.205 2 33 1827968 20180914061254
+106.210.245.240 1 1 0 20180927052013
+1.187.6.88 1 1 0 20180927005101
+162.158.65.21 0 1 25657 
+88.99.27.172 1 1 34821 20180906102305
+202.142.95.180 0 1 38158 
+54.204.70.219 1 1 4744 20180905064147
+49.35.194.6 1 27 1270149 20180908104331
+182.70.39.176 2 224 29715090 20180920012838
+69.164.197.18 3 3 10606 20180921212343
+66.249.81.174 0 1 78331 
+49.14.205.223 0 1 16800 
+220.243.136.133 0 6 34207 
+2405:204:9628:7a71:1623:a7ea:b142:b34 1 3 465023 20180927010350
+66.249.82.176 0 1 206454 
+106.77.13.150 2 124 15088513 20180905120119
+2405:204:901f:f16e:75fe:177f:e57e:e0f6 2 5 495183 20180927005529
+106.77.43.0 0 1 130127 
+103.51.95.136 4 132 4213728 20180921131911
+106.193.143.212 2 3 232612 20180927011809
+106.211.67.209 0 1 92870 
+49.248.81.95 1 1 0 20180906062406
+51.39.219.251 0 8 205256 
+106.193.217.250 0 3 214261 
+69.171.251.26 0 10 2894624 
+116.74.154.32 3 154 9747901 20180906114101
+103.13.219.42 0 1 198632 
+157.33.149.37 0 1 76725 
+59.90.142.91 1 32 1174503 20180915032156
+68.235.34.42 1 1 4744 20180920230100
+106.120.173.158 0 1 19541 
+64.233.173.16 0 3 507973 
+69.171.251.14 1 22 2469596 20180903151039
+106.78.167.122 2 27 6577548 20180904004748
+111.202.101.66 0 1 502 
+94.142.59.68 0 1 25657 
+92.241.44.227 0 1 25657 
+106.79.131.51 1 2 30160 20180927022926
+2405:204:96a2:b173:e72b:aee5:bbe1:739d 1 2 30160 20180927005101
+51.254.29.109 1 1 34821 20180928134113
+51.39.239.66 0 2 51314 
+157.33.175.136 2 116 15035636 20180922202306
+34.209.223.232 1 1 34821 20180919233327
+202.136.69.94 0 1 15510 
+2409:4042:2192:9ffe:ec94:908e:25ee:255c 2 221 29342166 20180926095917
+37.139.26.181 0 2 51314 
+106.77.36.237 0 1 198632 
+23.101.169.3 4 60 376572 20180915051224
+43.247.158.27 0 1 38158 
+184.73.42.242 1 1 4744 20180920061044
+49.35.100.178 2 33 1697459 20180926204939
+103.54.16.200 1 115 15035636 20180916110122
+103.248.29.74 4 85 11486852 20180927032940
+49.35.105.153 1 115 15035636 20180907120903
+157.33.171.114 1 1 4744 20180922075057
+106.210.186.118 1 4 1585104 20180914090517
+157.39.217.88 0 1 23328 
+37.236.190.31 0 1 25657 
+106.193.241.125 0 3 3332474 
+49.35.65.84 2 3 232612 20180927005641
+94.59.224.83 0 1 23328 
+42.108.247.199 1 1 3261 20180909022659
+103.51.95.154 2 3 12609 20180916085156
+103.252.53.39 3 142 9712479 20180925102644
+203.109.64.231 4 130 16429592 20180909233711
+42.108.232.119 2 3 232545 20180927010547
+69.171.251.7 0 21 1864803 
+117.195.93.170 2 121 15314204 20180907102031
+42.106.229.27 1 7 99295 20180916124556
+42.106.216.241 4 63 5700699 20180926142911
+106.193.152.159 4 6 262772 20180927010628
+203.90.98.89 3 129 16416318 20180912121750
+106.79.157.189 1 2 30160 20180927010510
+2405:204:9219:997e:3d3f:f31b:f931:6856 1 67 5519732 20180905111227
+103.54.16.224 1 1 1864 20180914032113
+125.209.235.180 0 5 526645 
+2402:8100:301a:cc91:1c2b:3fad:39ad:f49b 1 1 67 20180927020010
+182.72.120.249 0 1 38158 
+103.21.19.10 1 85 6974897 20180905092647
+122.176.60.42 0 1 23328 
+49.35.70.168 0 1 234109 
+103.54.16.254 1 2 10745 20180912014051
+202.136.69.24 1 117 15043192 20180904120035
+107.6.183.162 1 1 4744 20180912213613
+152.42.179.178 0 1 38158 
+150.107.8.180 1 115 15035636 20180905201210
+123.126.113.112 0 1 30950 
+157.33.215.181 2 78 4804861 20180924122059
+2405:204:90af:3edf:ad43:85da:2c15:3193 1 2 12660 20180906010617
+2405:204:95ad:bfab:7889:20f4:5467:daae 1 121 18624759 20180912123749
+106.51.153.125 1 117 14989102 20180901091458
+157.33.172.169 1 86 7141465 20180923055401
+106.201.81.40 0 1 130127 
+183.79.92.104 0 1 156455 
+157.51.194.179 0 1 23328 
+217.69.3.154 1 38 3139598 20180908012558
+81.177.210.208 0 1 18955 
+42.109.45.109 3 121 16164255 20180905221630
+125.209.235.168 1 3 197061 20180902081436
+192.154.100.91 1 1 34821 20180912092431
+42.108.62.97 0 1 137828 
+106.210.201.199 0 1 130127 
+183.79.92.110 0 1 156455 
+78.85.142.20 2 126 15086165 20180927011057
+1.187.4.119 1 1 0 20180927004650
+106.79.128.139 1 1 67 20180927010338
+106.210.225.216 1 2 232545 20180927011736
+206.71.62.68 0 4 631685 
+185.92.73.105 3 3 4744 20180910144709
+49.35.121.83 1 27 1076754 20180914085706
+125.209.235.181 0 9 433765 
+106.78.189.122 1 5 1607613 20180908113527
+118.185.190.60 3 129 16416318 20180927141549
+157.33.213.143 3 28 6580805 20180927045348
+2402:8100:3038:409b:aede:d111:fd5e:8b4f 1 115 13893307 20180928014804
+49.35.55.137 1 114 0 20180918101214
+27.4.67.42 1 115 15035636 20180902150008
+223.185.191.205 0 1 62271 
+2401:4900:1907:f84e:f95c:20b1:269e:9d01 1 114 15026755 20180905115138
+103.99.188.1 1 115 15035636 20180930075922
+88.198.50.113 0 1 25657 
+209.97.157.175 1 1 34821 20180923095842
+2401:4900:1881:f007:1:2:e72a:ba2f 1 115 15035636 20180929070051
+27.6.144.187 2 52 4324877 20180908225206
+66.240.236.119 1 1 34821 20180902154640
+69.171.251.15 0 20 2366091 
+192.157.88.167 0 2 162390 
+117.195.86.96 3 34 1341901 20180904134340
+144.168.163.10 1 1 34821 20180923095831
+103.97.240.134 1 115 15035636 20180924034252
+2405:204:92a7:94b5:ff4a:7c20:d5a6:12d7 1 2 232545 20180928004331
+117.195.85.49 1 1 3779 20180905122757
+106.79.190.232 1 1 51 20180927005005
+125.209.235.170 0 7 555229 
+49.35.75.249 0 1 8881 
+188.48.231.101 0 1 25657 
+157.49.177.27 0 1 15070 
+14.177.235.178 2 2 7461 20180928055533
+117.195.85.174 1 2 10745 20180923112719
+90.148.215.87 0 2 51314 
+103.51.95.145 1 2 10745 20180905102714
+111.202.101.30 0 1 80 
+202.136.69.49 0 1 48960 
+106.77.60.151 1 2 30160 20180927005009
+98.191.82.221 0 1 25657 
+49.15.16.166 1 2 12660 20180923024037
+196.75.85.11 0 1 25657 
+2409:4042:220c:474:1611:37dd:4b:6dcb 1 101 10857798 20180922074923
+106.77.18.161 1 19 1649357 20180920101412
+103.114.64.18 0 2 46656 
+210.212.151.3 0 1 139390 
+106.120.173.152 0 1 6419 
+2.92.115.102 0 1 25657 
+49.35.75.99 1 115 15035636 20180907051625
+49.248.4.13 0 1 43930 
+2409:4042:2418:8be4:28a7:e66f:2baf:3836 0 1 232478 
+180.188.242.129 0 1 23328 
+192.157.88.169 0 1 92870 
+49.35.26.122 1 32 1839997 20180905125738
+192.243.53.51 2 2 9488 20180928082539
+157.33.238.177 3 28 6269834 20180914104931
+125.209.235.172 0 9 493833 
+106.77.29.3 1 1 0 20180927034111
+118.186.244.206 1 1 4744 20180906011335
+106.66.113.192 1 47 3311251 20180905131610
+2405:204:9692:91ca::2758:f0a4 1 8 86576 20180929044951
+47.247.113.229 0 1 15070 
+111.202.101.87 0 1 9471 
+220.243.135.55 1 1 4744 20180903115911
+106.79.142.52 0 4 1144423 
+110.54.250.238 1 1 34821 20180902072345
+162.213.38.132 1 1 4744 20180911042902
+123.201.54.204 0 1 130127 
+117.232.120.162 0 2 198426 
+202.28.154.180 0 1 76725 
+176.9.9.135 0 1 15532 
+157.39.212.65 0 1 23328 
+49.33.223.115 0 1 23328 
+106.79.145.98 1 37 3887410 20180904074842
+206.71.62.71 0 5 1521505 
+49.35.20.210 0 1 12614 
+188.240.208.26 1 1 4744 20180902215433
+106.120.173.131 0 2 1623 
+94.128.54.117 0 2 144512 
+106.79.152.246 0 22 2052601 
+157.48.30.67 0 1 23328 
+125.209.235.173 0 7 544827 
+162.158.64.77 0 1 25657 
+64.233.173.176 0 3 360824 
+185.253.79.153 0 1 25657 
+2409:4042:2094:90fb:e233:4c:fd66:750d 1 1 4744 20180922201948
+192.169.136.221 1 1 34821 20180919162507
+64.233.173.15 0 2 214388 
+49.35.228.163 1 107 12421418 20180913132822
+157.39.241.167 2 14 61805 20180902003806
+2401:4900:1889:51f2:fe97:ca68:6969:5dfb 0 64 7387898 
+117.247.51.14 2 229 30062391 20180904041216
+88.198.43.207 1 1 34821 20180913143640
+49.35.33.247 0 4 200708 
+125.209.235.182 1 4 117143 20180902081430
+103.216.213.243 0 3 537005 
+103.82.41.49 1 115 15035636 20180909015141
+157.33.161.135 1 3 31802 20180925010211
+59.95.193.145 1 8 44303 20180923112108
+106.78.187.141 1 4 396697 20180908113516
+59.93.32.83 0 1 23328 
+10.1.99.52 2 28 493742 20180927001151
+42.108.13.48 0 1 92870 
+2405:204:9208:8b1f::f37:50b1 4 9 1147931 20180926041438
+66.133.109.36 4 4 348 20180911101600
+42.106.215.100 0 1 13799 
+47.247.3.95 0 1 15070 
+2409:4042:2106:eb18:d6a1:cfb:3802:9302 2 4 5295 20180922015306
+117.208.203.193 0 1 23328 
+157.33.248.93 1 111 12296717 20180925103716
+2401:4900:1886:e7d7:96db:38a:19be:bc00 3 4 30160 20180927014203
+86.108.43.68 0 1 25657 
+47.247.43.129 0 1 23328 
+106.210.158.246 1 2 30160 20180927004743
+2402:3a80:6cc:571f:c9b2:356c:22d3:af50 2 3 25949 20180902005246
+125.209.235.179 0 4 538758 
+220.243.136.2 0 5 48774 
+49.35.85.133 1 115 15035636 20180924142937
+69.171.251.19 0 21 3316424 
+49.32.118.212 1 114 15026755 20180913120009
+157.33.203.39 2 3 30211 20180927012529
+220.243.136.60 0 1 457 
+199.30.228.147 0 1 25657 
+178.63.21.17 0 9 948092 
+49.35.97.215 0 1 130127 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180901 34 940 118011366 13
+20180902 18 412 45913792 14
+20180903 26 1013 112148091 20
+20180904 42 697 73536799 13
+20180905 50 2577 301167361 30
+20180906 32 1017 111790152 20
+20180907 15 608 77233924 9
+20180908 17 366 43293234 16
+20180909 15 509 55562514 8
+20180910 21 498 64157066 13
+20180911 38 394 46248319 10
+20180912 43 998 105934443 19
+20180913 25 717 74523634 12
+20180914 31 355 41947965 15
+20180915 32 581 67934145 18
+20180916 17 275 20866615 7
+20180917 22 400 46994205 9
+20180918 34 698 66203352 13
+20180919 29 95 8155057 10
+20180920 74 1796 187620444 23
+20180921 32 571 63647982 10
+20180922 28 818 93004181 15
+20180923 23 154 14570599 10
+20180924 43 826 95127540 13
+20180925 28 685 68475985 9
+20180926 58 1563 180264773 21
+20180927 147 905 95625002 77
+20180928 25 328 37667355 14
+20180929 24 548 74760583 13
+20180930 19 252 30239744 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 400
+30mn-1h 7
+5mn-15mn 16
+1h+ 3
+15mn-30mn 7
+2mn-5mn 18
+30s-2mn 30
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 252
+/ 420 2653118 333 299
+/apple_station/211.html 67 1856 32 30
+/techanantya.html 60 2802 33 38
+/urop.html 41 78656 13 16
+/acm.html 40 113586 3 12
+/pccoeacm.html 38 119166 6 6
+/anantya/ 32 92784 19 6
+/fonts/glyphicons-halflings-regular.woff2 27 486756 0 18
+/anantya/assets/fonts/fontawesome-webfont.woff2 20 1406044 1 4
+/cpanel 16 212383 10 8
+/esp.html 14 32342 3 4
+/anantya.html 7 14016 0 2
+/anantya/checkmate.html 5 16285 1 5
+/anantya/dash.html 5 12599 0 2
+/anantya/quiz.html 4 13916 1 0
+/anantya/codesprint.html 4 12587 0 1
+/anantya/beposter.html 3 9056 2 1
+/anantya/hackathon.html 3 9516 0 1
+/anantya/beatthebits.html 2 6796 0 0
+/anantya/knowledge.html 2 6307 0 1
+/.well-known/acme-challenge/-_Y_EH6JI2V4F0PTV1QT_-5AN-2UHXPN 1 64 0 0
+/.well-known/acme-challenge/7GYBPX18XB596-L0E80ICRN5W3D7VYT7 1 64 0 0
+/.well-known/acme-challenge/ORLCG5QI9BD79D_MQ9SUR648ODY_3TDQ 1 64 1 0
+/.well-known/acme-challenge/Z_F0-BWXNA9DJL_95HPSSUCT0X70_HM- 1 64 0 0
+/.well-known/acme-challenge/BKHBPLYN3SDEWQHA0B-5IEXWJ2LWF-_K 1 64 0 1
+/.well-known/acme-challenge/W783X-O0H8DUYM9S82QQ861RRZZHN-5X 1 64 0 0
+/.well-known/acme-challenge/IKN9TN6ZNGSWH9KK6F01XZWAA951BZF_ 1 64 0 0
+/.well-known/acme-challenge/INV3BBR30IBMY6I8Z7ZV8WKXNOI1TI5R 1 64 0 0
+/.well-known/acme-challenge/TAKP70N-W0O5D5NHLRGMKQN7_7PZTEYB 1 64 0 0
+/.well-known/acme-challenge/B0N4QH4MAI2FCRB8A7OW6N6OQIK2GPD8 1 64 0 0
+/.well-known/acme-challenge/5HD_E-IG6AQFIVOIHWG5KQVOWR-US3R1 1 64 0 0
+/.well-known/acme-challenge/L4K218TD73ZFN0ONRS3VLXEG1TBC0X_5 1 64 0 0
+/.well-known/acme-challenge/IQCZT61BLPHLPXNM4GZF6MV4THC6FB49 1 64 0 0
+/.well-known/acme-challenge/396E7U3HHXNZTPXBKAVNZ4YNKK69R2PT 1 64 0 1
+/.well-known/acme-challenge/JJAIV_NS8CVL63GCAG6-DGNRBPLUDJ2U 1 64 0 0
+/.well-known/acme-challenge/BASG10X-0O1AHWEZ84IKGJZMGB2EA93J 1 64 0 0
+/.well-known/acme-challenge/TMXVU9GPXMUZ5BF4TPYR-_YBS3QMDQ9N 1 64 0 0
+/.well-known/acme-challenge/5Z6QDLCLLBCJUB8KEF6BYQQL-GEYW9QO 1 64 0 0
+/.well-known/acme-challenge/H_XQ54P7R42FC9K-W-I4ZZ5FWDYQ5O35 1 64 0 0
+/.well-known/acme-challenge/EJXK7B943EX3CYHARYKA7V95WR20Z1IM 1 64 0 0
+/.well-known/acme-challenge/6XV-1-DDYGTHNXQNQU8WQQ4JNF_F8QWV 1 64 0 0
+/.well-known/acme-challenge/04EIFV32WXE466PDOUD12WCIYJM9G6N8 1 64 0 0
+/.well-known/acme-challenge/BALSLW6EZWM7GGF5-_XG9HVV-LYF0ACG 1 64 0 0
+/.well-known/acme-challenge/T9C7NMBTQ5-NDR10VOANETOBYPVXQ2G3 1 64 0 0
+/.well-known/acme-challenge/EP_3J2FJU9HMFM_YVYGKFYXCCMTQ64YN 1 64 0 0
+/.well-known/acme-challenge/AFOROFATWQJ6XWH7MYW0AWPZDX8_A0FZ 1 64 0 0
+/.well-known/acme-challenge/2G486PPJOW_DXE7ARPKPKX_0Q-1YSM3Z 1 64 0 0
+/.well-known/acme-challenge/GRDS4R1HY2SO8VHPGRNBO7EEVRDGLNJ1 1 64 0 0
+/.well-known/acme-challenge/QGIIUBPZBDGUCYTTTH509IHOW53NDCJ2 1 64 0 0
+/.well-known/acme-challenge/3TUISB9LO4J3Y887J5FJEV0RLF5274LG 1 64 0 0
+/.well-known/acme-challenge/L8WPGDZ8SV33VJHKJBL_GE3PO9-Y8OT2 1 64 0 0
+/.well-known/acme-challenge/DT_QGX1V_9QM-RO15IDLR145B80EBEIW 1 64 0 0
+/.well-known/acme-challenge/SBX0BSWA5HW7-TVN1V_E4OYEBNWBDECG 1 64 1 0
+/.well-known/acme-challenge/CDUEJAMKJQ0-LWE9KJ55401Z_C0SLC01 1 64 0 0
+/.well-known/acme-challenge/YEDBHYQ79U2B273E2JWFWHDK7GBF_ZEP 1 64 0 0
+/.well-known/acme-challenge/BY9ZJEVOQBKUKOSZ-C6FPGKDZ-69HS8Z 1 64 0 0
+/anantya/teproj.html 1 3320 0 1
+/.well-known/acme-challenge/Y9KUU2JFCWRXM6_5YWBFV4Y6-568AEN3 1 64 0 0
+/.well-known/acme-challenge/VC4GJQGG7B368UOFV_C749-5RXS7WE_I 1 64 0 0
+/.well-known/acme-challenge/Y19LURU8X3QW1ADZ8YKHYY_CL3SIPR18 1 64 1 0
+/.well-known/acme-challenge/7AQ-4L7OC-YPDNXDPTH37-TP257NSV-B 1 64 0 0
+/.well-known/acme-challenge/KHCKAPSEI8BGLQHL_6LK1INS36ADJQTF 1 64 0 0
+/.well-known/acme-challenge/AR6LUJNEBFAK1DQA1SLXP9TT86RECKKI 1 64 0 0
+/.well-known/acme-challenge/BKGPWUUVMQJICEJCKCMSZM1MFSTPCF73 1 64 0 0
+/.well-known/acme-challenge/1DMD2OUJN-NBM-L0LGWIB54B4-TL60JX 1 64 0 0
+/.well-known/acme-challenge/5OEKR5CP92HJ6PUHGIE3W-09GOUTYABM 1 64 0 1
+/.well-known/acme-challenge/cJYXybgHKPk4OSG2DLdHrPkfBDFRM7iwwOUtYgF6Dwo 1 87 0 0
+/.well-known/acme-challenge/1N14D4SFKUDV0V-FL7EL3JM42J3M36Y9 1 64 1 0
+/.well-known/acme-challenge/KK6GVEDOZ4TCRW-M71ZFOEP9XRUN8BF6 1 64 0 0
+/.well-known/acme-challenge/B67H_43NOP2_-FXXLC1BV545733K2QB- 1 64 0 0
+/.well-known/acme-challenge/2B7OHUHJ1PGCXA934ZS2RKN3CO537JZ3 1 64 0 0
+/.well-known/acme-challenge/T5TLDO9K97X3GU_IXNYJNLNY0ZL0W688 1 64 0 0
+/fonts/glyphicons-halflings-regular.woff 1 23424 0 1
+/.well-known/acme-challenge/3AW8KGW-3X3QT5IRQU_OYES9HAFGH-YX 1 64 0 0
+/.well-known/acme-challenge/A4HV5-0QY53JAL2E-YZM28ESLBHBJL40 1 64 0 0
+/.well-known/acme-challenge/JJDITDCPS1IKI6AVVX1DFG96KVO2HRRO 1 64 0 0
+/.well-known/acme-challenge/90CC1D86K71QTFQ_80HZ8TSTMZ26SPO6 1 64 0 0
+/.well-known/acme-challenge/F5MFLQGUVXPGC830__FMAZNIISAUX58F 1 64 0 0
+/.well-known/acme-challenge/4GBR8S7KFGVY-GPKEFSVVRYRL11_3J25 1 64 0 0
+/.well-known/acme-challenge/0-WEWT9DHK-90VG0I6NA8T93E2WPGPAP 1 64 0 0
+/.well-known/acme-challenge/4MI8ZANEWRP52Q2Y12SAZ_VB1I4SL4NK 1 64 0 0
+/.well-known/acme-challenge/JNOJ7I658BJ5H6EF8F-TDHCHIVNN0QOQ 1 64 0 0
+/.well-known/acme-challenge/USMG2O_TMEV286OJVU37NA5QLJE9ZSGG 1 64 0 0
+/.well-known/acme-challenge/CS19-LQVZNHGWK390HI6M-P2TH3VIGGT 1 64 0 1
+/.well-known/acme-challenge/VWNN56Z54-1FFBG_7H7Y51WKSXK3BPFD 1 64 0 1
+/.well-known/acme-challenge/A4EMOOFQAKM7_V8MRJPNRFEQO8NBATKK 1 64 0 0
+/.well-known/acme-challenge/BMZ1SRX0TH1FO0-ZDRIFIM-QX-ZYC-5H 1 64 0 0
+/.well-known/acme-challenge/COOI6YYP8NUPN30FZ1G3Q__5VMKKFV6W 1 64 1 0
+/.well-known/acme-challenge/zDMaflcO1oym0upBy-U8FQgMB2VKPtmkjtXsIh1zJ40 1 87 0 0
+/.well-known/acme-challenge/2_DBH12_Y44CWEEQV_UF_G07A4RD720Z 1 64 0 0
+/.well-known/acme-challenge/DABRFEB7K2Q9512040ARL1VA8HMZHW7M 1 64 0 0
+/.well-known/acme-challenge/6LKZ8P_-UZ18O7JFAA07109_K02GT4KZ 1 64 0 0
+/.well-known/acme-challenge/XK2NVKKXQ8BPHSN4629Q59ICSZY26MWE 1 64 0 0
+/.well-known/acme-challenge/EBI-D25EJX5T0SWVGFKTTOEKKE0CEIAK 1 64 0 1
+/.well-known/acme-challenge/GN1JJPEOBU847WF539USKH86OBT34ZTX 1 64 0 0
+/.well-known/acme-challenge/ECU45EB7QCQUHUMRO1RVDEAUAKLVFQJ2 1 64 0 0
+/.well-known/acme-challenge/X2I1BS54EEA-YN-D5A-J83DYQ35XPCVT 1 64 0 0
+/.well-known/acme-challenge/U68Z532A9FV0VYXS473ULYCAUA5U4283 1 64 0 0
+/.well-known/acme-challenge/AND4AQVX4VGDW3E-CR91ZXYDZRZI2MAX 1 64 0 0
+/.well-known/acme-challenge/FPB-8ULPVS_GW_WLG1WCHD0ZBGTWV4IX 1 64 0 0
+/.well-known/acme-challenge/P7OK6BWOM_3-158W6C7TQ09QKTCH7XTH 1 64 0 0
+/.well-known/acme-challenge/GQ3NHLQTEDX62R1OMTT5AR2STRU8UAZD 1 64 0 0
+/.well-known/acme-challenge/1VDLR0706R4MZ9AJX3BF4_UPLVDBQ_SI 1 64 0 0
+/.well-known/acme-challenge/OV8OR_-RFIR-3JPK5Z_L9OGZWOFRB3QK 1 64 0 1
+/.well-known/acme-challenge/LE7SDMG874JGGMWN8VWJHCZS467-XH97 1 64 0 0
+/.well-known/acme-challenge/PUUWDE2HTC5TXMFO7PTLPAIJQJZ-7TZD 1 64 0 0
+/.well-known/acme-challenge/QLPG9X1JG84MJAA1FWFDBGN8_7KYG-T3 1 64 0 0
+/.well-known/acme-challenge/JJA91QUB9PBYC9VM1IJ2TYQ25C3FLU2K 1 64 0 0
+/anantya/speakout.html 1 3473 0 1
+/.well-known/acme-challenge/6IQ9AL3AQBH9F9LWY67GNGT-V-VXXBK7 1 64 0 0
+/.well-known/acme-challenge/42L0LPTMHPV78_A0H32KZX7UD88GMM9W 1 64 0 0
+/.well-known/acme-challenge/SCCT4SIWGLBMKCEE3UJNG7-EMDA2EBNC 1 64 0 1
+/.well-known/acme-challenge/QJMGQFT-Y0YD900QRJYUFH702-D_R2IZ 1 64 0 0
+/.well-known/acme-challenge/4NM072Q4QPGGOGS160RV2T6U7XT9BLGH 1 64 0 0
+/.well-known/acme-challenge/XL0YHYXKYBA3_MDWT4R8BMPWT-OW_XAL 1 64 0 0
+/.well-known/acme-challenge/YU2V2MYQC-SXQBN2JA5C03K308P34F1F 1 64 0 0
+/.well-known/acme-challenge/7HA35TYS_IOCW_KWDIF68PN5_U4EEANA 1 64 0 1
+/.well-known/acme-challenge/LT2SDX5E1-E_ERHWWOU_G9KC-V6NP6_I 1 64 1 0
+/.well-known/acme-challenge/HDP_5QJKL6P4KPQ6CMAMGL1NDKL0YZXW 1 64 0 0
+/.well-known/acme-challenge/_4WU861EMSGMCPSU6A1C4C3GZJZTJJA5 1 64 0 0
+/.well-known/acme-challenge/TZ_O1IF1EZXILQEE91X2-TD8BCG8R9PL 1 64 1 0
+/.well-known/acme-challenge/LAONQW0PIU9FM0IZXV6SLDRCOU-WKDUP 1 64 0 0
+/.well-known/acme-challenge/WZHAJSN12QVQUN7DOME42POFUGPFUKWY 1 64 0 0
+/.well-known/acme-challenge/Tpvqrq-H0tPy9xeT3_9Z-9KpRUFxExk5Q0QcPCD5_fs 1 87 1 0
+/.well-known/acme-challenge/1T6KMFXFCMUJHWYQM4ID3E72VZ8OJZQX 1 64 0 1
+/.well-known/acme-challenge/0I7ZF53XMEU4T25_O5CU8OJ2P5GSHA-A 1 64 1 0
+/.well-known/acme-challenge/T2KI2LU0_K0YPC1ZPMRFK7KHHXKT_SJ6 1 64 0 0
+/.well-known/acme-challenge/SYNT75WTZUL_7L2AQ9V132I4AQ-PW0OQ 1 64 0 0
+/.well-known/acme-challenge/IDJYD76A6H_I3L9TM3J9Y04YE2AIS0_3 1 64 0 0
+/.well-known/acme-challenge/1T5LMX34TP0P9XKUGMBW43AK0QID4MZC 1 64 0 0
+/.well-known/acme-challenge/OXWPPVCT6J8Y2N4FY3-QYZWVYT2BXK4D 1 64 0 0
+/.well-known/acme-challenge/_Z9MJU6UJ_QYT1NFAQDKDZUT0S_5EGZT 1 64 1 0
+/.well-known/acme-challenge/Q_INMZOB8V732R9ROGB7WBBLSFBQDO7J 1 64 0 0
+/.well-known/acme-challenge/EF990-Y1KYEAFTLA-JV7L0_L6-ORD-AI 1 64 0 0
+/.well-known/acme-challenge/q0vdCS8Nb6470AAZsKDX9yE1RrVmQRpefMGbKquzLtc 1 87 0 0
+/.well-known/acme-challenge/BNPYL7XQ3KRM-BVUNKI9APDY0_1-W7DO 1 64 0 0
+/.well-known/acme-challenge/PGJM-R4Q0VEEU8TQ80X6WL_DIQY9I0C8 1 64 0 0
+/.well-known/acme-challenge/G0_J5NFH7CMQP1W0X6N39RARI0BV9E8T 1 64 0 0
+/.well-known/acme-challenge/NWD-31Q4T0TI3O0ON1H7_2U7ISZTYY-I 1 64 0 0
+/.well-known/acme-challenge/7VDX11BF1AIBL9YDTBNDKHHP00W_HOLZ 1 64 0 0
+/anantya/shotin90.html 1 2891 0 0
+/.well-known/acme-challenge/BXZ401VPIZNR-ERREZJ2M3IE89-O7O9E 1 64 0 0
+/.well-known/acme-challenge/DR3FEPO849OBP37PII4QKZITOS1Y-_4E 1 64 0 0
+/.well-known/acme-challenge/-XRZ5V1YGT0WO0W4IDIGOSY_B2-NPP6Z 1 64 0 0
+/.well-known/acme-challenge/G1GS5GO5DOSNYQ_KQAMXJU88NATQGEGZ 1 64 0 0
+/.well-known/acme-challenge/2FUE51TW-TC8X-Y5IMWY8VOV20B7JWL3 1 64 0 0
+/.well-known/acme-challenge/_MYHMCC44EHF3229H4IUZBMZUOHXC2O1 1 64 0 0
+/.well-known/acme-challenge/AKD04_S0R_DSG9HI5XUVOCVNUXD1BO68 1 64 0 1
+/.well-known/acme-challenge/X7E9EUMDEKJ1WIT4NGUV_PCXAF3A9EP8 1 64 0 0
+/.well-known/acme-challenge/L5GQUKEGTY_125X_T-P26_HZZ0-I1B-M 1 64 0 0
+/.well-known/acme-challenge/XQKVMWHYQSVXJ9VAI3V0GWNHK43V8FSI 1 64 0 0
+/.well-known/acme-challenge/AMB3TJO18ZP-6_LTG0JZ35OH1AGF5ZVH 1 64 0 1
+/.well-known/acme-challenge/4-YQPV4KH-VDDEUMSI8PU4SBCL_8ACMH 1 64 0 0
+/.well-known/acme-challenge/TQJ0QM9VKMUZ4M9HBAWYAYMA1T9FC2S5 1 64 0 0
+/.well-known/acme-challenge/7-6AUSSEGLXQ0F-H3BRJ3P75WKBG7Y3A 1 64 0 0
+/.well-known/acme-challenge/RHUIU6_90ZNTU4_EOB05E5PK79P7IP6V 1 64 0 0
+/.well-known/acme-challenge/UJ8BLXFAGOIRM-FGI96J63G8WWTYJ4G8 1 64 0 0
+/.well-known/acme-challenge/-IVDQA8T4BH8LBCOVQ-0EM47HOTS7847 1 64 0 0
+/.well-known/acme-challenge/QI57ARNR4ZXN85MLY6B-W3JEP42XY3ZW 1 64 0 0
+/.well-known/acme-challenge/XCTT6GCC5WHR_KAG7G4IYQXUEV7KS_SQ 1 64 0 0
+/.well-known/acme-challenge/MPIE86Y7UCA13Z12P7DYBV3YDMCNN4YW 1 64 0 0
+/.well-known/acme-challenge/CRFEJPYPQ-Q37TMCZL1IBE8ZPUCXUKYN 1 64 0 0
+/.well-known/acme-challenge/FEXAJWP7_4NKLY0HGQ-9KR0BU0MXCDP5 1 64 0 0
+/.well-known/acme-challenge/PY3VRD5BC3I6C_4ZPGRB5DH0NEU13ZI3 1 64 0 1
+/.well-known/acme-challenge/V8ZS79S0BZJ4NT-HZXHSQL_MT-C9RBV5 1 64 0 1
+/.well-known/acme-challenge/_ZS8QAZTS7BY5TJR47SH4FO9Y4RX1QWV 1 64 0 0
+/.well-known/acme-challenge/L_6YO1TN7T7QPZM__2T2Y_39XXTD9DB7 1 64 0 0
+/.well-known/acme-challenge/qmEVxSksYs3Hs1ziSNznreYxRJXQOH0gDxHyEvphSE0 1 87 0 1
+/.well-known/acme-challenge/5N6_OKO1CVURQJ6XB_Q146GL31N_HC52 1 64 0 1
+/.well-known/acme-challenge/Bzm6mJ1EH3db6KcPRrVNSerbEfbvNjb6-o8SqVPgxQM 1 87 0 0
+/.well-known/acme-challenge/V2QOU7BUUL_AE6Y0EWYH32BYNUBXR8ZD 1 64 0 1
+/.well-known/acme-challenge/1SWA5TE6O--WNJ45RUNLCDVZLP4Y1GMY 1 64 0 0
+/.well-known/acme-challenge/OG4QPQ8YV_LE7SI3E--2DE-I2AU-091R 1 64 0 1
+/.well-known/acme-challenge/DA99EB6IDQSFDF3W8V43_-CEOCJBEFXW 1 64 0 0
+/.well-known/acme-challenge/RQBSX4ISXJHLJHR1LJ4TH2C4X49AYBNF 1 64 0 0
+/.well-known/acme-challenge/A965QCGJ9KG7IZ9JUMOVF4NBTV7XW2CL 1 64 0 0
+/.well-known/acme-challenge/UELBFF66JJ7IDXRKX19UFN8O0XBCOZHK 1 64 1 0
+/.well-known/acme-challenge/TVNLVL2PTYB5D9KTNH2YX4O8H4H6AX4O 1 64 1 0
+/.well-known/acme-challenge/82TVM2NUBD86_OSW1W6KY0E0-QYEME29 1 64 0 0
+/.well-known/acme-challenge/78-M4V2IR_KA_LNTVKSIDT3XLKI48ZI4 1 64 0 0
+/.well-known/acme-challenge/QSRLQ5FOMO13R-00IKEJ691697FMGOWC 1 64 1 0
+/.well-known/acme-challenge/1VEURTZNKEJRS0_6AE4L93BQW7CSVBBP 1 64 0 0
+/.well-known/acme-challenge/1SHBYR9N7KOD9RZ_EYQAY2E54XQ8KL15 1 64 0 0
+/.well-known/acme-challenge/MCVKP33R_N3N_CZ63_3T6ATO0PIQTS_O 1 64 0 1
+/.well-known/acme-challenge/3NA77MOJN7B3YD8Q-UF2BHRDU0ADDIY8 1 64 1 0
+/cpanel/ 1 0 1 1
+/.well-known/acme-challenge/0Z2VZE4Q538B9G2VPUZBCIY4IK4RX3J9 1 64 0 0
+/.well-known/acme-challenge/WP5UT98OY3OC-X9H6O2WDFCSC4R4CWVB 1 64 0 0
+/.well-known/acme-challenge/DLX1O1NJONB071RKU2UPE3EG4D22WYZD 1 64 1 0
+/.well-known/acme-challenge/1fh2upahHVMqjzTCFxXCM-1WJ97JqKOlP1omEzmMFz0 1 87 0 1
+/.well-known/acme-challenge/S7OXIO62KKFYUYZL5OT_4SZFK5PMCKDW 1 64 0 0
+/.well-known/acme-challenge/1UODF5CM-C1ZJ3WNWH3GO7JABCKY-465 1 64 0 0
+/.well-known/acme-challenge/BQXF54DJJ_7J3346S4SFAFBQJQ7A22IA 1 64 0 0
+/.well-known/acme-challenge/6XVNNTYGCMIBKXZSSFX35S3DK7HSGWNE 1 64 0 0
+/.well-known/acme-challenge/Y8HU0E5T--NIOJUSJ90TNX4BM8Y0-358 1 64 0 0
+/.well-known/acme-challenge/UQ2B1KPC371WMOXNWCX08O25T2NQ0WJ0 1 64 0 1
+/.well-known/acme-challenge/C2XX8_GQTS8W42V9ZXYH7TGKHZH0X3WZ 1 64 0 0
+/.well-known/acme-challenge/3ELI8H3J83EFZOO-SAK87T589RWC-FWW 1 64 0 0
+/.well-known/acme-challenge/FF8IH6Q7QWONT5NBOOQ7ALKAW6CYQ75J 1 64 0 0
+/.well-known/acme-challenge/-BUYB6Z5S2Y_D1QCFM6C0NUZRYU-VP96 1 64 0 0
+/.well-known/acme-challenge/0VFFM7A_LSK52M_YH7GOKFBM43UHCAP1 1 64 0 0
+/.well-known/acme-challenge/4T36YN5PNVL3MZZWF34ET1J359X7HIAT 1 64 0 0
+/.well-known/acme-challenge/TEYBMHFXTGAVSQUZN734-6077CHF36Q4 1 64 0 0
+/.well-known/acme-challenge/OK52I4DQID-0FPH0GM2AIQE4QGWPCORW 1 64 1 0
+/.well-known/acme-challenge/Q7Q0Q510Q0T97HLAIQXX5-VRFYOA1E9Z 1 64 0 0
+/.well-known/acme-challenge/QTXM_PN8C1J-DCKCWUN42S2LLU6E3D7D 1 64 0 0
+/.well-known/acme-challenge/NM8XI028SV5PQ_H0IFS_PN8ZU0T4IK8U 1 64 0 0
+/.well-known/acme-challenge/7ZWI2OR0ICWU6DLBIV13FB__9GCLBGLW 1 64 0 0
+/.well-known/acme-challenge/KAV3AI2575EEFBMOZMNQ_6FQOAAPV3FK 1 64 1 0
+/.well-known/acme-challenge/E5PZWZLQ8IB3T-Q9EGWZJ_8GP6IXFFM8 1 64 0 0
+/.well-known/acme-challenge/LFQGRE6D1VJ8_XQZRWQD5OPQH96YUKOC 1 64 1 0
+/.well-known/acme-challenge/QNAUZ5LRR5TS0MQ8_UK8A-JS285KXXDW 1 64 0 0
+/.well-known/acme-challenge/UF_W0VUWQFW8GLOXU642-OXRCKBBRCP9 1 64 0 0
+/.well-known/acme-challenge/TY5ZF8LP3LWSUKXHG3GKN-GBO8OJBMVT 1 64 0 0
+/.well-known/acme-challenge/TCRH91Y2TRFQ61OOIW-UT1BBK91NHRFS 1 64 0 0
+/.well-known/acme-challenge/CRD_952MMWCIWWFYZFKKXF48H89HPOYS 1 64 1 0
+/.well-known/acme-challenge/H-3BV5F1NSPKBZ6YOS31_CFYTPSAIM-F 1 64 0 0
+/.well-known/acme-challenge/MWVGPVYQSEJJCTGP6DURP4PHNNAOHEPK 1 64 1 0
+/.well-known/acme-challenge/Y-HRDD6NE_YETO4928WZ5M276AKPKOTL 1 64 0 0
+/.well-known/acme-challenge/B_IM-86RS3YX4T9KYN_EAFLQL8QX6-BA 1 64 1 0
+/.well-known/acme-challenge/6PHQ_FK3UMPA1O_X-V3Y2YCBGC2JOAY0 1 64 1 0
+/.well-known/acme-challenge/UIU0TYU_PWNIYUTCSAP_RJ0UH8U3EJV7 1 64 0 0
+/.well-known/acme-challenge/HBCYLYAEBPRC9JE5SBXHT8DJXZIW7SVY 1 64 0 0
+/.well-known/acme-challenge/ZWD-Z0HOCN5C-9NHORHSN3L58KC83AY1 1 64 0 0
+/.well-known/acme-challenge/--WX7YV8NJU9HN9CS75C616AIHMP1NMK 1 64 0 0
+/.well-known/acme-challenge/Y5E8SDFO1RUMWBG532R9LW5DZ4ULD4KU 1 64 0 0
+/.well-known/acme-challenge/SICL1WZEZ2FIRWWVHWA9592-UUZO1GKK 1 64 0 0
+/.well-known/acme-challenge/2DHYOAZ2YU2J8QF0H88FA-66ENVJKIC4 1 64 0 0
+/.well-known/acme-challenge/GCADEASGRZS77F_DTIAEB8_T7T3-65YJ 1 64 0 0
+/.well-known/acme-challenge/6JIJJZ-F6S1I13CRFV9NE4JN_I6UJAWO 1 64 0 0
+/.well-known/acme-challenge/Z7PYS-LGV8NB5WCKEOVTW6U903F7B6Z2 1 64 0 0
+/.well-known/acme-challenge/0Y6M64IUTV0EX9WSLA6EBZUI_1QRC3RP 1 64 0 0
+/.well-known/acme-challenge/DZLLKKNZN2UOKTV8_H64_SG4DEL3DK8V 1 64 0 0
+/.well-known/acme-challenge/1UJA-MIGO1JJD5PWDMID59GEVXCRXKSK 1 64 0 0
+/.well-known/acme-challenge/J-C6R688Z-D5_V5BJRXHXTHIACS33D2R 1 64 0 0
+/.well-known/acme-challenge/ANMPZ-J-PF-77OVU4S26MOJTESJLR9CG 1 64 0 0
+/.well-known/acme-challenge/VJIHYQ21XNG4KK6MPQSZIR3WBOH1V0OE 1 64 0 0
+/.well-known/acme-challenge/CA8EV2DOAF77V1VRCLGE8AUSA3VQ10L2 1 64 0 0
+/.well-known/acme-challenge/LX7DEOE0K4CCRJEL4B5BDLEWHG80XIPD 1 64 0 1
+/.well-known/acme-challenge/0C0PHD1L60MCBRUF6L3HDHOFYXE86FQW 1 64 0 0
+/.well-known/acme-challenge/3M933G96UME462DUK04Z7DBXZVHKP3W9 1 64 1 0
+/.well-known/acme-challenge/2A0PH_9ONSUAXX_LOZI_LM2RGFLHZB3P 1 64 0 0
+/.well-known/acme-challenge/RBN64N5CA-4AQW5-UBX39YQMW6AL_RN5 1 64 0 1
+/.well-known/acme-challenge/SCTRNIEKI8DPRZ2P60WT_RQTE72V0NE2 1 64 0 0
+/.well-known/acme-challenge/MJOQD1D12SI-34J6_RY4M37ADE2FF3J- 1 64 0 0
+/.well-known/acme-challenge/153S_WV4KVXRPT44EHTY6_2GQY3LA0G3 1 64 0 0
+/.well-known/acme-challenge/VJGHYJN8R3P539PR5ED3_OPP-8NGLM_O 1 64 0 0
+/.well-known/acme-challenge/XPWYQ_ZA4ANUVQQB6VAK8J_QOKW5HJMY 1 64 0 0
+/.well-known/acme-challenge/L5F6DD65FDWVSQIS8LTUN-I9YST1XA53 1 64 0 0
+/.well-known/acme-challenge/JL94HIH3I5Z90O2HEQ-SKA1UYTNDF75C 1 64 0 0
+/.well-known/acme-challenge/6KKS-WERME5GY-_MKGQ7X09J1-2SURG3 1 64 0 0
+/.well-known/acme-challenge/HKBQZVYEYHRDOXD892LX8XPVGRBOIZ1S 1 64 0 0
+END_SIDER

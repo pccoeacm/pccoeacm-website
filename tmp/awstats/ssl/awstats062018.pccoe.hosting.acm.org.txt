@@ -1,0 +1,331 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201806 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/ssl/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2696                
+POS_VISITOR 7878                
+POS_DAY 8916                
+POS_DOMAIN 3353                
+POS_LOGIN 3596                
+POS_ROBOT 3751                
+POS_WORMS 4093                
+POS_EMAILSENDER 4224                
+POS_EMAILRECEIVER 4367                
+POS_SESSION 9432                
+POS_SIDER 9612                
+POS_FILETYPES 4502                
+POS_DOWNLOADS 4698                
+POS_OS 4746                
+POS_BROWSER 4849                
+POS_SCREENSIZE 5080                
+POS_UNKNOWNREFERER 5154                
+POS_UNKNOWNREFERERBROWSER 5241                
+POS_ORIGIN 5323                
+POS_SEREFERRALS 5457                
+POS_PAGEREFS 5601                
+POS_SEARCHWORDS 5749                
+POS_KEYWORDS 5901                
+POS_MISC 2359                
+POS_ERRORS 5960                
+POS_CLUSTER 3452                
+POS_SIDER_404 6073                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180701123342 3 309 9519347178573
+FirstTime 20180601231749
+LastTime 20180625135316
+LastUpdate 20180701214253 3 0 2 0 0
+TotalVisits 29                  
+TotalUnique 24                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 13 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 354 3 4 19122
+1 0 0 0 3 7 13754
+2 2 3 12842 5 8 21480
+3 6 6 51889 1 3 2327
+4 8 219 9991360 6 25 748092
+5 2 4 13289 1 4 5712
+6 2 3 12842 4 7 49452
+7 0 0 0 2 3 39427
+8 2 3 12842 3 5 19153
+9 0 0 0 2 3 5743
+10 3 110 10074591 4 33 1549816
+11 4 6 60162 3 4 14558
+12 3 6 37464 3 4 6891
+13 3 116 10115235 2 3 5743
+14 5 19 536281 14 70 1613402
+15 1 1 354 11 41 1573530
+16 0 0 0 2 3 9159
+17 0 0 0 2 3 9159
+18 0 0 0 2 4 9190
+19 0 0 0 3 6 10369
+20 2 3 17052 1 2 4595
+21 1 113 10099140 5 5 9156
+22 0 0 0 3 4 13723
+23 4 6 25684 2 5 20019
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 41 611 40970096
+us 8 8 91285
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+PhantomJS 90 4632219 20180622101317 0
+bingbot/ 63 214942 20180630225017 14
+Googlebot/ 12 372 20180628044153 12
+MJ12bot/ 3 34894 20180624073521 2
+rogerbot/ 2 34863 20180625065936 1
+unknown 1 31 20180620030241 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 38 144886 0 0
+js 31 230711 0 0
+Unknown 2 26577 0 0
+html 46 177764 0 0
+woff2 1 18028 0 0
+png 27 2045386 0 0
+jpg 474 38418029 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx11 5 5
+win10 347 7
+linux 267 37
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+chrome49.0.2623.75 48 30
+chrome66.0.3359.181 14 2
+chrome66.0.3359.117 1 1
+firefox60.0 218 6
+chrome67.0.3396.87 331 3
+firefox52.0 5 5
+chrome34.0.1847.137 1 1
+chrome57.0.2987.133 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47 68
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2 551
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 8 720227
+404 55 63140
+301 2 2294
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 27
+/assets/images/exteam/aishwarya.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/data/opportunities.json 1 https://pccoe.acm.org/testingangular/
+/Telerik.Web.UI.WebResource.axd 1 -
+/assets/images/exteam/vishal.jpg 2 https://pccoe.acm.org/testingangular/
+/fuck.php 2 -
+/assets/images/exteam/neha.jpg 2 https://pccoe.acm.org/testingangular/
+/sitemap.xml 1 -
+/assets/images/exteam/sanchita.jpg 2 https://pccoe.acm.org/testingangular/
+/Telerik.Web.UI.DialogHandler.aspx 1 -
+/.well-known/security.txt 1 -
+/assets/images/exteam/gopi.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/dipesh.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/ankur.jpg 2 https://pccoe.acm.org/testingangular/
+/fk.php 2 -
+/up.php 2 -
+/assets/data/gallery.json 1 https://pccoe.acm.org/testingangular/
+/assets/data/achievements.json 1 https://pccoe.acm.org/testingangular/
+/acm-i-ss/images/sample-1.jpg 2 https://pccoe.acm.org/acm-i-ss/
+/assets/images/exteam/amrita.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/abhishek.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/data/cells.json 1 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/individual.jpg 2 https://pccoe.acm.org/testingangular/
+/.well-known/assetlinks.json 12 -
+/assets/data/cesa-team.json 1 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/reena.jpg 2 https://pccoe.acm.org/testingangular/
+/assets/images/exteam/abdul.jpg 2 https://pccoe.acm.org/testingangular/
+/upload.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+35.205.205.166 5 5 17057 20180620030310
+114.143.248.34 4 214 9977810 20180606041433
+116.74.147.136 3 5 25330 20180623122529
+116.74.148.121 3 16 523439 20180614144221
+116.74.150.78 3 5 25330 20180624122705
+116.74.155.66 3 109 10062457 20180621152135
+116.74.157.173 2 3 12842 20180607111352
+116.74.149.116 2 3 12842 20180606063715
+116.74.155.138 2 3 12842 20180608141004
+116.74.145.61 2 115 10111628 20180618214742
+116.74.144.6 2 3 12842 20180602232802
+116.74.158.11 2 3 12842 20180604022055
+116.74.157.229 2 3 12842 20180605040750
+42.108.242.255 2 4 13289 20180606050816
+116.74.155.129 2 114 10102747 20180625135316
+116.74.149.68 2 3 12842 20180617135159
+116.74.148.64 1 2 12488 20180611113557
+116.74.153.170 1 1 354 20180615003345
+159.65.171.28 1 1 34832 20180619113441
+116.74.157.12 1 1 354 20180616042446
+116.74.150.185 1 2 12488 20180620084612
+116.74.154.195 1 2 12488 20180613123435
+66.240.192.138 1 1 34832 20180602032932
+107.6.183.229 1 1 4564 20180608203643
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20180601 2 3 12842 1
+20180602 3 4 47674 2
+20180604 2 3 12842 1
+20180605 2 3 12842 1
+20180606 8 221 10003941 3
+20180607 2 3 12842 1
+20180608 3 4 17406 2
+20180611 1 2 12488 1
+20180613 1 2 12488 1
+20180614 3 16 523439 1
+20180615 1 1 354 1
+20180616 1 1 354 1
+20180617 2 3 12842 2
+20180618 2 115 10111628 1
+20180619 1 1 34832 1
+20180620 6 7 29545 2
+20180621 3 109 10062457 2
+20180622 2 3 12842 2
+20180623 1 2 12488 1
+20180624 1 2 12488 1
+20180625 2 114 10102747 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 24
+15mn-30mn 2
+5mn-15mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 27 162710 19 17
+/testingangular/ 13 4602 9 8
+/acm-i-ss/ 2 1273 1 0
+/cpanel 2 26577 0 1
+/acm.html 1 3162 0 0
+/esp.html 1 2102 0 0
+/testingangular/assets/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/acm-i-ss/schedule.html 1 1250 0 1
+/pccoeacm.html 1 2665 0 1
+END_SIDER

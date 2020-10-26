@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2688                
+POS_VISITOR 6700                
+POS_DAY 7498                
+POS_DOMAIN 3301                
+POS_LOGIN 3545                
+POS_ROBOT 3700                
+POS_WORMS 3832                
+POS_EMAILSENDER 3963                
+POS_EMAILRECEIVER 4106                
+POS_SESSION 7776                
+POS_SIDER 7982                
+POS_FILETYPES 4241                
+POS_DOWNLOADS 4533                
+POS_OS 4581                
+POS_BROWSER 4693                
+POS_SCREENSIZE 4887                
+POS_UNKNOWNREFERER 4961                
+POS_UNKNOWNREFERERBROWSER 5179                
+POS_ORIGIN 5358                
+POS_SEREFERRALS 5495                
+POS_PAGEREFS 5639                
+POS_SEARCHWORDS 5851                
+POS_KEYWORDS 6003                
+POS_MISC 2350                
+POS_ERRORS 6062                
+POS_CLUSTER 3401                
+POS_SIDER_404 6207                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150104102637 1 0 9127255255347
+FirstTime 20141201131540
+LastTime 20141230213959
+LastUpdate 20150105072922 1 0 0 0 0
+TotalVisits 35                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 217 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 23 1605259 1 1 7704
+1 0 0 0 0 0 0
+2 8 87 9426743 0 7 15011
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 71 169 8687065 4 34 86735
+6 215 427 11347540 14 72 473740
+7 101 209 7890993 10 65 74922
+8 128 300 6583245 7 106 145611
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 66 147 9191335 5 12 12815
+13 124 282 14287117 7 18 1728450
+14 41 67 1497663 4 7 1418018
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 1 1 20 1 1 7704
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 743 1697 70516920
+us 15 15 60
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 16 508869 0 0
+css 240 3151093 0 0
+png 275 38595199 0 0
+ico 9 921080 0 0
+woff 4 164128 0 0
+php 667 18232970 0 0
+html 70 2061854 0 0
+js 295 4332846 0 0
+jpg 86 2272909 0 0
+Unknown 1 8902 0 0
+gif 35 241429 0 0
+svg 14 25701 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+linuxandroid 17
+winunknown 45
+Unknown 48
+winvista 1140
+linux 85
+win7 377
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+chrome39.0.2171.93 17
+msie10.0 449
+chrome39.0.2171.95 310
+chrome31.0.1650.63 21
+firefox34.0 53
+Unknown 17
+firefox31.0 65
+chrome39.0.2171.71 780
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(Android;_Mobile;_rv:34.0)_Gecko/34.0_Firefox/34.0 20141205024732
+WordPress/4.0.1;_http://pccoe.acm.org 20141230213959
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/4.0.1;_http://pccoe.acm.org 20141230213959
+Microsoft_Office_Mobile/15.0 20141206075411
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 56 64
+From1 0 0
+From2 0 0
+From3 2 2
+From4 700 1646
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://campus.acm.org/public/chapters/geo_listing/index.cfm 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 2 6190
+302 40 9767
+206 11 3095781
+500 3 0
+404 40 475843
+301 3 733
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/index.html 1 -
+/wp-admin/customize.php 2 http://pccoe.acm.org/wp-admin/themes.php
+/events.html 1 -
+/wp-content/uploads/2014/08/1-300x95.png 35 http://pccoe.acm.org/
+/contact.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+58.146.99.148 200 441 15231913 20141208023554
+183.87.10.59 150 310 6945312 20141217065758
+182.156.105.229 118 258 13698323 20141204131518
+49.14.15.84 97 182 8667010 20141206064006
+115.117.244.24 41 67 1497663 20141204143510
+49.200.245.11 26 82 3995592 20141217062655
+49.14.206.97 22 65 4409504 20141201135006
+106.67.175.195 21 70 1919829 20141206081714
+115.118.206.92 20 53 3440257 20141207133232
+115.117.137.19 19 23 1359793 20141204133720
+216.119.136.18 15 15 60 20141230213959
+106.77.13.192 9 28 415397 20141206081502
+223.196.142.47 8 17 398387 20141205050614
+49.200.113.167 5 5 235 20141204134819
+49.203.217.13 3 53 6362146 20141205024730
+59.88.21.33 2 21 570300 20141222123733
+14.139.111.201 2 22 1605259 20141204000643
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20141201 23 66 4409504 2
+20141204 187 377 18161273 7
+20141205 13 72 6760533 4
+20141206 327 695 25883365 8
+20141207 24 73 3762737 5
+20141208 2 12 28304 2
+20141217 177 393 10940904 3
+20141222 3 22 570320 2
+20141230 2 2 40 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 4
+0s-30s 21
+30s-2mn 1
+15mn-30mn 1
+2mn-5mn 1
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 56
+/wp-admin/admin-ajax.php 291 476664 3 5
+/wp-admin/load-scripts.php 97 5111668 0 0
+/wp-admin/themes.php 61 2823972 0 1
+/ 51 1403523 9 6
+/wp-admin/load-styles.php 30 2287402 0 0
+/wp-login.php 23 66129 8 4
+/wp-admin/customize.php 18 2219753 0 0
+/wp-admin/options-general.php 17 676124 0 0
+/wp-cron.php 15 60 15 15
+/wp-admin/update-core.php 13 283538 0 0
+/wp-admin/ 12 530031 0 0
+/wp-admin/async-upload.php 11 13762 0 0
+/wp-admin/nav-menus.php 10 717690 0 0
+/wp-admin/theme-editor.php 10 382468 0 0
+/wp-admin/edit.php 10 437597 0 0
+/wp-admin/plugins.php 10 407824 0 0
+/wp-admin/update.php 7 96782 0 0
+/wp-admin/tools.php 5 113087 0 0
+/wp-admin/theme-install.php 5 175059 0 0
+/wp-admin/upload.php 5 349426 0 0
+/wp-admin/widgets.php 4 327159 0 0
+/wp-includes/fonts/dashicons.eot 4 112494 0 0
+/wp-admin/options-writing.php 3 81920 0 0
+/wp-admin/plugin-install.php 3 424317 0 0
+/about-us/ 3 59427 0 1
+/wp-content/themes/hueman/fonts/titillium-semibold-webfont.eot 1 21238 0 0
+/wp-content/themes/suevafree/font/fontawesome-webfont.eot 1 37405 0 0
+/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.eot 1 14935 0 0
+/wp-admin/post-new.php 1 109016 0 0
+/wp-content/themes/hueman/fonts/fontawesome-webfont.woff 2 130904 0 1
+/wp-admin/index.php 1 44788 0 0
+/wp-content/themes/customizr/inc/assets/css/fonts/fonts/genericons-regular-webfont.woff 1 11308 0 0
+/wp-admin/export.php 1 23519 0 0
+/wp-admin/options-reading.php 2 47841 0 0
+/wp-content/themes/hueman/fonts/titillium-regular-webfont.eot 1 21232 0 0
+/wp-content/themes/customizr/inc/assets/css/fonts/fonts/entypo.woff 1 21916 0 0
+/wp-admin/admin.php 1 31703 0 0
+/wp-content/themes/hueman/fonts/titillium-light-webfont.eot 1 21236 0 0
+/wp-admin/post.php 1 112453 0 0
+/wp-content/themes/customizr/inc/assets/css/fonts/fonts/genericons-regular-webfont.eot 1 9658 0 0
+/wp-content/themes/hueman/option-tree/assets/fonts/option-tree-font.eot 1 95152 0 0
+/wp-admin/options-permalink.php 1 24847 0 0
+/wp-admin/options-media.php 2 43534 0 0
+/wp-admin/profile.php 2 41956 0 0
+/category/2012-13/ 1 22545 0 1
+/wp-content/themes/hueman/fonts/titillium-lightitalic-webfont.eot 1 22955 0 0
+/wp-admin/about.php 3 62981 0 0
+/wp-content/themes/customizr/inc/assets/css/fonts/fonts/entypo.eot 1 35540 0 0
+/wp-content/themes/hueman/fonts/titillium-regularitalic-webfont.eot 1 22813 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 1 134760 0 0
+/wp-admin/import.php 1 23890 0 0
+/cpanel 1 8902 0 0
+/event-2047/ 3 46328 0 1
+/wp-admin/options-discussion.php 2 59281 0 0
+/wp-content/themes/duena/font/fontawesome-webfont.eot 1 38205 0 0
+/wp-content/themes/hueman/fonts/fontawesome-webfont.eot 1 56006 0 0
+END_SIDER

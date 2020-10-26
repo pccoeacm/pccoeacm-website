@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /home/pccoehos/tmp/awstats/awstats.pccoe.hosting.acm.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2688                
+POS_VISITOR 8093                
+POS_DAY 11314               
+POS_DOMAIN 3438                
+POS_LOGIN 3930                
+POS_ROBOT 4085                
+POS_WORMS 4399                
+POS_EMAILSENDER 4530                
+POS_EMAILRECEIVER 4673                
+POS_SESSION 12030               
+POS_SIDER 12231               
+POS_FILETYPES 4808                
+POS_DOWNLOADS 5056                
+POS_OS 5126                
+POS_BROWSER 5277                
+POS_SCREENSIZE 5814                
+POS_UNKNOWNREFERER 5888                
+POS_UNKNOWNREFERERBROWSER 6385                
+POS_ORIGIN 6572                
+POS_SEREFERRALS 6710                
+POS_PAGEREFS 6865                
+POS_SEARCHWORDS 7013                
+POS_KEYWORDS 7165                
+POS_MISC 2352                
+POS_ERRORS 7224                
+POS_CLUSTER 3786                
+POS_SIDER_404 7356                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101004457 3 338 9407077277888
+FirstTime 20151001091546
+LastTime 20151031090103
+LastUpdate 20151101071624 3 0 2 0 0
+TotalVisits 183                 
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 83                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 8 71515 6 23 271202
+1 6 38 2652369 9 9 56282
+2 15 101 8245901 6 11 57848
+3 16 124 5574271 8 12 2550465
+4 11 12 49176 6 36 610194
+5 22 55 4129895 14 14 69883
+6 8 8 6740 9 10 57670
+7 1 1 20 6 8 20574
+8 19 20 55008 7 10 29106
+9 15 94 4262653 9 28 663672
+10 14 14 9403 14 23 116345
+11 12 12 60756 15 58 11654461
+12 7 7 11729 6 12 42130
+13 10 10 32848 8 19 267460
+14 2 2 1252 3 3 7353
+15 10 76 41969682 10 34 342330
+16 8 8 2947 6 9 25578
+17 21 21 17881 13 26 395618
+18 8 33 632678 8 9 29909
+19 51 457 13788627 9 12 23837
+20 584 585 274248 35 41 1454141
+21 10 10 39944 6 10 55955
+22 3 3 60 3 3 11574
+23 16 16 29279 6 7 22054
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 705 772 23951077
+in 67 708 28352443
+de 18 18 90184
+nl 12 12 15664
+ph 9 103 8185419
+fr 9 9 12200
+lu 8 8 11298
+ua 7 7 67128
+ro 6 7 46400
+ch 6 7 46629
+ru 5 5 14465
+gb 5 5 6904
+at 5 5 12342
+eu 5 5 6652
+it 4 4 5644
+ca 2 2 2822
+se 2 2 2822
+es 1 34 21012473
+vn 0 1 38158
+pk 0 1 38158
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 245 15711818 20151029163524 21
+no_user_agent 62 43370 20151024174532 0
+spider 33 222919 20151031090059 0
+unknown 12 640 20151028112630 12
+netcraft 1 27522 20151009100622 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 264 2417940 0 0
+eot 1 42118 0 0
+png 108 9117306 0 0
+woff 8 392712 0 0
+php 823 2486558 0 0
+html 44 455930 0 0
+js 417 3073580 0 0
+jpg 38 63842758 0 0
+gif 9 86938 0 0
+svg 3 3042 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 33 0 1795
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 34
+winxp 24
+winlong 18
+winnt 154
+java 1
+linux 2
+winvista 26
+win7 1256
+macosx 3
+j2me 5
+Unknown 192
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+msie6.0 2
+firefox40.0 81
+firefox42.0 475
+chrome38.0.1025.166 33
+firefox21.0 2
+chrome22.0.1229.79 1
+firefox18.0 1
+chrome46.0.2490.71 101
+firefox24.0 3
+chrome28.0.1468.0 12
+firefox12.0 1
+opera9.80 107
+firefox31.0 579
+chrome43.0.2357.81 1
+firefox39.0 5
+mozilla 7
+chrome45.0.2454.101 35
+firefox25.0 2
+firefox22.0 4
+firefox23.0 4
+msie10.0 6
+firefox41.0 114
+chrome43.0.2357.134 1
+msie10.6 7
+msie9.0 17
+chrome45.0.2454.95 1
+Unknown 108
+chrome45.2.2454.109 1
+firefox11.0 2
+chrome43.0.2357.65 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Opera/9.80_(Android;_Opera_Mini/10.0.1884/37.6781;_U;_en)_Presto/2.12.423_Version/12.16 20151020154856
+BestivoAddUrl 20151004210409
+Opera/9.80_(iOS;_Opera_Mini/7.0.73345/28.2555;_U;_ru)_Presto/2.10.229_Version/11.62 20151025060342
+betaBot 20151009213554
+Opera/9.80_(Android;_Opera_Mini/7.5.54678/28.2555;_U;_ru)_Presto/2.10.289_Version/12.02 20151025174740
+WordPress/4.3.1;_http://pccoe.acm.org 20151031090103
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+BestivoAddUrl 20151004210409
+betaBot 20151009213554
+WordPress/4.3.1;_http://pccoe.acm.org 20151031090103
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 759 771
+From1 0 0
+From2 2 8
+From3 0 0
+From4 115 936
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 13 200
+206 2 2528445
+405 1 60
+404 45 300587
+301 5 80
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/ 26 -
+/user 1 -
+/blog/wp-admin/ 1 -
+/admin.php 1 -
+/old/wp-admin/ 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/author/nikita/ 1 -
+/wp-login 1 -
+/apple-app-site-association 1 -
+/test/wp-admin/ 3 -
+/wp-content/uploads/wpallimport/uploads/23000824ead2d1236d7220cef30f59e7/info.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/info.php 1 -
+/wp/wp-admin/ 2 -
+/wordpress/wp-admin/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 83
+52.27.228.26 579 579 247205 20151022204901
+216.119.136.18 106 106 2120 20151031090103
+115.119.252.226 44 475 14403549 20151004191121
+106.221.153.191 12 58 1487767 20151004032000
+46.118.155.216 5 5 55047 20151028112639
+162.247.72.200 4 4 5420 20151025174740
+151.80.175.238 4 4 5644 20151025174526
+176.10.104.240 4 4 5649 20151025232029
+106.221.156.183 4 81 4180887 20151003095722
+106.221.140.72 3 55 4083385 20151017022826
+103.47.133.102 3 3 18121 20151020130007
+204.124.183.98 3 3 15748 20151028092509
+103.249.240.51 3 65 4086484 20151022034135
+188.138.9.49 2 2 2827 20151025115400
+173.254.216.66 2 2 2822 20151025105212
+85.24.215.117 2 2 2822 20151025195147
+212.47.234.59 2 2 2827 20151025170608
+94.242.243.250 2 2 2827 20151025000029
+209.234.102.238 2 2 2827 20151028063411
+96.47.226.20 2 2 2822 20151025043847
+89.46.100.182 2 2 2593 20151024180620
+62.141.45.246 2 2 2827 20151025011732
+199.87.154.255 2 2 2822 20151025153931
+77.247.181.165 2 2 2590 20151025104237
+85.25.103.119 2 2 2827 20151025135337
+188.40.112.210 1 1 16629 20151027232956
+89.248.172.103 1 1 1260 20151025055735
+37.228.106.217 1 34 21012473 20151020154855
+94.102.56.181 1 1 1232 20151024174035
+212.232.24.2 1 1 6930 20151009213554
+64.233.172.208 0 8 1252966 
+144.76.153.198 1 1 30450 20151024002651
+85.159.237.208 1 1 1232 20151026020528
+136.243.23.94 1 1 6930 20151006190747
+223.196.230.15 0 1 38158 
+89.248.171.133 1 1 1232 20151025024223
+64.233.172.216 1 11 86822 20151024015200
+176.9.25.72 2 2 2590 20151024210727
+171.33.133.145 0 1 38158 
+212.47.234.202 2 2 2827 20151025043852
+64.233.172.200 0 14 1308454 
+185.101.107.57 2 2 2827 20151025160156
+193.201.224.74 2 2 12081 20151019151102
+94.242.253.92 2 2 2822 20151025080635
+96.251.167.236 0 1 22921 
+46.166.190.129 1 1 1260 20151024204853
+212.83.40.238 2 2 2827 20151025053503
+217.115.10.134 2 2 2822 20151025052241
+5.45.73.95 2 2 2492 20151025060342
+52.8.74.112 1 1 27522 20151004210409
+185.93.187.49 1 1 1232 20151022144613
+195.154.204.117 2 2 2492 20151025133340
+37.187.19.123 2 2 2590 20151025083037
+103.240.160.232 2 34 4079554 20151027024926
+176.123.5.40 2 2 10741 20151028154153
+89.234.157.254 2 2 2822 20151025081151
+104.238.192.210 1 1 1260 20151025024344
+94.142.242.84 2 2 2827 20151024235715
+77.244.254.228 2 2 2822 20151025120507
+94.242.250.117 2 2 2827 20151025080628
+176.10.107.180 2 2 2822 20151024234754
+194.150.168.95 2 2 2827 20151025121030
+195.154.199.74 1 1 1232 20151025053439
+64.233.173.141 0 1 38158 
+198.51.75.165 2 2 2590 20151025054636
+94.242.246.23 2 2 2822 20151026022330
+95.128.43.164 2 2 2822 20151025114237
+179.43.174.130 1 1 1232 20151025231705
+37.130.227.133 2 2 2822 20151024212614
+118.102.200.146 2 36 4155870 20151005051523
+109.163.234.2 2 2 2822 20151024205136
+185.65.135.227 2 2 2593 20151028061959
+14.162.102.57 0 1 38158 
+193.226.34.227 0 1 38158 
+77.247.181.162 2 2 2827 20151025172553
+120.29.217.46 2 2 2827 20151025083952
+5.9.112.6 1 1 16628 20151018133530
+109.163.234.4 2 2 2827 20151025195438
+82.192.95.184 1 1 1232 20151026185614
+176.56.230.79 1 1 1232 20151026192015
+121.52.149.2 0 1 38158 
+107.167.104.153 1 34 20930087 20151020154202
+204.85.191.30 2 2 2593 20151025170917
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151001 2 2 40 2
+20151002 3 3 60 3
+20151003 8 85 4180967 4
+20151004 63 540 15918958 9
+20151005 5 39 4155930 4
+20151006 5 5 7010 5
+20151007 3 3 60 3
+20151008 2 3 38198 2
+20151009 6 6 12259 6
+20151010 3 3 60 2
+20151011 5 5 100 5
+20151012 3 3 60 3
+20151013 5 5 100 5
+20151014 6 6 3911 6
+20151015 4 4 80 4
+20151016 3 3 60 3
+20151017 7 59 4083465 5
+20151018 3 3 16668 3
+20151019 6 6 17390 5
+20151020 10 76 41960781 8
+20151021 1 2 38178 1
+20151022 587 649 4335001 7
+20151023 2 3 38198 2
+20151024 24 56 2700602 17
+20151025 76 76 97703 43
+20151026 7 7 6558 6
+20151027 6 40 4157322 5
+20151028 15 15 72727 9
+20151029 1 2 38178 1
+20151030 3 3 60 3
+20151031 2 3 38198 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+15mn-30mn 1
+30s-2mn 4
+2mn-5mn 2
+0s-30s 174
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/xmlrpc.php 576 232640 0 1
+/wp-cron.php 106 2120 104 104
+/wp-login.php 101 137992 55 55
+/ 21 230090 10 6
+/wp-admin/load-scripts.php 13 1251771 0 0
+/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.woff 8 392712 1 2
+/anantya/ 7 63459 4 4
+/wp-admin/admin-ajax.php 7 1919 1 0
+/wp-admin/customize.php 6 304830 0 0
+/theinductionprogram/ 5 26257 5 5
+/wp-admin/load-styles.php 4 340279 0 0
+/wp-admin/profile.php 3 55767 0 1
+/meet-the-team/ 3 27762 0 1
+/wp-admin/index.php 2 45942 0 0
+/wp-admin/ 2 44537 0 0
+/wp-admin/themes.php 2 55333 0 0
+/about-us/ 2 13780 0 1
+/wp-admin/update-core.php 2 34405 0 0
+/techlligent/ 1 6037 1 1
+/wp-admin/widgets.php 1 23560 0 0
+/wp-includes/fonts/dashicons.eot 1 42118 0 0
+/author/darshit12/ 1 30450 1 1
+/temp/ 1 9747 0 0
+/author/kunal/ 1 3811 1 1
+END_SIDER

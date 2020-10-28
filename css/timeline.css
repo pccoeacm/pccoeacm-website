@@ -108,13 +108,15 @@
 
 .person {
 	max-width: 270px;
-	text-align: center;
+    text-align: center;
+    padding:0px;
 }
 .person img {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	margin: auto;
+    margin: auto;
+    
 }
 .person-content {
 	margin-top: 20px;

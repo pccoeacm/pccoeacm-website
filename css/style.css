@@ -976,7 +976,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #portfolio {
-  padding: 20px 0;
+  padding: 20px 0px 60px 0px;
 }
 
 #portfolio .portfolio-wrap {
@@ -1275,7 +1275,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 
-#contact {
+/* #contact {
   padding: 60px 0;
 }
 
@@ -1368,7 +1368,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
-}
+} */
 
 
 /*--------------------------------------------------------------

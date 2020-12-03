@@ -1005,9 +1005,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Styling specifically for the pie and ai images */
 
-#portfolio .portfolio-item figure img.screenShots {
+#portfolio .portfolio-item figure img.screenShots-pie {
   object-fit: cover;
   object-position: left;
+  height: 100%;
+}
+
+#portfolio .portfolio-item figure img.screenShots-acmcc {
+  object-fit: fill;
+  object-position: right;
   height: 100%;
 }
 

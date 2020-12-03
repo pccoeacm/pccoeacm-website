@@ -1067,6 +1067,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0 0 3px 3px;
 }
 
+.video-links {
+ text-align: center;
+}
+
 /* Clients Section
 --------------------------------*/
 

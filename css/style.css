@@ -1005,9 +1005,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Styling specifically for the pie and ai images */
 
-#portfolio .portfolio-item figure img.screenShots {
+#portfolio .portfolio-item figure img.screenShots-pie {
   object-fit: cover;
   object-position: left;
+  height: 100%;
+}
+
+#portfolio .portfolio-item figure img.screenShots-acmcc {
+  object-fit: fill;
+  object-position: right;
   height: 100%;
 }
 
@@ -1059,6 +1065,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*padding: 30px;*/
   height: 90px;
   border-radius: 0 0 3px 3px;
+}
+
+.video-links {
+ text-align: center;
 }
 
 /* Clients Section

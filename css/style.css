@@ -142,14 +142,14 @@ td {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 254, 254, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
 }
 
 #header.header-scrolled2 {
-  background: #000;
+  background: rgb(255, 255, 255);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -160,7 +160,7 @@ td {
 }
 
 #header #logo h1 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 24px;
   margin: 0;
   padding: 0;
@@ -187,7 +187,7 @@ td {
 
 
 .banner {
-  background-image: url(../images/banner2.jpg);
+  background-image: url(../images/banner_2021.png);
   background-position: center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -441,7 +441,7 @@ td {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: rgb(0, 0, 0);
 
   font-weight: 700;
   font-size: 13px;

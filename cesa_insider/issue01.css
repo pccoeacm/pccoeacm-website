@@ -1,0 +1,26 @@
+/* Pen-specific styles */
+html, body, section {
+  height: 100%;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Pattern styles */
+.container {
+  display: flex;
+  height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.left-half {
+  flex: 1;
+}
+
+.right-half {
+  flex: 1;
+}

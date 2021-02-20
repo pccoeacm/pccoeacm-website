@@ -37,7 +37,7 @@ function routeChange(e) {
     //console.log(e.dataset.route)
     $("#beep")[0].play()
     setTimeout(() => {
-        location.href = "/events/#" + e.dataset.route
+        location.href = "events/#" + e.dataset.route
 
     }, 1000);
 }

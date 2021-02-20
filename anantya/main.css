@@ -247,10 +247,19 @@ li:hover {
     .footer {
         grid-template-columns: none;
         grid-template-rows: repeat(3, auto);
+        border-radius: 25px;
     }
 
     .footer-content {
 
         padding: 15px;
+    }
+
+    #p4 {
+        grid-template-rows: 1fr;
+    }
+
+    #p4-content{
+        display: none;
     }
 }

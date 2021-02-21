@@ -149,6 +149,9 @@ body {
     padding: 20px;
 }
 
+.cnt-content li {
+    margin-bottom: 25px;
+}
 
 
 @media only screen and (max-width: 650px) {

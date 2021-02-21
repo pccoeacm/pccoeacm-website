@@ -82,5 +82,7 @@ function changeImg() {
 
 }
 
+console.log(`%cHelp me I'm stuck in console ○( ＾皿＾)っ`,
+    "color:red;font-family:system-ui;font-size:1.5rem;-webkit-text-stroke: 1px black;font-weight:bold")
 
 

@@ -137,6 +137,33 @@ li:hover {
     line-height: 2.2;
     padding: 25px 30px;
     margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* #about .main-content {
+    width: 50%;
+}
+
+#about .sec-content {
+    width: 30%;
+} */
+
+.sec-btn {
+    background: #FFCC01;
+    border: 4px solid #000000;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 5px 5px 0px #0B1728;
+    width: 300px;
+}
+
+.sec-btn:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #FFCC01;
 }
 
 #events {

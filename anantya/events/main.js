@@ -45,6 +45,37 @@ async function load() {
         console.log("You are among the very few that will start on the Perplexo Leaderboard with extra points.\nVerify here: https://forms.gle/dLeFm6JpojVF7iWd6")
 
     }
+    else if (event.eventName == "Snapshot Redefined") {
+        $("#btn-perplexo").hide()
+        $("#e-name").text(event.eventName)
+        $("#e-tagLine").text(event.tagLine)
+        $("#e-cellName").text(event.cellName)
+        $("#e-desc").text(event.description)
+        $("#e-fees").text(`Rs. ${event.entryFees?.nonCesa}`)
+        $("#e-faculty").text(` ${event.facultyHead}`)
+
+        $("#e-poster").attr("src", event.poster);
+        $("#e-prizes").append("<b>Theme based Photography</b> <br>")
+        let i = 1;
+        event.prizes.map(e => {
+            $("#e-prizes").append(`${i++} ) Rs. ${e}<br>`)
+        })
+        $("#e-prizes").append(`<br>`)
+        $("#e-prizes").append("<b>Dish Décor</b> <br>")
+        i = 1;
+        event.prizes1.map(e => {
+            $("#e-prizes").append(`${i++} ) Rs. ${e}<br>`)
+        })
+
+        event.eventHeads.map(e => {
+
+            $("#e-co-ordinators").append(`<li>${e.name} : ${e.phoneNumber} </li>`)
+        })
+
+        event.rules.map(e => {
+            $("#e-rules").append(`<li>${e} </li>`)
+        })
+    }
     else {
         $("#btn-perplexo").hide()
         $("#e-name").text(event.eventName)

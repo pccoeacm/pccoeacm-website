@@ -154,6 +154,9 @@ body {
     margin-bottom: 25px;
 }
 
+.cnt-content li a {
+    text-decoration: underline;
+}
 
 @media only screen and (max-width: 650px) {
 

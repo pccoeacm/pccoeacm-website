@@ -1,650 +1,1143 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>PCCOE ACM Student Chapter - Weekly Coding LeaderBoard</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicons -->
-    <link href="images/logo.png" rel="icon">
+    <link href="images/logo.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
 
     <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4Z30P6082"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K4Z30P6082"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-K4Z30P6082');
+      gtag("config", "G-K4Z30P6082");
     </script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!--==========================
     Header
   ============================-->
     <header id="header" class="header-scrolled2">
-        <div class="container-fluid">
-
-            <div id="logo">
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-                    <a href="index.html"><img src="images/logo.png" style="height: 49px; width: 49px;" /></a>
-                    <a href="index.html">
-                        <h1 style="padding-left: 5px;">PCCOE ACM</h1>
-                    </a>
-                </div>
-            </div>
-
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="menu-has-children"><a href="#">About</a>
-                        <ul>
-                            <li><a href="aboutacm.html">About ACM</a></li>
-                            <li><a href="aboutpccoeacm.html">About PCCOE ACM</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="acm_activities.html">ACM Activities</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li class="cesa-insider"><a href="#">Cesa Insider</a>
-                        <ul><a href="./assets/CESA%20Insider%20Issue%2001.pdf" target="_blank">Issue 01</a></ul>
-                    </li>
-                    <li><a href="team.html">The Team</a></li>
-                    <li class="menu-has-children"><a href="#">TechPart</a>
-                        <ul>
-                            <li><a href="events.html">Event Calendar</a></li>
-                            <li><a href="anantya/">ANANTYA 2k20</a></li>
-                            <li><a href="https://pccoetechlligent.in/">Techlligent 2020</a></li>
-                            <li><a href="#">Weekly Coding LeaderBoard</a></li>
-                            <li><a href="lockdown_events.html">Lockdown Events</a></li>
-                            <!--<li><a href="#">PCube</a></li>-->
-                        </ul>
-                    </li>
-                    <!-- <li><a href="index.html#contact">Contact</a></li> -->
-                </ul>
-            </nav><!-- #nav-menu-container -->
+      <div class="container-fluid">
+        <div id="logo">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <a href="index.html"
+              ><img src="images/logo.png" style="height: 49px; width: 49px"
+            /></a>
+            <a href="index.html">
+              <h1 style="padding-left: 5px">PCCOE ACM</h1>
+            </a>
+          </div>
         </div>
-    </header><!-- #header -->
 
-
-
-
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-has-children">
+              <a href="#">About</a>
+              <ul>
+                <li><a href="aboutacm.html">About ACM</a></li>
+                <li><a href="aboutpccoeacm.html">About PCCOE ACM</a></li>
+              </ul>
+            </li>
+            <li><a href="acm_activities.html">ACM Activities</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li class="cesa-insider">
+              <a href="#">Cesa Insider</a>
+              <ul>
+                <a
+                  href="./assets/CESA%20Insider%20Issue%2001.pdf"
+                  target="_blank"
+                  >Issue 01</a
+                >
+              </ul>
+            </li>
+            <li><a href="team.html">The Team</a></li>
+            <li class="menu-has-children">
+              <a href="#">TechPart</a>
+              <ul>
+                <li><a href="events.html">Event Calendar</a></li>
+                <li><a href="anantya/">ANANTYA 2k20</a></li>
+                <li>
+                  <a href="https://pccoetechlligent.in/">Techlligent 2020</a>
+                </li>
+                <li><a href="#">Weekly Coding LeaderBoard</a></li>
+                <li><a href="lockdown_events.html">Lockdown Events</a></li>
+                <!--<li><a href="#">PCube</a></li>-->
+              </ul>
+            </li>
+            <!-- <li><a href="index.html#contact">Contact</a></li> -->
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
 
     <!--==========================
       About Us Section
     ============================-->
 
+    <section id="about" style="padding-top: 100px">
+      <div class="container">
+        <div class="row leaderboard-tables">
+          <div class="col-md-12 wow fadeInUp">
+            <div class="section-header">
+              <h3>Weekly Coding Competition</h3>
+              <center>
+                <img
+                  src="images/opportunities/hackerrank.jpg"
+                  alt=""
+                  height="200px"
+                  width="200px"
+                  class="img-responsive"
+                />
+              </center>
 
-    <section id="about" style="padding-top: 100px;">
-        <div class="container">
-
-
-            <div class="row about-cols">
-
-                <div class="col-md-12 wow fadeInUp">
-                    <div class="section-header">
-                        <h3>Weekly Coding Competition</h3>
-                        <center>
-                            <img src="images/opportunities/hackerrank.jpg" alt="" height="200px" width="200px"
-                                class="img-responsive">
-                        </center>
-
-
-                        <p>
-                            HackerRank is a place where programmers from all over the world come together to solve
-                            problems in a wide range of Computer Science domains such as algorithms, machine learning,
-                            or artificial intelligence, as well as to practice different programming paradigms like
-                            functional programming and competetive coding. So thats why to introduce new programers with
-                            coding skills we use hackerrank platform for weekly coding contests.
-                        </p>
-                    </div>
-                </div>
+              <p>
+                HackerRank is a place where programmers from all over the world
+                come together to solve problems in a wide range of Computer
+                Science domains such as algorithms, machine learning, or
+                artificial intelligence, as well as to practice different
+                programming paradigms like functional programming and
+                competetive coding. So thats why to introduce new programers
+                with coding skills we use hackerrank platform for weekly coding
+                contests.
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="container wow fadeInUp">
+        <!-- code olympics -->
+
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>Code Olympics 29-NOV-2021</h2>
+            <p>
+              Conducted on 29th November 2021, from IST 7:00 PM to IST 9:00 PM
+              (145 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Aditya</td>
+                  <td>Dubey</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@SYCOA140</a
+                    >
+                  </td>
+                  <td>35</td>
+                </tr>
+                <tr class="success">
+                  <td>Rushi</td>
+                  <td>Naikwadi</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@rushinaikwadi029</a
+                    >
+                  </td>
+                  <td>25</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Rishi</td>
+                  <td>Kale</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@rishikale1</a
+                    >
+                  </td>
+                  <td>15</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>Code Olympics 15-NOV-2021</h2>
+            <p>
+              Conducted on 15th November 2021, from IST 7:00 PM to IST 9:00 PM
+              (160 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Aasim</td>
+                  <td>Sayyad</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@aasimsayyed07</a
+                    >
+                  </td>
+                  <td>110</td>
+                </tr>
+                <tr class="success">
+                  <td>Sanjit</td>
+                  <td>Jha</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@B211_Sanjit</a
+                    >
+                  </td>
+                  <td>105</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Mangesh</td>
+                  <td>Dudhgaonkar(Patil)</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@manpatil1451</a
+                    >
+                  </td>
+                  <td>55</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Sarvesh</td>
+                  <td>Powar</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@SYCOD448</a
+                    >
+                  </td>
+                  <td>55</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Abhishek</td>
+                  <td>Bhadane</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@SYCOD405</a
+                    >
+                  </td>
+                  <td>55</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
-
-        <div class="container wow fadeInUp">
-
-
-            <div class="row">
-                <div class="col-lg-6 container about-col">
-                    <h2>SE Weekly Coding Contest 28-NOV-2020</h2>
-                    <p>Conducted on 28th November 2020, from IST 7:00 PM to IST 8:00 PM (500 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Ganesh</td>
-                                <td>Pawar</td>
-                                <td><a href="https://www.hackerrank.com/ganpa?hr_r=1" class="hackerrank">@ganpa</a></td>
-                                <td>400</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Rakesh</td>
-                                <td>Minase</td>
-                                <td><a href="https://www.hackerrank.com/Rakeshminase?hr_r=1"
-                                        class="hackerrank">@Rakeshminase</a></td>
-                                <td>300</td>
-                            </tr>
-
-                            <tr class="success">
-                                <td>Param</td>
-                                <td>Jangale</td>
-                                <td><a href="https://www.hackerrank.com/moonlightblu?hr_r=1"
-                                        class="hackerrank">@moonlightblu</a></td>
-                                <td>300</td>
-                            </tr>
-
-                            <tr class="success">
-                                <td>Om</td>
-                                <td>Sarulkar</td>
-                                <td><a href="https://www.hackerrank.com/osarulkar?hr_r=1"
-                                        class="hackerrank">@osarulkar</a></td>
-                                <td>300</td>
-
-                            </tr>
-
-                            <tr class="success">
-                                <td>Tejas</td>
-                                <td>odutwar</td>
-                                <td><a href="https://www.hackerrank.com/tejaskumar8501?hr_r=1"
-                                        class="hackerrank">@tejaskumar8501</a></td>
-                                <td>300</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="col-lg-6 container about-col">
-                    <h2>Janta Curfew Coding Contest 22-MAR-2020</h2>
-                    <p>Conducted on 20th March 2020, from IST 2:00 PM to IST 4:30 PM (100 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Mehul</td>
-                                <td>Lokhande</td>
-                                <td><a href="https://www.hackerrank.com/mehull2412?hr_r=1"
-                                        class="hackerrank">@mehull2412</a></td>
-                                <td>84</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Lusi</td>
-                                <td>Cherin</td>
-                                <td><a href="https://www.hackerrank.com/luischerin?hr_r=1"
-                                        class="hackerrank">@luischerin</a></td>
-                                <td>84</td>
-                            </tr>
-
-                            <tr class="success">
-                                <td>Shubham</td>
-                                <td>Chalekar</td>
-                                <td><a href="https://www.hackerrank.com/chalekarshubham?hr_r=1"
-                                        class="hackerrank">@chalekarshubham</a></td>
-                                <td>74</td>
-                            </tr>
-
-                            <tr class="success">
-                                <td>Vinit</td>
-                                <td>Hande</td>
-                                <td><a href="https://www.hackerrank.com/vinithande4?hr_r=1"
-                                        class="hackerrank">@vinithande4</a></td>
-                                <td>64</td>
-
-                            </tr>
-
-                            <tr class="success">
-                                <td>Mayur</td>
-                                <td>Kodche</td>
-                                <td><a href="https://www.hackerrank.com/kodchemayur?hr_r=1"
-                                        class="hackerrank">@kodchemayur</a></td>
-                                <td>60</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
-
-
-            <div class="row">
-
-
-                <div class="col-lg-6 container about-col">
-                    <h2>ACM-W Coding Contest 18-FEB-2020</h2>
-                    <p>Conducted on 18th February 2020, from IST 8:00 PM to IST 9:30 PM (100 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Omkar</td>
-                                <td>Biranje</td>
-                                <td><a href="https://www.hackerrank.com/opbiranje_007?hr_r=1"
-                                        class="hackerrank">@opbiranje_007</a></td>
-                                <td>75</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Sachin</td>
-                                <td>Rokade</td>
-                                <td><a href="https://www.hackerrank.com/54sach5in314?hr_r=1"
-                                        class="hackerrank">@54sach5in314</a></td>
-                                <td>75</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Mayur</td>
-                                <td>Kodche</td>
-                                <td><a href="https://www.hackerrank.com/kodchemayur?hr_r=1"
-                                        class="hackerrank">@kodchemayur</a></td>
-                                <td>75</td>
-
-                            </tr>
-                            <tr class="success">
-                                <td>Sherwin</td>
-                                <td>kati</td>
-                                <td><a href="https://www.hackerrank.com/sherwinkanth?hr_r=1"
-                                        class="hackerrank">@sherwinkanth </a></td>
-                                <td>55</td>
-
-
-
-                            </tr>
-                            <tr class="success">
-                                <td>Saurabh</td>
-                                <td>Kure</td>
-                                <td><a href="https://www.hackerrank.com/saurabhkure16?hr_r=1"
-                                        class="hackerrank">@saurabhkure16</a>
-                                </td>
-                                <td>55</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-
-                <div class="col-lg-6 container about-col">
-                    <h2>SE Weekly Coding Contest 16-AUG-2019</h2>
-                    <p>Conducted on 16th August 2019, from IST 9:00 PM to IST 10:00 PM (155 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Suyash</td>
-                                <td>Sonawane</td>
-                                <td><a href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
-                                        class="hackerrank">@suyashsonawane</a></td>
-                                <td>105</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Mehul</td>
-                                <td>Lokhande</td>
-                                <td><a href="https://www.hackerrank.com/mehull2412?hr_r=1"
-                                        class="hackerrank">@mehull2412</a></td>
-                                <td>105</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Jeenisha</td>
-                                <td>Shrungare</td>
-                                <td><a href="https://www.hackerrank.com/JeenishaKS?hr_r=1"
-                                        class="hackerrank">@JeenishaKS</a></td>
-                                <td>105</td>
-
-                            </tr>
-                            <tr class="success">
-                                <td>Harish</td>
-                                <td>Dalal</td>
-                                <td><a href="https://www.hackerrank.com/harishdalal76?hr_r=1"
-                                        class="hackerrank">@harishdalal76</a></td>
-                                <td>85</td>
-
-
-
-                            </tr>
-                            <tr class="success">
-                                <td>Ganesh</td>
-                                <td>Shinde</td>
-                                <td><a href="https://www.hackerrank.com/shindeg0304?hr_r=1"
-                                        class="hackerrank">@shindeg0304</a>
-                                </td>
-                                <td>75</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
-
-            <div class="row">
-
-
-
-                <div class="col-lg-6 container about-col">
-                    <h2>SE Weekly Coding Contest 11-AUG-2019</h2>
-                    <p>Conducted on 11th August 2019, from IST 9:30 PM to IST 11:00 PM (280 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Suyash</td>
-                                <td>Sonawane</td>
-                                <td><a href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
-                                        class="hackerrank">@suyashsonawane</a></td>
-                                <td>280</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Sherwin</td>
-                                <td>Kati</td>
-                                <td><a href="https://www.hackerrank.com/sherwinkanth?hr_r=1"
-                                        class="hackerrank">@sherwinkanth</a></td>
-                                <td>280</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Mehul</td>
-                                <td>Lokhande</td>
-                                <td><a href="https://www.hackerrank.com/mehull2412?hr_r=1"
-                                        class="hackerrank">@mehull2412</a></td>
-                                <td>280</td>
-
-                            </tr>
-                            <tr class="success">
-                                <td>Amritpal</td>
-                                <td>Singh</td>
-                                <td><a href="https://www.hackerrank.com/dhiramritpalsin1?hr_r=1"
-                                        class="hackerrank">@dhiramritpalsin1</a></td>
-                                <td>280</td>
-
-
-
-                            </tr>
-                            <tr class="success">
-                                <td>Mayur</td>
-                                <td>Kodche</td>
-                                <td><a href="https://www.hackerrank.com/kodchemayur?hr_r=1"
-                                        class="hackerrank">@kodchemayur</a></td>
-                                <td>280</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="col-lg-6 container about-col">
-                    <h2>TE Weekly Coding Contest 10-AUG-2019</h2>
-                    <p>Conducted on 10th August 2019, from IST 9:00 PM to IST 10:00 PM (155 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Mohit</td>
-                                <td>Burkule</td>
-                                <td><a href="https://www.hackerrank.com/mohitburkule5"
-                                        class="hackerrank">@mohitburkule5</a></td>
-                                <td>111.88</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Chinmay</td>
-                                <td>Joshi</td>
-                                <td><a href="https://www.hackerrank.com/chinmayjoshi9911"
-                                        class="hackerrank">@chinmayjoshi9911</a></td>
-                                <td>101.88</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Sagar</td>
-                                <td>Varma</td>
-                                <td><a href="https://www.hackerrank.com/sagarvarma_2703"
-                                        class="hackerrank">@sagarvarma_2703</a></td>
-                                <td>90</td>
-
-                            </tr>
-                            <tr class="success">
-                                <td>Tanishq</td>
-                                <td>Dhussa</td>
-                                <td><a href="https://www.hackerrank.com/Tanishqrocks55"
-                                        class="hackerrank">@Tanishqrocks55</a></td>
-                                <td>89.38</td>
-
-
-
-                            </tr>
-                            <tr class="success">
-                                <td>Manish</td>
-                                <td>Chaudhari</td>
-                                <td><a href="https://www.hackerrank.com/Manish_9292" class="hackerrank">@Manish_9292</a>
-                                </td>
-                                <td>89.38</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-
-
-                <div class="col-lg-6 container about-col">
-                    <h2>SE Weekly Coding Contest 02-AUG-2019</h2>
-                    <p>Conducted on 2nd August 2019, from IST 9:30 PM to IST 11:00 PM (105 Points)</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Username</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="success">
-                                <td>Suyash</td>
-                                <td>Sonawane</td>
-                                <td><a href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
-                                        class="hackerrank">@suyashsonawane</a></td>
-                                <td>105</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Onkar</td>
-                                <td>Gaikar</td>
-                                <td><a href="https://www.hackerrank.com/onkarngaikar27?hr_r=1"
-                                        class="hackerrank">@onkargaikar27</a></td>
-                                <td>100</td>
-                            </tr>
-                            <tr class="success">
-                                <td>Mehul</td>
-                                <td>Lokhande</td>
-                                <td><a href="https://www.hackerrank.com/mehull2412?hr_r=1"
-                                        class="hackerrank">@mehull2412</a></td>
-                                <td>85</td>
-
-                            </tr>
-                            <tr class="success">
-                                <td>Sonu</td>
-                                <td>Bag</td>
-                                <td><a href="https://www.hackerrank.com/sonubag1301?hr_r=1"
-                                        class="hackerrank">@sonubag1301</a></td>
-                                <td>85</td>
-
-
-
-                            </tr>
-                            <tr class="success">
-                                <td>Supreet</td>
-                                <td>Shetty</td>
-                                <td><a href="https://www.hackerrank.com/SupreetShetty?hr_r=1"
-                                        class="hackerrank">@SupreetShetty</a></td>
-                                <td>60</td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>Code Olympics 25-OCT-2021</h2>
+            <p>
+              Conducted on 20th March 2020, from IST 7:00 PM to IST 9:00 PM (270
+              Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Ketan</td>
+                  <td>Sarode</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@ketansarode_17</a
+                    >
+                  </td>
+                  <td>20</td>
+                </tr>
+                <tr class="success">
+                  <td>Sarvesh</td>
+                  <td>Powar</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@SYCOD448</a
+                    >
+                  </td>
+                  <td>20</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Vedant</td>
+                  <td>Kakade</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@Vedantkakade</a
+                    >
+                  </td>
+                  <td>20</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Bhagwat</td>
+                  <td>Palve</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@bkpalve271</a
+                    >
+                  </td>
+                  <td>20</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Shivam</td>
+                  <td>Khandelwal</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@shivamk2000</a
+                    >
+                  </td>
+                  <td>20</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>Code Olympics 11-OCT-2021</h2>
+            <p>
+              Conducted on 11th October 2021, from IST 7:00 PM to IST 9:00 PM
+              (375 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Rushi</td>
+                  <td>Naikwadi</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@rushinaikwadi029</a
+                    >
+                  </td>
+                  <td>230</td>
+                </tr>
+                <tr class="success">
+                  <td>Suraj</td>
+                  <td>Dhamak</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@s3raj_d</a
+                    >
+                  </td>
+                  <td>210</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Tushar</td>
+                  <td>Varkhede</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@tusharvarkhede31</a
+                    >
+                  </td>
+                  <td>160</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Akash</td>
+                  <td>Gomsale</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@Akash1045</a
+                    >
+                  </td>
+                  <td>160</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Vedant</td>
+                  <td>Kakade</td>
+                  <td>
+                    <a
+                      href="https://pccoe.acm.org/leaderboard.html"
+                      class="hackerrank"
+                      >@Vedantkakade</a
+                    >
+                  </td>
+                  <td>150</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-    </section><!-- #about -->
 
+        <!-- 2020 -->
 
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>SE Weekly Coding Contest 28-NOV-2020</h2>
+            <p>
+              Conducted on 28th November 2020, from IST 7:00 PM to IST 8:00 PM
+              (500 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Ganesh</td>
+                  <td>Pawar</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/ganpa?hr_r=1"
+                      class="hackerrank"
+                      >@ganpa</a
+                    >
+                  </td>
+                  <td>400</td>
+                </tr>
+                <tr class="success">
+                  <td>Rakesh</td>
+                  <td>Minase</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/Rakeshminase?hr_r=1"
+                      class="hackerrank"
+                      >@Rakeshminase</a
+                    >
+                  </td>
+                  <td>300</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Param</td>
+                  <td>Jangale</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/moonlightblu?hr_r=1"
+                      class="hackerrank"
+                      >@moonlightblu</a
+                    >
+                  </td>
+                  <td>300</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Om</td>
+                  <td>Sarulkar</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/osarulkar?hr_r=1"
+                      class="hackerrank"
+                      >@osarulkar</a
+                    >
+                  </td>
+                  <td>300</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Tejas</td>
+                  <td>odutwar</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/tejaskumar8501?hr_r=1"
+                      class="hackerrank"
+                      >@tejaskumar8501</a
+                    >
+                  </td>
+                  <td>300</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>Janta Curfew Coding Contest 22-MAR-2020</h2>
+            <p>
+              Conducted on 20th March 2020, from IST 2:00 PM to IST 4:30 PM (100
+              Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Mehul</td>
+                  <td>Lokhande</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/mehull2412?hr_r=1"
+                      class="hackerrank"
+                      >@mehull2412</a
+                    >
+                  </td>
+                  <td>84</td>
+                </tr>
+                <tr class="success">
+                  <td>Lusi</td>
+                  <td>Cherin</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/luischerin?hr_r=1"
+                      class="hackerrank"
+                      >@luischerin</a
+                    >
+                  </td>
+                  <td>84</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Shubham</td>
+                  <td>Chalekar</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/chalekarshubham?hr_r=1"
+                      class="hackerrank"
+                      >@chalekarshubham</a
+                    >
+                  </td>
+                  <td>74</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Vinit</td>
+                  <td>Hande</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/vinithande4?hr_r=1"
+                      class="hackerrank"
+                      >@vinithande4</a
+                    >
+                  </td>
+                  <td>64</td>
+                </tr>
+
+                <tr class="success">
+                  <td>Mayur</td>
+                  <td>Kodche</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/kodchemayur?hr_r=1"
+                      class="hackerrank"
+                      >@kodchemayur</a
+                    >
+                  </td>
+                  <td>60</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>ACM-W Coding Contest 18-FEB-2020</h2>
+            <p>
+              Conducted on 18th February 2020, from IST 8:00 PM to IST 9:30 PM
+              (100 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Omkar</td>
+                  <td>Biranje</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/opbiranje_007?hr_r=1"
+                      class="hackerrank"
+                      >@opbiranje_007</a
+                    >
+                  </td>
+                  <td>75</td>
+                </tr>
+                <tr class="success">
+                  <td>Sachin</td>
+                  <td>Rokade</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/54sach5in314?hr_r=1"
+                      class="hackerrank"
+                      >@54sach5in314</a
+                    >
+                  </td>
+                  <td>75</td>
+                </tr>
+                <tr class="success">
+                  <td>Mayur</td>
+                  <td>Kodche</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/kodchemayur?hr_r=1"
+                      class="hackerrank"
+                      >@kodchemayur</a
+                    >
+                  </td>
+                  <td>75</td>
+                </tr>
+                <tr class="success">
+                  <td>Sherwin</td>
+                  <td>kati</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/sherwinkanth?hr_r=1"
+                      class="hackerrank"
+                      >@sherwinkanth
+                    </a>
+                  </td>
+                  <td>55</td>
+                </tr>
+                <tr class="success">
+                  <td>Saurabh</td>
+                  <td>Kure</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/saurabhkure16?hr_r=1"
+                      class="hackerrank"
+                      >@saurabhkure16</a
+                    >
+                  </td>
+                  <td>55</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>SE Weekly Coding Contest 16-AUG-2019</h2>
+            <p>
+              Conducted on 16th August 2019, from IST 9:00 PM to IST 10:00 PM
+              (155 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Suyash</td>
+                  <td>Sonawane</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
+                      class="hackerrank"
+                      >@suyashsonawane</a
+                    >
+                  </td>
+                  <td>105</td>
+                </tr>
+                <tr class="success">
+                  <td>Mehul</td>
+                  <td>Lokhande</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/mehull2412?hr_r=1"
+                      class="hackerrank"
+                      >@mehull2412</a
+                    >
+                  </td>
+                  <td>105</td>
+                </tr>
+                <tr class="success">
+                  <td>Jeenisha</td>
+                  <td>Shrungare</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/JeenishaKS?hr_r=1"
+                      class="hackerrank"
+                      >@JeenishaKS</a
+                    >
+                  </td>
+                  <td>105</td>
+                </tr>
+                <tr class="success">
+                  <td>Harish</td>
+                  <td>Dalal</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/harishdalal76?hr_r=1"
+                      class="hackerrank"
+                      >@harishdalal76</a
+                    >
+                  </td>
+                  <td>85</td>
+                </tr>
+                <tr class="success">
+                  <td>Ganesh</td>
+                  <td>Shinde</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/shindeg0304?hr_r=1"
+                      class="hackerrank"
+                      >@shindeg0304</a
+                    >
+                  </td>
+                  <td>75</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>SE Weekly Coding Contest 11-AUG-2019</h2>
+            <p>
+              Conducted on 11th August 2019, from IST 9:30 PM to IST 11:00 PM
+              (280 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Suyash</td>
+                  <td>Sonawane</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
+                      class="hackerrank"
+                      >@suyashsonawane</a
+                    >
+                  </td>
+                  <td>280</td>
+                </tr>
+                <tr class="success">
+                  <td>Sherwin</td>
+                  <td>Kati</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/sherwinkanth?hr_r=1"
+                      class="hackerrank"
+                      >@sherwinkanth</a
+                    >
+                  </td>
+                  <td>280</td>
+                </tr>
+                <tr class="success">
+                  <td>Mehul</td>
+                  <td>Lokhande</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/mehull2412?hr_r=1"
+                      class="hackerrank"
+                      >@mehull2412</a
+                    >
+                  </td>
+                  <td>280</td>
+                </tr>
+                <tr class="success">
+                  <td>Amritpal</td>
+                  <td>Singh</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/dhiramritpalsin1?hr_r=1"
+                      class="hackerrank"
+                      >@dhiramritpalsin1</a
+                    >
+                  </td>
+                  <td>280</td>
+                </tr>
+                <tr class="success">
+                  <td>Mayur</td>
+                  <td>Kodche</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/kodchemayur?hr_r=1"
+                      class="hackerrank"
+                      >@kodchemayur</a
+                    >
+                  </td>
+                  <td>280</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>TE Weekly Coding Contest 10-AUG-2019</h2>
+            <p>
+              Conducted on 10th August 2019, from IST 9:00 PM to IST 10:00 PM
+              (155 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Mohit</td>
+                  <td>Burkule</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/mohitburkule5"
+                      class="hackerrank"
+                      >@mohitburkule5</a
+                    >
+                  </td>
+                  <td>111.88</td>
+                </tr>
+                <tr class="success">
+                  <td>Chinmay</td>
+                  <td>Joshi</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/chinmayjoshi9911"
+                      class="hackerrank"
+                      >@chinmayjoshi9911</a
+                    >
+                  </td>
+                  <td>101.88</td>
+                </tr>
+                <tr class="success">
+                  <td>Sagar</td>
+                  <td>Varma</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/sagarvarma_2703"
+                      class="hackerrank"
+                      >@sagarvarma_2703</a
+                    >
+                  </td>
+                  <td>90</td>
+                </tr>
+                <tr class="success">
+                  <td>Tanishq</td>
+                  <td>Dhussa</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/Tanishqrocks55"
+                      class="hackerrank"
+                      >@Tanishqrocks55</a
+                    >
+                  </td>
+                  <td>89.38</td>
+                </tr>
+                <tr class="success">
+                  <td>Manish</td>
+                  <td>Chaudhari</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/Manish_9292"
+                      class="hackerrank"
+                      >@Manish_9292</a
+                    >
+                  </td>
+                  <td>89.38</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 container leaderboard-table">
+            <h2>SE Weekly Coding Contest 02-AUG-2019</h2>
+            <p>
+              Conducted on 2nd August 2019, from IST 9:30 PM to IST 11:00 PM
+              (105 Points)
+            </p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>Suyash</td>
+                  <td>Sonawane</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/suyashsonawane?hr_r=1"
+                      class="hackerrank"
+                      >@suyashsonawane</a
+                    >
+                  </td>
+                  <td>105</td>
+                </tr>
+                <tr class="success">
+                  <td>Onkar</td>
+                  <td>Gaikar</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/onkarngaikar27?hr_r=1"
+                      class="hackerrank"
+                      >@onkargaikar27</a
+                    >
+                  </td>
+                  <td>100</td>
+                </tr>
+                <tr class="success">
+                  <td>Mehul</td>
+                  <td>Lokhande</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/mehull2412?hr_r=1"
+                      class="hackerrank"
+                      >@mehull2412</a
+                    >
+                  </td>
+                  <td>85</td>
+                </tr>
+                <tr class="success">
+                  <td>Sonu</td>
+                  <td>Bag</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/sonubag1301?hr_r=1"
+                      class="hackerrank"
+                      >@sonubag1301</a
+                    >
+                  </td>
+                  <td>85</td>
+                </tr>
+                <tr class="success">
+                  <td>Supreet</td>
+                  <td>Shetty</td>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/SupreetShetty?hr_r=1"
+                      class="hackerrank"
+                      >@SupreetShetty</a
+                    >
+                  </td>
+                  <td>60</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #about -->
 
     <!--==========================
     Footer
   ============================-->
 
     <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 footer-info">
-                        <h3>PCCOE ACM</h3>
-                        <p>
-                            Set up in 2012, the PCCOE ACM Student Chapter is one of the best Student Chapter in Pune.
-                            Year by year, the Chapter strives to increase the number of events, and the participation of
-                            students. With the guidance of the faculty sponsors, and the enthusiastic volunteer and
-                            participating students, the Chapter which is now in its eighth year is improving rapidly on
-                            all counts.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://www.acm.org/">ACM - Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://india.acm.org/">ACM India -
-                                    Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://xrds.acm.org/">ACM - XRDS</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://dl.acm.org/">ACM Digital
-                                    Library</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Pimpri Chinchwad College of Engineering.<br>
-
-                            Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran,
-                            Nigdi, Pimpri-Chinchwad, Maharashtra 411044<br>
-                            <!-- <strong>Phone:</strong> +91-94925 22474<br> -->
-                            <strong>Email:</strong> acm@pccoepune.org<br>
-                        </p>
-
-                        <div class="social-links">
-                            <a href="https://www.facebook.com/pccoe.acm" class="facebook"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/pccoeacm/" class="instagram"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="mailto:acm@pccoepune.org" class="google-plus"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw" class="youtube"><i
-                                    class="fa fa-youtube"></i></a>
-                            <a href="https://www.linkedin.com/company/pccoe-acm-student-chapter/" class="linkedin"><i
-                                    class="fa fa-linkedin"></i></a>
-                            <a href="https://twitter.com/pccoeacm?s=09" class="twitter"><i
-                                    class="fa fa-twitter"></i></a>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      <div class="footer-top">
         <div class="container">
-            <p>Designed and developed with <i class="fa fa-heart" style="color: red;"></i> by <a
-                    style="color: #13b7ed;">Web Team CESA</a> | Copyright ©2021 All rights reserved</p>
-        </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-info">
+              <h3>PCCOE ACM</h3>
+              <p>
+                Set up in 2012, the PCCOE ACM Student Chapter is one of the best
+                Student Chapter in Pune. Year by year, the Chapter strives to
+                increase the number of events, and the participation of
+                students. With the guidance of the faculty sponsors, and the
+                enthusiastic volunteer and participating students, the Chapter
+                which is now in its eighth year is improving rapidly on all
+                counts.
+              </p>
+            </div>
 
-    </footer><!-- #footer -->
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://www.acm.org/">ACM - Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://india.acm.org/">ACM India - Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://xrds.acm.org/">ACM - XRDS</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://dl.acm.org/">ACM Digital Library</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                Pimpri Chinchwad College of Engineering.<br />
+
+                Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran,
+                Nigdi, Pimpri-Chinchwad, Maharashtra 411044<br />
+                <!-- <strong>Phone:</strong> +91-94925 22474<br> -->
+                <strong>Email:</strong> acm@pccoepune.org<br />
+              </p>
+
+              <div class="social-links">
+                <a href="https://www.facebook.com/pccoe.acm" class="facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/pccoeacm/" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="mailto:acm@pccoepune.org" class="google-plus"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw"
+                  class="youtube"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/pccoe-acm-student-chapter/"
+                  class="linkedin"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a href="https://twitter.com/pccoeacm?s=09" class="twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>
+          Designed and developed with
+          <i class="fa fa-heart" style="color: red"></i> by
+          <a style="color: #13b7ed">Web Team CESA</a> | Copyright ©2021 All
+          rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- #footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
@@ -657,7 +1150,5 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>

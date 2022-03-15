@@ -11,7 +11,7 @@ const loadEvent = async () => {
   $("#eCell").text(event.cellName);
   $("#eDescription").text(event.description);
   $("#evfees").text(`Rs. ${event.entryFees.nonCesa}`);
-  $("#evfees").text(`Rs.${event.entryFees.cesa}`);
+//   $("#evfees").text(`Rs.${event.entryFees.cesa}`);
 
   event.facultyHead.map((e) => {
     $("#efaculty-head").append(`<li>${e}</li>`);

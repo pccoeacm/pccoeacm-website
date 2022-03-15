@@ -241,7 +241,6 @@ canvas {
 .button_sliding_bg {
   color: #080a19;
   background: #ff00ad;
-  /* background: linear-gradient(to top, #f32b60, #ff8f1f); */
   padding: 1rem 3.5rem;
   margin: 1.75rem;
   border: 3px solid #ff00ad;
@@ -271,6 +270,8 @@ canvas {
 /* brochure btn */
 .button_sliding_bg-3 {
   color: #080a19;
+  position: relative;
+  z-index: 999;
   background: #6100ff;
   padding: 1rem 2rem;
   margin: 1.75rem;
@@ -424,8 +425,9 @@ svg {
 
 .about-vector {
   position: absolute;
-  bottom: 0%;
-  right: 0%;
+  z-index: 1;
+  bottom: -5rem;
+  right: -5rem;
   height: fit-content;
   width: 35%;
 }
@@ -604,7 +606,12 @@ button.button:hover {
   }
 
   .about {
-    padding: 16px;
+    padding: 1rem;
+  }
+
+  .about-vector {
+    bottom: -1rem;
+    right: -1rem;
   }
 
   .about-card {

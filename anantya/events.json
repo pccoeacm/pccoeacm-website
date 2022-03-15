@@ -1,0 +1,445 @@
+[
+  {
+    "id": 0,
+    "icon": "/assets/talking.svg",
+    "eventName": "Talking Titans",
+    "cellName": "CPDC+ISR",
+    "tagLine": "Know how you can persuade!",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/talking%20titans.png",
+    "eventHeads": [
+      {
+        "name": "Rutuja Patil",
+        "phoneNumber": 9327076993
+      },
+      {
+        "name": "Diya Tilani",
+        "phoneNumber": 9527237904
+      }
+    ],
+
+    "facultyHead": ["Prof.Shailesh Galande", "Prof. Harshada Mhaske"],
+    "description": "This event will test your speaking skills and will help in overcoming your stage fear.",
+    "entryFees": {
+      "nonCesa": 50,
+      "cesa": 30
+    },
+    "prizes": [2000, 1500, 1000],
+    "totalPrizes": 4500,
+    "rules": [
+      "Detailed Rules can be viewed <a href=''>here</a>",
+      "Number of rounds: 2",
+      "Time required: 1.5 hr",
+      "Participants must follow given timing, as the rounds will start sharp on time.",
+      "There will teams of 4-5 members for 1st round GD i.e. Group Discussion.",
+      "After qualifying 1st round, teams will made each consisting of 2 speakers for 2nd round Debate.",
+      "There will be a time limit of 7 mins for each topic so one of the team must conclude so as to complete each round in the given time limit.",
+      "Interrupting a speaker is forbidden."
+    ]
+  },
+  {
+    "id": 1,
+    "icon": "/assets/peprlexo.svg",
+    "eventName": "Perplexo",
+    "cellName": "Webmasters",
+    "tagLine": "Perplexical Labyrinth",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/perplexo.png?token=GHSAT0AAAAAABKHQTRPZAY5E7PVWTZOXCJ6YRYO4EA",
+
+    "eventHeads": [
+      {
+        "name": "Shamik Ghadge",
+        "phoneNumber": 8237604776
+      },
+      {
+        "name": "Palak Gupta",
+        "phoneNumber": 7083440398
+      }
+    ],
+
+    "facultyHead": ["Prof. Ganesh Deshmukh"],
+    "description": "Perplexo is an event where you get to test your knowledge in the wide domain of the Internet and Technology. It is an event  consisting of a series of questions, a trail of hints followed by a sequence of surprisingly tricky answers along with a live ranking leaderboard. We return with greater difficulty, tougher ciphers and deeper trails. You have to be more attentive, cautious and aware than at any time you are. Push your limits, bend the rules and crack the code. Last year only one was able to reach level 6, but none completed the challenge.",
+    "entryFees": {
+      "nonCesa": 90,
+      "cesa": 70
+    },
+    "prizes": [2000, 1500, 800],
+
+    "totalPrizes": 4500,
+    "rules": ["Detailed Rules can be viewed <a href=''>here</a>"]
+  },
+  {
+    "id": 2,
+    "icon": "/assets/intellect.svg",
+    "eventName": "Intellect-Apt",
+    "cellName": "Higher Studies Cell",
+    "tagLine": "Get, Set, Apti!",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/Intellect%20Apt.png",
+
+    "eventHeads": [
+      {
+        "name": "Tanvi Mehta",
+        "phoneNumber": 787848030
+      },
+      {
+        "name": "Aaishwarya Gaikwad",
+        "phoneNumber": 9657244049
+      },
+      {
+        "name": "Raghav Dhodla",
+        "phoneNumber": 9665847388
+      }
+    ],
+
+    "facultyHead": ["Prof. Priya Surana"],
+    "description": "This event will test aptitude and verbal skills. Aptitude questions will be similar to questions asked in competitive exams and placement. Verbal questions will be based on text completion where participants will have to choose the word that best completes the sentence.",
+    "entryFees": {
+      "nonCesa": 60,
+      "cesa": 50
+    },
+    "prizes": [1200, 800, 500],
+    "totalPrizes": 2500,
+    "rules": [
+      "Detailed Rules can be viewed <a href=''>here</a>",
+      "Number of rounds: 2",
+      "Time required: 1 hr",
+      "It is recommended to bring your own laptop, but it's NOT a compulsion",
+      "Participants must follow given timing, as the rounds will start sharp on time."
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "/assets/codigo.svg",
+    "eventName": "Codigo 3.0",
+    "cellName": "Coding Cell",
+    "tagLine": "",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/Codigo%203.0.png",
+    "eventHeads": [
+      {
+        "name": "Vedant Nerkar",
+        "phoneNumber": 8421921904
+      }
+    ],
+
+    "facultyHead": ["Prof. Ganesh Deskmukh"],
+    "description": "This event will test your competitiveness, logic and data structure skills . It is an individual event. There will be 2 rounds. Each round will have a time limit of 2hrs. The first round will test your logical and  basic data structure skills. And the second round will test your competitive and advanced data structure skills. Each problem will have a predetermined score. A participant’s score depends on the number of test cases a participant’s code submission successfully passes. Participants are ranked by the score. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.",
+    "entryFees": {
+      "nonCesa": 60,
+      "cesa": 50
+    },
+    "prizes": [3000, 1500, 1000],
+
+    "totalPrizes": 5500,
+    "rules": [
+      "Score will depend on the number of test cases passed",
+      "Solve the questions within the time limit.",
+      "If 2 people have to be found with the same code, it will result in your immediate disqualification from the contest.",
+      "No electronic devices should be used while giving the contest.",
+      "Shortlisted participants of Round I will be applicable for Round ll.",
+      "In case of tie, then it will be broken by the total time taken to submit the last solution."
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "/assets/startup.svg",
+    "eventName": "Startup Mania",
+    "cellName": "PDC & NSS",
+    "tagLine": "Launchpad to showcase your innovative ideas.",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/Startup%20Mania.png",
+
+    "eventHeads": [
+      {
+        "name": "Sanket Kulkarni",
+        "phoneNumber": 9307580477
+      },
+      {
+        "name": "Sahil Adrakatti",
+        "phoneNumber": 9834836808
+      }
+    ],
+
+    "facultyHead": ["Prof. Atul Pawar"],
+    "description": "Innovation and enterprising are the wheels that steer the world into a brighter future. Startup mania will help in innovating new ideas right from acknowledging the potential of your idea, steering your idea in the correct direction, and scrutinizing your views which will pave your way for glaring success.\u000A \u000A Round1: In a group, participants have to prepare a presentation and during the presentation, every team will be given a total of 3 minutes to present their ideas. Round 2: Participants have to give a detailed idea presentation and the duration for it will be  5-7 minutes per group.",
+    "entryFees": {
+      "nonCesa": 80,
+      "cesa": 80
+    },
+    "prizes": [1500, 1000],
+
+    "totalPrizes": 2500,
+    "rules": [
+      "The points of evaluation are:",
+      "Social Impact",
+      "Uniqueness of the idea",
+      "Creativity in the presentation",
+      "Survey and statistical data",
+      "Real world relevance",
+      "Future estimation (team size, funding)",
+      "Knowledge ",
+      "*Template for the presentation will be provided later."
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "/assets/startup.svg",
+    "eventName": "BGMI",
+    "cellName": "Sports Cell",
+    "tagLine": "Let's make another life in the maps of BGMI",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/bgmi.png",
+
+    "eventHeads": [
+      {
+        "name": "Atharv Sontakke",
+        "phoneNumber": 9009804629
+      },
+      {
+        "name": "Param Jangale",
+        "phoneNumber": 7744062379
+      }
+    ],
+
+    "facultyHead": ["Mr. Rajesh Lomte"],
+    "description": "Battlegrounds Mobile India is an online multiplayer battle royale game developed and published by Krafton. The game is exclusively for Indian users.",
+    "entryFees": {
+      "nonCesa": 50,
+      "cesa": 40
+    },
+    "prizes": [1500, 1000, 750],
+
+    "totalPrizes": 3250,
+    "rules": [
+      "Players should enter the game room within the given time or he/she will be directly disqualified and no queries will be entertained later."
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "/assets/webbit.svg",
+    "eventName": "Webbit",
+    "cellName": "ACM-W",
+    "tagLine": "Think, Design And Develop.",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/Webbit.png",
+
+    "eventHeads": [
+      {
+        "name": "Atharv Sontakke",
+        "phoneNumber": 9009804629
+      },
+      {
+        "name": "Param Jangale",
+        "phoneNumber": 7744062379
+      }
+    ],
+
+    "facultyHead": ["Mr. Rajesh Lomte"],
+    "description": "Battlegrounds Mobile India is an online multiplayer battle royale game developed and published by Krafton. The game is exclusively for Indian users.",
+    "entryFees": {
+      "nonCesa": 50,
+      "cesa": 40
+    },
+    "prizes": [1500, 1000, 750],
+
+    "totalPrizes": 3250,
+    "rules": [
+      "Players should enter the game room within the given time or he/she will be directly disqualified and no queries will be entertained later."
+    ]
+  },
+  {
+    "id": 7,
+    "icon": "/assets/ipl.svg",
+    "eventName": "IPL AUCTION",
+    "cellName": "SY",
+    "tagLine": "Bid It To Win It.",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/ipl%20auction.png",
+
+    "eventHeads": [
+      {
+        "name": "Pavan Kumar Reddy",
+        "phoneNumber": 9819549169
+      },
+      {
+        "name": "Kartik Mangesh Chaudhari",
+        "phoneNumber": 7038741731
+      }
+    ],
+
+    "facultyHead": ["Prof. Sagar Salunkhe"],
+    "description": "A real time great IPL Auction of 140 players. Auction will consist of 8 teams, every team will bid for 140 players as well as for their desired team. All 140 players in the list are assigned with their ratings, each team has to submit their playing 11.Final team rating will be calculated according to the submitted playing 11.Team with highest points on the basis of rating will be declared as winner. Come and enjoy the IPL Auction in REAL.",
+    "entryFees": {
+      "nonCesa": 80,
+      "cesa": 80
+    },
+    "prizes": [1000, 700],
+
+    "totalPrizes": 1700,
+    "rules": [
+      "Each Team given a Budget:  90 CR",
+      "Time required - 4 hours.",
+      "Judging criteria - Average of Rating of Players the Team owns.",
+      "Minimum 11 and maximum 15 player",
+      "Cap Rating will be x2  ,Vice captain ×1.5 ",
+      "Rules for Squad of 15:-",
+      " 3 to 7 batsmans",
+      " 1 to 3 wicket keepers",
+      " 3 to 4 all rounders",
+      " 3 to 7 bowlers",
+      " 0 to 5 foriegn players",
+      " Rules for playing 11 ",
+      " 3 to 5 batsmans",
+      " 1 to 2 wicket keepers",
+      " 1 to 3 all rounders",
+      " 3 to 5 bowlers",
+      " 0 to 4 foriegn players",
+      " Min 3 members per team and maximum 5 can participate in the auction.",
+      "Base price for team name bidding 50 Lakhs.",
+      "1 RTM free for every team",
+      "Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
+      "Auction for 1 RTS (Base Price 20 Lakh)"
+    ]
+  },
+  {
+    "id": 8,
+    "icon": "/assets/movie.svg",
+    "eventName": "MOVIE TRIVIA",
+    "cellName": "SY",
+    "tagLine": "Watched it !? Now Answer.",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/movie%20trivia.png",
+
+    "eventHeads": [
+      {
+        "name": "Arya Kaslikar",
+        "phoneNumber": 9503380951
+      },
+      {
+        "name": "Harsh Dandge",
+        "phoneNumber": 9503845530
+      }
+    ],
+
+    "facultyHead": ["Prof. Atul Pawar"],
+    "description": "Watched a lot of movies and series? Time to put that memory to work. Solve challenging questions based on them and win a grand award.",
+    "entryFees": {
+      "nonCesa": 60,
+      "cesa": 60
+    },
+    "prizes": [1000, 700, 500],
+
+    "totalPrizes": 3250,
+    "rules": [
+      "Number of rounds - 4",
+      "Time required - 3 hours.",
+      "Round 1 - There would be a quiz containing 25 questions based on jumbled dialogues ,silest video and audio. It will be performed on kahoot online quiz platform. Top 50 ",
+      "Dumb charades(Round 2) - random 10 groups of 5 peoples will be formed. Guess the movie in time.",
+      "Humshakals(Round 3) - A buzzer round in which you have to identify the blended pictures of several actors and actresses.",
+      "Rapid Fire (round 4)- the winning group members will compete among themselves for rapid fire."
+    ]
+  },
+  {
+    "id": 9,
+    "icon": "/assets/unleash.svg",
+    "eventName": "Unleash the Art",
+    "cellName": "Art Circle and Photography Cell",
+    "tagLine": "Creativity starts here!!",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/unleash%20the%20art.png",
+
+    "eventHeads": [
+      {
+        "name": "Sakshi Shinde",
+        "phoneNumber": 8208296547
+      },
+      {
+        "name": "Monika Dhokale",
+        "phoneNumber": 9552286758
+      },
+      {
+        "name": "Omkar Bhor",
+        "phoneNumber": 8830125229
+      }
+    ],
+
+    "facultyHead": ["Prof. Atul Pawar"],
+    "description": "Participants can choose any of the 3 art forms i.e. dancing, singing or photography. Theme or content can be decided by the participants themselves. Video/Photo submissions are expected of 2-3 Mins(for video) and .jpg or.jpeg for Photograph. There will be a single round for each category. Winner and runner ups will be selected based on the Quality art form submitted. \u000A For photography: contestants would have to click a photograph by any device. A slight editing would be permitted for the picture. The event is to be in order to encourage students to enhance their talent and hidden creativity to click something in a special way.",
+    "entryFees": {
+      "nonCesa": 40,
+      "cesa": 30
+    },
+    "prizes": [700, 300],
+
+    "totalPrizes": 3250,
+    "rules": [
+      "Participants should stick to the time limit",
+      "They can select only 1 of the 3 art forms for submission.",
+      "If copyright from any resource is found, they will be disqualified.",
+      "The Photograph should be clicked after the contest is announced.",
+      "The photograph should contain a timestamp on it."
+    ]
+  },
+  {
+    "id": 10,
+    "icon": "/assets/chess.svg",
+    "eventName": "Chess",
+    "cellName": "Sports Cell",
+    "tagLine": "Better move next time",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/chess.png",
+
+    "eventHeads": [
+      {
+        "name": "Atharv Sontakke",
+        "phoneNumber": 9009804629
+      },
+      {
+        "name": "Param Jangale",
+        "phoneNumber": 7744062379
+      }
+    ],
+
+    "facultyHead": ["Mr. Rajesh Lomte"],
+    "description": "Chess is one of the oldest and most popular board games. It is played by two opponents on a checkered board with specially designed pieces of contrasting colours, commonly white and black. The objective of the game is to capture the opponent's king.",
+    "entryFees": {
+      "nonCesa": 40,
+      "cesa": 30
+    },
+    "prizes": [1000, 600, 200],
+
+    "totalPrizes": 1800,
+    "rules": [
+      "Players should enter the game room within the given time or he/she will be directly disqualified and no queries will be entertained later."
+    ]
+  },
+  {
+    "id": 11,
+    "icon": "/assets/melting.svg",
+    "eventName": "Melting MindZ",
+    "cellName": "SY",
+    "tagLine": "Survival of the Smartest.",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/melting%20minds.png",
+
+    "eventHeads": [
+      {
+        "name": "Khush Kothari",
+        "phoneNumber": 9145350146
+      },
+      {
+        "name": "Aditya Desity",
+        "phoneNumber": 7718019248
+      }
+    ],
+
+    "facultyHead": ["Mr. Rajesh Lomte"],
+    "description": "An event which allows you to showcase your problem solving skills,team effort and quick thinking.Round 1: In this round you will have to solve some tricky riddles to prove that you are smarter than the maximum crowd.Round 2 : In this round you will have to showcase your ability of quick thinking and solve the pictorial puzzles. Round 3 : This is the actual test of team work where you will be given a situation having some real life problems and you have to draw practical solutions for the same.Finale : So you have got the hang of it. Similar to round three but it’s difficult. Your Brains will reach the Melting Point. The Stronger Brain wins it All.",
+    "entryFees": {
+      "nonCesa": 80,
+      "cesa": 80
+    },
+    "prizes": [1000, 700, 500],
+
+    "totalPrizes": 1800,
+    "rules": [
+      "Number of rounds - 3",
+      "Time required - 2.5 hours.",
+      "Judging criteria - pre-answered question, Judges for last round.",
+      "Solve the Mystery (Round 1)- Try to solve the mystery.",
+      "Can You C It!!! (Round 2)- Have a brief look and Decode the picture.",
+      "The Perfect Strategy (Round 3)- Given a real time situation; Brainstorm the best solutions to it and explain it to judges along with your team.",
+      "The Team Effort (Finale)- Similar to round three but little difficult.",
+      "Decisions made by judges will be final. (3 judges)"
+    ]
+  }
+]

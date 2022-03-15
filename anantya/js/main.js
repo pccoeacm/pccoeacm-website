@@ -50,8 +50,8 @@ const loadEvent = async () => {
         $("#eDescription").removeClass("glitch");
         $("#ecoordinators").removeClass("glitch");
         $("#event-name").removeClass("glitch");
-        $(".erules").empty();
-        $(".erules").text("NA");
+        $("#erules-value").empty();
+        $("#erules-value").append(`<li>NA</li>`);
         $("#efaculty-head").removeClass("glitch");
         $(".prize-list").removeClass("glitch");
         $("#prizesdiv").empty();
@@ -59,7 +59,9 @@ const loadEvent = async () => {
         $("#prizesdiv").append(`<li>2. NA</li>`);
         $("#prizesdiv").append(`<li>3. NA</li>`);
         $("#eventPosterImg").attr("src", event.poster);
-        $("#eDescription").text("Inspect things clearly. We are watching you!");
+        $("#eDescription").html(
+          `Is this really an error?<br>Why don't you Ctrl+U<br><span style="color:#fff00ad"><b>We are Perplexo. We choose the best!</b></span>`
+        );
         $("#evfees").text(`NA`);
         $("#efaculty-head").text(`NA`);
         $("#evfees").text(`NA`);

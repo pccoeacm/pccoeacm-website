@@ -11,7 +11,7 @@ const loadEvent = async () => {
   $("#eCell").text(event.cellName);
   $("#eDescription").text(event.description);
   $("#evfees").text(`Rs. ${event.entryFees.nonCesa}`);
-//   $("#evfees").text(`Rs.${event.entryFees.cesa}`);
+  //   $("#evfees").text(`Rs.${event.entryFees.cesa}`);
 
   event.facultyHead.map((e) => {
     $("#efaculty-head").append(`<li>${e}</li>`);
@@ -66,6 +66,10 @@ const loadEvent = async () => {
         $("#ecoordinators").text("NA");
         $(".prizediv").empty();
         $("#audio").empty();
+        $("#poster").empty();
+        $("#poster").html(
+          `<iframe class="vid-perp" src="https://www.youtube.com/embed/vUiW4MH1RPc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow='autoplay'></iframe>`
+        );
       }, 3000);
     }, 3000);
   }

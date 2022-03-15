@@ -11,7 +11,7 @@ const loadEvent = async () => {
   $("#eCell").text(event.cellName);
   $("#eDescription").text(event.description);
   $("#evfees").text(`Rs. ${event.entryFees.nonCesa}`);
-//   $("#evfees").text(`Rs.${event.entryFees.cesa}`);
+  //   $("#evfees").text(`Rs.${event.entryFees.cesa}`);
 
   event.facultyHead.map((e) => {
     $("#efaculty-head").append(`<li>${e}</li>`);
@@ -43,9 +43,7 @@ const loadEvent = async () => {
       $("#eDescription").addClass("glitch");
       $("#efaculty-head").addClass("glitch");
       $("#ecoordinators").addClass("glitch");
-      $("#eprizes-value1").addClass("glitch");
-      $("#eprizes-value2").addClass("glitch");
-      $("#eprizes-value3").addClass("glitch");
+      $(".prize-list").addClass("glitch");
 
       setTimeout(() => {
         $("#evFees").removeClass("glitch");
@@ -53,13 +51,15 @@ const loadEvent = async () => {
         $("#ecoordinators").removeClass("glitch");
         $("#event-name").removeClass("glitch");
         $(".erules").empty();
-        $(".erules").text("Inspect things clearly. We are watching you!");
+        $(".erules").text("NA");
         $("#efaculty-head").removeClass("glitch");
-        $("#eprizes-value1").removeClass("glitch");
-        $("#eprizes-value2").removeClass("glitch");
-        $("#eprizes-value3").removeClass("glitch");
+        $(".prize-list").removeClass("glitch");
+        $("#prizesdiv").empty();
+        $("#prizesdiv").append(`<li>1. NA</li>`);
+        $("#prizesdiv").append(`<li>2. NA</li>`);
+        $("#prizesdiv").append(`<li>3. NA</li>`);
         $("#eventPosterImg").attr("src", event.poster);
-        $("#eDescription").text("NA");
+        $("#eDescription").text("Inspect things clearly. We are watching you!");
         $("#evfees").text(`NA`);
         $("#efaculty-head").text(`NA`);
         $("#evfees").text(`NA`);

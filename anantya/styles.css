@@ -260,7 +260,7 @@ canvas {
   transition: all ease 0.3s;
   opacity: 0.9;
   margin-top: 5rem;
-  filter: drop-shadow(0px 0px 12px #ff00ad);
+  filter: drop-shadow(0px 0px 8px #ff00ad);
 }
 .button_sliding_bg:hover {
   background-size: 200% 200%;

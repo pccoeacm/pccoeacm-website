@@ -40,10 +40,19 @@ for (var i = 0; i < 1600; i++) {
 
   geometry.vertices.push(vertex);
 }
-var particles = new THREE.Points(
-  geometry,
-  new THREE.PointsMaterial({ color: 0xff44ff, size: 2 })
-);
+
+if (window.innerWidth < 700) {
+  var particles = new THREE.Points(
+    geometry,
+    new THREE.PointsMaterial({ color: 0xff44ff, size: 0.8 })
+  );
+} else {
+  var particles = new THREE.Points(
+    geometry,
+    new THREE.PointsMaterial({ color: 0xff44ff, size: 2 })
+  );
+}
+
 particles.boundingSphere = 50;
 
 var renderingParent = new THREE.Group();

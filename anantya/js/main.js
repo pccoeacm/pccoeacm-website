@@ -30,7 +30,21 @@ const loadEvent = async () => {
   });
 
   if (eName == "Perplexo") {
-    console.log("Welcome to Perplexo! ");
+    console.log(`%cGreeting Contestant\nYou have found extra points link please proceed further 🦸‍♂️`,
+            "color:#1c08fe;font-family:system-ui;font-size:1rem;font-weight:bold")
+    console.log("Welcome to");
+    
+    console.log(`%c${event.eventName}`,
+            "color:#fc00ff;font-family:system-ui;font-size:4rem;-webkit-text-stroke: 1px black;font-weight:bold")
+
+    console.log(`%c${event.description}`, "line-height:3")
+    console.log("Prizes 💸 :%c" + event.prizes.join(","), "color:#fc00ff")
+    console.log("Registration link:- "+ "https://forms.gle/JgLXQyEyQXkjpiSu5")
+    
+    console.log("Event Heads")
+    console.table(event.eventHeads)
+
+    console.log("Fees 💰: %c" + event.entryFees.nonCesa, "color:#fc00ff")
 
     $(".event-box").append(
       `<audio  autoplay>

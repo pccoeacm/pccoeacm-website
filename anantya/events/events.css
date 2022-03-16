@@ -317,6 +317,7 @@ ol {
   }
   .event-description {
     padding-left: 0;
+    margin-left: 0rem;
   }
 
   #eTagline {

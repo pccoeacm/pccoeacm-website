@@ -78,7 +78,6 @@ const loadEvent = async () => {
         );
         $("#evfees").text(`80`);
         $("#efaculty-head").text(`NA`);
-        $("#evfees").text(`NA`);
         $("#ecoordinators").text("NA");
         $(".prizediv").empty();
         $("#audio").empty();

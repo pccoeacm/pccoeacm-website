@@ -69,14 +69,14 @@ const loadEvent = async () => {
         $("#efaculty-head").removeClass("glitch");
         $(".prize-list").removeClass("glitch");
         $("#prizesdiv").empty();
-        $("#prizesdiv").append(`<li>1. NA</li>`);
-        $("#prizesdiv").append(`<li>2. NA</li>`);
-        $("#prizesdiv").append(`<li>3. NA</li>`);
+        $("#prizesdiv").append(`<li>1. 2000</li>`);
+        $("#prizesdiv").append(`<li>2. 1500</li>`);
+        $("#prizesdiv").append(`<li>3. 800</li>`);
         $("#eventPosterImg").attr("src", event.poster);
         $("#eDescription").html(
-          `Is this really an error?<br>Why don't you Ctrl+U<br><span style="color:#fff00ad"><b>We are Perplexo. We choose the best!</b></span>`
+          `Is this really an error?<br>Why don't you Ctrl+Shift+J<br><span style="color:#fff00ad"><b>We are Perplexo. We choose the best!</b></span>`
         );
-        $("#evfees").text(`NA`);
+        $("#evfees").text(`80`);
         $("#efaculty-head").text(`NA`);
         $("#evfees").text(`NA`);
         $("#ecoordinators").text("NA");

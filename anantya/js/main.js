@@ -117,6 +117,14 @@ const loadEvent = async () => {
     $(".btn-reg-5").addClass("button_sliding_bg-ipl");
     $(".register-button").removeAttr("href");
   }
+  if (eName == "BGMI") {
+    // $(".button_sliding_bg").css({ cursor: "not-allowed", background: "gray" });
+
+    $(".button_sliding_bg-2").text("Registrations Closed!");
+    $(".btn-reg-5").removeClass("button_sliding_bg-2");
+    $(".btn-reg-5").addClass("button_sliding_bg-ipl");
+    $(".register-button").removeAttr("href");
+  }
 };
 
 loadEvent();

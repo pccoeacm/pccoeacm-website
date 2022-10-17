@@ -49,7 +49,13 @@
 </head>
 
 <body>
-
+  <div class="popup-screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <div class="popup-box">
+      <i class="fas fa-times close-btn"></i>
+      <img src="images/CESA22-23/activities/PCCOE-Student-Chpater-of-the-Month.jpg">
+    </div>
+      </div>
   <!--==========================
     Header
   ============================-->
@@ -77,14 +83,28 @@
           <li><a href="acm_activities.html">ACM Activities</a></li>
           <li><a href="achievements.html">Achievements</a></li>
           <li class="cesa-insider"><a href="#">Cesa Insider</a>
-            <ul><a href="./assets/CESA%20Insider%20Issue%2001.pdf" target="_blank">Issue 01</a></ul>
-          </li>
+            <ul>
+                <li>
+                  <a
+                    href="./assets/CESA%20Insider%20Issue%2001.pdf"
+                    target="_blank"
+                    >Issue 01</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="./assets/CESA%20Insider%20Issue%2002.pdf"
+                    target="_blank"
+                    >Issue 02</a>
+                </li>
+              </ul>
+        </li>
           <li><a href="team.html">The Team</a></li>
           <li class="menu-has-children"><a href="#">TechPart</a>
             <ul>
               <li><a href="events.html">Event Calendar</a></li>
-              <li><a href="anantya/">ANANTYA 2k21</a></li>
-              <li><a href="https://pccoetechlligent.in/">Techlligent 2020</a></li>
+              <!--<li><a href="anantya/">ANANTYA 2k21</a></li>
+              <li><a href="https://pccoetechlligent.in/">Techlligent 2020</a></li>-->
               <li><a href="leaderboard.html">Weekly Coding LeaderBoard</a></li>
               <li><a href="lockdown_events.html">Lockdown Events</a></li>
               <!--<li><a href="#">PCube</a></li>-->
@@ -102,8 +122,6 @@
 
 
   <div class="banner"></div>
-
-
   <!-- #intro -->
 
   <!--==========================
@@ -118,8 +136,8 @@
   <div class="runnerups color-g container">
     Student Chapter Excellence Award for Outstanding Community Service 2020
   </div>
-
-
+  <br>
+  
   <section id="about">
     <div class="container">
       <div class="row about-cols">
@@ -580,7 +598,20 @@
     <!-- Main Javascript File -->
     <script src="js/main.js"></script>
     <!--<script src="contact/contactform.js"></script>-->
+    <script type="text/javascript">
+      const popupscreen=document.querySelector(".popup-screen");
+      const popupbox=document.querySelector("popup-box");
+      const closeBtn=document.querySelector(".close-btn");
+      window.addEventListener("load",() => {
+        setTimeout(() => {
+          popupscreen.classList.add("active");
 
+        },1000);
+      });
+      closeBtn.addEventListener("click", () => {
+          popupscreen.classList.remove("active");// close the pop up screen on click the close button
+      });
+    </script>
 
 </body>
 

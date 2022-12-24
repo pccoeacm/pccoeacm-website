@@ -8,10 +8,24 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+<style>
+    .myslides {
+        display:none;
+    }
+    .center
+    {
+        margin: auto;
+  width: 60%;
+  padding: 10px;
+    }
+    .myslides1
+    { display:none;
 
+    }
+</style>
     <!-- Favicons -->
     <link href="images/logo.png" rel="icon">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
         rel="stylesheet">
@@ -35,7 +49,10 @@
         gtag('js', new Date());
 
         gtag('config', 'G-K4Z30P6082');
-    </script>
+</script>
+
+        
+    
 
 </head>
 
@@ -118,7 +135,113 @@
             </header>
         </div>
     </div>
+    <div id="portfolio" class="section-bg" style="align-content: center;">
+        <div class="container"style="align-content: center;">
 
+            <header class="section-header">
+                <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s">ACM Winter School 2022</h3>
+            </header>
+
+            <div class="row wow fadeInUp" data-wow-delay="0.1s" >
+
+                <div class="col-lg-12 col-md-6" style="align-content: center;">
+                    <div class="img-wrap-large center" style=" background-color:aliceblue; max-width: fit-content;max-height: fit-content;">
+                        <div class="per-wrap">
+                            <img class="myslides" src="images/CESA22-23/activities/winterschool selected/20221224_110201_0000.jpg">
+                            <img class="myslides" src="images/CESA22-23/activities/winterschool selected/20221224_110201_0001.jpg">
+                            <img class="myslides" src="images/CESA22-23/activities/winterschool selected/20221224_110201_0002.jpg">
+                            <button style="position: relative;" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button style="position: relative;" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+                        <h2 style="margin-top:5px;">Selected Students for Winter School</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("myslides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+    </script>
+
+    <div id="portfolio" class="section-bg" style="align-content: center;">
+        <div class="container"style="align-content: center;">
+
+            <header class="section-header">
+                <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s">KPIT Sparkle 2023 TOP 100 </h3>
+            </header>
+
+            <div class="row wow fadeInUp" data-wow-delay="0.1s" >
+
+                <div class="col-lg-12 col-md-6" style="align-content: center;">
+                    <div class="img-wrap-large center" style=" background-color:aliceblue; max-width: fit-content;max-height: fit-content;">
+                        <div class="per-wrap">
+                            <img class="myslides1" src="images/CESA22-23/activities/kpit/20221224_110105_0001.jpg">
+                            <img class="myslides1" src="images/CESA22-23/activities/kpit/20221224_110105_0000.jpg">
+                        </div>
+                        <h2 style="margin-top:5px;"> 2 Teams selected for KPIT Sparkle 2023</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        //kpit sliding
+        var myIndex = 0;
+    carousel();
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("myslides1");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 7000); // Change image every 2 seconds
+    }
+    </script>
+    <div id="portfolio" class="section-bg" style="align-content: center;">
+        <div class="container"style="align-content: center;">
+
+            <header class="section-header">
+                <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s">Featured on ACM India Student Chapter Website</h3>
+            </header>
+
+            <div class="row wow fadeInUp" data-wow-delay="0.1s" >
+
+                <div class="col-lg-12 col-md-6" style="align-content: center;">
+                    <div class="img-wrap-large center" style=" background-color:aliceblue; max-width: fit-content;max-height: fit-content;">
+                        <div class="per-wrap">
+                            <img  src="images/CESA22-23/activities/PCCOE-Student-Chpater-of-the-Month.jpg">
+                        </div>
+                        <h2 style="margin-top:5px;">September & October</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
     <div id="portfolio" class="section-bg" style="padding-top: 60px;">
         <div class="container">
 
@@ -301,7 +424,6 @@
                         </div>
                     </div>
                 </div>
-                
 
             </div>
         </a>

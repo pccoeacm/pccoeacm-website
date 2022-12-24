@@ -1896,3 +1896,8 @@ visibility: visible;
 .popup-screen.active .popup-box{
   transform: scale(1);
 }
+.sett
+{
+  margin: auto;
+  padding: auto;
+}

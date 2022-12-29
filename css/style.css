@@ -123,6 +123,38 @@ td {
   }
 }
 
+@media (max-width: 460px) {
+  .banner {
+    background-image: url('../images/banner\ mobile\ acm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    min-height: 600px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (min-width: 461px) {
+  .banner {
+      background-image: url(../images/banner_2021.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      min-height: 500px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -182,7 +214,7 @@ td {
 # Intro Section
 --------------------------------------------------------------*/
 
-.banner {
+/* .banner {
   background-image: url(../images/banner_2021.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -190,8 +222,9 @@ td {
   -o-background-size: cover;
   -webkit-background-size: cover;
   min-height: 500px;
+  margin-top: 30px;
   margin-bottom: 30px;
-}
+} */
 
 #intro {
   display: table;

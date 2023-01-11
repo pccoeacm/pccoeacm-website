@@ -142,13 +142,13 @@ td {
 
 @media (min-width: 461px) {
   .banner {
-      background-image: url(../images/banner_2021.png);
+      /* background-image: url(../images/banner_2021.png); */
       background-position: center;
       background-repeat: no-repeat;
       -moz-background-size: cover;
       -o-background-size: cover;
       -webkit-background-size: cover;
-      min-height: 500px;
+      height: 30px;
       margin-top: 30px;
       margin-bottom: 30px;
 
@@ -171,7 +171,7 @@ td {
 }
 
 #header.header-scrolled {
-  background: rgba(255, 254, 254, 0.9);
+  background: linear-gradient(120deg,#89CFF0, #318CE7);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -190,12 +190,11 @@ td {
 
 #header #logo h1 {
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   line-height: 1;
-
-  font-weight: 700;
+  font-weight: 550;
   letter-spacing: 1px;
 }
 
@@ -206,7 +205,8 @@ td {
 }
 
 #header #logo img {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 3px;
   margin: 0;
 }
 
@@ -413,7 +413,6 @@ td {
 .nav-menu,
 .nav-menu * {
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -472,6 +471,7 @@ td {
 #nav-menu-container {
   float: right;
   margin: 0;
+  padding-top: 14px;
 }
 
 /* Nav Meu Styling */
@@ -483,14 +483,14 @@ td {
   color: rgb(0, 0, 0);
 
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   outline: none;
 }
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #13b7ed;
+  color: #004170;
 }
 
 .nav-menu > li {
@@ -1929,8 +1929,103 @@ visibility: visible;
 .popup-screen.active .popup-box{
   transform: scale(1);
 }
-.sett
-{
-  margin: auto;
-  padding: auto;
+
+.demo {
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #fffffd;
+  padding: 10px 10px;
+  background: linear-gradient(20deg, #318CE7, #89CFF0);
+}
+
+.activity-header {
+  text-overflow: inherit;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(6, 134, 123);
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(50, 6, 6);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  margin-right: 576px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease-in-out;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.team {
+  padding-top: 9px;
+  margin-top: 30px;
+  background: linear-gradient(120deg,#89CFF0,#318CE7);
 }

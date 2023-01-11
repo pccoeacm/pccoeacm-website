@@ -19,8 +19,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
     rel="stylesheet">
 
-  <!-- Bootstrap CSS File
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+  <!-- Bootstrap CSS File-->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -34,6 +34,8 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/timeline.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4Z30P6082"></script>
@@ -49,13 +51,13 @@
 </head>
 
 <body>
-  <!--<div class="popup-screen">
+  <div class="popup-screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <div class="popup-box">
       <i class="fas fa-times close-btn"></i>
       <img src="images/CESA22-23/activities/PCCOE-Student-Chpater-of-the-Month.jpg">
     </div>
-      </div>-->
+      </div>
   <!--==========================
     Header
   ============================-->
@@ -127,6 +129,82 @@
   <!--==========================
     About Us Section
   ============================-->
+
+  <header class="section-header">
+    <h3>Events Conducted by PCCOE ACM Student Chapter</h3>
+  </header>
+  <div class="demo">
+  
+    <div class="mySlides fade"><img src="images/Events_2022_23/ANANTYA202_BANNERS/1.jpg" width="980px" height="576px">
+    </div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/ANANTYA202_BANNERS/2.jpg" width="980px" height="576px">
+    </div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/ANANTYA202_BANNERS/3.jpg" width="980px" height="576px">
+    </div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/2.jpg" width="980px " height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/4.jpg" width="980px " height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/5.jpg" width="980px " height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/10.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/11.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/14.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/16.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/19.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/20.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/21.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/22.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/23.jpg" width="980px" height="576px"></div>
+    <div class="mySlides fade"><img src="images/Events_2022_23/al.jpg" width="980px" height="576px"></div>
+  
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    function currntSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 1500); // Change image every 2 seconds
+    }
+  </script>
+  <br>
+  <br>
+  <br>
+<header class="section-header">
+  <h3> ABOUT PCCOE ACM Student Chapter</h3>
+</header>
+  <div class="team">
+    <div class="container">
+      <div class="section-header wow fadeInUp">
+        <p
+          style="font-size: 18px;padding: 20px 20px 10px 20px;color: #333; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          Set up in 2012, the PCCOE ACM
+          Student Chapter is one of the best Student Chapter in
+          Pune. Year by year, the Chapter strives to increase the number of events, and the
+          participation of students. With the guidance of the faculty sponsors, and the
+          enthusiastic volunteer and participating students, the Chapter which is now in its
+          Eleventh year is improving rapidly on all counts. With a dynamic team, it has spiralled
+          into the most active Student Chapter in Pune. Various events are held throughout the
+          year, the details of which can be found in the various sections of the website. We
+          encourage the students to perform on all quarters – be it the academic discipline,
+          or bohemian. With an aim to be the best Student Chapter in the country, we are
+          rapidly taking long strides to meet the goal.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+
 
   <div class="runnerups color-b container">
     Runner-Ups at ACM India Awards for Best Student Chapter 2018, 2020 & 2021
@@ -215,7 +293,7 @@
         <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="about-col2">
             <div class="img">
-              <h1>From CESA Co-ordinator's Desk</h1>
+              <h1>From CESA & ACM Faculty Sponser's Desk</h1>
               <img src="images/CESA22-23/team/GD.jpg" alt="" class="img-fluid">
             </div>
             <h2 class="title">Prof. Ganesh Deshmukh</h2>
@@ -267,7 +345,7 @@
               </a>
             </div>
 
-            <h2 class="title" style="padding-bottom:10px">PCCOE ACM CHAPTER<br>Computer Engineering Student's
+            <h2 class="title" style="padding-bottom:10px">PCCOE ACM STUDENT CHAPTER<br>Computer Engineering Student's
               Association (CESA)<br> TEAM 2022-2023</h2>
             <div style="padding-bottom:50px"></div>   
           </div>
@@ -297,7 +375,7 @@
         </div>
 
         <div class="col-lg-4 col-6 text-center">
-          <span data-toggle="counter-up" style="display: inline;">100</span><span style="display: inline;">+</span>
+          <span data-toggle="counter-up" style="display: inline;">121</span><span style="display: inline;">+</span>
           <p>Professional Members</p>
         </div>
 
@@ -375,9 +453,33 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row justify-content-center" style="padding: 20px 0px">
+        <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="img-wrap">
+              <div class="per-wrap">
+                <img src="images/cpdc.jpg" />
+                <div>
+                  <h3 class="blue-text ach-name">CPDC Cell</h3>
+                  <p class="ach-pos">Develop your personality</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="img-wrap">
+              <div class="per-wrap">
+                <img src="images/pdc.jpg" />
+                <div>
+                  <h3 class="blue-text ach-name">PDC Cell</h3>
+                  <p class="ach-pos">Improve your professional skills</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+      </div>
+      <div style="justify-content: center;">
+      <div class="row justify-content-center" style="padding: 20px 0px;">
 
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="img-wrap">
@@ -414,6 +516,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
     <!-- #About Cells -->
@@ -505,7 +608,7 @@
                 Set up in 2012, the PCCOE ACM Student Chapter is one of the best Student Chapter in Pune. Year by year,
                 the Chapter strives to increase the number of events, and the participation of students. With the
                 guidance of the faculty sponsors, and the enthusiastic volunteer and participating students, the Chapter
-                which is now in its eighth year is improving rapidly on all counts.
+                which is now in its Eleventh year is improving rapidly on all counts.
               </p>
             </div>
 
@@ -532,16 +635,20 @@
               </p>
 
               <div class="social-links">
-                <a href="https://www.facebook.com/pccoe.acm" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/pccoeacm/" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="mailto:acm@pccoepune.org" class="google-plus"><i class="fa fa-envelope"></i></a>
-                <a href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw" class="youtube"><i
-                    class="fa fa-youtube"></i></a>
-                <a href="https://www.linkedin.com/company/pccoe-acm-student-chapter/" class="linkedin"><i
-                    class="fa fa-linkedin"></i></a>
-                <a href="https://twitter.com/pccoeacm?s=09" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/pccoe.acm" class="facebook"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/pccoeacm/" class="instagram"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="mailto:acm@pccoepune.org" class="google-plus"><i
+                        class="fa fa-envelope"></i></a>
+                <a href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw"
+                    class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/company/pccoe-acm-student-chapter/"
+                    class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/pccoeacm?s=09" class="twitter"><i
+                        class="fa fa-twitter"></i></a>
 
-              </div>
+            </div>
 
             </div>
           </div>

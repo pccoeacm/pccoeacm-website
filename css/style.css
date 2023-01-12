@@ -178,7 +178,7 @@ td {
 }
 
 #header.header-scrolled2 {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(120deg,#89CFF0, #318CE7);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -200,7 +200,7 @@ td {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: linear-gradient(120deg,#89CFF0, #318CE7);;
   padding-left: 10px;
 }
 

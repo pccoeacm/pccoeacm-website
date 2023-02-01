@@ -48,6 +48,27 @@ td {
   word-wrap: break-word;
 }
 
+.carousel-container{
+  padding:1% 0; 
+}
+
+
+.row{
+  margin: 1% 12%;
+}
+
+.carousel-control-prev-icon{
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.carousel-control-next-icon{
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
 /* Back to top button */
 
 .back-to-top {

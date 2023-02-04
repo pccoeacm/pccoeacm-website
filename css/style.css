@@ -6,6 +6,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+ 
 }
 
 a {
@@ -53,7 +54,7 @@ td {
 }
 
 
-.row{
+.caursel-container-row{
   margin: 1% 12%;
 }
 
@@ -1143,7 +1144,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #portfolio {
-  padding: 20px 0px 60px 0px;
+  padding: 20px 0px 0 0px;
 }
 
 #portfolio .portfolio-wrap {
@@ -1663,6 +1664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
+  width: 100%;
 }
 
 #footer .footer-top {

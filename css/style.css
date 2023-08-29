@@ -182,7 +182,7 @@ td {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 30px 0;
+  padding: 20px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -190,20 +190,22 @@ td {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: linear-gradient(120deg,#89CFF0, #318CE7);
+
 }
 
 #header.header-scrolled {
   background: linear-gradient(120deg,#89CFF0, #318CE7);
   padding: 20px 0;
   height: 72px;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 #header.header-scrolled2 {
   background: linear-gradient(120deg,#89CFF0, #318CE7);
   padding: 20px 0;
   height: 72px;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 #header #logo {

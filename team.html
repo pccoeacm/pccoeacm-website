@@ -1,95 +1,353 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>PCCOE ACM Student Chapter - The Team</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicons -->
-    <link href="images/pccoe acm.png" rel="icon">
+    <link href="images/pccoe acm.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
 
     <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4Z30P6082"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K4Z30P6082"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-K4Z30P6082');
+      gtag("config", "G-K4Z30P6082");
     </script>
+  </head>
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    }
+    section {
+      padding: 60px 0;
+    }
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+      text-decoration: none;
+      outline: none;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
 
-</head>
+    .site-heading h2 {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
 
-<body>
+    .site-heading h2 span {
+      color: #348ee6;
+    }
 
+    .site-heading h4 {
+      display: inline-block;
+      padding-bottom: 20px;
+      position: relative;
+      text-transform: capitalize;
+      z-index: 1;
+    }
+
+    .site-heading h4::before {
+      background: #348ee6 none repeat scroll 0 0;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 50%;
+      margin-left: -25px;
+      position: absolute;
+      width: 50px;
+    }
+
+    .site-heading h2 span {
+      color: #348ee6;
+    }
+
+    .site-heading {
+      margin-bottom: 60px;
+      overflow: hidden;
+      margin-top: -5px;
+    }
+
+    .team-area .single-item {
+      margin-bottom: 30px;
+    }
+
+    .team-area .item .thumb {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .team-area .item .thumb::after {
+      background: #232323 none repeat scroll 0 0;
+      content: "";
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      transition: all 0.35s ease-in-out;
+      -webkit-transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -ms-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
+      width: 100%;
+    }
+    .img-fluid {
+      width: 100%;
+      height: 380px;
+
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      /* object-fit: cover; */
+    }
+    .team-area .team-items .item:hover .thumb::after {
+      opacity: 0.7;
+    }
+
+    .team-area .item .thumb .overlay {
+      top: -100%;
+      left: 0;
+      padding: 20px;
+      position: absolute;
+      text-align: center;
+      -webkit-transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -ms-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
+      transition: all 0.35s ease-in-out;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .team-area .item:hover .thumb .overlay {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+
+    .team-area .item .thumb .overlay p {
+      color: #ffffff;
+    }
+
+    .team-area .item .thumb .overlay h4 {
+      color: #ffffff;
+      display: inline-block;
+      position: relative;
+      text-transform: uppercase;
+    }
+
+    .team-area .item .thumb img {
+      -webkit-transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -ms-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
+      transition: all 0.35s ease-in-out;
+    }
+
+    .team-area .item:hover .thumb img {
+      opacity: 0.5;
+    }
+
+    .team-area .item .thumb .social li {
+      display: inline-block;
+    }
+
+    .team-area .item .thumb .social li a {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      color: #ffffff;
+      display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 2px;
+      text-align: center;
+      width: 40px;
+    }
+
+    .team-area .info {
+      background: #ffffff none repeat scroll 0 0;
+      -moz-box-shadow: 0 0 10px #cccccc;
+      -webkit-box-shadow: 0 0 10px #cccccc;
+      -o-box-shadow: 0 0 10px #cccccc;
+      box-shadow: 0 0 10px #cccccc;
+      padding: 40px 20px 20px;
+      position: relative;
+      text-align: center;
+      z-index: 9;
+    }
+
+    .team-area .info .message {
+      height: 50px;
+      line-height: 40px;
+      margin-left: -25px;
+      margin-top: -25px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      width: 50px;
+    }
+
+    .team-area .info .message a {
+      background: #fff none repeat scroll 0 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      -moz-box-shadow: 0 0 10px #cccccc;
+      -webkit-box-shadow: 0 0 10px #cccccc;
+      -o-box-shadow: 0 0 10px #cccccc;
+      box-shadow: 0 0 10px #cccccc;
+      box-sizing: border-box;
+      color: #348ee6;
+      display: inline-block;
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+      width: 50px;
+    }
+
+    .team-area .info .message a i {
+      font-weight: 500;
+    }
+
+    .team-area .info h4 {
+      font-weight: 600;
+      margin-bottom: 5px;
+      text-transform: capitalize;
+    }
+
+    .team-area .info span {
+      color: #348ee6;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .team-area .social li.twitter a {
+      background-color: #00b6f1;
+    }
+
+    .team-area .social li.pinterest a {
+      background-color: #bd081c;
+    }
+
+    .team-area .social li.facebook a {
+      background-color: #3b5998;
+    }
+
+    .team-area .social li.google-plus a {
+      background-color: #df4a32;
+    }
+
+    .team-area .social li.vimeo a {
+      background-color: #1ab7ea;
+    }
+
+    .team-area .social li.instagram a {
+      background-color: #72cfee;
+    }
+  </style>
+
+  <body>
     <!--==========================
     Header
   ============================-->
     <header id="header" class="header-scrolled2">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <div id="logo">
+          <div
+            style="display:flex; flex-direction: row; justify-content: center; align-items: center"
+          >
+            <a href="index.html"
+              ><img
+                src="images/gallery/pccoe acm.png"
+                style="height: 49px; width: 49px;"
+            /></a>
+            <a href="index.html">
+              <h1 style="padding-left: 5px;">PCCOE ACM</h1>
+            </a>
+          </div>
+        </div>
 
-            <div id="logo">
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-                    <a href="index.html"><img src="images/gallery/pccoe acm.png" style="height: 49px; width: 49px;" /></a>
-                    <a href="index.html">
-                        <h1 style="padding-left: 5px;">PCCOE ACM</h1>
-                    </a>
-                </div>
-            </div>
-
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="menu-has-children"><a href="#">About</a>
-                        <ul>
-                            <li><a href="aboutacm.html">About ACM</a></li>
-                            <li><a href="aboutpccoeacm.html">About PCCOE ACM</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="acm_activities.html">ACM Activities</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li class="cesa-insider"><a href="#">Cesa Insider</a>
-                        <ul>
-                            <li>
-                              <a
-                                href="./assets/CESA%20Insider%20Issue%2001.pdf"
-                                target="_blank"
-                                >Issue 01</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="./assets/CESA%20Insider%20Issue%2002.pdf"
-                                target="_blank"
-                                >Issue 02</a>
-                            </li>
-                          </ul>
-                    </li>
-                    <li class="menu-active"><a href="#">The Team</a></li>
-                    <li><a href="acmw.html">ACM-W</a></li>
-                    <!-- <li class="menu-has-children"><a href="#">TechPart</a> -->
-                        <!-- <ul>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-has-children">
+              <a href="#">About</a>
+              <ul>
+                <li><a href="aboutacm.html">About ACM</a></li>
+                <li><a href="aboutpccoeacm.html">About PCCOE ACM</a></li>
+              </ul>
+            </li>
+            <li><a href="acm_activities.html">ACM Activities</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li class="cesa-insider">
+              <a href="#">Cesa Insider</a>
+              <ul>
+                <li>
+                  <a
+                    href="./assets/CESA%20Insider%20Issue%2001.pdf"
+                    target="_blank"
+                    >Issue 01</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="./assets/CESA%20Insider%20Issue%2002.pdf"
+                    target="_blank"
+                    >Issue 02</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu-active"><a href="#">The Team</a></li>
+            <li><a href="acmw.html">ACM-W</a></li>
+            <!-- <li class="menu-has-children"><a href="#">TechPart</a> -->
+            <!-- <ul>
                             <li><a href="events.html">Event Calendar</a></li>
                            <li><a href="anantya/">ANANTYA 2k20</a></li>
                             <li><a href="https://pccoetechlligent.in/">Techlligent 2020</a></li>
@@ -98,741 +356,1066 @@
                             <li><a href="#">PCube</a></li>
                         </ul>
                     </li> -->
-                    <!-- <li><a href="index.html#contact">Contact</a></li> -->
-                </ul>
-            </nav><!-- #nav-menu-container -->
+            <!-- <li><a href="index.html#contact">Contact</a></li> -->
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
+
+    <section id="team" class="team-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="site-heading text-center">
+              <h2>Our <span>Team</span></h2>
+              <h4>Meet our awesome and expert team members</h4>
+            </div>
+          </div>
         </div>
-    </header><!-- #header -->
-
-    <section id="team">
-        <div class="container">
-            <div class="section-header wow fadeInUp">
-                <h3>CESA Core Team</h3>
-                <p>The Computer Engineering Students Association (CESA) proactively organises all the PCCOE ACM Chapter
-                    events. With the assistance of the Student Development and Welfare coordinator and our experienced
-                    faculty mentors , our team of power packed young minds who are immensely passionate about Computing
-                    and dedicatedly leading towards our mission to build a community which will be able to use their
-                    skills to address the problems of tomorrow through the power of technological advancements and bring
-                    synergy between academics and extra-curricular activities.</p>
-
+        <div class="row team-items">
+          <div class="col-md-4 single-item prathamesh">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid  wow fadeInUp"
+                  data-wow-delay="0.1s"
+                  src="images/CESA23-24/team-resized/Prathamesh B.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Prathamesh Bachav</h4>
+                  <p>
+                    CESA President, ACM Chair
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a
+                    href="https://www.linkedin.com/in/prathamesh-bachhav-282b11229/"
+                    class="linkedin"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </span>
+                <h4>Prathamesh Bachav</h4>
+                <span>CESA President, ACM Chair </span>
+              </div>
             </div>
-
-            <div class="row justify-content-center">
-            
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images\CESA22-23\team\HOD Mam.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Dr. K. Rajeswari</h4>
-                                <span>HOD Computer Department</span>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid  wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  src="images/CESA23-24/team-resized/Mahima Nair.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Mahima Nair</h4>
+                  <p>
+                    CESA Vice President, ACM Co-Chair
+                  </p>
+                 
                 </div>
-            
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Mahima Nair</h4>
+                <span> CESA Vice President, ACM Co-Chair</span>
+              </div>
             </div>
-
-            <div class="row justify-content-center">
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images\CESA22-23\team\AnaghaChaudhari1.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Anagha Chaudhari</h4>
-                                <span>SDW Co-ordinator</span>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid  wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  src="images/CESA23-24/team-resized/Prajwal_Lonari.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Prajwal Lonari</h4>
+                  <p>
+                    Management Executive
+                  </p>
+                 
                 </div>
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/GD.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Ganesh Deshmukh</h4>
-                                <span>ACM Faculty Sponsor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Prajwal Lonari</h4>
+                <span>Management Executive</span>
+              </div>
             </div>
+          </div>
 
-            <div class="row">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AditiSambare.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Aditi Sambare</h4>
-                                <span>CESA President, ACM Chair</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <!--=============== seceratary & co-secratory ==========  -->
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid  wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="IMAGES/CESA23-24/team-resized/Sakshi Kulkarni.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Sakshi Kulkarni</h4>
+                  <p>
+                    Secretary
+                  </p>
+                 
                 </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/sahil.png" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Sahil Shinde</h4>
-                                <span>CESA Vice President, ACM Co-Chair</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="https://www.linkedin.com/in/thesahilshinde" target="_blank"><i
-                                            class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/OmBidve.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Om Bidve</h4>
-                                <span>CESA Vice President, ACM Co-Chair</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/KartikChaudhari.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Kartik Chaudhari</h4>
-                                <span>Secretary</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Sakshi Kulkarni</h4>
+                <span>Secretary</span>
+              </div>
             </div>
+          </div>
 
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/RajFirke.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Raj Firke</h4>
-                                <span>Co-Secretary</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Jayati Wajire.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Jayati Wajire</h4>
+                  <p>
+                    Co-Secretary
+                  </p>
+                 
                 </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/SarthakZambre.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Sarthak Zambre</h4>
-                                <span>Treasurer</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/Saishk.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Saish Kothawade</h4>
-                                <span>Co-Treasurer</span>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-envelope" target="_blank"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/SurajTade.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Suraj Tade</h4>
-                                <span>Webmaster</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="https://www.linkedin.com/in/suraj-tade-b2490a218" target="_blank"><i class="fa fa-linkedin"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Jayati Wajire</h4>
+                <span> Co-Secretary</span>
+              </div>
             </div>
+          </div>
 
-            <div class="row">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/ShreyashKhanadagale.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Shreyash Khandagale</h4>
-                                <span>Webmaster</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="https://www.linkedin.com/in/shreyash-khandagale-5824a5227"
-                                        target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+   <!--=============== seceratary & co-secratory ==========  -->
+
+
+ <!--=============== Treasurer & Co-Treasurer ==========  -->
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Nitin_Pandita.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Nitin Pandita</h4>
+                  <p>
+                    Treasurer
+                  </p>
+                 
                 </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/YashWaghmare.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Yash Waghmare</h4>
-                                <span>Webmaster</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="https://www.linkedin.com/in/yash-waghmare-7b8b51201" target="_blank"><i
-                                            class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/HardikJain.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Hardik Jain</h4>
-                                <span>Design Head</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AuyashSarode.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Auyash Sarode</h4>
-                                <span>Design Head</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Nitin Pandita</h4>
+                <span> Treasurer</span>
+              </div>
             </div>
+          </div>
 
-            <div class="row">
+          <div class="col-md-4 single-item">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/ShrutiDahke.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Shruti Dahke</h4>
-                                <span>Design Head</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/ADITYA SINGH.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Aditya Singh</h4>
+                  <p>
+                    Co-Treasurer
+                  </p>
+                 
                 </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AnkitaNandy.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Ankita Nandy </h4>
-                                <span>Social Media & External Affairs</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/RadhikaGaikwad.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Radhika Gaikwad</h4>
-                                <span>Social Media & External Affairs</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/RuchiThakkar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Ruchi Thakkar</h4>
-                                <span>Marketing & Sponsorship</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Aditya Singh</h4>
+                <span>Co-Treasurer</span>
+              </div>
             </div>
+          </div>
+ <!--=============== Treasurer & Co-Treasurer ==========  -->
 
-            <div class="row justify-content-center">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/MaheshYarra.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Mahesh Yarra</h4>
-                                <span>Marketing & Sponsorship</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+ <!--=============== Webmasters ==========  -->
+
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Aditya_Lad.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Aditya Lad</h4>
+                  <p>
+                    Webmaster
+                  </p>
+                 
                 </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AnushShetty.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Anush Shetty</h4>
-                                <span>Membership Chair</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/KartikPatil.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Kartik Patil</h4>
-                                <span>Membership Chair</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Aditya Lad</h4>
+                <span> Webmaster</span>
+              </div>
             </div>
-            
+          </div>
+
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/TARUN RATHOD.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>   Tarun Rathod</h4>
+                  <p>
+                      WEBMASTER
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>   Tarun Rathod</h4>
+                <span>WEBMASTER</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Atharva lende.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Atharva lende</h4>
+                  <p>
+                    WEBMASTER
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Atharva lende</h4>
+                <span>Webmaster</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 single-item">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Ronak_Dagale.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Ronak Dagale</h4>
+                  <p>
+                     WEBMASTER
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Ronak Dagale</h4>
+                <span> WEBMASTER</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Amogh Chandragiri.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Amogh Chandragiri</h4>
+                  <p>
+                     WEBMASTER
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Amogh Chandragiri</h4>
+                <span>WEBMASTER</span>
+              </div>
+            </div>
+          </div>
+
+<!--=============== Webmasters ==========  -->
+
+
+
+<!--=============== Techincal Team ==========  -->
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Prathamesh Theurkar.png"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Prathamesh Theurkar</h4>
+                  <p>
+                     Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Prathamesh Theurkar</h4>
+                <span>Technical Team</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Swayam.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Swayam Patil</h4>
+                  <p>
+                    Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Swayam Patil</h4>
+                <span>Technical Team</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Atharv_B.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Atharv Bardapurkar</h4>
+                  <p>
+                    Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Atharv Bardapurkar</h4>
+                <span> Technical Team</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Priyanka Nalla.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Priyanka Nalla</h4>
+                  <p>
+                    Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Priyanka Nalla</h4>
+                <span> Technical Team</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Mithilesh Rajput.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Mithilesh Rajput</h4>
+                  <p>
+                    Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Mithilesh Rajput</h4>
+                <span> Technical Team</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Yash Deshmane .jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Yash Deshmane</h4>
+                  <p>
+                    Technical Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Yash Deshmane</h4>
+                <span> Technical Team</span>
+              </div>
+            </div>
+          </div>
+         <!-- <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Amogh Chandragiri.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Amogh Chandragiri</h4>
+                  <p>
+                     WEBMASTER
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Amogh Chandragiri</h4>
+                <span>WEBMASTER</span>
+              </div>
+            </div>
+          </div> -->
+
+<!--=============== Techincal Team ==========  -->
+
+
+<!--=============== Design Team ==========  -->
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Vallabh_Kulkarni.png"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Vallabh_Kulkarni</h4>
+                  <p>
+                      Design Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Vallabh_Kulkarni</h4>
+                <span>  Design Team</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Suhani patil.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Suhani patil</h4>
+                  <p>
+                      Design Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Suhani patil</h4>
+                <span>  Design Team</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Khushi Thakare.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Khushi Thakare</h4>
+                  <p>
+                      Design Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Khushi Thakare</h4>
+                <span>  Design Team</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Shivraj Lawhare.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Shivraj Lawhare</h4>
+                  <p>
+                      Design Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Shivraj Lawhare</h4>
+                <span>  Design Team</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 single-item  wow fadeInUp">
+            <div class="item">
+              <div class="thumb">
+                <img
+                  class="img-fluid wow fadeInUp"
+                  data-wow-delay="0.3s"
+                  src="images/CESA23-24/team-resized/Siddhi Shirsath.jpg"
+                  alt="Thumb"
+                />
+                <div class="overlay">
+                  <h4>Siddhi Shirsath</h4>
+                  <p>
+                      Design Team
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="info">
+                <span class="message">
+                  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </span>
+                <h4>Siddhi Shirsath</h4>
+                <span>  Design Team</span>
+              </div>
+            </div>
+          </div>
+<!--=============== Design Team ==========  -->
+
+
+
+<!--===============Marketing & Sponsorship Team ==========  -->
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Lubhavan Burghate.jpeg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Lubhavan Burghate</h4>
+        <p>
+          Marketing & Sponsorship
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Lubhavan Burghate</h4>
+      <span>  Marketing & Sponsorship</span>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Pranay_Ambade.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Pranay Ambade</h4>
+        <p>
+          Marketing & Sponsorship
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Pranay Ambade</h4>
+      <span>  Marketing & Sponsorship</span>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Prasad Mangnale_.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Prasad Mangnale</h4>
+        <p>
+          Marketing & Sponsorship
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Prasad Mangnale</h4>
+      <span>  Marketing & Sponsorship</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/SACHIN GIRAWALE .jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Sachin Girawale</h4>
+        <p>
+          Marketing & Sponsorship
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Sachin Girawale</h4>
+      <span>  Marketing & Sponsorship</span>
+    </div>
+  </div>
+</div>
+
+<!--=============== Marketing & Sponsorship Team ==========  -->
+
+
+
+<!--=============== PR - Executive ==========  -->
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Disha Parale_.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Disha Parale</h4>
+        <p>
+          PR - Executive
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Disha Parale</h4>
+      <span>  PR - Executive</span>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Ankita Anarase.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Ankita Anarase</h4>
+        <p>
+          PR - Executive
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Ankita Anarase</h4>
+      <span>  PR - Executive</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team/IMG_7604.HEIC"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Nikita Desale</h4>
+        <p>
+          PR - Executive
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Nikita Desale</h4>
+      <span>  PR - Executive</span>
+    </div>
+  </div>
+</div> -->
+<!--=============== PR - Executive ==========  -->
+
+
+
+<!--=============== Membership Team ==========  -->
+
+<div class="col-md-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Vaishnav Raundal.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Vaishnav Raundal</h4>
+        <p>
+          Membership Chair
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Vaishnav Raundal</h4>
+      <span>Membership Chair</span>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 single-item  wow fadeInUp">
+  <div class="item">
+    <div class="thumb">
+      <img
+        class="img-fluid wow fadeInUp"
+        data-wow-delay="0.3s"
+        src="images/CESA23-24/team-resized/Aishwarya Pathak.jpg"
+        alt="Thumb"
+      />
+      <div class="overlay">
+        <h4>Aishwarya Pathak</h4>
+        <p>
+          Membership Chair
+        </p>
+      
+      </div>
+    </div>
+    <div class="info">
+      <span class="message">
+        <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </span>
+      <h4>Aishwarya Pathak</h4>
+      <span>Membership Chair</span>
+    </div>
+  </div>
+</div>
+
+
+<!--=============== Membership Team ==========  -->
+
+
+
         </div>
+      </div>
     </section>
-
-    <section id="team">
-        <div class="container">
-
-            <div class="section-header wow fadeInUp">
-                <h3>CESA Cell Representatives</h3>
-                <p>We believe in quality over quantity, hence after challenging personality testing rounds desirable
-                    candidates are selected forming pillar of respective cells.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/SrushtiKhirwadkar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Shrushti Khirwadkar</h4>
-                                <span>Higher Studies</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/MugdhaKshirsagar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Mugdha Kshirsagar</h4>
-                                <span>Higher Studies</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/HardikPatel.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Hardik Patel</h4>
-                                <span>NSS</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/RutujaTallapalli.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Rutuja Tallapalli</h4>
-                                <span>NSS</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/BhushanPatil.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Bhushan Patil</h4>
-                                <span>Coding Cell</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/OmGupta.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Om Gupta</h4>
-                                <span>Coding Cell</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AtharvaChaudhari.jpg " class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Atharva Chaudhari</h4>
-                                <span>Coding Cell</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/ShrutiBiradar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Shruti Biradar</h4>
-                                <span>Coding Cell</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/VaishnaviKanhegaonkar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Vaishnavi Kanhegaonkar</h4>
-                                <span>Art Circle</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" target="_blank"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/SanjayChilveri.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Sanjay Chilveri</h4>
-                                <span>Art Circle</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" target="_blank"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-3 col-md-0 wow fadeInUp">
-
-                </div> -->
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/Dipak Hirve.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Dipak Hirve</h4>
-                                <span>ISR</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/Tabassum Syed.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Tabassum Syed</h4>
-                                <span>ISR</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" target="_blank"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="row justify-content-center">
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AjaykumarShendage.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Ajaykumar Shendage</h4>
-                                <span>Sports</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/AniketChoudhar.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Aniket Choudhari</h4>
-                                <span>Sports</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="member">
-                        <img src="images/CESA22-23/team/TanmayJain.jpg" class="img-fluid" alt="">
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>Tanmay Jain</h4>
-                                <span>Photography</span>
-                                <div class="social">
-                                    <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-           
-
-    </section>
-
-
     <!--==========================
     Footer
   ============================-->
 
     <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 footer-info">
-                        <h3>PCCOE ACM</h3>
-                        <p>
-                            Set up in 2012, the PCCOE ACM Student Chapter is one of the best Student Chapter in Pune.
-                            Year by year, the Chapter strives to increase the number of events, and the participation of
-                            students. With the guidance of the faculty sponsors, and the enthusiastic volunteer and
-                            participating students, the Chapter which is now in its Eleventh year is improving rapidly on
-                            all counts.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://www.acm.org/">ACM - Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://india.acm.org/">ACM India -
-                                    Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://xrds.acm.org/">ACM - XRDS</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="https://dl.acm.org/">ACM Digital
-                                    Library</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Pimpri Chinchwad College of Engineering.<br>
-
-                            Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran,
-                            Nigdi, Pimpri-Chinchwad, Maharashtra 411044<br>
-                            <!-- <strong>Phone:</strong> +91-94925 22474<br> -->
-                            <strong>Email:</strong> acm@pccoepune.org<br>
-                        </p>
-
-                        <div class="social-links">
-                            <a href="https://www.facebook.com/pccoe.acm" class="facebook"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/pccoeacm/" class="instagram"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="mailto:acm@pccoepune.org" class="google-plus"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw" class="youtube"><i
-                                    class="fa fa-youtube"></i></a>
-                            <a href="https://www.linkedin.com/company/pccoe-acm-student-chapter/" class="linkedin"><i
-                                    class="fa fa-linkedin"></i></a>
-                            <a href="https://twitter.com/pccoeacm?s=09" class="twitter"><i
-                                    class="fa fa-twitter"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      <div class="footer-top">
         <div class="container">
-            <p>Designed and developed with <i class="fa fa-heart" style="color: red;"></i> by <a
-                    style="color: #13b7ed;">Web Team CESA</a> | Copyright ©2022 All rights reserved</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-info">
+              <h3>PCCOE ACM</h3>
+              <p>
+                Set up in 2012, the PCCOE ACM Student Chapter is one of the best
+                Student Chapter in Pune. Year by year, the Chapter strives to
+                increase the number of events, and the participation of
+                students. With the guidance of the faculty sponsors, and the
+                enthusiastic volunteer and participating students, the Chapter
+                which is now in its Eleventh year is improving rapidly on all
+                counts.
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://www.acm.org/">ACM - Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://india.acm.org/">ACM India - Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://xrds.acm.org/">ACM - XRDS</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i>
+                  <a href="https://dl.acm.org/">ACM Digital Library</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                Pimpri Chinchwad College of Engineering.<br />
+
+                Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran,
+                Nigdi, Pimpri-Chinchwad, Maharashtra 411044<br />
+                <!-- <strong>Phone:</strong> +91-94925 22474<br> -->
+                <strong>Email:</strong> acm@pccoepune.org<br />
+              </p>
+
+              <div class="social-links">
+                <a href="https://www.facebook.com/pccoe.acm" class="facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/pccoeacm/" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="mailto:acm@pccoepune.org" class="google-plus"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UCY5ikWq8yG6bSS1W322M9iw"
+                  class="youtube"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/pccoe-acm-student-chapter/"
+                  class="linkedin"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a href="https://twitter.com/pccoeacm?s=09" class="twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-    </footer><!-- #footer -->
-
+      <div class="container">
+        <p>
+          Designed and developed with
+          <i class="fa fa-heart" style="color: red;"></i> by
+          <a style="color: #13b7ed;">Web Team CESA</a> | Copyright ©2023 All
+          rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- #footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -847,7 +1430,5 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>

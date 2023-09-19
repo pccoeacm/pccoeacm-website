@@ -49,6 +49,13 @@ td {
   word-wrap: break-word;
 }
 
+.home-carousal{
+    margin-top: 50px;
+    height: 600px;
+}
+
+
+
 .carousel-container{
   padding:1% 0; 
 }
@@ -382,6 +389,24 @@ td {
   color: #13b7ed;
 }
 
+
+
+
+.acm-awards-cards{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background: #000;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  border-radius: 20px;
+
+}
+
+
+
 .runnerups {
   font-size: 25px;
   font-weight: 600;
@@ -389,10 +414,15 @@ td {
   text-align: center;
   background: rgba(0, 0, 0, 0.9);
   background-size: 300% 100%;
-  border-radius: 50px;
+  border-radius: 20px;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  width:300px;
+  height:200px;
+  padding: 10px;
+  border-bottom: 10px solid rgb(255, 255, 255);
+  box-shadow: rgba(228, 228, 229, 0.25) 0px 50px 100px -20px, rgba(240, 240, 240, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .runnerups:hover {
@@ -400,6 +430,8 @@ td {
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
+ 
 }
 
 .runnerups:focus {
@@ -978,6 +1010,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
+
+
+
+
 
 /*--------------------------------*/
 
@@ -1830,6 +1866,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-email {
     padding: 20px 0;
   }
+
+
 }
 
 @media (max-width: 768px) {
@@ -1841,6 +1879,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   .img-wrap-large {
     height: 410px;
   }
+
+  .home-carousal{
+    margin-top: 10px;
+  
+
+}
 }
 
 @media (min-width: 992px) {
@@ -1891,6 +1935,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #mobile-nav-toggle {
     display: inline;
+  }
+
+
+   .home-carousal{
+      padding: 10px;
+      max-height: 300px;
+
+   }
+   .slideshow-container {
+   
+    margin-bottom: 0;
+    max-height: 300px;
+    padding: 20px;
+  }
+  
+
+  .acm-awards-cards{
+    display: flex;
+    flex-direction: column;
+   
+    margin:auto;
+   
+
   }
 }
 

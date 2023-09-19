@@ -395,17 +395,22 @@ td {
 .acm-awards-cards{
   display: flex;
   justify-content: space-around;
-  padding: 50px;
+  padding: 30px;
   background: #000;
   width:90%;
   justify-content: center;
   align-items: center;
   margin:auto;
   border-radius: 20px;
-
+flex-direction: column;
 }
-
-
+.main-cards{
+  /* border: 2px solid rgb(255, 255, 255); */
+ display: flex;
+ padding: 30px;
+ justify-content: space-around;
+ margin-left: 25px;
+}
 
 .runnerups {
   font-size: 25px;
@@ -421,6 +426,7 @@ td {
   width:300px;
   height:200px;
   padding: 10px;
+  margin-right: 50px;
   border-bottom: 10px solid rgb(255, 255, 255);
   box-shadow: rgba(228, 228, 229, 0.25) 0px 50px 100px -20px, rgba(240, 240, 240, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -1958,6 +1964,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin:auto;
    
 
+  }
+
+  .main-cards{
+    flex-direction: column;
+    margin: auto;
   }
 }
 
